@@ -30,6 +30,7 @@ Version 7.7 adds:
 | [Core Playtest Set v7.7](releases/v7.7/Haute_Hazard_v7.7_Core_Playtest_Set.zip) | Printable cards, replacement Stage cards, rulebook, Player Aid, card list, and testing documents |
 | [Tabletop Simulator v7.7](releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) | Full standard setup, Siren Diesel vs. Opal Dynasty teaching setup, local assets, and installer |
 | [Promotional Kit v7.7](releases/v7.7/Haute_Hazard_v7.7_Promotional_Kit.zip) | Flyer, poster, social graphics, approved blurb, and social copy |
+| [Game Crafter Prototype v7.7.1](releases/v7.7.1/) | Production-safe files for the 240-card standard deck, 12-card foil Stage deck, Queens, aids, folio rules, and box |
 
 ## First game
 
