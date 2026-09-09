@@ -1,0 +1,14 @@
+HAUTE & HAZARD - PLAYTEST VERSION NOTICE
+
+These project files intentionally retain multiple numbered versions for testing,
+comparison, and balance review.
+
+CURRENT TEST: v7.7
+- Judges and Spotlight Requirements
+- Judge's Favor powers
+- Featured Brands
+- +2 Gross SP Brand Ovation for a full four-piece Brand Coordinate
+
+Use the v7.7 Rulebook, v7.7 Player Aid, v7.7 card manifest, and v7.7 replacement
+Stage cards together. Older files are historical test materials and should not
+be mixed into the current game unless the group is deliberately comparing rules.

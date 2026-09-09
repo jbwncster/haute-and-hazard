@@ -1,0 +1,13 @@
+HAUTE & HAZARD v7.7 PLAYTEST UPDATE
+
+- Added a named Judge to every core Stage.
+- Added an optional Spotlight Requirement to every core Stage.
+- Added a Judge's Favor earned only when the Stage is Slayed while fulfilling
+  its Spotlight Requirement.
+- Added a Featured Brand to every core Stage.
+- Added Brand Ovation: +2 Gross SP when the Stage is Slayed with Face, Wig,
+  Body, and Shoes all from that exact Brand.
+- Clarified that Judge's Favor and Brand Ovation are independent bonuses.
+- Updated the rulebook, glossary Player Aid, card manifest, replacement Stage
+  print sheets, teaching game, and Tabletop Simulator saves/assets.
+- Added promotional materials and an explicit multiple-test-versions notice.
