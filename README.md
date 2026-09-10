@@ -4,7 +4,7 @@
 
 Fashion is power. The runway is a battlefield. Welcome to **Haute & Hazard**, the competitive drag deck-building game where only the sharpest eye and the boldest look survive.
 
-Choose your legendary Queen. Build your deck from the shared Wardrobe Rack. Pull wigs, makeup, gowns, shoes, and accessories together into a Coordinate that stops the show. Generate Tips to shop the Rack, build Appeal to clear escalating Stage challenges, and bring your Lip Sync strength to the table when a Dragdagulan puts you head-to-head with a rival.
+Choose your legendary Queen. Build your deck from the shared Wardrobe Rack. Pull wigs, makeup, gowns, shoes, and accessories together into a Coordinate that stops the show. Generate Tips to shop the Rack, build Appeal to Slay venue Stages, and bring your Lip Sync strength to the table when a Dragdagulan puts you head-to-head with a rival.
 
 Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store scraps into couture. Or sabotage the competition with a wardrobe malfunction timed just right. Earn Style Points. Survive the hazards. When the curtain falls, only one Queen truly slays.
 
@@ -24,11 +24,20 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 - the existing 240-card Poker Deck kept separate from the foil Stage deck;
 - updated Game Crafter upload specifications and QA documentation.
 
+## Documentation
+
+- [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
+- [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
+- [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
+- [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
+- [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — QA status and binary-package availability.
+- [v7.8 Stage venue list](releases/v7.8/STAGE_VENUE_LIST.md) — the current 12 venue Stages and their Tenet/Brand distribution.
+
 ## Download
 
 | Package | Contents |
 |---|---|
-| [Game Crafter Print Edition v7.8](releases/v7.8/) | **Current** Game Crafter component manifest, upload guide, venue Stage list, QA report, and v7.8 release notes |
+| [Game Crafter Print Edition v7.8](releases/v7.8/) | **Current** Game Crafter component manifest, upload guide, venue Stage list, Queen/gameplay references, QA report, and release notes |
 | [Core Playtest Set v7.7](releases/v7.7/Haute_Hazard_v7.7_Core_Playtest_Set.zip) | Printable cards, replacement Stage cards, rulebook, Player Aid, card list, and testing documents |
 | [Tabletop Simulator v7.7](releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) | Full standard setup, Siren Diesel vs. Opal Dynasty teaching setup, local assets, and installer |
 | [Promotional Kit v7.7](releases/v7.7/Haute_Hazard_v7.7_Promotional_Kit.zip) | Flyer, poster, social graphics, approved blurb, and social copy |
@@ -45,11 +54,13 @@ The v7.8 print edition uses:
 - **Player Aid** — 5 double-sided Postcard Mats
 - **Box** — 1 Medium Prototype Box
 
+The 240-card Poker Deck consists of the 60 starter cards, 144-card Wardrobe Rack, 16 Thrift Store Throwbacks, and 20 Penalty cards. The Stage deck and Queens are separate physical decks/components.
+
 ## First game
 
-For a first two-player game, use **Siren Diesel** and **Opal Dynasty**. The TTS teaching save includes both Queens, a fixed beginner Wardrobe Rack, and *Face Face Face* as the opening Active Stage. The TTS package remains on v7.7 until it receives its own v7.8 conversion.
+For the existing v7.7 Tabletop Simulator teaching game, use **Siren Diesel** and **Opal Dynasty**. That teaching save includes both Queens, a fixed beginner Wardrobe Rack, and *Face Face Face* as the opening Active Stage. The TTS package remains on v7.7 until it receives its own v7.8 venue-Stage conversion.
 
-For physical production, follow `releases/v7.8/UPLOAD_GUIDE.md` and the current Game Crafter component manifest.
+For current physical production, follow `releases/v7.8/UPLOAD_GUIDE.md`, not the archived v7.7.1 Game Crafter instructions.
 
 ## Tabletop Simulator
 
@@ -57,11 +68,11 @@ Extract the entire TTS package, then follow its included `README.txt`. Windows u
 
 ## Feedback
 
-Use the repository's **Playtest report** issue form to record player count, Queen choices, game length, Stage results, Judge/Brand bonus frequency, confusing rules, and balance concerns.
+Use the repository's **Playtest report** issue form under Issues. Record the version used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, and any rule that needed table interpretation.
 
 ## Development status
 
-This is an unpublished playtest prototype. Card wording, balance, graphic design, and component counts may change between versions.
+This is an unpublished playtest prototype. Card wording, balance, graphic design, and component counts may change between versions. v7.8 is the current Game Crafter production target; v7.7.1 is retained only as an archived reference.
 
 ## Rights
 
