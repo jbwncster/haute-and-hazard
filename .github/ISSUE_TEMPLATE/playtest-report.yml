@@ -21,6 +21,18 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Rules mode
+      description: Beginner Mode uses only Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect on Stages.
+      options:
+        - Beginner Mode
+        - Full Stage rules
+        - Mixed / modified teaching game
+    validations:
+      required: true
+
   - type: input
     id: players
     attributes:
@@ -56,7 +68,13 @@ body:
     id: stages
     attributes:
       label: Stage results
-      description: Note which venue Stages appeared, who Slayed them, and any Judge's Favor or Brand Ovation results.
+      description: Note which venue Stages appeared and who Slayed them. If using full Stage rules, also record Judge's Favors and Brand Ovations.
+
+  - type: textarea
+    id: beginner_mode
+    attributes:
+      label: Beginner Mode teaching notes
+      description: If this was a Beginner Mode game, what was easy to learn, what still caused confusion, and did ignoring the Judge/Spotlight layer help?
 
   - type: textarea
     id: looks
