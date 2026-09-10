@@ -1,0 +1,11 @@
+Poker fronts: count 240/240; dimensions correct 240/240 — PASS
+Stage fronts: count 12/12; dimensions correct 12/12 — PASS
+Queen fronts: count 12/12; dimensions correct 12/12 — PASS
+Player aid fronts: count 5/5; dimensions correct 5/5 — PASS
+Player aid backs: count 5/5; dimensions correct 5/5 — PASS
+Poker back: 825x1125 expected 825x1125 — PASS
+Stage back: 825x1125 expected 825x1125 — PASS
+Queen back: 1125x1725 expected 1125x1725 — PASS
+Folio front: 4875x2475 expected 4875x2475 — PASS
+Folio back: 4875x2475 expected 4875x2475 — PASS
+Box: 5850x5400 expected 5850x5400 — PASS
