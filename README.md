@@ -28,11 +28,11 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 
 | Package | Contents |
 |---|---|
-| [Game Crafter Print Edition v7.8](releases/v7.8/) | Current Game Crafter component manifest, upload guide, venue Stage list, QA report, and v7.8 release notes |
+| [Game Crafter Print Edition v7.8](releases/v7.8/) | **Current** Game Crafter component manifest, upload guide, venue Stage list, QA report, and v7.8 release notes |
 | [Core Playtest Set v7.7](releases/v7.7/Haute_Hazard_v7.7_Core_Playtest_Set.zip) | Printable cards, replacement Stage cards, rulebook, Player Aid, card list, and testing documents |
 | [Tabletop Simulator v7.7](releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) | Full standard setup, Siren Diesel vs. Opal Dynasty teaching setup, local assets, and installer |
 | [Promotional Kit v7.7](releases/v7.7/Haute_Hazard_v7.7_Promotional_Kit.zip) | Flyer, poster, social graphics, approved blurb, and social copy |
-| [Game Crafter Prototype v7.7.1](releases/v7.7.1/) | Previous production-safe Game Crafter component specification |
+| [Game Crafter Prototype v7.7.1 — archived](releases/v7.7.1/) | **Legacy reference only.** Superseded by v7.8; retained for historical comparison and troubleshooting older proofs |
 
 ## Game Crafter physical build
 
