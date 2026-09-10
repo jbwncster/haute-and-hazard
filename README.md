@@ -32,6 +32,7 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
 - [Current physical card pool](docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate Stage/Queen components.
+- [Feedback guide](docs/FEEDBACK.md) — quick feedback questions, 1–5 ratings, Beginner/Full Stage prompts, and detailed playtest guidance.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
 - [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — QA status and binary-package availability.
@@ -76,7 +77,11 @@ Extract the entire TTS package, then follow its included `README.txt`. Windows u
 
 ## Feedback
 
-Use the repository's **Playtest report** issue form under Issues. Record whether the game used Beginner Mode or full Stage rules, the version used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, and any rule that needed table interpretation.
+After a game, start with the [Feedback Guide](docs/FEEDBACK.md). It includes a short 12-question debrief, 1–5 ratings, and targeted prompts for Beginner Mode, full Stage rules, Shopping, Coordinates, Queens, Dragdagulan, terminology, and balance.
+
+For a full session report, use the repository's **Playtest report** issue form under Issues. Record the version and mode used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, the most fun and most confusing moments, and any rule that needed table interpretation.
+
+The most useful balance feedback describes **what happened first** and proposes a change second. Repeated play patterns are more valuable than a single theoretical interaction.
 
 ## Development status
 
