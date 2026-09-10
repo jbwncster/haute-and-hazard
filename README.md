@@ -22,10 +22,12 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 - 12 Jumbo Queens, each with a Signature Ability and one once-per-game Special Appeal;
 - updated Player Aids and Medium Folio rules;
 - the existing 240-card Poker Deck kept separate from the foil Stage deck;
-- updated Game Crafter upload specifications and QA documentation.
+- updated Game Crafter upload specifications and QA documentation;
+- a **Beginner Mode** that teaches the game using only Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect on each Stage.
 
 ## Documentation
 
+- [Beginner Mode](docs/BEGINNER_MODE.md) — recommended first-game rules; ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation while keeping the rest of the game intact.
 - [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
@@ -62,6 +64,8 @@ Each player begins with the same **12-card Dressing Room Floor deck: 7 Basic Bea
 
 ## First game
 
+For a first physical game, use **Beginner Mode**. Play the normal v7.8 game but read only these Stage fields: **Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect**. Ignore **Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation** until the next game. See [Beginner Mode](docs/BEGINNER_MODE.md).
+
 For the existing v7.7 Tabletop Simulator teaching game, use **Siren Diesel** and **Opal Dynasty**. That teaching save includes both Queens, a fixed beginner Wardrobe Rack, and *Face Face Face* as the opening Active Stage. The TTS package remains on v7.7 until it receives its own v7.8 venue-Stage conversion.
 
 For current physical production, follow `releases/v7.8/UPLOAD_GUIDE.md`, not the archived v7.7.1 Game Crafter instructions.
@@ -72,7 +76,7 @@ Extract the entire TTS package, then follow its included `README.txt`. Windows u
 
 ## Feedback
 
-Use the repository's **Playtest report** issue form under Issues. Record the version used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, and any rule that needed table interpretation.
+Use the repository's **Playtest report** issue form under Issues. Record whether the game used Beginner Mode or full Stage rules, the version used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, and any rule that needed table interpretation.
 
 ## Development status
 
