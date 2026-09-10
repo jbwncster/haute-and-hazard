@@ -39,6 +39,8 @@ This release is the updated Game Crafter production package for the current phys
 - [`CHANGELOG.md`](CHANGELOG.md) — changes introduced by v7.8.
 - [`../../docs/CURRENT_GAMEPLAY.md`](../../docs/CURRENT_GAMEPLAY.md) — concise current gameplay reference.
 - [`../../docs/QUEEN_ROSTER.md`](../../docs/QUEEN_ROSTER.md) — 12 Queens, Signature Abilities, and Special Appeals.
+- [`../../docs/CARD_POOL.md`](../../docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate components.
+- [`../../docs/VERSION_HISTORY.md`](../../docs/VERSION_HISTORY.md) — current and archived build status.
 
 ## Binary print package
 
