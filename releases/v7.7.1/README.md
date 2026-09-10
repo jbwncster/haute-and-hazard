@@ -1,8 +1,11 @@
 # Haute & Hazard v7.7.1 — Game Crafter Prototype
 
-This release contains the production-safe Game Crafter prototype.
+> **ARCHIVED / LEGACY VERSION — REFERENCE ONLY**  
+> This Game Crafter prototype has been superseded by **v7.8**. Keep these files for historical comparison, production reference, and troubleshooting older proofs, but **do not use v7.7.1 as the current print edition** and do not mix its components with v7.8.
 
-## Correct physical component structure
+This release contains the former production-safe Game Crafter prototype.
+
+## Legacy physical component structure
 
 - 240 standard Poker Cards
 - 12 separate Holographic Foil Euro Stage Cards
@@ -11,7 +14,7 @@ This release contains the production-safe Game Crafter prototype.
 - 1 folded 16 × 8-inch Medium Folio rules sheet
 - 1 Medium Prototype Box
 
-## Production corrections
+## Historical production corrections
 
 - All essential card text is contained within The Game Crafter safe zones.
 - The Stage deck is separated from the standard deck and contains exactly 12 cards.
@@ -20,8 +23,10 @@ This release contains the production-safe Game Crafter prototype.
 - The Medium Folio rules use 4875 × 2475 px face and back files.
 - The Medium Prototype Box uses the required 5850 × 5400 px print file.
 
-## Prototype download
+## Status
 
-Upload `Haute_Hazard_v7.7.1_Game_Crafter_SAFE_ZONE_Prototype.zip` to this directory. The ZIP contains an `UPLOAD_GUIDE.md`, component manifest, production files, and proof overlays clearly marked **DO NOT UPLOAD**.
+**Superseded by:** [`v7.8 — Game Crafter Print Edition`](../v7.8/)
 
-This is an unpublished playtest prototype. Components and rules may change after testing.
+Retain v7.7.1 for reference only. The current Game Crafter print specification, venue-style Stages, updated Queen abilities, Player Aids, and production documentation live in v7.8.
+
+This remains an unpublished historical playtest prototype.
