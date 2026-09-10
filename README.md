@@ -10,33 +10,46 @@ Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store sc
 
 **Build your deck. Assemble your look. Slay the Stage.**
 
-## Current playtest: v7.7
+## Current Game Crafter print edition: v7.8
 
-The project retains multiple numbered versions for testing and comparison. Use files from the same version together; do not mix an older Stage deck or rulebook into a v7.7 game.
+The project retains multiple numbered versions for testing and comparison. Use files from the same version together; do not mix an older Stage deck, Queen set, Player Aid, or rulebook into a v7.8 Game Crafter game.
 
-Version 7.7 adds:
+Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping economy, Appeal/Matching/Perfect Illusion/Fusion, and Dragdagulan LS. It updates the physical print edition with:
 
-- a named Judge on every Stage;
-- optional Spotlight Requirements that unlock Judge's Favors;
-- a Featured Brand on every Stage;
-- a +2 Gross SP Brand Ovation for Slaying in the complete matching four-piece outfit;
-- an updated glossary Player Aid;
-- standard and scripted two-player Tabletop Simulator setups.
+- 12 venue-style Stage cards instead of challenge-name Stages;
+- a balanced 3 Pink / 3 Blue / 3 Purple / 3 Yellow Stage mix covering every Base Game Brand;
+- Judge, Spotlight, Judge's Favor, Featured Brand, and Brand Ovation on Stages;
+- 12 Jumbo Queens, each with a Signature Ability and one once-per-game Special Appeal;
+- updated Player Aids and Medium Folio rules;
+- the existing 240-card Poker Deck kept separate from the foil Stage deck;
+- updated Game Crafter upload specifications and QA documentation.
 
 ## Download
 
 | Package | Contents |
 |---|---|
+| [Game Crafter Print Edition v7.8](releases/v7.8/) | Current Game Crafter component manifest, upload guide, venue Stage list, QA report, and v7.8 release notes |
 | [Core Playtest Set v7.7](releases/v7.7/Haute_Hazard_v7.7_Core_Playtest_Set.zip) | Printable cards, replacement Stage cards, rulebook, Player Aid, card list, and testing documents |
 | [Tabletop Simulator v7.7](releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) | Full standard setup, Siren Diesel vs. Opal Dynasty teaching setup, local assets, and installer |
 | [Promotional Kit v7.7](releases/v7.7/Haute_Hazard_v7.7_Promotional_Kit.zip) | Flyer, poster, social graphics, approved blurb, and social copy |
-| [Game Crafter Prototype v7.7.1](releases/v7.7.1/) | Production-safe files for the 240-card standard deck, 12-card foil Stage deck, Queens, aids, folio rules, and box |
+| [Game Crafter Prototype v7.7.1](releases/v7.7.1/) | Previous production-safe Game Crafter component specification |
+
+## Game Crafter physical build
+
+The v7.8 print edition uses:
+
+- **Rules** — 1 Medium Folio Set
+- **Haute & Hazard** — 240-card Poker Deck
+- **Stages** — 12-card Holographic Foil Euro Poker Deck
+- **The Queens** — 12-card Jumbo Deck
+- **Player Aid** — 5 double-sided Postcard Mats
+- **Box** — 1 Medium Prototype Box
 
 ## First game
 
-For a first two-player game, use **Siren Diesel** and **Opal Dynasty**. The TTS teaching save includes both Queens, a fixed beginner Wardrobe Rack, and *Face Face Face* as the opening Active Stage.
+For a first two-player game, use **Siren Diesel** and **Opal Dynasty**. The TTS teaching save includes both Queens, a fixed beginner Wardrobe Rack, and *Face Face Face* as the opening Active Stage. The TTS package remains on v7.7 until it receives its own v7.8 conversion.
 
-For print play, open `PRINT_ME_FIRST.txt` inside the Core Playtest Set. The older v7.2 standard sheets remain because the 240 non-Stage cards are still current, but their Stage cards are superseded by the separate v7.7 replacement Stage sheets.
+For physical production, follow `releases/v7.8/UPLOAD_GUIDE.md` and the current Game Crafter component manifest.
 
 ## Tabletop Simulator
 
