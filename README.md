@@ -27,6 +27,7 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 ## Documentation
 
 - [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
+- [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
 - [Current physical card pool](docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate Stage/Queen components.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
@@ -56,6 +57,8 @@ The v7.8 print edition uses:
 - **Box** — 1 Medium Prototype Box
 
 The 240-card Poker Deck consists of the 60 starter cards, 144-card Wardrobe Rack, 16 Thrift Store Throwbacks, and 20 Penalty cards. The Stage deck and Queens are separate physical decks/components.
+
+Each player begins with the same **12-card Dressing Room Floor deck: 7 Basic Beat, 3 Messy Lip Sync, and 2 Chapstick**. See [Starting decks](docs/STARTING_DECKS.md) for setup and card roles.
 
 ## First game
 
