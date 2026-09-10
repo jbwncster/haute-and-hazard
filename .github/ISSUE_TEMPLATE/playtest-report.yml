@@ -1,0 +1,103 @@
+name: Playtest report
+description: Report a Haute & Hazard playtest session, rules issue, or balance concern.
+title: "[Playtest] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing **Haute & Hazard**. Please use files from the same version and describe what actually happened at the table before suggesting a balance change.
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version tested
+      options:
+        - v7.8 Game Crafter Print Edition
+        - v7.7 Core Playtest Set
+        - v7.7 Tabletop Simulator
+        - v7.7.1 archived Game Crafter reference
+        - Other / mixed build
+    validations:
+      required: true
+
+  - type: input
+    id: players
+    attributes:
+      label: Player count
+      placeholder: "Example: 2"
+    validations:
+      required: true
+
+  - type: input
+    id: queens
+    attributes:
+      label: Queens used
+      placeholder: "Example: Siren Diesel vs. Opal Dynasty"
+    validations:
+      required: true
+
+  - type: input
+    id: duration
+    attributes:
+      label: Game length
+      placeholder: "Example: 55 minutes"
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: Include winner, Gross SP / Final Score, and Stage trophies if known.
+      placeholder: "Who won and what were the final scores?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stages
+    attributes:
+      label: Stage results
+      description: Note which venue Stages appeared, who Slayed them, and any Judge's Favor or Brand Ovation results.
+
+  - type: textarea
+    id: looks
+    attributes:
+      label: Coordinate and Look notes
+      description: Record Matching, Perfect Illusion, Fusion, simultaneous Matching + Fusion, or any difficult Look-state rulings.
+
+  - type: textarea
+    id: shopping
+    attributes:
+      label: Shopping and deck-building notes
+      description: Note Wardrobe purchases, Tip availability, Thrift purchases, or cards that felt too cheap/expensive.
+
+  - type: textarea
+    id: dragdagulan
+    attributes:
+      label: Dragdagulan notes
+      description: Record attempts, winners, Battle Scores, unusual LS interactions, and penalties received.
+
+  - type: textarea
+    id: queen_abilities
+    attributes:
+      label: Queen abilities and Special Appeals
+      description: Note which abilities were used, whether the once-per-game Special Appeal mattered, and any unclear timing.
+
+  - type: textarea
+    id: unclear
+    attributes:
+      label: Confusing rule or card text
+      description: Quote the exact rule/card wording when possible and explain what happened before the question came up.
+
+  - type: textarea
+    id: balance
+    attributes:
+      label: Balance observations
+      description: What felt too strong, too weak, too slow, too easy, or too difficult? Please separate observation from proposed fix.
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Version check
+      options:
+        - label: I confirmed which version's files were used and noted above if this was a mixed-version test.
+          required: true
