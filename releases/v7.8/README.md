@@ -28,6 +28,23 @@ This release is the updated Game Crafter production package for the current phys
 - All 12 Jumbo Queens retain their established personas and receive a **Special Appeal — Once Per Game** in addition to their Signature Ability.
 - Player Aid and Medium Folio quick rules are updated to match.
 - The Game Crafter component structure remains: Rules / Haute & Hazard / Stages / The Queens / Player Aid / Box.
+- A **Beginner Mode** is included for first games. It uses the same components but temporarily ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation.
+
+## Beginner Mode
+
+For a first physical playtest, use [`../../docs/BEGINNER_MODE.md`](../../docs/BEGINNER_MODE.md).
+
+In Beginner Mode, read only these five Stage fields:
+
+- Favored Tenet
+- Featured Brand
+- Slay Target
+- Reward
+- Venue Effect
+
+Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that game. All other systems stay active, including Tenets/Brands, Shopping, Matching, Perfect Illusion, Fusion, Queen abilities, Special Appeals, Slay, and Dragdagulan.
+
+The goal is to teach the core game first and add the advanced Stage scoring/objective layer in the next play.
 
 ## Documentation
 
@@ -37,7 +54,9 @@ This release is the updated Game Crafter production package for the current phys
 - [`QA_REPORT.txt`](QA_REPORT.txt) — count and image-dimension QA results.
 - [`RELEASE_STATUS.md`](RELEASE_STATUS.md) — current production status and binary-package note.
 - [`CHANGELOG.md`](CHANGELOG.md) — changes introduced by v7.8.
+- [`../../docs/BEGINNER_MODE.md`](../../docs/BEGINNER_MODE.md) — recommended first-game teaching rules.
 - [`../../docs/CURRENT_GAMEPLAY.md`](../../docs/CURRENT_GAMEPLAY.md) — concise current gameplay reference.
+- [`../../docs/STARTING_DECKS.md`](../../docs/STARTING_DECKS.md) — starter-deck composition and setup.
 - [`../../docs/QUEEN_ROSTER.md`](../../docs/QUEEN_ROSTER.md) — 12 Queens, Signature Abilities, and Special Appeals.
 - [`../../docs/CARD_POOL.md`](../../docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate components.
 - [`../../docs/VERSION_HISTORY.md`](../../docs/VERSION_HISTORY.md) — current and archived build status.
