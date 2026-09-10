@@ -73,9 +73,25 @@ Each current Stage can use:
 
 The 12-card deck is balanced at 3 Pink / 3 Blue / 3 Purple / 3 Yellow and includes every Base Game Brand at least once.
 
+### Beginner Mode
+
+For a first game, use **Beginner Mode**. The physical Stage cards do not change; players simply use only:
+
+- Favored Tenet
+- Featured Brand
+- Slay Target
+- Reward
+- Venue Effect
+
+Ignore **Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation** for the entire Beginner Mode game. All other game systems remain active, including Tenets/Brands, Shopping, Look states, Queen abilities, Special Appeals, Slay, and Dragdagulan.
+
+See [`BEGINNER_MODE.md`](BEGINNER_MODE.md) for the complete teaching rules.
+
 ## Slay
 
 A player may Slay the active Stage in Phase 4 if their current Appeal meets or exceeds the Stage's target and all prerequisites/costs are satisfied. A successful Slay claims the Stage trophy, grants its printed SP once, resolves Slay effects, and triggers Curtain Call.
+
+In Beginner Mode, do not check Spotlight Requirement and do not award Judge's Favor or Brand Ovation.
 
 ## Dragdagulan
 
