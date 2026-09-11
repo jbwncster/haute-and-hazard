@@ -46,6 +46,14 @@ Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that g
 
 The goal is to teach the core game first and add the advanced Stage scoring/objective layer in the next play.
 
+## Tabletop Simulator
+
+A downloadable TTS playtest package is available at [`../v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip`](../v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip).
+
+The downloadable digital package remains **v7.7**, so it is not a complete digital mirror of the current v7.8 physical build. It can be used for remote testing of the core game, but current v7.8 Stage, Queen, Special Appeal, and advanced Stage rules take precedence when versions differ.
+
+See [`../../docs/TABLETOP_SIMULATOR.md`](../../docs/TABLETOP_SIMULATOR.md) for setup and version guidance.
+
 ## Documentation
 
 - [`UPLOAD_GUIDE.md`](UPLOAD_GUIDE.md) — Game Crafter upload order, folders, sizes, and safe-zone notes.
@@ -59,6 +67,7 @@ The goal is to teach the core game first and add the advanced Stage scoring/obje
 - [`../../docs/STARTING_DECKS.md`](../../docs/STARTING_DECKS.md) — starter-deck composition and setup.
 - [`../../docs/QUEEN_ROSTER.md`](../../docs/QUEEN_ROSTER.md) — 12 Queens, Signature Abilities, and Special Appeals.
 - [`../../docs/CARD_POOL.md`](../../docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate components.
+- [`../../docs/TABLETOP_SIMULATOR.md`](../../docs/TABLETOP_SIMULATOR.md) — current TTS package, setup, and version notes.
 - [`../../docs/VERSION_HISTORY.md`](../../docs/VERSION_HISTORY.md) — current and archived build status.
 
 ## Binary print package
@@ -69,6 +78,6 @@ The repository integration used to prepare v7.8 can write repository text but ca
 
 ## Version note
 
-**v7.7.1 is archived and superseded by v7.8 for Game Crafter production.** It remains in the repository only for historical comparison and troubleshooting older proofs. Core/TTS v7.7 materials remain available until those packages receive their own v7.8 conversion.
+**v7.7.1 is archived and superseded by v7.8 for Game Crafter production.** The v7.7 TTS package remains available as the current downloadable digital prototype until a dedicated v7.8 TTS conversion is completed.
 
 This is an unpublished playtest prototype. Components, wording, and balance may change after testing.
