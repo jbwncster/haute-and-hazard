@@ -1,14 +1,28 @@
 HAUTE & HAZARD - PLAYTEST VERSION NOTICE
 
-These project files intentionally retain multiple numbered versions for testing,
-comparison, and balance review.
+This repository intentionally retains multiple numbered versions for testing,
+comparison, publisher review, and balance development.
 
-CURRENT TEST: v7.7
-- Judges and Spotlight Requirements
-- Judge's Favor powers
-- Featured Brands
-- +2 Gross SP Brand Ovation for a full four-piece Brand Coordinate
+CURRENT PHYSICAL PLAYTEST: v7.8
+- Current Game Crafter print edition
+- Current venue-style Stage deck
+- Current Queen roster and Special Appeals
+- Beginner Mode plus full advanced Stage rules
 
-Use the v7.7 Rulebook, v7.7 Player Aid, v7.7 card manifest, and v7.7 replacement
-Stage cards together. Older files are historical test materials and should not
-be mixed into the current game unless the group is deliberately comparing rules.
+CURRENT DOWNLOADABLE TABLETOP SIMULATOR PACKAGE: v7.7
+- Full standard TTS setup
+- Siren Diesel vs. Opal Dynasty teaching setup
+- Local TTS assets and installer support
+
+IMPORTANT:
+The v7.7 TTS package predates the dedicated v7.8 digital conversion. It remains
+available because it is useful for remote testing of the core game, but its older
+Stage/Queen assumptions should not override current v7.8 rules or printed card text.
+
+For current rules, use docs/CURRENT_GAMEPLAY.md, docs/QUEEN_ROSTER.md,
+docs/BEGINNER_MODE.md, and releases/v7.8/STAGE_VENUE_LIST.md.
+
+For TTS setup and version notes, use docs/TABLETOP_SIMULATOR.md.
+
+Do not mix versioned components unless a playtest group is deliberately testing
+compatibility or comparing older rules.
