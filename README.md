@@ -75,13 +75,38 @@ For current physical production, follow `releases/v7.8/UPLOAD_GUIDE.md`, not the
 
 Extract the entire TTS package, then follow its included `README.txt`. Windows users can run `INSTALL_WINDOWS.ps1`. The included saves use local assets; online multiplayer hosts should upload the assets through Tabletop Simulator's Cloud Manager before inviting remote testers.
 
-## Feedback
+## Feedback & playtesting
 
-After a game, start with the [Feedback Guide](docs/FEEDBACK.md). It includes a short 12-question debrief, 1–5 ratings, and targeted prompts for Beginner Mode, full Stage rules, Shopping, Coordinates, Queens, Dragdagulan, terminology, and balance.
+**Haute & Hazard is still in active prototype playtesting, and feedback is part of the design process.** You do not need to be an experienced game designer to help. First impressions, confusion, excitement, pacing problems, and unexpected strategies are all useful.
 
-For a full session report, use the repository's **Playtest report** issue form under Issues. Record the version and mode used, player count, Queen choices, game length, final scores, Stage results, Judge's Favors, Brand Ovations, Look-state frequency, Shopping behavior, Dragdagulan results, Queen/Special Appeal usage, penalties, the most fun and most confusing moments, and any rule that needed table interpretation.
+### What we want to know most
 
-The most useful balance feedback describes **what happened first** and proposes a change second. Repeated play patterns are more valuable than a single theoretical interaction.
+After a game, tell us:
+
+- Which mode did you use: **Beginner Mode** or **Full Stage Rules**?
+- How many players played, and how long did the game take?
+- Which Queens were used?
+- What was the **most fun** moment?
+- What was the **most confusing** moment?
+- Did Shopping and deck-building feel rewarding?
+- Did assembling Complete, Matching, Perfect Illusion, and Fusion Looks feel understandable and satisfying?
+- Did the Stage meaningfully affect your decisions?
+- Did Dragdagulan feel worth attempting?
+- Did any Queen, Brand, Tenet, Stage, card, or Special Appeal feel noticeably too strong or too weak?
+- Did the game feel too short, too long, or about right?
+- **Would you play again? Why or why not?**
+
+For a more detailed questionnaire and 1–5 rating guide, see the **[Feedback Guide](docs/FEEDBACK.md)**.
+
+### Submit a playtest report
+
+Use the GitHub **[Playtest Report form](https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml)** for a full session report.
+
+A useful report includes the version and mode, player count, Queens, game length, winner/final scores, Stage results, Look states, Shopping choices, Dragdagulan results, penalties, Signature Ability/Special Appeal use, and any wording that required a table ruling.
+
+The most useful balance feedback describes **what happened first** and suggests a fix second. For example, “this Queen gained 8 more SP than everyone else because this ability triggered four times” is more useful than simply saying “this Queen is overpowered.” Repeated patterns across multiple games are especially valuable.
+
+If you only have a few minutes, even answers to **most fun / most confusing / would you play again?** are worth submitting.
 
 ## Development status
 
