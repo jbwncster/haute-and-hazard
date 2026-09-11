@@ -1,7 +1,9 @@
 # Haute & Hazard: Step Into the Spotlight
 
+![Haute & Hazard promotional banner](docs/images/social-landscape.png)
+
 <p align="center">
-  <img src="docs/images/Logo.png" width="420" alt="Jake Weiner Board Game Designer logo">
+  <img src="docs/images/Logo.png" width="220" alt="Jake Weiner Board Game Designer logo">
 </p>
 
 Fashion is power. The runway is a battlefield. Welcome to **Haute & Hazard**, the competitive drag deck-building game where only the sharpest eye and the boldest look survive.
