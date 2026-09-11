@@ -42,7 +42,7 @@ The current **v7.8 Game Crafter Print Edition** includes:
 - 12 venue-style Stage cards
 - player aids, Beginner Mode, and structured playtest feedback tools
 
-A physical Game Crafter prototype, rules documentation, print files, and playtest materials are available.
+A physical Game Crafter prototype, rules documentation, print files, playtest materials, and a downloadable **Tabletop Simulator playtest package** are available through the project repository. The current downloadable TTS build is v7.7 and is maintained as a remote-play prototype while the dedicated v7.8 digital conversion is still in development.
 
 ## Development status
 
@@ -56,11 +56,12 @@ All Queens, Brands, terminology, and game-world material are original to **Haute
 
 A publisher interested in a visually distinctive, interactive hobby game and willing to evaluate a prototype while it is still being refined. Publisher development, editing, art direction, production changes, and further balance work are welcome.
 
-**Available upon request:** rules · print-and-play files · Game Crafter prototype · component manifest · prototype photos · playtest documentation
+**Available for review:** rules · print-and-play files · Game Crafter prototype · Tabletop Simulator playtest files · component manifest · prototype photos · playtest documentation
 
 ---
 
 **Designer:** Jake Weiner  
 **Project:** *Haute & Hazard*  
 **Repository:** https://github.com/jbwncster/haute-and-hazard  
+**TTS information:** [Tabletop Simulator Playtest](TABLETOP_SIMULATOR.md)  
 **Status:** Unpublished prototype / active playtesting
