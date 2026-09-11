@@ -27,12 +27,14 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 
 ## Documentation
 
+- [Publisher sell sheet](docs/PUBLISHER_SELL_SHEET.md) — one-page overview for publisher outreach, prototype status, core hook, and development goals.
 - [Beginner Mode](docs/BEGINNER_MODE.md) — recommended first-game rules; ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation while keeping the rest of the game intact.
 - [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
 - [Current physical card pool](docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate Stage/Queen components.
 - [Feedback guide](docs/FEEDBACK.md) — quick feedback questions, 1–5 ratings, Beginner/Full Stage prompts, and detailed playtest guidance.
+- [Designer branding](docs/BRANDING.md) — official Jake Weiner Board Game Designer logo and usage guidance.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
 - [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — QA status and binary-package availability.
@@ -107,6 +109,21 @@ A useful report includes the version and mode, player count, Queens, game length
 The most useful balance feedback describes **what happened first** and suggests a fix second. For example, “this Queen gained 8 more SP than everyone else because this ability triggered four times” is more useful than simply saying “this Queen is overpowered.” Repeated patterns across multiple games are especially valuable.
 
 If you only have a few minutes, even answers to **most fun / most confusing / would you play again?** are worth submitting.
+
+## Publisher inquiries
+
+**Haute & Hazard is available for publisher evaluation while it is still in active prototype development.** The core identity is established, but balance, pacing, component counts, wording, graphic design, and advanced systems remain open to collaborative development.
+
+See the **[Publisher Sell Sheet](docs/PUBLISHER_SELL_SHEET.md)** for a concise overview. Rules, print-and-play materials, a physical Game Crafter prototype, component documentation, prototype photos, and playtest materials can be provided for review.
+
+## Designer
+
+<p align="center">
+  <img src="docs/images/jake-weiner-board-game-designer-logo.jpg" width="300" alt="Jake Weiner Board Game Designer logo">
+</p>
+
+**Jake Weiner — Board Game Designer**  
+Official logo usage: [Designer Branding](docs/BRANDING.md)
 
 ## Development status
 
