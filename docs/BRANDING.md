@@ -2,7 +2,7 @@
 
 The official designer logo for **Jake Weiner — Board Game Designer** is:
 
-![Jake Weiner Board Game Designer logo](images/jake-weiner-board-game-designer-logo.jpg)
+![Jake Weiner Board Game Designer logo](images/Logo.png)
 
 ## Usage
 
@@ -22,6 +22,6 @@ The designer logo is separate from the **Haute & Hazard** game identity. It shou
 
 Repository asset:
 
-`docs/images/jake-weiner-board-game-designer-logo.jpg`
+`docs/images/Logo.png`
 
-This web-sized repository image is derived from the official logo supplied by Jake Weiner. Higher-resolution source artwork should be used for print production when available.
+Use this repository image as the official designer logo for GitHub and digital media. Higher-resolution source artwork should be used for print production when available.
