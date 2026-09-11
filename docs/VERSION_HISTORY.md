@@ -21,6 +21,14 @@ Key points:
 
 See [`../releases/v7.8/`](../releases/v7.8/).
 
+## Tabletop Simulator status
+
+A downloadable **Tabletop Simulator playtest package** is available in the repository at [`../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip`](../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip).
+
+The TTS build is currently **v7.7**, while the physical Game Crafter prototype is **v7.8**. The digital package remains useful for remote playtests of the core game, but it predates the dedicated v7.8 digital conversion and should not override current v7.8 Stage, Queen, Special Appeal, or advanced Stage rules.
+
+See [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md) for setup and version guidance.
+
 ## v7.7.1 — Archived Game Crafter Prototype
 
 **Legacy reference only. Superseded by v7.8 for current Game Crafter production.**
@@ -31,7 +39,7 @@ See [`../releases/v7.7.1/`](../releases/v7.7.1/).
 
 ## v7.7 — Core Playtest / TTS / Promotional Packages
 
-Still retained as the current downloadable Core/TTS testing package until those materials receive a dedicated v7.8 conversion.
+Retained for historical comparison and because the current downloadable TTS package still lives in this release directory.
 
 Available packages include:
 
