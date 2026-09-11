@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/jake-weiner-board-game-designer-logo.jpg" width="300" alt="Jake Weiner Board Game Designer logo">
+  <img src="images/Logo.png" width="300" alt="Jake Weiner Board Game Designer logo">
 </p>
 
 # HAUTE & HAZARD
