@@ -1,6 +1,6 @@
 # Haute & Hazard — Current Gameplay Reference
 
-This page summarizes the current Base Game systems used by the **v7.8 Game Crafter Print Edition**. It is a quick repository reference, not a replacement for the printed rulebook or card text.
+This page summarizes the current Base Game systems used by the **v7.8 physical and Tabletop Simulator playtest editions**. It is a quick repository reference, not a replacement for the printed rulebook or card text.
 
 ## Game goal
 
@@ -75,7 +75,7 @@ The 12-card deck is balanced at 3 Pink / 3 Blue / 3 Purple / 3 Yellow and includ
 
 ### Beginner Mode
 
-For a first game, use **Beginner Mode**. The physical Stage cards do not change; players simply use only:
+For a first game, use **Beginner Mode**. The Stage cards do not change; players simply use only:
 
 - Favored Tenet
 - Featured Brand
@@ -118,8 +118,8 @@ See [QUEEN_ROSTER.md](QUEEN_ROSTER.md) for the current roster and playtest wordi
 
 ## Version guidance
 
-- **v7.8** is the current Game Crafter Print Edition.
+- **v7.8** is the current physical Game Crafter and Tabletop Simulator playtest target.
 - **v7.7.1** is archived as a legacy Game Crafter reference.
-- **v7.7** remains the current Core/TTS playtest package until those materials receive their own v7.8 conversion.
+- **v7.7** Core/TTS/Promotional packages are retained for historical comparison only.
 
-Do not mix Stage, Queen, Player Aid, or rulebook files from different physical print versions unless deliberately testing an older build.
+Current v7.8 TTS setup/status information is in [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md). Do not mix older Stage, Queen, Player Aid, or rulebook files into current v7.8 testing unless deliberately comparing builds.
