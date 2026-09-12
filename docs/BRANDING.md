@@ -28,9 +28,11 @@ Repository asset:
 
 `docs/images/social-preview.jpg`
 
-This 1280 × 640 asset is the preferred image for GitHub Social Preview and other platforms that accept a landscape link-preview image. It combines the official Jake Weiner designer mark with the Haute & Hazard title treatment and should be used where the full combined brand lockup is appropriate.
+This **640 × 320** asset is the GitHub-ready landscape preview derived from the current Haute & Hazard social artwork. Use it for GitHub Social Preview and other platforms that accept a landscape link-preview image. It combines the official Jake Weiner designer mark with the Haute & Hazard title treatment and should be used where the full combined brand lockup is appropriate.
 
-The existing game-only or legacy promotional images may remain in the repository for historical use, but new social/link-preview placements should prefer `social-preview.jpg` unless a platform requires a different aspect ratio.
+The original higher-resolution social artwork should be preferred for normal social posts when available; the repository's `social-preview.jpg` is specifically optimized as a lightweight GitHub/link-preview asset.
+
+The existing game-only or legacy promotional images may remain in the repository for historical use, but new social/link-preview placements should prefer the current combined artwork unless a platform requires a different aspect ratio.
 
 ## Files
 
@@ -38,8 +40,8 @@ Official designer logo:
 
 `docs/images/Logo.png`
 
-Preferred landscape social preview:
+Preferred GitHub/link-preview asset:
 
 `docs/images/social-preview.jpg`
 
-Use `Logo.png` as the official designer logo for GitHub and digital media. Use `social-preview.jpg` for social/link-preview artwork where a combined designer + game identity image is appropriate. Higher-resolution source artwork should be used for print production when available.
+Use `Logo.png` as the official designer logo for GitHub and digital media. Use `social-preview.jpg` for social/link-preview artwork where a combined designer + game identity image is appropriate. Higher-resolution source artwork should be used for print production and full-resolution social posts when available.
