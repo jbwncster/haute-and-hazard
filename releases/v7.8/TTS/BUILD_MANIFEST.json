@@ -2,8 +2,8 @@
   "version": "v7.8",
   "status": "current physical + TTS playtest target",
   "package": "Haute_Hazard_v7.8_TTS_Playtest.zip",
-  "package_size_bytes": 5310100,
-  "package_sha256": "0644c7c40f419747a36e1080f2af51a1b239029a2a55403178e933abb81de7fd",
+  "package_size_bytes": 5310131,
+  "package_sha256": "eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8",
   "poker_deck": {
     "total": 240,
     "starter": {"ids": "001-060", "count": 60, "composition_per_player": "7 Basic Beat / 3 Messy Lip Sync / 2 Chapstick", "players": 5},
@@ -17,5 +17,5 @@
   "save_files": ["Haute_Hazard_v7.8_Standard_Setup.json", "Haute_Hazard_v7.8_Two_Player_Teaching.json"],
   "teaching_setup": {"queens": ["Siren Diesel", "Opal Dynasty"], "opening_stage": "Neon Nightclub", "mode": "Beginner Mode"},
   "asset_placeholder": "__HH_ASSET_DIR__",
-  "runtime_note": "JSON/assets validated; in-app TTS load test still required."
+  "runtime_note": "JSON structure/counts, asset mapping, and save-schema spot checks validated; in-app TTS load test still required."
 }
