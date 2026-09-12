@@ -18,10 +18,28 @@ The designer logo is separate from the **Haute & Hazard** game identity. It shou
 - Social/promotional designer posts: visible but secondary to the game title.
 - GitHub documentation intended for publishers: top or closing contact section.
 
-## File
+## Social media artwork
+
+The preferred landscape social-media / link-preview artwork for **Haute & Hazard** is:
+
+![Haute & Hazard social preview](images/social-preview.jpg)
 
 Repository asset:
 
+`docs/images/social-preview.jpg`
+
+This 1280 × 640 asset is the preferred image for GitHub Social Preview and other platforms that accept a landscape link-preview image. It combines the official Jake Weiner designer mark with the Haute & Hazard title treatment and should be used where the full combined brand lockup is appropriate.
+
+The existing game-only or legacy promotional images may remain in the repository for historical use, but new social/link-preview placements should prefer `social-preview.jpg` unless a platform requires a different aspect ratio.
+
+## Files
+
+Official designer logo:
+
 `docs/images/Logo.png`
 
-Use this repository image as the official designer logo for GitHub and digital media. Higher-resolution source artwork should be used for print production when available.
+Preferred landscape social preview:
+
+`docs/images/social-preview.jpg`
+
+Use `Logo.png` as the official designer logo for GitHub and digital media. Use `social-preview.jpg` for social/link-preview artwork where a combined designer + game identity image is appropriate. Higher-resolution source artwork should be used for print production when available.
