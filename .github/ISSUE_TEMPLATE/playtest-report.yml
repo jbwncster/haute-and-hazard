@@ -8,6 +8,8 @@ body:
       value: |
         Thanks for testing **Haute & Hazard**. Please use files from the same version and describe what actually happened at the table before suggesting a balance change. The current physical and digital balance-test target is **v7.8**.
 
+        **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See `docs/ATTRIBUTIONS.md`.
+
   - type: dropdown
     id: version
     attributes:
@@ -92,8 +94,8 @@ body:
   - type: textarea
     id: dragdagulan
     attributes:
-      label: Dragdagulan notes
-      description: Record attempts, winners, Battle Scores, unusual LS interactions, and penalties received.
+      label: Dragdagulan† notes
+      description: Record attempts, winners, Battle Scores, unusual LS interactions, and penalties received. † Working term subject to legal/IP review.
 
   - type: textarea
     id: queen_abilities
