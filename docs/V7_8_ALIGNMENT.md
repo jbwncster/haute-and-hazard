@@ -4,6 +4,8 @@
 
 The physical and digital builds should differ only in medium/interface, not in rules, card pool, Queen roster, Stage roster, or scoring.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 ## Canonical alignment table
 
 | System / component | Physical v7.8 | TTS v7.8 | Canonical source |
@@ -25,7 +27,7 @@ The physical and digital builds should differ only in medium/interface, not in r
 | Tenets / Brands | Current v7.8 mapping | Same | `CURRENT_GAMEPLAY.md` |
 | Shopping | Tips / five-card Market / finite face-up Thrift | Same | `CURRENT_GAMEPLAY.md` |
 | Look states | Complete / Matching / Perfect / Fusion | Same | `CURRENT_GAMEPLAY.md` |
-| Dragdagulan | 3 battle cards; printed LS + explicit battle modifiers | Same | `CURRENT_GAMEPLAY.md` |
+| Dragdagulan† | 3 battle cards; printed LS + explicit battle modifiers | Same | `CURRENT_GAMEPLAY.md` |
 | Beginner Mode | Ignore Judge / Spotlight / Judge's Favor / Brand Ovation | Same | `BEGINNER_MODE.md` |
 | Final Judging | Same trigger, scoring, penalties, tiebreakers | Same | current rules |
 
@@ -51,6 +53,8 @@ Lady Lux · Kawaii-Bot · Mother Mortis · Opulencia · Velvet Venom · Maldita 
 ## Build rule
 
 When a rule/card is changed in v7.8 testing, update the **canonical rule/card source first**, then regenerate or update both physical and TTS representations from that same source. Do not independently rebalance the TTS build and physical build.
+
+Any newly identified term, image, phrase, name, or asset requiring legal/IP review must be marked **†** in the canonical source and carried with that marker into both physical and digital representations until cleared or replaced.
 
 The TTS image sheets are generated from the same current physical card images so visual/card-text drift is minimized.
 
