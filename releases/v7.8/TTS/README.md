@@ -2,6 +2,8 @@
 
 This folder records the **current v7.8 Tabletop Simulator conversion**, aligned to the current v7.8 Game Crafter physical prototype.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`../../../docs/ATTRIBUTIONS.md`](../../../docs/ATTRIBUTIONS.md).
+
 ## Current package
 
 `Haute_Hazard_v7.8_TTS_Playtest.zip`
@@ -17,7 +19,7 @@ The TTS build mirrors the current physical prototype:
 - 12 Queens with current Signature Abilities + once-per-game Special Appeals
 - current Player Aid front/back
 - current Beginner Mode and full Stage rules
-- current Tenet/Brand, Shopping, Matching, Perfect Illusion, Fusion, Slay, Dragdagulan, Penalty, and Final Judging rules
+- current Tenet/Brand, Shopping, Matching, Perfect Illusion, Fusion, Slay, **Dragdagulan†**, Penalty, and Final Judging rules
 
 See [`../../../docs/V7_8_ALIGNMENT.md`](../../../docs/V7_8_ALIGNMENT.md) for the explicit physical/TTS parity matrix.
 
@@ -63,6 +65,7 @@ For online multiplayer, the host should use **TTS Cloud Manager** to upload the 
 - [`../../../docs/CURRENT_GAMEPLAY.md`](../../../docs/CURRENT_GAMEPLAY.md)
 - [`../../../docs/QUEEN_ROSTER.md`](../../../docs/QUEEN_ROSTER.md)
 - [`../../../docs/BEGINNER_MODE.md`](../../../docs/BEGINNER_MODE.md)
+- [`../../../docs/ATTRIBUTIONS.md`](../../../docs/ATTRIBUTIONS.md)
 - [`../../../docs/STARTING_DECKS.md`](../../../docs/STARTING_DECKS.md)
 - [`../STAGE_VENUE_LIST.md`](../STAGE_VENUE_LIST.md)
 
@@ -71,6 +74,8 @@ For online multiplayer, the host should use **TTS Cloud Manager** to upload the 
 The generated JSON files parse successfully; component/deck counts, physical-to-TTS asset mapping, installer paths, counter data, and custom tile schema were checked. The package checksum and build metadata are recorded in this folder.
 
 **Runtime caveat:** Tabletop Simulator itself was not available in the build environment, so an actual in-app load remains the final runtime verification step. A streamer/playtester loading both setups is the appropriate next QA check.
+
+**Legal/IP caveat:** generated TTS images or saves that display a †-marked term remain prototype-only until that term has been cleared or replaced. A future regenerated package must preserve the marker/status consistently across rules, cards, aids, and digital objects.
 
 ## Legacy build
 
