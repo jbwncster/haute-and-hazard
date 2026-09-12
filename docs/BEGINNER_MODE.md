@@ -2,7 +2,9 @@
 
 **Applies to the current v7.8 Game Crafter Print Edition.**
 
-Beginner Mode is the recommended way to teach a first physical game of **Haute & Hazard**. It uses the normal Queens, starter decks, Wardrobe Rack, Thrift Store, Penalties, Shopping economy, Look rules, Slay rules, and Dragdagulan rules. The only change is that the Stage card is read in a simplified way.
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
+Beginner Mode is the recommended way to teach a first physical game of **Haute & Hazard**. It uses the normal Queens, starter decks, Wardrobe Rack, Thrift Store, Penalties, Shopping economy, Look rules, Slay rules, and **Dragdagulan†** rules. The only change is that the Stage card is read in a simplified way.
 
 No cards need to be removed, replaced, covered, or reprinted.
 
@@ -38,13 +40,13 @@ Beginner Mode does **not** simplify the rest of the game. Players still learn th
 - **Tips** and the Shopping economy;
 - Wardrobe Rack and Thrift Store purchases;
 - **Appeal** and Slaying the active Stage;
-- **LS** and Dragdagulan;
+- **LS** and **Dragdagulan†**;
 - Penalties;
 - Queen Signature Abilities;
 - Queen **Special Appeal — Once Per Game**;
 - Gross Style Points and the normal end-game trigger.
 
-The purpose of Beginner Mode is not to create a different game. It removes one layer of Stage scoring so new players can focus on building a Coordinate, buying cards, understanding Tenets/Brands, and choosing between Slay and Dragdagulan.
+The purpose of Beginner Mode is not to create a different game. It removes one layer of Stage scoring so new players can focus on building a Coordinate, buying cards, understanding Tenets/Brands, and choosing between Slay and **Dragdagulan†**.
 
 ## Recommended teaching setup
 
@@ -108,7 +110,7 @@ The normal five phases do not change:
 1. **Transformation** — equip Fashion, play Actions, and use eligible Queen abilities.
 2. **The Reveal** — total resources, resolve Look states and abilities, and determine Appeal.
 3. **Shopping** — spend Tips on legal Wardrobe Rack and Thrift Store purchases.
-4. **Slay / Dragdagulan / Pass** — choose exactly one unless an effect says otherwise.
+4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
 5. **Cleanup** — resolve normal cleanup, draw a new hand, and reset temporary resources.
 
 ## Slaying a Stage
@@ -123,9 +125,9 @@ To Slay in Beginner Mode:
 
 Do **not** check Spotlight Requirement, award Judge's Favor, or award Brand Ovation.
 
-## Dragdagulan is unchanged
+## Dragdagulan† is unchanged
 
-Beginner Mode does not alter Dragdagulan.
+Beginner Mode does not alter **Dragdagulan†**.
 
 Each player in the battle draws **3 cards** from their personal Deck. Battle Score is the sum of the printed **LS** on those three battle-drawn cards plus explicit active LS modifiers.
 
@@ -161,4 +163,4 @@ Everything else in Haute & Hazard plays normally.
 
 ---
 
-See [`STARTING_DECKS.md`](STARTING_DECKS.md) for the 12-card starter deck, [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md) for the full core gameplay reference, and [`../releases/v7.8/STAGE_VENUE_LIST.md`](../releases/v7.8/STAGE_VENUE_LIST.md) for the current venue Stage deck.
+See [`STARTING_DECKS.md`](STARTING_DECKS.md) for the 12-card starter deck, [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md) for the full core gameplay reference, [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) for legal/IP-review notes, and [`../releases/v7.8/STAGE_VENUE_LIST.md`](../releases/v7.8/STAGE_VENUE_LIST.md) for the current venue Stage deck.
