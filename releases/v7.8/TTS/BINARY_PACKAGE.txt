@@ -4,4 +4,9 @@ SHA-256: eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8
 
 This checksum corresponds to the generated v7.8 TTS package containing the current 240-card Poker Deck structure, 12 venue Stages, 12 Queens, current Player Aid, standard + teaching saves, local image assets, installers, manifest, and QA notes.
 
+LEGAL/IP REVIEW STATUS
+† Dragdagulan is working prototype terminology credited to Drag Den Philippines and is subject to legal/IP, trademark, and publisher review before commercial release. It may be renamed. See docs/ATTRIBUTIONS.md.
+
+This binary package was generated before the repository-wide † labeling convention was applied to all current text documentation. It remains valid for prototype playtesting, but it must not be treated as a commercially cleared build. Any future regenerated/shareable package should include the † marker or an equally prominent legal/IP notice wherever the working term is presented.
+
 Large binary ZIP/JPG assets may require manual attachment to GitHub. Do not claim the binary is downloadable from the repository until the ZIP is visibly attached or committed.
