@@ -4,6 +4,13 @@
   "package": "Haute_Hazard_v7.8_TTS_Playtest.zip",
   "package_size_bytes": 5310131,
   "package_sha256": "eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8",
+  "legal_ip_review": {
+    "marker": "†",
+    "term": "Dragdagulan",
+    "status": "working prototype terminology; credited to Drag Den Philippines; subject to legal/IP, trademark, and publisher review before commercial release; may be renamed",
+    "source": "../../../docs/ATTRIBUTIONS.md",
+    "binary_note": "Current generated binary predates repository-wide marker rollout and remains prototype-only until regenerated or cleared."
+  },
   "poker_deck": {
     "total": 240,
     "starter": {"ids": "001-060", "count": 60, "composition_per_player": "7 Basic Beat / 3 Messy Lip Sync / 2 Chapstick", "players": 5},
