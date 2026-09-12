@@ -2,6 +2,8 @@
 
 This is the current **12-Queen v7.8 playtest roster** for the Game Crafter Print Edition. Each Jumbo Queen has an established Signature Ability plus one **Special Appeal — Once Per Game**.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 | Queen | Signature Tenet | Favorite Brand | Signature Ability |
 |---|---|---|---|
 | **Lady Lux** | Yellow | Trash Can | **Treasure from Trash** — Once per Round, immediately after you trash your third card that Round, gain 2 Gross SP and draw 1 card. |
@@ -15,7 +17,7 @@ This is the current **12-Queen v7.8 playtest roster** for the Game Crafter Print
 | **Siren Diesel** | Yellow | Trash Can | **Built to Walk** — When you equip Shoes as Master, gain 1 Tip. |
 | **Opal Dynasty** | Purple | Velvet Trap | **Full Spectrum** — Once per Round when you reveal a Complete Coordinate, gain 2 Gross SP. |
 | **Rapture Royale** | Purple | Velvet Trap | **Sacrifice** — Once during Transformation, trash 1 eligible card from your hand; if you do, gain 1 Gross SP. |
-| **Gore-Jess** | Blue | Slasher | **Final Girl** — Once per Round after you win Dragdagulan, gain 1 Gross SP. If you won by 3 or more Battle Score, gain 2 Gross SP instead. |
+| **Gore-Jess** | Blue | Slasher | **Final Girl** — Once per Round after you win Dragdagulan†, gain 1 Gross SP. If you won by 3 or more Battle Score, gain 2 Gross SP instead. |
 
 ## Special Appeals — once per game
 
@@ -46,7 +48,7 @@ Once per game during The Reveal, if all four core slots are occupied, choose one
 Once per game during Shopping, draw 3 cards, keep 1 in hand, and archive the other 2. If the kept card is Pink, gain 1 Tip before Shopping ends.
 
 ### Siren Diesel — Full Throttle
-Once per game when you enter Dragdagulan, each of your three battle-drawn cards gains +1 LS for that battle.
+Once per game when you enter Dragdagulan†, each of your three battle-drawn cards gains +1 LS for that battle.
 
 ### Opal Dynasty — Full Spectrum
 Once per game during The Reveal, choose one Master and treat it as Wild for this Reveal. Assign it one active non-Neutral Tenet under the normal Wild rules.
@@ -55,8 +57,8 @@ Once per game during The Reveal, choose one Master and treat it as Wild for this
 Once per game during Transformation, trash up to 2 eligible cards from your hand. Gain 2 Tips and 1 Appeal for each card trashed this way.
 
 ### Gore-Jess — Final Girl Frenzy
-Once per game after you win Dragdagulan, you may take 2 Gross SP instead of the normal winner reward. If you won by 5 or more Battle Score, take 3 Gross SP instead. Her normal Final Girl Signature Ability still resolves if its condition was met.
+Once per game after you win Dragdagulan†, you may take 2 Gross SP instead of the normal winner reward. If you won by 5 or more Battle Score, take 3 Gross SP instead. Her normal Final Girl Signature Ability still resolves if its condition was met.
 
 ## Character direction
 
-The Queens are full drag personas first, with camp, horror, fashion, nightlife, alternative-drag, and queer-culture archetypes informing their presentation. The game's visual and tonal inspiration can draw from drag competition spectacle, underground club culture, horror glamour, fashion editorial, and arcade-idol coordination while retaining Haute & Hazard's own names, mechanics, world, Tenets, Brands, and terminology.
+The Queens are full drag personas first, with camp, horror, fashion, nightlife, alternative-drag, and queer-culture archetypes informing their presentation. The game's visual and tonal inspiration can draw from drag competition spectacle, underground club culture, horror glamour, fashion editorial, and arcade-idol coordination while retaining Haute & Hazard's own names, mechanics, world, Tenets, Brands, and terminology except where a **† legal/IP-review marker** explicitly indicates a working or attributed element.
