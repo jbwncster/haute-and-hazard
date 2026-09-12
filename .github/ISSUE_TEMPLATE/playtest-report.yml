@@ -6,17 +6,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing **Haute & Hazard**. Please use files from the same version and describe what actually happened at the table before suggesting a balance change.
+        Thanks for testing **Haute & Hazard**. Please use files from the same version and describe what actually happened at the table before suggesting a balance change. The current physical and digital balance-test target is **v7.8**.
 
   - type: dropdown
     id: version
     attributes:
       label: Version tested
       options:
-        - v7.8 Game Crafter Print Edition
-        - v7.7 Core Playtest Set
-        - v7.7 Tabletop Simulator
-        - v7.7.1 archived Game Crafter reference
+        - v7.8 Physical — Game Crafter
+        - v7.8 Digital — Tabletop Simulator
+        - v7.7 Core Playtest Set — legacy
+        - v7.7 Tabletop Simulator — legacy
+        - v7.7.1 Game Crafter — archived legacy reference
         - Other / mixed build
     validations:
       required: true
