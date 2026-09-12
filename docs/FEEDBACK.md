@@ -4,6 +4,8 @@ Thank you for playtesting **Haute & Hazard**. Feedback is most useful when it te
 
 For the current physical build, use **v7.8 Game Crafter Print Edition**. If you deliberately test an older or mixed build, note that clearly.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 ## Quick feedback
 
 If you do not want to write a full session report, answer these questions after the game:
@@ -16,7 +18,7 @@ If you do not want to write a full session report, answer these questions after 
 6. **Did Shopping feel useful and exciting?** Too cheap, too expensive, or about right?
 7. **Did building a Coordinate feel satisfying?** Were Matching, Perfect Illusion, or Fusion easy to understand?
 8. **Did the active Stage affect your decisions, or did it feel easy to ignore?**
-9. **Did Dragdagulan feel tense and worthwhile?**
+9. **Did Dragdagulan† feel tense and worthwhile?**
 10. **Did any Queen, card, Brand, Tenet, Stage, or Special Appeal feel much stronger or weaker than the rest?**
 11. **Did the game feel too short, too long, or about right?**
 12. **Would you play again? Why or why not?**
@@ -33,7 +35,7 @@ A simple 1–5 rating is useful for comparing multiple playtests.
 | Fashion/Coordinate building | Hard to use | Worked | Highly satisfying |
 | Stage interaction | Mostly ignored | Sometimes mattered | Drove decisions |
 | Queen identity | Felt generic | Some identity | Strongly distinct |
-| Dragdagulan | Flat/confusing | Fine | Tense and memorable |
+| Dragdagulan† | Flat/confusing | Fine | Tense and memorable |
 | Player interaction | Too little/awkward | About right | Excellent |
 | Game length | Poor fit | Acceptable | Felt right |
 | Overall fun | Would not replay | Might replay | Want to play again |
@@ -111,9 +113,9 @@ Record:
 - whether any ability wording caused a timing dispute;
 - whether the Queen felt too weak, too strong, or appropriately powerful.
 
-## Dragdagulan feedback
+## Dragdagulan† feedback
 
-Dragdagulan should feel like a high-stakes confrontation rather than an automatic choice.
+Dragdagulan† should feel like a high-stakes confrontation rather than an automatic choice.
 
 Please record:
 
@@ -122,7 +124,7 @@ Please record:
 - whether the challenger had a meaningful reason to initiate the battle;
 - whether LS on the three battle-drawn cards was easy to calculate;
 - whether penalties and winner rewards felt proportionate;
-- whether players avoided Dragdagulan entirely and why;
+- whether players avoided Dragdagulan† entirely and why;
 - any interaction that made it unclear which LS modifiers counted.
 
 Remember: equipped Fashion does not automatically add its LS to Battle Score. Only printed LS on the three battle-drawn cards and explicit active battle modifiers count.
@@ -139,7 +141,7 @@ When something is confusing, quote the exact term, card, or rule if possible. Es
 - Wardrobe Rack
 - Thrift Store
 - Slay
-- Dragdagulan
+- Dragdagulan†
 - Curtain Call
 - Penalties
 - Queen Signature Ability vs. Special Appeal
@@ -173,7 +175,7 @@ A detailed report should include:
 - notable Shopping purchases;
 - Look-state frequency;
 - Judge's Favors and Brand Ovations, if using Full Stage Rules;
-- Dragdagulan attempts and results;
+- Dragdagulan† attempts and results;
 - penalties gained;
 - Signature Ability and Special Appeal usage;
 - confusing rules or card text;
