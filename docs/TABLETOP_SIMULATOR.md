@@ -2,6 +2,8 @@
 
 The **current Tabletop Simulator playtest build is v7.8**, aligned to the current v7.8 Game Crafter physical prototype.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 ## Current TTS build
 
 **Package name:** `Haute_Hazard_v7.8_TTS_Playtest.zip`
@@ -30,7 +32,7 @@ The digital and physical v7.8 builds use the same current rules for:
 - Perfect Illusion;
 - Fusion;
 - Slay;
-- Dragdagulan using printed LS on the three battle-drawn cards plus explicit battle modifiers;
+- **Dragdagulan†** using printed LS on the three battle-drawn cards plus explicit battle modifiers;
 - Penalty values and Final Judging;
 - current Queen abilities and Special Appeals;
 - current venue Stage fields and Beginner Mode.
@@ -40,6 +42,7 @@ For authoritative wording, use:
 - [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md)
 - [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md)
 - [`BEGINNER_MODE.md`](BEGINNER_MODE.md)
+- [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md)
 - [`STARTING_DECKS.md`](STARTING_DECKS.md)
 - [`../releases/v7.8/STAGE_VENUE_LIST.md`](../releases/v7.8/STAGE_VENUE_LIST.md)
 
