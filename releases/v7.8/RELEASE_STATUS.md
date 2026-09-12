@@ -1,10 +1,10 @@
-# v7.8 Game Crafter Release Status
+# v7.8 Release Status
 
-**Status:** Current Game Crafter Print Edition / unpublished playtest prototype.
+**Status:** Current physical + Tabletop Simulator playtest target / unpublished prototype.
 
-## Production QA
+## Physical production QA
 
-The generated v7.8 package passed the documented count and image-dimension checks for:
+The generated v7.8 Game Crafter package passed the documented count and image-dimension checks for:
 
 - 240 Poker card fronts
 - 12 Stage fronts
@@ -28,24 +28,51 @@ See `QA_REPORT.txt` for the exact checks.
 | Player Aid — Postcard Mat Set | 5 | 1875 × 1275 px |
 | Box — Medium Prototype Box | 1 | 5850 × 5400 px |
 
-## Important Stage orientation note
+The physical prototype is in Game Crafter production testing.
+
+## Stage orientation
 
 The Stage cards are **venue cards** and are designed to read as wide/landscape play pieces. The physical foil Euro card is uploaded using the required 825 × 1125 image file and is turned sideways at the table.
 
+## Current Tabletop Simulator build
+
+The current digital build is **v7.8**, aligned to the current physical prototype.
+
+Validated TTS content target:
+
+- 60 starter cards
+- 144 Wardrobe cards
+- 16 Thrift Store Throwbacks
+- 20 Penalty cards
+- 12 venue Stages
+- 12 Queens with current Signature Abilities and Special Appeals
+- current Player Aid front/back
+- standard 2–5 player setup
+- Siren Diesel vs. Opal Dynasty two-player teaching setup
+- Neon Nightclub opening teaching Stage
+- Beginner Mode guidance
+
+The package is named:
+
+`Haute_Hazard_v7.8_TTS_Playtest.zip`
+
+The generated package includes local image assets, standard/teaching TTS save templates, Windows and Unix install scripts, an asset manifest, checksums, and TTS QA notes. The package's save templates use a local asset placeholder that the installer rewrites to the user's Tabletop Simulator `file://` path. Online hosts should upload the assets through TTS Cloud Manager and resave before inviting remote players.
+
+TTS source/status files are kept in [`TTS/`](TTS/).
+
 ## Binary package status
 
-The production archive is named:
+Two generated binary archives correspond to the v7.8 target:
 
-`Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip`
+- `Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip`
+- `Haute_Hazard_v7.8_TTS_Playtest.zip`
 
-The current repository documentation describes the package, but the binary archive itself is **not stored in this directory yet**. The GitHub integration used to prepare v7.8 can write repository text but cannot transfer the local binary ZIP/JPG production package.
-
-Until that archive is manually attached or committed, use the files in this directory as the authoritative production manifest and documentation, not as a complete downloadable print-asset bundle.
+Large binary ZIP/JPG packages may still require manual GitHub attachment because the connected repository tooling can update text/source files but may not transfer the complete generated binary archive. Do not claim a GitHub binary attachment exists until it is actually visible in the repository or a GitHub Release.
 
 ## Version status
 
-- **v7.8** — current Game Crafter Print Edition.
+- **v7.8** — current physical and TTS playtest target.
 - **v7.7.1** — archived legacy Game Crafter prototype; reference only.
-- **v7.7** — Core/TTS playtest packages remain available for testing and comparison.
+- **v7.7** — archived Core/TTS/Promotional packages retained for historical comparison.
 
-Do not combine older Stage, Queen, Player Aid, or rules assets with the v7.8 Game Crafter edition unless deliberately testing an older or hybrid build.
+Do not combine older Stage, Queen, Player Aid, or rule assets with current v7.8 testing unless deliberately comparing versions.
