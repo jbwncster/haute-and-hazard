@@ -33,7 +33,7 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 
 The current digital playtest target is **v7.8**, aligned to the physical prototype's card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, Beginner Mode, and core rules.
 
-See [Tabletop Simulator Playtest](docs/TABLETOP_SIMULATOR.md) and the [v7.8 TTS source/status folder](releases/v7.8/TTS/).
+See [Tabletop Simulator Playtest](docs/TABLETOP_SIMULATOR.md), the [v7.8 cross-build alignment matrix](docs/V7_8_ALIGNMENT.md), and the [v7.8 TTS source/status folder](releases/v7.8/TTS/).
 
 The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a legacy comparison build only.
 
@@ -42,6 +42,7 @@ The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a le
 - [Publisher sell sheet](docs/PUBLISHER_SELL_SHEET.md) — one-page overview for publisher outreach, prototype status, core hook, and development goals.
 - [Beginner Mode](docs/BEGINNER_MODE.md) — recommended first-game rules; ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation while keeping the rest of the game intact.
 - [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
+- [v7.8 cross-build alignment](docs/V7_8_ALIGNMENT.md) — exact physical/TTS component and rules parity matrix.
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
 - [Current physical card pool](docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate Stage/Queen components.
