@@ -2,6 +2,8 @@
 
 This repository intentionally keeps older playtest builds for comparison. **Do not mix versioned components unless you are deliberately testing compatibility.**
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md). Any future element identified for legal/IP review should receive the same † marker until cleared or replaced.
+
 ## v7.8 — Current Physical + Digital Playtest Edition
 
 v7.8 is the current rules/component target for both the Game Crafter physical prototype and the Tabletop Simulator playtest build.
@@ -17,7 +19,7 @@ Key points:
 - Tenet/Brand color system retained
 - Tips/Shopping economy retained
 - Appeal / Matching / Perfect Illusion / Fusion retained
-- Dragdagulan LS retained
+- Dragdagulan† LS retained
 - dedicated v7.8 TTS standard and two-player teaching setups
 
 See [`../releases/v7.8/`](../releases/v7.8/) and [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md).
@@ -54,4 +56,4 @@ See [`../releases/v7.7/`](../releases/v7.7/).
 
 ## Older development materials
 
-Older rulebooks, proofs, and numbered test builds are historical development references. If an older rule conflicts with the current v7.8 physical/digital edition, use the current v7.8 card text, current production documentation, and current gameplay reference.
+Older rulebooks, proofs, and numbered test builds are historical development references. If an older rule conflicts with the current v7.8 physical/digital edition, use the current v7.8 card text, current production documentation, and current gameplay reference. Older files may predate the current † legal/IP-review labeling convention; their historical wording does not imply that a marked term has been cleared for commercial use.
