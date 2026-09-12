@@ -4,6 +4,8 @@
 
 v7.8 is the current rules/component target across the Game Crafter physical prototype and the Tabletop Simulator playtest build.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`../../docs/ATTRIBUTIONS.md`](../../docs/ATTRIBUTIONS.md).
+
 ## Physical component structure
 
 - **Rules** — 1 Medium Folio Set
@@ -18,7 +20,7 @@ v7.8 is the current rules/component target across the Game Crafter physical prot
 - Tenet / Brand color system
 - Tips and the Shopping cost economy
 - Appeal, Matching, Perfect Illusion, and Fusion
-- Dragdagulan using printed LS on the three battle-drawn cards plus explicit LS modifiers
+- **Dragdagulan†** using printed LS on the three battle-drawn cards plus explicit LS modifiers
 
 ## v7.8 changes
 
@@ -38,7 +40,7 @@ The current TTS build is now **v7.8** and mirrors the current physical prototype
 - 12 current Queens and Special Appeals;
 - current Player Aid wording;
 - current Beginner Mode and full Stage systems;
-- Tenet/Brand, Shopping, Look-state, Slay, and Dragdagulan rules.
+- Tenet/Brand, Shopping, Look-state, Slay, and **Dragdagulan†** rules.
 
 The package is named:
 
@@ -60,7 +62,7 @@ In Beginner Mode, read only these five Stage fields:
 - Reward
 - Venue Effect
 
-Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that game. All other systems stay active, including Tenets/Brands, Shopping, Matching, Perfect Illusion, Fusion, Queen abilities, Special Appeals, Slay, and Dragdagulan.
+Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that game. All other systems stay active, including Tenets/Brands, Shopping, Matching, Perfect Illusion, Fusion, Queen abilities, Special Appeals, Slay, and **Dragdagulan†**.
 
 ## Documentation
 
@@ -73,6 +75,7 @@ Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that g
 - [`TTS/`](TTS/) — current v7.8 Tabletop Simulator source/status files.
 - [`../../docs/BEGINNER_MODE.md`](../../docs/BEGINNER_MODE.md) — recommended first-game teaching rules.
 - [`../../docs/CURRENT_GAMEPLAY.md`](../../docs/CURRENT_GAMEPLAY.md) — current gameplay reference.
+- [`../../docs/ATTRIBUTIONS.md`](../../docs/ATTRIBUTIONS.md) — attribution and legal/IP-review labels.
 - [`../../docs/STARTING_DECKS.md`](../../docs/STARTING_DECKS.md) — starter-deck composition and setup.
 - [`../../docs/QUEEN_ROSTER.md`](../../docs/QUEEN_ROSTER.md) — 12 Queens, Signature Abilities, and Special Appeals.
 - [`../../docs/CARD_POOL.md`](../../docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate components.
@@ -87,8 +90,10 @@ The digital package is named `Haute_Hazard_v7.8_TTS_Playtest.zip`.
 
 Both packages are generated from the same v7.8 component/rules target. Binary ZIP/JPG assets may require manual attachment to GitHub when the repository connector cannot transfer large binary files; repository source/status documents must not be used to imply a binary attachment exists when it does not.
 
+Any component text or image containing a **† legal/IP-review element** must preserve that status until the element is cleared or replaced in both physical and digital builds.
+
 ## Version note
 
 **v7.7.1 and v7.7 are archived/legacy references. v7.8 is the current physical and digital playtest target.**
 
-This is an unpublished playtest prototype. Components, wording, and balance may change after testing.
+This is an unpublished playtest prototype. Components, wording, balance, and marked legal/IP-review elements may change after testing and review.
