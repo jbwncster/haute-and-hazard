@@ -8,9 +8,9 @@
 
 Fashion is power. The runway is a battlefield. Welcome to **Haute & Hazard**, the competitive drag deck-building game where only the sharpest eye and the boldest look survive.
 
-Choose your legendary Queen. Build your deck from the shared Wardrobe Rack. Pull wigs, makeup, gowns, shoes, and accessories together into a Coordinate that stops the show. Generate Tips to shop the Rack, build Appeal to Slay venue Stages, and bring your Lip Sync strength to the table when a Dragdagulan puts you head-to-head with a rival.
+Choose your legendary Queen. Build your deck from the shared Wardrobe Rack. Pull wigs, makeup, gowns, shoes, and accessories together into a Coordinate that stops the show. Generate Tips to shop the Rack, build Appeal to Slay venue Stages, and bring your Lip Sync strength to the table when a **Dragdagulan†** puts you head-to-head with a rival.
 
-> **Terminology attribution:** The term **Dragdagulan** is not original to *Haute & Hazard*. It is used by the Filipino drag competition series **Drag Den Philippines** for its showdown format. *Haute & Hazard* is not affiliated with or endorsed by *Drag Den Philippines* or its rights holders. See [Attributions and Inspiration Notes](docs/ATTRIBUTIONS.md) for the full note and publication-rights caution.
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md).
 
 Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store scraps into couture. Or sabotage the competition with a wardrobe malfunction timed just right. Earn Style Points. Survive the hazards. When the curtain falls, only one Queen truly slays.
 
@@ -20,7 +20,7 @@ Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store sc
 
 The project retains multiple numbered versions for testing and comparison. **v7.8 is now the current rules/component target for both the physical Game Crafter prototype and the Tabletop Simulator playtest build.** Older v7.7/v7.7.1 files remain in the repository for historical comparison and should not override current v7.8 rules or card text.
 
-Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping economy, Appeal/Matching/Perfect Illusion/Fusion, and Dragdagulan LS. It includes:
+Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping economy, Appeal/Matching/Perfect Illusion/Fusion, and **Dragdagulan†** LS. It includes:
 
 - 12 venue-style Stage cards;
 - a balanced 3 Pink / 3 Blue / 3 Purple / 3 Yellow Stage mix covering every Base Game Brand;
@@ -43,7 +43,8 @@ The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a le
 
 - [Publisher sell sheet](docs/PUBLISHER_SELL_SHEET.md) — one-page overview for publisher outreach, prototype status, core hook, and development goals.
 - [Beginner Mode](docs/BEGINNER_MODE.md) — recommended first-game rules; ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation while keeping the rest of the game intact.
-- [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan, and end game.
+- [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan†, and end game.
+- [Attributions & legal/IP review](docs/ATTRIBUTIONS.md) — source credits and the meaning of the † review marker.
 - [v7.8 cross-build alignment](docs/V7_8_ALIGNMENT.md) — exact physical/TTS component and rules parity matrix.
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
@@ -51,7 +52,6 @@ The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a le
 - [Tabletop Simulator playtest](docs/TABLETOP_SIMULATOR.md) — current v7.8 digital setup and legacy-build guidance.
 - [Feedback guide](docs/FEEDBACK.md) — quick feedback questions, 1–5 ratings, Beginner/Full Stage prompts, and detailed playtest guidance.
 - [Designer branding](docs/BRANDING.md) — official Jake Weiner Board Game Designer logo and usage guidance.
-- [Attributions and inspiration notes](docs/ATTRIBUTIONS.md) — source acknowledgments and publication-rights cautions for borrowed terminology such as Dragdagulan.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
 - [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — physical + TTS build/QA status and binary-package notes.
