@@ -1,6 +1,6 @@
 # Haute & Hazard: Step Into the Spotlight
 
-![Haute & Hazard promotional banner](docs/images/social-landscape.png)
+![Haute & Hazard promotional banner](docs/images/social-preview.jpg)
 
 <p align="center">
   <img src="docs/images/Logo.png" width="220" alt="Jake Weiner Board Game Designer logo">
