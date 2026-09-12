@@ -6,7 +6,7 @@ This folder records the **current v7.8 Tabletop Simulator conversion**, aligned 
 
 `Haute_Hazard_v7.8_TTS_Playtest.zip`
 
-The generated binary package contains the complete image assets, two TTS save files, installers, manifest, checksums, and QA notes. Large binary assets may require manual GitHub attachment; do not assume the ZIP is downloadable from GitHub unless it is visibly attached or committed.
+The generated binary package contains the complete image assets, two TTS setup JSONs, installers, manifest, checksums, and QA notes. Large binary assets may require manual GitHub attachment; do not assume the ZIP is downloadable from GitHub unless it is visibly attached or committed.
 
 ## Alignment target
 
@@ -19,7 +19,9 @@ The TTS build mirrors the current physical prototype:
 - current Beginner Mode and full Stage rules
 - current Tenet/Brand, Shopping, Matching, Perfect Illusion, Fusion, Slay, Dragdagulan, Penalty, and Final Judging rules
 
-## Included save configurations
+See [`../../../docs/V7_8_ALIGNMENT.md`](../../../docs/V7_8_ALIGNMENT.md) for the explicit physical/TTS parity matrix.
+
+## Included setup configurations
 
 ### Standard Setup
 
@@ -42,9 +44,17 @@ The TTS build mirrors the current physical prototype:
 - Beginner Mode guidance
 - otherwise current v7.8 rules
 
-## Local assets
+## Installing the local build
 
-The packaged TTS save templates use `__HH_ASSET_DIR__` as a placeholder. The included installer rewrites that placeholder to the user's local `file://` path and copies the image assets into the Tabletop Simulator data folder.
+The packaged setup JSONs use `__HH_ASSET_DIR__` as a placeholder for the bundled image directory.
+
+The included installers copy:
+
+- images to `Mods/Images/Haute_Hazard_v7.8`;
+- the named setup JSONs to `Mods/Workshop`;
+- then replace `__HH_ASSET_DIR__` with the correct local `file://` asset path.
+
+After installation, open **Tabletop Simulator → Games → Workshop** and load a `Haute_Hazard_v7.8` setup.
 
 For online multiplayer, the host should use **TTS Cloud Manager** to upload the local assets and then resave the table before inviting remote players.
 
@@ -55,6 +65,12 @@ For online multiplayer, the host should use **TTS Cloud Manager** to upload the 
 - [`../../../docs/BEGINNER_MODE.md`](../../../docs/BEGINNER_MODE.md)
 - [`../../../docs/STARTING_DECKS.md`](../../../docs/STARTING_DECKS.md)
 - [`../STAGE_VENUE_LIST.md`](../STAGE_VENUE_LIST.md)
+
+## QA status
+
+The generated JSON files parse successfully; component/deck counts, physical-to-TTS asset mapping, installer paths, counter data, and custom tile schema were checked. The package checksum and build metadata are recorded in this folder.
+
+**Runtime caveat:** Tabletop Simulator itself was not available in the build environment, so an actual in-app load remains the final runtime verification step. A streamer/playtester loading both setups is the appropriate next QA check.
 
 ## Legacy build
 
