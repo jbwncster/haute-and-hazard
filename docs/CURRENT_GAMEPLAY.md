@@ -6,6 +6,8 @@ This page summarizes the current Base Game systems used by the **v7.8 physical a
 
 Haute & Hazard is a competitive drag deck-building game for **2–5 players**. Each player controls a Queen, builds a four-piece fashion Coordinate, generates Tips for Shopping, builds Appeal to Slay the active Stage, and may challenge rivals to Dragdagulan.
 
+> **Terminology attribution:** The term **Dragdagulan** is not original to *Haute & Hazard*. It is used by the Filipino drag competition series **Drag Den Philippines** for its showdown format. *Haute & Hazard* is not affiliated with or endorsed by *Drag Den Philippines* or its rights holders. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 The standard end trigger is **30 Gross Style Points (SP)** at the end of Phase 4 or Curtain Call, or an empty Stage Deck after a Stage is Slayed. Final Score is Gross SP plus explicit end-game bonuses minus Penalty values.
 
 ## Coordinate
