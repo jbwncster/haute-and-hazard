@@ -2,6 +2,8 @@
 
 **Status:** Current physical + Tabletop Simulator playtest target / unpublished prototype.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`../../docs/ATTRIBUTIONS.md`](../../docs/ATTRIBUTIONS.md). Any future element identified for legal/IP review should use the same † marker until cleared or replaced.
+
 ## Physical production QA
 
 The generated v7.8 Game Crafter package passed the documented count and image-dimension checks for:
@@ -60,6 +62,10 @@ The generated package includes local image assets, standard/teaching TTS save te
 
 TTS source/status files are kept in [`TTS/`](TTS/).
 
+## Legal/IP status
+
+Any current physical or digital asset containing **Dragdagulan†** is prototype-only terminology pending legal/IP and publisher review. Regenerated rulebooks, player aids, cards, TTS images, save files, and publisher materials must retain the **†** marker/status until the term is cleared or replaced.
+
 ## Binary package status
 
 Two generated binary archives correspond to the v7.8 target:
@@ -75,4 +81,4 @@ Large binary ZIP/JPG packages may still require manual GitHub attachment because
 - **v7.7.1** — archived legacy Game Crafter prototype; reference only.
 - **v7.7** — archived Core/TTS/Promotional packages retained for historical comparison.
 
-Do not combine older Stage, Queen, Player Aid, or rule assets with current v7.8 testing unless deliberately comparing versions.
+Do not combine older Stage, Queen, Player Aid, or rule assets with current v7.8 testing unless deliberately comparing versions. Older archived binaries may predate the current † labeling convention and must not be interpreted as evidence that a marked term has been commercially cleared.
