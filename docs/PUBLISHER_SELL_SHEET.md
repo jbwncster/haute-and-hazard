@@ -32,7 +32,7 @@ Build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe
 
 ## Current prototype
 
-The current **v7.8 Game Crafter Print Edition** includes:
+The current **v7.8 playtest edition** includes:
 
 - 12 playable Queens
 - 5 identical 12-card starter decks
@@ -42,7 +42,9 @@ The current **v7.8 Game Crafter Print Edition** includes:
 - 12 venue-style Stage cards
 - player aids, Beginner Mode, and structured playtest feedback tools
 
-A physical Game Crafter prototype, rules documentation, print files, playtest materials, and a downloadable **Tabletop Simulator playtest package** are available through the project repository. The current downloadable TTS build is v7.7 and is maintained as a remote-play prototype while the dedicated v7.8 digital conversion is still in development.
+The physical Game Crafter prototype and the current **v7.8 Tabletop Simulator build** now target the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, and core rules. Current rules documentation, print-production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
+
+The older v7.7 TTS package remains archived for comparison only; current balance testing should use v7.8 when available.
 
 ## Development status
 
@@ -56,7 +58,7 @@ All Queens, Brands, terminology, and game-world material are original to **Haute
 
 A publisher interested in a visually distinctive, interactive hobby game and willing to evaluate a prototype while it is still being refined. Publisher development, editing, art direction, production changes, and further balance work are welcome.
 
-**Available for review:** rules · print-and-play files · Game Crafter prototype · Tabletop Simulator playtest files · component manifest · prototype photos · playtest documentation
+**Available for review:** rules · print-and-play files · Game Crafter prototype · v7.8 Tabletop Simulator playtest files · component manifest · prototype photos · playtest documentation
 
 ---
 
