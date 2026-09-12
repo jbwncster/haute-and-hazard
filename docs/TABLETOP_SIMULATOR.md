@@ -1,37 +1,58 @@
 # Haute & Hazard — Tabletop Simulator Playtest
 
-A downloadable **Tabletop Simulator (TTS) playtest package is available in this repository** for remote and digital prototype testing.
+The **current Tabletop Simulator playtest build is v7.8**, aligned to the current v7.8 Game Crafter physical prototype.
 
-## Current downloadable TTS package
+## Current TTS build
 
-**Package:** [`../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip`](../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip)
+**Package name:** `Haute_Hazard_v7.8_TTS_Playtest.zip`
 
-The v7.7 TTS package includes:
+The v7.8 TTS build contains:
 
-- a full standard playtest setup;
+- a 2–5 player standard setup;
 - a two-player teaching setup featuring **Siren Diesel vs. Opal Dynasty**;
-- local TTS assets;
-- installation/setup support for the included save files.
+- the current 240-card Poker Deck structure: 60 starter / 144 Wardrobe / 16 Thrift / 20 Penalty;
+- all 12 current venue Stages;
+- all 12 current Queens with Signature Abilities and once-per-game Special Appeals;
+- the current v7.8 Player Aid front and back;
+- local TTS assets and installer support;
+- a physical-card-to-TTS asset manifest and QA report.
 
-## Important version note
+The TTS source/status files live under [`../releases/v7.8/TTS/`](../releases/v7.8/TTS/). The complete binary ZIP includes the image assets; if the ZIP has not yet been attached to GitHub, use the source/status folder as the build record and attach the packaged ZIP separately.
 
-The **current physical Game Crafter prototype is v7.8**, while the downloadable TTS package remains **v7.7**. The TTS build is still useful for demonstrating the core game loop, deck-building, Coordinates, Shopping, Slay, and Dragdagulan, but it should not be treated as the authoritative source for every current v7.8 Stage, Queen, Special Appeal, or advanced Stage rule.
+## Rules alignment
 
-For the latest rules and card-system references, use:
+The digital and physical v7.8 builds use the same current rules for:
+
+- Tenets and Brands;
+- Tips and Shopping;
+- Face / Wig / Body / Shoes core Coordinates and optional Accessory;
+- Matching Looks;
+- Perfect Illusion;
+- Fusion;
+- Slay;
+- Dragdagulan using printed LS on the three battle-drawn cards plus explicit battle modifiers;
+- Penalty values and Final Judging;
+- current Queen abilities and Special Appeals;
+- current venue Stage fields and Beginner Mode.
+
+For authoritative wording, use:
 
 - [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md)
 - [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md)
 - [`BEGINNER_MODE.md`](BEGINNER_MODE.md)
+- [`STARTING_DECKS.md`](STARTING_DECKS.md)
 - [`../releases/v7.8/STAGE_VENUE_LIST.md`](../releases/v7.8/STAGE_VENUE_LIST.md)
 
-## Using the TTS package
+## Teaching setup
 
-Extract the ZIP and follow the included setup instructions. The package uses local assets, so remote multiplayer hosts may need to upload those assets through Tabletop Simulator's Cloud Manager and resave the table before inviting players on other computers.
+The v7.8 teaching save uses **Siren Diesel vs. Opal Dynasty**, opens at **Neon Nightclub**, and uses a fixed opening Wardrobe Market. Beginner Mode is recommended for a first session: use Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect, while ignoring Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for that game.
 
-## Publisher and reviewer access
+## Local assets and online play
 
-Publishers, reviewers, and playtesters can use the TTS package as a convenient way to inspect and play the prototype remotely. If a publisher is evaluating **Haute & Hazard**, the repository also contains the current sell sheet, gameplay documentation, feedback materials, and physical-prototype release documentation.
+The packaged saves use bundled local assets. Run the included installer so the save templates point to the correct local `file://` asset directory.
 
-## Conversion status
+For online multiplayer, the host should use Tabletop Simulator's **Cloud Manager** to upload the local assets and then resave the table before inviting remote players.
 
-A dedicated v7.8 TTS conversion is still a development task. Until that conversion is complete, keep the existing v7.7 digital package clearly labeled and do not mix its older Stage/Queen assumptions with the current v7.8 physical build unless intentionally comparing versions.
+## Legacy v7.7 package
+
+The old [`../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip`](../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) is retained **only as a legacy comparison build**. It is no longer the current digital playtest version and should not be used for current balance testing when v7.8 is available.
