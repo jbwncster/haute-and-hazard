@@ -1,0 +1,21 @@
+{
+  "version": "v7.8",
+  "status": "current physical + TTS playtest target",
+  "package": "Haute_Hazard_v7.8_TTS_Playtest.zip",
+  "package_size_bytes": 5310100,
+  "package_sha256": "0644c7c40f419747a36e1080f2af51a1b239029a2a55403178e933abb81de7fd",
+  "poker_deck": {
+    "total": 240,
+    "starter": {"ids": "001-060", "count": 60, "composition_per_player": "7 Basic Beat / 3 Messy Lip Sync / 2 Chapstick", "players": 5},
+    "wardrobe": {"ids": "061-204", "count": 144},
+    "thrift": {"ids": "205-220", "count": 16},
+    "penalties": {"ids": "221-240", "count": 20, "wardrobe_malfunction": 5, "the_chop": 10, "extermination": 5}
+  },
+  "stages": {"count": 12, "distribution": "3 Pink / 3 Blue / 3 Purple / 3 Yellow", "source": "../STAGE_VENUE_LIST.md"},
+  "queens": {"count": 12, "special_appeal": "once per game", "source": "../../../docs/QUEEN_ROSTER.md"},
+  "player_aids": {"copies": 5, "front": "Turn Aid", "back": "Systems Aid"},
+  "save_files": ["Haute_Hazard_v7.8_Standard_Setup.json", "Haute_Hazard_v7.8_Two_Player_Teaching.json"],
+  "teaching_setup": {"queens": ["Siren Diesel", "Opal Dynasty"], "opening_stage": "Neon Nightclub", "mode": "Beginner Mode"},
+  "asset_placeholder": "__HH_ASSET_DIR__",
+  "runtime_note": "JSON/assets validated; in-app TTS load test still required."
+}

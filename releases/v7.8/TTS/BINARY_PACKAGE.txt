@@ -1,0 +1,7 @@
+Package: Haute_Hazard_v7.8_TTS_Playtest.zip
+Size: 5,310,100 bytes
+SHA-256: 0644c7c40f419747a36e1080f2af51a1b239029a2a55403178e933abb81de7fd
+
+This checksum corresponds to the generated v7.8 TTS package containing the current 240-card Poker Deck structure, 12 venue Stages, 12 Queens, current Player Aid, standard + teaching saves, local image assets, installers, manifest, and QA notes.
+
+Large binary ZIP/JPG assets may require manual attachment to GitHub. Do not claim the binary is downloadable from the repository until the ZIP is visibly attached or committed.

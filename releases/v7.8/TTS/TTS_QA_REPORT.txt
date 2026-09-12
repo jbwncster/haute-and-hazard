@@ -1,0 +1,25 @@
+HAUTE & HAZARD v7.8 TTS QA
+
+Poker source cards: 240 (expected 240)
+- Starter: 60
+- Wardrobe: 144
+- Thrift: 16
+- Penalties: 20
+
+Stages: 12 (expected 12)
+Queens: 12 (expected 12)
+Player Aid front/back: current v7.8 physical images
+Standard save: current v7.8 decks / Stages / Queens / aids
+Teaching save: Siren Diesel vs. Opal Dynasty / Neon Nightclub / Beginner Mode note
+Asset mode: self-contained local assets with installer-rewritten __HH_ASSET_DIR__ placeholders
+JSON syntax validated for both generated save files
+Windows installer present: INSTALL_WINDOWS.ps1
+Unix installer present: INSTALL_UNIX.sh
+Legacy v7.7 package remains archived and is not the current balance-test target.
+
+Generated binary package:
+Haute_Hazard_v7.8_TTS_Playtest.zip
+Size: 5,310,100 bytes
+SHA-256: 0644c7c40f419747a36e1080f2af51a1b239029a2a55403178e933abb81de7fd
+
+LIMITATION: Tabletop Simulator itself was not available in the build environment, so JSON structure/counts and asset mapping were validated, but an in-app TTS load test still needs to be performed by a playtester before calling the digital build fully runtime-verified.
