@@ -10,6 +10,8 @@ Fashion is power. The runway is a battlefield. Welcome to **Haute & Hazard**, th
 
 Choose your legendary Queen. Build your deck from the shared Wardrobe Rack. Pull wigs, makeup, gowns, shoes, and accessories together into a Coordinate that stops the show. Generate Tips to shop the Rack, build Appeal to Slay venue Stages, and bring your Lip Sync strength to the table when a Dragdagulan puts you head-to-head with a rival.
 
+> **Terminology attribution:** The term **Dragdagulan** is not original to *Haute & Hazard*. It is used by the Filipino drag competition series **Drag Den Philippines** for its showdown format. *Haute & Hazard* is not affiliated with or endorsed by *Drag Den Philippines* or its rights holders. See [Attributions and Inspiration Notes](docs/ATTRIBUTIONS.md) for the full note and publication-rights caution.
+
 Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store scraps into couture. Or sabotage the competition with a wardrobe malfunction timed just right. Earn Style Points. Survive the hazards. When the curtain falls, only one Queen truly slays.
 
 **Build your deck. Assemble your look. Slay the Stage.**
@@ -49,6 +51,7 @@ The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a le
 - [Tabletop Simulator playtest](docs/TABLETOP_SIMULATOR.md) — current v7.8 digital setup and legacy-build guidance.
 - [Feedback guide](docs/FEEDBACK.md) — quick feedback questions, 1–5 ratings, Beginner/Full Stage prompts, and detailed playtest guidance.
 - [Designer branding](docs/BRANDING.md) — official Jake Weiner Board Game Designer logo and usage guidance.
+- [Attributions and inspiration notes](docs/ATTRIBUTIONS.md) — source acknowledgments and publication-rights cautions for borrowed terminology such as Dragdagulan.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
 - [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — physical + TTS build/QA status and binary-package notes.
