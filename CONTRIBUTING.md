@@ -2,6 +2,8 @@
 
 Thank you for testing **Haute & Hazard**.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md). Any other element identified for legal/IP review should be marked † until cleared or replaced.
+
 ## Before testing
 
 1. Confirm that every file used in the game belongs to the same intended build.
@@ -19,7 +21,7 @@ Before filing a full report, you can use [`docs/FEEDBACK.md`](docs/FEEDBACK.md) 
 - Shopping and deck-building;
 - Fashion, Tenets, Brands, and Look states;
 - Queen Signature Abilities and Special Appeals;
-- Dragdagulan and LS;
+- Dragdagulan† and LS;
 - rules clarity and terminology;
 - balance and pacing.
 
@@ -38,7 +40,7 @@ Open a **Playtest report** under Issues and record as much of the following as p
 - Wardrobe and Thrift purchases;
 - Action cards played;
 - cards trashed;
-- Dragdagulan attempts, wins, and notable LS totals;
+- Dragdagulan† attempts, wins, and notable LS totals;
 - penalties gained;
 - Queen Signature Ability and Special Appeal usage;
 - most fun moment;
@@ -55,6 +57,7 @@ When reporting balance concerns, describe the observed play pattern before propo
 - [`docs/FEEDBACK.md`](docs/FEEDBACK.md)
 - [`docs/BEGINNER_MODE.md`](docs/BEGINNER_MODE.md)
 - [`docs/CURRENT_GAMEPLAY.md`](docs/CURRENT_GAMEPLAY.md)
+- [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md)
 - [`docs/STARTING_DECKS.md`](docs/STARTING_DECKS.md)
 - [`docs/QUEEN_ROSTER.md`](docs/QUEEN_ROSTER.md)
 - [`docs/TABLETOP_SIMULATOR.md`](docs/TABLETOP_SIMULATOR.md)
