@@ -18,6 +18,16 @@ The designer logo is separate from the **Haute & Hazard** game identity. It shou
 - Social/promotional designer posts: visible but secondary to the game title.
 - GitHub documentation intended for publishers: top or closing contact section.
 
+## Legal/IP review labeling
+
+Any word, phrase, image, name, or other element marked **†** is working prototype material subject to legal/IP, trademark, and publisher review before commercial release. The marker must remain visible anywhere that element appears in current publisher-facing, playtest, promotional, social-media, presentation, rulebook, player-aid, or digital-build materials until it is cleared or replaced.
+
+Current marked terminology:
+
+- **Dragdagulan†** — working prototype term credited to *Drag Den Philippines*; may be renamed after legal/IP or publisher review. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
+When character limits make a full notice impractical on social media, use **Dragdagulan†** in the post and include a short note such as: `† Working prototype term; subject to legal/IP review.` Link to the repository attribution page when practical.
+
 ## Social media artwork
 
 The preferred landscape social-media / link-preview artwork for **Haute & Hazard** is:
