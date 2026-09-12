@@ -2,11 +2,11 @@
 
 This page summarizes the current Base Game systems used by the **v7.8 physical and Tabletop Simulator playtest editions**. It is a quick repository reference, not a replacement for the printed rulebook or card text.
 
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+
 ## Game goal
 
-Haute & Hazard is a competitive drag deck-building game for **2–5 players**. Each player controls a Queen, builds a four-piece fashion Coordinate, generates Tips for Shopping, builds Appeal to Slay the active Stage, and may challenge rivals to Dragdagulan.
-
-> **Terminology attribution:** The term **Dragdagulan** is not original to *Haute & Hazard*. It is used by the Filipino drag competition series **Drag Den Philippines** for its showdown format. *Haute & Hazard* is not affiliated with or endorsed by *Drag Den Philippines* or its rights holders. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
+Haute & Hazard is a competitive drag deck-building game for **2–5 players**. Each player controls a Queen, builds a four-piece fashion Coordinate, generates Tips for Shopping, builds Appeal to Slay the active Stage, and may challenge rivals to **Dragdagulan†**.
 
 The standard end trigger is **30 Gross Style Points (SP)** at the end of Phase 4 or Curtain Call, or an empty Stage Deck after a Stage is Slayed. Final Score is Gross SP plus explicit end-game bonuses minus Penalty values.
 
@@ -40,7 +40,7 @@ Every turn uses five phases:
 1. **Transformation** — equip Fashion, play Actions, use eligible Queen abilities.
 2. **The Reveal** — add printed Fashion resources, assign Wild Tenets, determine Look states, resolve Fusion/Matching abilities, then apply the Appeal multiplier.
 3. **Shopping** — spend Tips on the Wardrobe Rack and eligible Thrift Store cards.
-4. **Slay / Dragdagulan / Pass** — choose exactly one unless an effect says otherwise.
+4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
 5. **Cleanup** — archive temporary cards/hand as required, draw a new hand, reset Tips and Appeal.
 
 ## Look states
@@ -85,7 +85,7 @@ For a first game, use **Beginner Mode**. The Stage cards do not change; players 
 - Reward
 - Venue Effect
 
-Ignore **Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation** for the entire Beginner Mode game. All other game systems remain active, including Tenets/Brands, Shopping, Look states, Queen abilities, Special Appeals, Slay, and Dragdagulan.
+Ignore **Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation** for the entire Beginner Mode game. All other game systems remain active, including Tenets/Brands, Shopping, Look states, Queen abilities, Special Appeals, Slay, and **Dragdagulan†**.
 
 See [`BEGINNER_MODE.md`](BEGINNER_MODE.md) for the complete teaching rules.
 
@@ -95,9 +95,9 @@ A player may Slay the active Stage in Phase 4 if their current Appeal meets or e
 
 In Beginner Mode, do not check Spotlight Requirement and do not award Judge's Favor or Brand Ovation.
 
-## Dragdagulan
+## Dragdagulan†
 
-Dragdagulan is the head-to-head Lip Sync battle system.
+**Dragdagulan†** is the head-to-head Lip Sync battle system.
 
 1. Choose an opponent who is not Untouchable.
 2. Challenger and defender each draw **3 battle cards** from their personal Deck.
