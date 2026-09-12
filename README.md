@@ -14,20 +14,28 @@ Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store sc
 
 **Build your deck. Assemble your look. Slay the Stage.**
 
-## Current Game Crafter print edition: v7.8
+## Current playtest edition: v7.8
 
-The project retains multiple numbered versions for testing and comparison. Use files from the same version together; do not mix an older Stage deck, Queen set, Player Aid, or rulebook into a v7.8 Game Crafter game.
+The project retains multiple numbered versions for testing and comparison. **v7.8 is now the current rules/component target for both the physical Game Crafter prototype and the Tabletop Simulator playtest build.** Older v7.7/v7.7.1 files remain in the repository for historical comparison and should not override current v7.8 rules or card text.
 
-Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping economy, Appeal/Matching/Perfect Illusion/Fusion, and Dragdagulan LS. It updates the physical print edition with:
+Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping economy, Appeal/Matching/Perfect Illusion/Fusion, and Dragdagulan LS. It includes:
 
-- 12 venue-style Stage cards instead of challenge-name Stages;
+- 12 venue-style Stage cards;
 - a balanced 3 Pink / 3 Blue / 3 Purple / 3 Yellow Stage mix covering every Base Game Brand;
 - Judge, Spotlight, Judge's Favor, Featured Brand, and Brand Ovation on Stages;
 - 12 Jumbo Queens, each with a Signature Ability and one once-per-game Special Appeal;
 - updated Player Aids and Medium Folio rules;
-- the existing 240-card Poker Deck kept separate from the foil Stage deck;
-- updated Game Crafter upload specifications and QA documentation;
-- a **Beginner Mode** that teaches the game using only Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect on each Stage.
+- the 240-card Poker Deck: 60 starter / 144 Wardrobe / 16 Thrift / 20 Penalty;
+- a **Beginner Mode** that teaches the game using Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect before adding the advanced Stage layer;
+- a current **v7.8 Tabletop Simulator build** with standard and two-player teaching setups.
+
+## Tabletop Simulator
+
+The current digital playtest target is **v7.8**, aligned to the physical prototype's card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, Beginner Mode, and core rules.
+
+See [Tabletop Simulator Playtest](docs/TABLETOP_SIMULATOR.md) and the [v7.8 TTS source/status folder](releases/v7.8/TTS/).
+
+The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a legacy comparison build only.
 
 ## Documentation
 
@@ -37,8 +45,9 @@ Version 7.8 preserves the core Tenet/Brand color system, the Tips/Shopping econo
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
 - [Current physical card pool](docs/CARD_POOL.md) — exact 240-card Poker Deck accounting and separate Stage/Queen components.
+- [Tabletop Simulator playtest](docs/TABLETOP_SIMULATOR.md) — current v7.8 digital setup and legacy-build guidance.
 - [Feedback guide](docs/FEEDBACK.md) — quick feedback questions, 1–5 ratings, Beginner/Full Stage prompts, and detailed playtest guidance.
 - [Designer branding](docs/BRANDING.md) — official Jake Weiner Board Game Designer logo and usage guidance.
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
-- [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — QA status and binary-package availability.
+- [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — physical + TTS build/QA status and binary-package notes.
