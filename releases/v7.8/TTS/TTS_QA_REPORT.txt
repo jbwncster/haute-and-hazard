@@ -12,14 +12,18 @@ Player Aid front/back: current v7.8 physical images
 Standard save: current v7.8 decks / Stages / Queens / aids
 Teaching save: Siren Diesel vs. Opal Dynasty / Neon Nightclub / Beginner Mode note
 Asset mode: self-contained local assets with installer-rewritten __HH_ASSET_DIR__ placeholders
-JSON syntax validated for both generated save files
+Named setup JSONs install to Mods/Workshop; images install to Mods/Images/Haute_Hazard_v7.8
+Built-in Counter objects include Counter.value = 0
+Custom Tile save data uses ImageURL, ImageSecondaryURL, and WidthScale
+JSON syntax/schema spot-check passed: Haute_Hazard_v7.8_Standard_Setup.json
+JSON syntax/schema spot-check passed: Haute_Hazard_v7.8_Two_Player_Teaching.json
 Windows installer present: INSTALL_WINDOWS.ps1
 Unix installer present: INSTALL_UNIX.sh
 Legacy v7.7 package remains archived and is not the current balance-test target.
 
 Generated binary package:
 Haute_Hazard_v7.8_TTS_Playtest.zip
-Size: 5,310,100 bytes
-SHA-256: 0644c7c40f419747a36e1080f2af51a1b239029a2a55403178e933abb81de7fd
+Size: 5,310,131 bytes
+SHA-256: eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8
 
-LIMITATION: Tabletop Simulator itself was not available in the build environment, so JSON structure/counts and asset mapping were validated, but an in-app TTS load test still needs to be performed by a playtester before calling the digital build fully runtime-verified.
+LIMITATION: Tabletop Simulator itself was not available in the build environment, so JSON structure, deck/card counts, asset mapping, and save-schema spot checks were validated, but an in-app TTS load test still needs to be performed before calling the digital build fully runtime-verified.
