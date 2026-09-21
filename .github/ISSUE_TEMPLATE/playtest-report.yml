@@ -32,6 +32,7 @@ body:
       options:
         - Beginner Mode
         - Full Stage rules
+        - Alternate Two-Placement Stage Test
         - Mixed / modified teaching game
     validations:
       required: true
@@ -78,6 +79,12 @@ body:
     attributes:
       label: Beginner Mode teaching notes
       description: If this was a Beginner Mode game, what was easy to learn, what still caused confusion, and did ignoring the Judge/Spotlight layer help?
+
+  - type: textarea
+    id: alternate_stage
+    attributes:
+      label: Alternate two-placement Stage notes
+      description: If tested, record Stage Winner, Runner-Up, recorded Appeal, optional Dragdagulan† target/result, extra time, and whether Curtain Call timing was clear.
 
   - type: textarea
     id: looks
