@@ -4,6 +4,24 @@ This repository intentionally keeps older playtest builds for comparison. **Do n
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md). Any future element identified for legal/IP review should receive the same † marker until cleared or replaced.
 
+## v7.9 — Active Wardrobe / Tip Economy Development Candidate
+
+v7.9 is the **next-build development candidate**, not yet a synchronized physical/TTS release.
+
+Key candidate changes:
+
+- 130 unique Fashion cards instead of repeated copies of the same garment;
+- 14 unique Wardrobe Actions;
+- 144 distinct Wardrobe ability texts;
+- multiple different Faces, Wigs, Bodies, Shoes, and Accessories within each Brand;
+- every Poker card receives an explicit printed Tip value, including 0;
+- new **Tip Count** step before Transformation: printed Tips are banked from the cards in hand before those cards can be played/equipped;
+- purchased cards go to the Backstage Archive/personal discard pile and must be drawn in a later deck cycle before use.
+
+See [`V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md`](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
+
+The already-generated v7.8 Game Crafter, Print & Play, and TTS packages remain the last synchronized playable binaries until v7.9 assets are regenerated together.
+
 ## v7.8 — Current Physical + Digital Playtest Edition
 
 v7.8 is the current rules/component target for both the Game Crafter physical prototype and the Tabletop Simulator playtest build.
