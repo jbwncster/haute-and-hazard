@@ -13,6 +13,7 @@ This document records the newest generated working files for the **v7.8 prototyp
 | `Haute_Hazard_v7_8_Project_Bundle.zip` | Consolidated handoff bundle containing current publisher, branding, tracker, physical, and TTS materials | Current handoff bundle | `27d4720e30316f37fdcc590db40384cb715eb19d1cb90a2589925a5768ab326a` |
 | `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` | Publisher-facing one-page overview | Current generated PDF | `698852909d694ed77c030b0e551a2276e49e7c3ffdce8c30b7081cfa55785687` |
 | `Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip` | Current v7.8 physical-production package | Current physical playtest build | `b067089ebd85ccf8d657272e44f8a1ee1d85f9ba5e0add5bd185a78557ef96dc` |
+| `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip` | Noob-friendly home-print physical playtest kit with 240-card deck, Stages, Queens, Player Aids, rules, optional backs, and Start Here sheet | Current PnP handoff | `cf98822211032e2b76d11fb4b7f081cabc8459648f6ca92e877fd3d670e6dabb` |
 | `Haute_Hazard_v7.8_TTS_Playtest.zip` | Current v7.8 Tabletop Simulator package | Current digital playtest build; in-app runtime verification still required | `eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8` |
 | `Haute_Hazard_v7.8_Fashion_Card_Visual_Refresh.zip` | Working Game Crafter package with all 240 Poker-card fronts moved into the new copyright-safe fashion-card frame | **Review candidate; not yet canonical v7.8 print build** | `34456a92080078c3258a8876ec55e0867f240a1eb8abad6aff9767016650fe5d` |
 
