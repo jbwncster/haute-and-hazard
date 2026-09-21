@@ -6,11 +6,20 @@ Use this checklist to create a clean one-click folder for publishers.
 
 `Haute_Hazard_v7.8_Publisher_Submission_Jake_Weiner`
 
+## Current generated publisher files
+
+- `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` — current generated sell sheet.
+- `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx` — current 10-slide deck; overlap/layout correction pass completed.
+- `Haute_Hazard_v7_8_Project_Tracker.xlsx` — internal evidence/tracking workbook; include only if requested or useful to demonstrate playtest methodology.
+- `Haute_Hazard_v7_8_Project_Bundle.zip` — consolidated project handoff; do not send automatically unless a publisher asks for a full package.
+
+See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for current hashes and binary-attachment status.
+
 ## Include
 
 1. `00_START_HERE.md` — one paragraph, status, contact info, links.
-2. `Haute_Hazard_Publisher_Sell_Sheet.pdf` or [`PUBLISHER_SELL_SHEET.md`](PUBLISHER_SELL_SHEET.md).
-3. Pitch deck using [`PITCH_DECK.md`](PITCH_DECK.md).
+2. `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` or [`PUBLISHER_SELL_SHEET.md`](PUBLISHER_SELL_SHEET.md).
+3. `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx`, using [`PITCH_DECK.md`](PITCH_DECK.md) as the canonical slide script.
 4. Current rulebook / Medium Folio PDF when available.
 5. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
 6. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
@@ -27,7 +36,9 @@ Use this checklist to create a clean one-click folder for publishers.
 - old v7.7 material unless requested;
 - raw art/source files;
 - speculative expansions;
-- unrelated design notes.
+- unrelated design notes;
+- the internal project tracker unless the publisher wants process/playtest evidence;
+- the full project bundle when a lighter submission is requested.
 
 ## Start Here copy
 
@@ -39,4 +50,4 @@ Use this checklist to create a clean one-click folder for publishers.
 
 ## Submission principle
 
-Send only what a publisher asks for. If they ask first for a sell sheet, do not attach the whole repository.
+Send only what a publisher asks for. If they ask first for a sell sheet, do not attach the whole repository or the full project bundle.
