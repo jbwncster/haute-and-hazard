@@ -5,6 +5,23 @@
 
 Use this when someone streams, records, reviews, demonstrates, or publicly discusses a prototype session.
 
+## Designer / creator
+
+**Designer:** Jake Weiner  
+**Twitch:** **InAxolotlPain_Jakey**  
+**Portfolio:** https://enchantedlibrarytech.me  
+**Project repository:** https://github.com/jbwncster/haute-and-hazard
+
+Jake Weiner is a Raleigh, North Carolina-based board game designer and library professional. He is a **Certified Library Support Staff (CLSS)** professional and Library Technical Assistant at Wake Technical Community College, with experience in academic library operations, digital resources, accessibility, technology support, generative-AI initiatives, and public-facing communications. He is also completing a B.A. in American Indian Studies with a History minor at UNC Pembroke.
+
+For creator-led streams, credit the channel as:
+
+> **InAxolotlPain_Jakey — designer of Haute & Hazard**
+
+A short on-screen or description credit can use:
+
+> **Designed by Jake Weiner | Twitch: InAxolotlPain_Jakey | Haute & Hazard v7.8 prototype**
+
 ## Suggested stream title
 
 **Haute & Hazard v7.8 — Physical / Tabletop Simulator Prototype Playtest**
@@ -12,6 +29,10 @@ Use this when someone streams, records, reviews, demonstrates, or publicly discu
 Alternative for TTS-only streams:
 
 **Haute & Hazard v7.8 — Tabletop Simulator Playtest**
+
+For Jake's own channel:
+
+**Haute & Hazard v7.8 Playtest with the Designer | InAxolotlPain_Jakey**
 
 ## Short description
 
@@ -75,7 +96,7 @@ Components, balance, pacing, wording, art, terminology, advanced Stage systems, 
 
 If viewers ask where the game came from, a concise accurate answer is:
 
-> Haute & Hazard is an original drag-centered tabletop deck-builder. One major structural inspiration is Bandai's Data Carddass Aikatsu! arcade game, especially the high-level idea of fashion pieces as gameplay objects with categories, Brands, coordination, and performance value. Haute & Hazard transforms that inspiration into its own slots, Tenets, Brands, Shopping economy, persistent Coordinate, Stages, Queens, scoring, and rivalry systems.
+> Haute & Hazard began when Jake was watching the Aikatsu! anime, discovered the Data Carddass Aikatsu! fashion-card system, and later got into the DC Deck-Building Game. The project combines the high-level idea of fashion pieces as gameplay objects with a shared-market deck-building structure, then transforms those influences into an original drag-centered tabletop game with its own slots, Tenets, Brands, Shopping economy, persistent Coordinates, Stages, Queens, scoring, hazards, and rivalry systems.
 
 For the full design-history explanation, see [DESIGN_ORIGIN_AND_INSPIRATION.md](DESIGN_ORIGIN_AND_INSPIRATION.md).
 
@@ -91,9 +112,12 @@ For the full design-history explanation, see [DESIGN_ORIGIN_AND_INSPIRATION.md](
 - Queens are asymmetric and each has a once-per-game **Special Appeal**.
 - **Dragdagulan†** is the direct head-to-head Lip Sync battle system.
 - The game is still being actively developed, so confusion, pacing issues, and balance problems are valuable playtest feedback.
+- The current card presentation is being refreshed using **general fashion-card readability principles** while preserving Haute & Hazard's original visual identity and avoiding third-party art, trade dress, logos, or card-frame copying.
 
 ## Links
 
+- Twitch / designer streams: https://www.twitch.tv/inaxolotlpain_jakey
+- Designer portfolio: https://enchantedlibrarytech.me
 - Project repository: https://github.com/jbwncster/haute-and-hazard
 - Feedback form: https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml
 - Current Gameplay: [CURRENT_GAMEPLAY.md](CURRENT_GAMEPLAY.md)
@@ -102,6 +126,7 @@ For the full design-history explanation, see [DESIGN_ORIGIN_AND_INSPIRATION.md](
 - Beginner Mode: [BEGINNER_MODE.md](BEGINNER_MODE.md)
 - Queen Roster: [QUEEN_ROSTER.md](QUEEN_ROSTER.md)
 - Design Origin & Inspiration: [DESIGN_ORIGIN_AND_INSPIRATION.md](DESIGN_ORIGIN_AND_INSPIRATION.md)
+- Card Visual Refresh: [CARD_VISUAL_REFRESH.md](CARD_VISUAL_REFRESH.md)
 - Feedback Guide: [FEEDBACK.md](FEEDBACK.md)
 - Attributions / IP notes: [ATTRIBUTIONS.md](ATTRIBUTIONS.md)
 
