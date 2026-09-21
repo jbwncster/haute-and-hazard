@@ -39,12 +39,25 @@ See [Tabletop Simulator Playtest](docs/TABLETOP_SIMULATOR.md), the [v7.8 cross-b
 
 The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a legacy comparison build only.
 
+## Project kit
+
+- [Project kit index](docs/PROJECT_KIT_INDEX.md) — start here for playtest, publisher, streamer, data, and review materials.
+- [v7.8 Playtest Kit](docs/PLAYTEST_KIT.md) — tester-facing packet checklist and session process.
+- [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md) — short teaching sheet for first games.
+- [Pitch Deck Script](docs/PITCH_DECK.md) — slide-by-slide publisher pitch deck draft.
+- [Publisher Submission Package](docs/PUBLISHER_SUBMISSION_PACKAGE.md) — one-click publisher folder checklist.
+- [Streamer Media Kit](docs/STREAMER_MEDIA_KIT.md) — public-playtest copy, disclaimer, and capture checklist.
+- [State of the Prototype Template](docs/STATE_OF_PROTOTYPE_TEMPLATE.md) — report template after external v7.8 plays.
+- [Project data templates](docs/PROJECT_DATA_TEMPLATES.md) — CSV trackers for playtests, balance, cards, IP review, and rules questions.
+
 ## Documentation
 
 - [Publisher sell sheet](docs/PUBLISHER_SELL_SHEET.md) — one-page overview for publisher outreach, prototype status, core hook, and development goals.
 - [Beginner Mode](docs/BEGINNER_MODE.md) — recommended first-game rules; ignores Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation while keeping the rest of the game intact.
 - [Current gameplay reference](docs/CURRENT_GAMEPLAY.md) — Coordinate, Tenets/Brands, turn structure, Shopping, Slay, Dragdagulan†, and end game.
 - [Attributions & legal/IP review](docs/ATTRIBUTIONS.md) — source credits and the meaning of the † review marker.
+- [IP Review Register](docs/IP_REVIEW_REGISTER.md) — current legal/IP review watchlist and labeling policy.
+- [Art Direction Bible](docs/ART_DIRECTION_BIBLE.md) — visual direction for prototype and future publisher development.
 - [v7.8 cross-build alignment](docs/V7_8_ALIGNMENT.md) — exact physical/TTS component and rules parity matrix.
 - [Starting decks](docs/STARTING_DECKS.md) — exact 12-card Dressing Room Floor deck, setup, card roles, deck growth, and sorting guidance.
 - [Queen roster](docs/QUEEN_ROSTER.md) — all 12 Queens, Signature Abilities, and Special Appeals.
