@@ -10,7 +10,7 @@ For the current physical build, use **v7.8 Game Crafter Print Edition**. If you 
 
 If you do not want to write a full session report, answer these questions after the game:
 
-1. **Which mode did you play?** Beginner Mode or Full Stage Rules?
+1. **Which mode did you play?** Beginner Mode, Full Stage Rules, or the experimental Two-Placement Stage Test?
 2. **How many players were there, and how long did the game take?**
 3. **Which Queens were played?**
 4. **What was the most fun moment?**
@@ -61,6 +61,23 @@ After the game, ask:
 - Did players understand how to Slay a Stage without help?
 - Were players ready to add the advanced Stage layer after one game?
 - Was anything else still creating too much first-game complexity?
+
+## Experimental Two-Placement Stage feedback
+
+If you used the alternate Stage Winner/Runner-Up module in [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md), also record:
+
+- who became Stage Winner;
+- whether a Runner-Up qualified;
+- Runner-Up's recorded Appeal;
+- whether the Runner-Up used the optional Dragdagulan†;
+- who they challenged and the result;
+- whether Curtain Call timing was clear;
+- whether the Stage felt too long;
+- whether first place still felt valuable;
+- whether the Runner-Up rule increased engagement;
+- whether Dragdagulan† happened more often.
+
+Treat these sessions as experimental A/B tests, not as evidence about the canonical v7.8 Stage rules unless clearly separated.
 
 ## Full Stage Rules feedback
 
