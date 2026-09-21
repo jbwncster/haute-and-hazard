@@ -2,7 +2,7 @@
 
 Use a single structured source of truth for cards so the physical build, TTS build, rules docs, player aids, and balance tracker do not drift.
 
-Template file: [`../data/card_database_template.csv`](../data/card_database_template.csv)
+Template file: [../data/card_database_template.csv](../data/card_database_template.csv)
 
 ## Required fields
 
@@ -28,12 +28,40 @@ Template file: [`../data/card_database_template.csv`](../data/card_database_temp
 | ip_marker | Blank or † for legal/IP review material. |
 | source_doc | Where the canonical wording currently lives. |
 
+## Visual-refresh preservation rule
+
+The Aikatsu!-informed card refresh is a **visual and information-hierarchy project, not a mechanical rewrite**.
+
+When migrating a current card to the new visual system, preserve every applicable database value:
+
+- card name;
+- component;
+- card type;
+- slot;
+- Tenet;
+- Brand;
+- cost;
+- Tips;
+- Appeal;
+- LS;
+- SP;
+- quantity;
+- rules text;
+- current status;
+- IP marker.
+
+No field may be silently dropped because a new frame has less room. The frame must be redesigned to fit the canonical information.
+
+See [CARD_VISUAL_REFRESH.md](CARD_VISUAL_REFRESH.md).
+
 ## Rules
 
 1. Update the card database before changing a physical card, TTS card, player aid, or rules document.
 2. Do not independently rebalance the TTS and physical builds.
-3. If a term or asset is subject to legal/IP review, mark it with **†** and log it in [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
+3. If a term or asset is subject to legal/IP review, mark it with **†** and log it in [IP_REVIEW_REGISTER.md](IP_REVIEW_REGISTER.md).
 4. If a card is removed, mark it `retired`; do not delete the row.
+5. A visual refresh must not alter gameplay values or rules wording unless the same change is separately approved as a balance/rules revision.
+6. Third-party design inspiration may guide high-level hierarchy only; never store or ship copied third-party art, logos, frames, or trade dress as card assets.
 
 ## Suggested statuses
 
