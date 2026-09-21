@@ -18,9 +18,9 @@ This attribution is included to clearly acknowledge the source of the term and a
 
 Attribution does not itself resolve every possible trademark, branding, or other intellectual-property issue. Before commercial publication, the publisher/designer should conduct an appropriate rights review of **Dragdagulan†** and either obtain any permission that may be required or replace the term with an original Haute & Hazard name if advised.
 
-## Data Carddass Aikatsu! — documented design inspiration
+## Aikatsu! and Data Carddass Aikatsu! — documented design inspiration
 
-**Data Carddass Aikatsu!** is a documented structural inspiration for the fashion-game side of Haute & Hazard.
+The project's origin began with Jake **watching the *Aikatsu!* anime**, which led him to discover **Data Carddass Aikatsu!**. The anime provided the initial fashion/performance spark; the arcade/card system then became a documented structural inspiration for the fashion-game side of Haute & Hazard.
 
 The Aikatsu! arcade card game centers clothing/accessory cards used to dress a character for auditions, and its card data visibly uses fashion categories, Brands, and Appeal values. The Part 1 card list includes examples categorized as Tops, Bottoms, Shoes, Tops & Bottoms, and Accessories, with fields for type/category/Brand and Appeal Points.
 
@@ -44,6 +44,12 @@ Reference pages used during design documentation:
 - Data Carddass Aikatsu! Part 1: https://aikatsu.fandom.com/wiki/Data_Carddass_Aikatsu!_Part_1
 
 This is an **inspiration disclosure**, not a claim of affiliation, endorsement, license, or shared ownership.
+
+## DC Deck-Building Game — documented design inspiration
+
+After discovering Data Carddass Aikatsu!, Jake later got into the **DC Deck-Building Game**. That experience helped supply the deck-building framework for the tabletop concept: starting from a modest deck, acquiring stronger cards during play, and letting the player's deck evolve into a more specialized strategy.
+
+Haute & Hazard does not use DC characters, artwork, card names, story material, or licensed setting. This is a design-history disclosure of a high-level mechanical influence, not a claim of affiliation or license.
 
 ## Labeling policy
 
