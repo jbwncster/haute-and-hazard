@@ -74,3 +74,13 @@ The current project workspace now also has a **presentation-ready publisher pitc
 - [Version history](docs/VERSION_HISTORY.md) — current, legacy, and retained test builds.
 - [v7.8 Game Crafter upload guide](releases/v7.8/UPLOAD_GUIDE.md) — exact upload order, component folders, dimensions, and safe-zone notes.
 - [v7.8 release status](releases/v7.8/RELEASE_STATUS.md) — physical + TTS build/QA status and binary-package notes.
+
+
+## Designer
+
+**Jake Weiner** — Raleigh, North Carolina-based board game designer and academic-library professional. Jake is a Certified Library Support Staff (CLSS) professional and Library Technical Assistant at Wake Technical Community College, serves on Wake Tech's Gemini Pilot Program Team, and is completing a B.A. in American Indian Studies with a History minor at UNC Pembroke.
+
+**Twitch:** [InAxolotlPain_Jakey](https://www.twitch.tv/inaxoltlpain_jakey)  
+**Email:** jbwncster1@gmail.com  
+**Portfolio:** https://enchantedlibrarytech.me  
+**Designer bio:** [docs/DESIGNER.md](docs/DESIGNER.md)
