@@ -9,10 +9,11 @@ This document is not legal advice. It is a project-management register so protot
 | Item | Marker | Area | Source/origin note | Current use | Current status | Pre-publication action |
 |---|---|---|---|---|---|---|
 | Dragdagulan | † | Terminology | Credited to *Drag Den Philippines* as drag/lip-sync showdown terminology. | Name of the head-to-head Lip Sync battle system. | Working prototype term. | Legal/IP review; clear, license, or rename before commercial release. |
+| Data Carddass Aikatsu! influence | none unless a specific borrowed element is used | Design inspiration | Documented inspiration for fashion-card categories, Brand identity, outfit coordination, and performance-value concepts. | Historical/design explanation only; no Aikatsu! characters, Brands, art, layouts, or arcade implementation used. | Attribution documented. | During final publication review, confirm no copied names, art, trade dress, or protectable expression migrated into production assets. |
 | Prototype art | † if third-party or AI-derived | Visual assets | Some prototype assets may be placeholder, generated, or non-final. | Cards, social graphics, docs, TTS assets. | Placeholder/prototype only unless provenance is documented. | Replace with commissioned/cleared art or document license. |
 | Fonts/typefaces | † if non-system or externally licensed | Graphic design | Font files and licenses must be checked. | Cards, logos, player aids, sell sheets. | Needs production review. | Verify commercial license or replace. |
 | Logo/social lockups | † if containing non-cleared assets | Branding | Designer/game logo files are project assets but must be final-rights checked. | GitHub, sell sheets, social previews. | Usable for prototype; final rights review before publication. | Confirm source, license, and trademark strategy. |
-| Drag competition format references | † when direct/identifiable | Theme/inspiration | Broad genre inspiration is fine; direct names/formats need caution. | Pitch, descriptions, comparative language. | Use neutral descriptions. | Avoid implying affiliation or endorsement. |
+| Drag competition format references | † when direct/identifiable material is incorporated | Theme/inspiration | Broad genre inspiration is fine; direct names/formats need caution. | Pitch, descriptions, comparative language. | Use neutral descriptions except where explicit attribution is useful. | Avoid implying affiliation or endorsement. |
 
 ## How to add new items
 
@@ -22,6 +23,8 @@ Add a row when:
 - a logo, illustration, icon, photo, font, or layout uses third-party material;
 - a joke, name, character, or venue intentionally references an identifiable person, show, song, brand, or real venue;
 - a publisher, lawyer, playtester, or streamer flags an association.
+
+A third-party work cited **only as a documented inspiration source** does not automatically need †. The marker is for an element actually used in Haute & Hazard that still needs rights review.
 
 ## Required label text
 
