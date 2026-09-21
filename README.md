@@ -41,7 +41,10 @@ The older `releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip` is retained as a le
 
 ## Project kit
 
+The current project workspace now also has a **presentation-ready publisher pitch deck with the overlap/layout issues corrected**, a consolidated **project tracker workbook**, and a **v7.8 project handoff bundle**. Binary availability on GitHub should only be assumed when the corresponding file is visibly committed or attached; see [Generated Artifact Status](docs/GENERATED_ARTIFACTS.md) for current filenames and SHA-256 hashes.
+
 - [Project kit index](docs/PROJECT_KIT_INDEX.md) — start here for playtest, publisher, streamer, data, and review materials.
+- [Generated artifact status](docs/GENERATED_ARTIFACTS.md) — current PPTX, XLSX, ZIP, PDF, physical-build, and TTS artifact record.
 - [v7.8 Playtest Kit](docs/PLAYTEST_KIT.md) — tester-facing packet checklist and session process.
 - [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md) — short teaching sheet for first games.
 - [Pitch Deck Script](docs/PITCH_DECK.md) — slide-by-slide publisher pitch deck draft.
