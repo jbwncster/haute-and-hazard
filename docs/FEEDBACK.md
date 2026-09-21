@@ -22,6 +22,8 @@ If you do not want to write a full session report, answer these questions after 
 10. **Did any Queen, card, Brand, Tenet, Stage, or Special Appeal feel much stronger or weaker than the rest?**
 11. **Did the game feel too short, too long, or about right?**
 12. **Would you play again? Why or why not?**
+13. **Did the game feel like one connected night of drag performance, or like separate systems sitting next to each other?**
+14. **Did the mini-lore / Backstage Beat framing help the rules make more sense or improve immersion?**
 
 ## Rate the experience
 
@@ -38,6 +40,8 @@ A simple 1–5 rating is useful for comparing multiple playtests.
 | Dragdagulan† | Flat/confusing | Fine | Tense and memorable |
 | Player interaction | Too little/awkward | About right | Excellent |
 | Game length | Poor fit | Acceptable | Felt right |
+| Theme/mechanics integration | Felt disconnected | Mostly connected | Theme and systems reinforced each other |
+| Lore / rulebook immersion | Distracting or unclear | Neutral | Helped the game world click |
 | Overall fun | Would not replay | Might replay | Want to play again |
 
 ## Beginner Mode feedback
@@ -89,6 +93,30 @@ When using the complete Stage system, specifically note:
 - whether those bonuses changed deck-building or Coordinate decisions;
 - whether the extra Stage information felt rewarding or merely busy;
 - whether any Stage was consistently easier or harder than its Slay Target suggested.
+
+## Theme, inspiration, and lore feedback
+
+Haute & Hazard was built from a specific design path: watching the *Aikatsu!* anime led to discovering Data Carddass Aikatsu!, and later the DC Deck-Building Game suggested a deck-building structure for the tabletop version. The current design transforms those influences into an original drag-centered system.
+
+For playtesting, do **not** judge whether the game resembles those sources closely. Instead, ask whether the intended design goals are working:
+
+- Does fashion feel mechanically important rather than decorative?
+- Does Shopping feel like building a wardrobe rather than buying abstract cards?
+- Does the deck become more personal over time?
+- Does a persistent Coordinate make the Queen's fashion identity visible on the table?
+- Do Stages feel like different venues with different audiences and expectations?
+- Does Dragdagulan† feel like a natural escalation of rivalry?
+- Does the game feel like one night moving from backstage preparation to performance, confrontation, Curtain Call, and Final Judging?
+
+The next rulebook revision uses a light **Haute Circuit** lore thread with short **Backstage Beat** callouts. If testing that version, record whether the lore:
+
+- improved understanding;
+- improved atmosphere;
+- was easy to ignore when concentrating on rules;
+- ever obscured or competed with mechanical instructions;
+- made Curtain Call and Final Judging feel more meaningful.
+
+See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) and [`RULEBOOK_LORE_THREAD.md`](RULEBOOK_LORE_THREAD.md) for the intended design context.
 
 ## Shopping and deck-building feedback
 
@@ -199,7 +227,23 @@ A detailed report should include:
 - strongest and weakest-feeling cards or strategies;
 - most fun moment;
 - one thing you would change;
-- whether the group would play again.
+- whether the group would play again;
+- whether the theme and mechanics felt integrated;
+- whether the lore/rulebook framing helped or distracted;
+- whether this was streamed/recorded and, if so, the channel or creator name.
+
+## Streamed / recorded playtests
+
+If the session was streamed or recorded, include:
+
+- platform;
+- channel / creator name;
+- date;
+- link to the VOD/video if public;
+- whether the designer was present;
+- any rules questions that came specifically from viewers or spectators.
+
+Designer-led streams may be credited as **InAxolotlPain_Jakey — designer of Haute & Hazard** on Twitch.
 
 ## Submit feedback
 
