@@ -46,6 +46,8 @@ The current project workspace now also has a **presentation-ready publisher pitc
 - [Project kit index](docs/PROJECT_KIT_INDEX.md) — start here for playtest, publisher, streamer, data, and review materials.
 - [Generated artifact status](docs/GENERATED_ARTIFACTS.md) — current PPTX, XLSX, ZIP, PDF, physical-build, and TTS artifact record.
 - [v7.8 Playtest Kit](docs/PLAYTEST_KIT.md) — tester-facing packet checklist and session process.
+- [Design Origin & Inspiration](docs/DESIGN_ORIGIN_AND_INSPIRATION.md) — playtester/publisher explanation of how the game came to be, including the documented Data Carddass Aikatsu! influence.
+- [Rulebook Lore Thread](docs/RULEBOOK_LORE_THREAD.md) — The Haute Circuit mini-lore and Backstage Beat callouts for the next Medium Folio rules revision.
 - [Alternate Two-Placement Stage Rules](docs/ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) — experimental Stage Winner → Runner-Up → optional Dragdagulan† → Curtain Call module for A/B playtesting; not canonical v7.8.
 - [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md) — short teaching sheet for first games.
 - [Pitch Deck Script](docs/PITCH_DECK.md) — slide-by-slide publisher pitch deck draft.
