@@ -4,6 +4,21 @@ The **current Tabletop Simulator playtest build is v7.8**, aligned to the curren
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 
+## New player quick start
+
+If you just want to play digitally:
+
+1. Download **`Haute_Hazard_v7.8_TTS_Playtest.zip`**.
+2. Extract the ZIP.
+3. On Windows, run **`INSTALL_WINDOWS.ps1`**. On macOS/Linux, use **`INSTALL_UNIX.sh`**.
+4. Launch Tabletop Simulator and open the installed v7.8 save.
+5. For your first game, use the **two-player teaching setup** or the standard setup with **Beginner Mode**.
+6. Read [Learn to Play in 5 Minutes](LEARN_TO_PLAY_5_MIN.md) before opening the full rules reference.
+
+If the complete ZIP is not visibly attached on GitHub, the [`../releases/v7.8/TTS/`](../releases/v7.8/TTS/) folder is the authoritative source/status record; the binary package must be distributed separately.
+
+For a physical game instead, use [Print & Play Physical Kit](PRINT_AND_PLAY.md).
+
 ## Current TTS build
 
 **Package name:** `Haute_Hazard_v7.8_TTS_Playtest.zip`
