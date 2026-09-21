@@ -117,6 +117,18 @@ body:
       description: Quote the exact rule/card wording when possible and explain what happened before the question came up.
 
   - type: textarea
+    id: theme_lore
+    attributes:
+      label: Theme, design intent, and lore
+      description: Did fashion, Shopping, Coordinates, Stages, rivalry, and Final Judging feel like one connected drag-performance experience? If using the Haute Circuit / Backstage Beat lore, did it help understanding or immersion?
+
+  - type: textarea
+    id: stream
+    attributes:
+      label: Stream / recording details
+      description: If this session was streamed or recorded, include platform, channel/creator, public VOD link if available, and whether the designer was present. Designer Twitch: InAxolotlPain_Jakey.
+
+  - type: textarea
     id: balance
     attributes:
       label: Balance observations
