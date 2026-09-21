@@ -29,7 +29,17 @@ Current package names:
 - `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`
 - `Haute_Hazard_v7.8_TTS_Playtest.zip`
 
-## Current playtest edition: v7.8
+## In development: v7.9 Wardrobe / Tip Economy Candidate
+
+The next-build card redesign is now documented in [v7.9 Wardrobe + Tip Economy Candidate](docs/V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
+
+The candidate replaces repeated same-garment Wardrobe copies with **130 unique Fashion cards + 14 unique Actions**, so players have multiple genuinely different Faces, Wigs, Bodies, Shoes, and Accessories within the same Brand. Every candidate Wardrobe card has distinct ability text.
+
+It also formalizes **printed Tips on every Poker card**. At the start of a turn, players perform **Tip Count** from the cards in hand before playing/equipping them. Purchased cards go to the player's Archive/discard and must be drawn later before use.
+
+**v7.8 remains the last synchronized physical/TTS package while v7.9 is being rebuilt.**
+
+## Current packaged playtest edition: v7.8
 
 The project retains multiple numbered versions for testing and comparison. **v7.8 is now the current rules/component target for both the physical Game Crafter prototype and the Tabletop Simulator playtest build.** Older v7.7/v7.7.1 files remain in the repository for historical comparison and should not override current v7.8 rules or card text.
 
