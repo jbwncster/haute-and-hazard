@@ -16,6 +16,19 @@ Every round is a choice. Serve a flawless Perfect Illusion. Turn thrift-store sc
 
 **Build your deck. Assemble your look. Slay the Stage.**
 
+## Playtesters: start here
+
+**New player? Do not dig through the repository.** Start with [PLAYTESTERS START HERE](docs/PLAYTEST_START_HERE.md).
+
+- **Physical / Print & Play:** [Print & Play Physical Kit](docs/PRINT_AND_PLAY.md) — print-ready PDFs, sleeve-friendly instructions, and the current physical package filename.
+- **Tabletop Simulator:** [TTS Digital Kit](docs/TABLETOP_SIMULATOR.md) — current v7.8 package, installer, teaching setup, and online-play notes.
+- **First game:** [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md) + [Beginner Mode](docs/BEGINNER_MODE.md).
+
+Current package names:
+
+- `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`
+- `Haute_Hazard_v7.8_TTS_Playtest.zip`
+
 ## Current playtest edition: v7.8
 
 The project retains multiple numbered versions for testing and comparison. **v7.8 is now the current rules/component target for both the physical Game Crafter prototype and the Tabletop Simulator playtest build.** Older v7.7/v7.7.1 files remain in the repository for historical comparison and should not override current v7.8 rules or card text.
