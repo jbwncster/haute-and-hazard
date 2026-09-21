@@ -18,12 +18,41 @@ This attribution is included to clearly acknowledge the source of the term and a
 
 Attribution does not itself resolve every possible trademark, branding, or other intellectual-property issue. Before commercial publication, the publisher/designer should conduct an appropriate rights review of **Dragdagulan†** and either obtain any permission that may be required or replace the term with an original Haute & Hazard name if advised.
 
+## Data Carddass Aikatsu! — documented design inspiration
+
+**Data Carddass Aikatsu!** is a documented structural inspiration for the fashion-game side of Haute & Hazard.
+
+The Aikatsu! arcade card game centers clothing/accessory cards used to dress a character for auditions, and its card data visibly uses fashion categories, Brands, and Appeal values. The Part 1 card list includes examples categorized as Tops, Bottoms, Shoes, Tops & Bottoms, and Accessories, with fields for type/category/Brand and Appeal Points.
+
+Haute & Hazard draws inspiration from the **general design idea** that fashion pieces can be mechanically categorized, coordinated, branded, and tied to performance value. Haute & Hazard does **not** use Aikatsu! characters, artwork, Brand names, card layouts, or its arcade scanning/rhythm-game implementation.
+
+Haute & Hazard transforms that inspiration into its own tabletop systems, including:
+
+- Face / Wig / Body / Shoes / Accessory slots;
+- original Tenets and Brands;
+- a persistent Coordinate tableau;
+- Tips and the Shopping economy;
+- Matching Looks, Perfect Illusion, and Fusion;
+- asymmetric Queens;
+- venue Stages;
+- Gross SP and Penalties;
+- Dragdagulan† and LS battles.
+
+Reference pages used during design documentation:
+
+- Data Carddass Aikatsu!: https://aikatsu.fandom.com/wiki/Data_Carddass_Aikatsu!
+- Data Carddass Aikatsu! Part 1: https://aikatsu.fandom.com/wiki/Data_Carddass_Aikatsu!_Part_1
+
+This is an **inspiration disclosure**, not a claim of affiliation, endorsement, license, or shared ownership.
+
 ## Labeling policy
 
 When **Dragdagulan†** appears in current public-facing rules, publisher materials, playtest documentation, digital-build documentation, or other repository text, it should carry the **†** marker or be accompanied by an explicit legal/IP-review notice in the same document.
 
 If another prototype term, image, name, phrase, visual asset, or third-party-derived element is later identified as requiring legal/IP review, it should receive the same **†** treatment until cleared or replaced.
 
+Direct references to third-party works made only for **historical attribution, design-inspiration disclosure, or comparison** do not themselves receive the † marker unless the referenced element is actually being used as part of Haute & Hazard.
+
 ## General inspiration policy
 
-Haute & Hazard may draw broad inspiration from drag performance culture, fashion games, deck-building games, and televised competition formats, but its rules text, characters, Brands, Tenets, card systems, scoring, and game-world material are intended to be original unless an attribution or **† legal/IP-review** note says otherwise.
+Haute & Hazard may draw broad inspiration from drag performance culture, fashion games, deck-building games, arcade fashion-card games, nightlife, and televised competition formats, but its rules text, characters, Brands, Tenets, card systems, scoring, and game-world material are intended to be original unless an attribution or **† legal/IP-review** note says otherwise.
