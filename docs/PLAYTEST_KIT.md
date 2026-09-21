@@ -2,6 +2,17 @@
 
 Use this kit for structured physical or Tabletop Simulator testing of the current v7.8 prototype.
 
+## Fastest path for a new tester
+
+Send new testers to [`PLAYTEST_START_HERE.md`](PLAYTEST_START_HERE.md), not the repository root.
+
+They will choose:
+
+- **Physical:** [`PRINT_AND_PLAY.md`](PRINT_AND_PLAY.md), using `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`.
+- **Digital:** [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md), using `Haute_Hazard_v7.8_TTS_Playtest.zip`.
+
+For either route, first-time players should read [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md) and use Beginner Mode.
+
 ## Recommended folder contents
 
 For a tester-facing ZIP or folder, include:
