@@ -18,7 +18,7 @@ Template file: [../data/card_database_template.csv](../data/card_database_templa
 | tenet | Pink, Blue, Purple, Yellow, Neutral, None. |
 | brand | Named Brand or None. |
 | cost | Tip cost if purchasable. |
-| tips | Tips generated or modified. |
+| tips | **Printed Tip value** contributed from hand during Tip Count. Use 0 explicitly when a card provides no printed purchasing power. |
 | appeal | Appeal generated or modified. |
 | ls | Printed LS if any. |
 | sp | Gross SP or printed Stage reward if applicable. |
@@ -53,6 +53,20 @@ When migrating a current card to the new visual system, preserve every applicabl
 No field may be silently dropped because a new frame has less room. The frame must be redesigned to fit the canonical information.
 
 See [CARD_VISUAL_REFRESH.md](CARD_VISUAL_REFRESH.md).
+
+## v7.9 candidate card-design rules
+
+For the active v7.9 Wardrobe redesign candidate:
+
+- every Poker card has an explicit printed Tip value, including 0;
+- Cost and printed Tips are separate fields and must never be conflated;
+- printed Tips are counted from the player's hand at the start of the turn before cards are played/equipped;
+- every one of the 144 Wardrobe cards is unique in the candidate database;
+- no two candidate cards share identical ability text;
+- no Brand/slot combination is represented only by repeated copies of one garment;
+- Brand defines a strategic family, while each garment must create its own purchase reason.
+
+See [V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
 
 ## Rules
 
