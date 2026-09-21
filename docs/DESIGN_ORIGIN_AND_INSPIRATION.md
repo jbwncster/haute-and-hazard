@@ -6,17 +6,27 @@ This document explains **how Haute & Hazard came together, what each major syste
 
 > **Important:** Inspiration does not mean replication. Haute & Hazard combines influences into its own rules, characters, scoring, deck-building economy, Stage structure, battle system, and drag-centered game world. Anything that may require specific legal/IP review is marked **†** and tracked in [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
 
-## The starting idea
+## How the idea actually started
 
-The game grew from one central design goal:
+The project began in a very specific sequence.
+
+Jake was **watching the *Aikatsu!* anime** and became interested in the way fashion, Brands, outfits, and performance were treated as part of the characters' identities. That led him to discover the **Data Carddass Aikatsu!** arcade/card system behind the franchise, where fashion cards are selected and coordinated for performances.
+
+Later, after getting into the **DC Deck-Building Game**, the missing tabletop structure clicked into place: the fashion-card idea could be combined with a deck-building progression where players start small, acquire better cards during play, and gradually create a more distinctive personal deck.
+
+From there, the concept changed substantially. The question became:
+
+> **What if a fashion-coordinate card game and a deck-builder were rebuilt around drag performance, nightlife, competition, shopping, and direct rivalry?**
+
+That became the core identity of **drag + fashion coordination + deck-building + performance + rivalry**.
+
+The design goal that followed was:
 
 > **Make drag performance matter mechanically, not just aesthetically.**
 
 Instead of applying drag as a surface theme to an unrelated card game, the design asks what players do in a competitive drag-performance fantasy: build a look, shop for stronger pieces, develop a persona, perform for a room, earn audience response, confront rivals, survive mishaps, and leave the night with the strongest reputation.
 
-That became the core identity of **drag + fashion coordination + deck-building + performance + rivalry**.
-
-## Data Carddass Aikatsu!† — a major structural inspiration
+## Aikatsu! anime → Data Carddass Aikatsu! — the fashion-game spark
 
 One of the clearest structural inspirations is **Bandai's Data Carddass Aikatsu! arcade collectible card game**. In that game, players use cards representing clothes and accessories to dress a character for auditions, and the quality of the outfit contributes to performance. Early card lists visibly organize cards by fashion category, style/type, Brand, and Appeal Points.
 
@@ -42,6 +52,12 @@ Haute & Hazard deliberately changes the implementation:
 ### Terminology review note
 
 Because **Appeal** and **Special Appeal†** are also terms visibly associated with Aikatsu!, their continued use in Haute & Hazard should be reviewed before commercial publication even though the implementation is materially different. The current prototype may continue using them for testing; the project does not claim those terms originated here.
+
+## DC Deck-Building Game — the deck-building bridge
+
+After the Aikatsu!/Carddass idea established the fashion side, the **DC Deck-Building Game** helped provide the tabletop lens for progression: begin with a basic deck, acquire stronger/more specialized cards during play, and let the player's deck become more individual over the course of the session.
+
+Haute & Hazard does not use DC characters, card names, art, or its specific licensed setting. The influence is the broader deck-building structure and the experience of a deck changing during play.
 
 ## Why deck-building?
 
