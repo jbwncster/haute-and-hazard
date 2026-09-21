@@ -46,6 +46,7 @@ The current project workspace now also has a **presentation-ready publisher pitc
 - [Project kit index](docs/PROJECT_KIT_INDEX.md) — start here for playtest, publisher, streamer, data, and review materials.
 - [Generated artifact status](docs/GENERATED_ARTIFACTS.md) — current PPTX, XLSX, ZIP, PDF, physical-build, and TTS artifact record.
 - [v7.8 Playtest Kit](docs/PLAYTEST_KIT.md) — tester-facing packet checklist and session process.
+- [Alternate Two-Placement Stage Rules](docs/ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) — experimental Stage Winner → Runner-Up → optional Dragdagulan† → Curtain Call module for A/B playtesting; not canonical v7.8.
 - [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md) — short teaching sheet for first games.
 - [Pitch Deck Script](docs/PITCH_DECK.md) — slide-by-slide publisher pitch deck draft.
 - [Publisher Submission Package](docs/PUBLISHER_SUBMISSION_PACKAGE.md) — one-click publisher folder checklist.
