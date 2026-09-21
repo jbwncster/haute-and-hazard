@@ -7,16 +7,17 @@ Use this kit for structured physical or Tabletop Simulator testing of the curren
 For a tester-facing ZIP or folder, include:
 
 1. `README_START_HERE.md` or this file.
-2. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
-3. [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
-4. [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) when deliberately testing the experimental two-placement Stage module.
-5. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
-6. [`STARTING_DECKS.md`](STARTING_DECKS.md).
-7. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
-8. [`FEEDBACK.md`](FEEDBACK.md).
-9. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
-10. The current player aid files/images.
-11. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
+2. [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) — why the game exists and what inspired its major systems.
+3. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
+4. [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
+5. [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) when deliberately testing the experimental two-placement Stage module.
+6. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+7. [`STARTING_DECKS.md`](STARTING_DECKS.md).
+8. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
+9. [`FEEDBACK.md`](FEEDBACK.md).
+10. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
+11. The current player aid files/images.
+12. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
 
 ## Which build to use
 
