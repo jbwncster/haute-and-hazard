@@ -48,6 +48,10 @@ The physical Game Crafter prototype and the current **v7.8 Tabletop Simulator bu
 
 The older v7.7 TTS package remains archived for comparison only; current balance testing should use v7.8 when available.
 
+## Design provenance
+
+Haute & Hazard's fashion-card structure is partly inspired by **Data Carddass Aikatsu!** at a high level: fashion pieces as gameplay objects with categories, Brands, coordination, and performance value. Haute & Hazard transforms those ideas into an original drag-centered tabletop deck-builder with its own slots, Tenets, Brands, Shopping economy, persistent Coordinate, Stages, Queens, scoring, and rivalry systems. See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) for the full design-history explanation and [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) for attribution/IP notes.
+
 ## Development status
 
 **Haute & Hazard is a playable prototype in active iterative playtesting, not a finished commercial product.** Balance, pacing, wording, component counts, graphic design, advanced Stage systems, and marked **† legal/IP-review elements** remain open to development.
