@@ -50,7 +50,7 @@ The older v7.7 TTS package remains archived for comparison only; current balance
 
 ## Design provenance
 
-Haute & Hazard's fashion-card structure is partly inspired by **Data Carddass Aikatsu!** at a high level: fashion pieces as gameplay objects with categories, Brands, coordination, and performance value. Haute & Hazard transforms those ideas into an original drag-centered tabletop deck-builder with its own slots, Tenets, Brands, Shopping economy, persistent Coordinate, Stages, Queens, scoring, and rivalry systems. See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) for the full design-history explanation and [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) for attribution/IP notes.
+The project began while Jake was **watching the *Aikatsu!* anime**, which led him to discover **Data Carddass Aikatsu!** and its fashion-card/coordination structure. Later, getting into the **DC Deck-Building Game** suggested the deck-building progression that could turn that fashion idea into a tabletop game. Haute & Hazard transforms those influences into an original drag-centered design with its own slots, Tenets, Brands, Shopping economy, persistent Coordinate, Stages, Queens, scoring, and rivalry systems. See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) for the full design-history explanation and [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) for attribution/IP notes.
 
 ## Development status
 
