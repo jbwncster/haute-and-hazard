@@ -118,6 +118,21 @@ The next rulebook revision uses a light **Haute Circuit** lore thread with short
 
 See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) and [`RULEBOOK_LORE_THREAD.md`](RULEBOOK_LORE_THREAD.md) for the intended design context.
 
+## v7.9 Wardrobe / Tip Count candidate feedback
+
+If you are deliberately testing the v7.9 candidate, record:
+
+- whether multiple cards from the same Brand + slot create meaningfully different choices;
+- whether the Brand still feels coherent despite unique garment abilities;
+- whether Tip Count is remembered before Transformation;
+- whether players understand that counting a card's printed Tips does not discard it;
+- whether players accidentally count equipped cards' printed Tips again;
+- whether 0-Tip cards remain attractive because of their other stats/effects;
+- whether purchased cards going to the Archive/discard and appearing only after a later draw feels satisfying;
+- whether the larger variety creates too much reading or rules load.
+
+Do not mix these results with canonical v7.8 card-balance data without labeling the session as a **v7.9 Wardrobe/Tip candidate**.
+
 ## Shopping and deck-building feedback
 
 The Shopping economy is one of the game's core systems. Record anything that affects whether it is working as intended:
