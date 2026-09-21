@@ -21,14 +21,15 @@ See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for current hashes and bi
 2. `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` or [`PUBLISHER_SELL_SHEET.md`](PUBLISHER_SELL_SHEET.md).
 3. `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx`, using [`PITCH_DECK.md`](PITCH_DECK.md) as the canonical slide script.
 4. Current rulebook / Medium Folio PDF when available.
-5. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
-6. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
-7. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
-8. [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md).
-9. TTS package or download instructions.
-10. Prototype photos or image folder.
-11. [`STATE_OF_PROTOTYPE_TEMPLATE.md`](STATE_OF_PROTOTYPE_TEMPLATE.md) filled in once enough playtest data exists.
-12. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
+5. [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) — transparent design-history and inspiration context for publisher review.
+6. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
+7. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+8. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
+9. [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md).
+10. TTS package or download instructions.
+11. Prototype photos or image folder.
+12. [`STATE_OF_PROTOTYPE_TEMPLATE.md`](STATE_OF_PROTOTYPE_TEMPLATE.md) filled in once enough playtest data exists.
+13. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
 
 ## Do not include by default
 
