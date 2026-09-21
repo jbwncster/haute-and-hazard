@@ -9,6 +9,15 @@ This index gathers the project-management, playtest, publisher, media, and revie
 3. [`PROJECT_DATA_TEMPLATES.md`](PROJECT_DATA_TEMPLATES.md) — how to use the CSV trackers in `/data`.
 4. [`PUBLISHER_SUBMISSION_PACKAGE.md`](PUBLISHER_SUBMISSION_PACKAGE.md) — one-click publisher folder checklist.
 5. [`STATE_OF_PROTOTYPE_TEMPLATE.md`](STATE_OF_PROTOTYPE_TEMPLATE.md) — report template after 10 external plays.
+6. [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) — current generated PowerPoint, workbook, ZIP, PDF, physical, and TTS artifact status plus hashes.
+
+## Current generated deliverables
+
+- **Publisher pitch deck:** `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx` — current presentation-ready deck; overlap/layout correction pass completed.
+- **Project tracker:** `Haute_Hazard_v7_8_Project_Tracker.xlsx` — current working workbook for playtests, balance, card data, IP review, and rules tracking.
+- **Project bundle:** `Haute_Hazard_v7_8_Project_Bundle.zip` — consolidated handoff bundle with publisher materials, branding/social assets, project tracker, and current v7.8 physical/TTS packages.
+
+See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for integrity hashes and attachment-status notes.
 
 ## Development and evidence
 
