@@ -86,6 +86,11 @@ A publisher interested in a visually distinctive, interactive hobby game and wil
 
 Publisher development, editing, art direction, production adjustments, terminology review, and balance work are welcome.
 
+**Designer:** Jake Weiner · Raleigh, NC  
+**Twitch:** InAxolotlPain_Jakey  
+**Email:** jbwncster1@gmail.com  
+**Portfolio:** enchantedlibrarytech.me
+
 ## Legal/IP slide note
 
 Include on the final slide footer:
