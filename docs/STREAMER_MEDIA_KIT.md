@@ -9,10 +9,12 @@ Use this when someone streams, records, reviews, demonstrates, or publicly discu
 
 **Designer:** Jake Weiner  
 **Twitch:** **InAxolotlPain_Jakey**  
+**Channel:** https://www.twitch.tv/inaxoltlpain_jakey  
+**Email:** jbwncster1@gmail.com  
 **Portfolio:** https://enchantedlibrarytech.me  
 **Project repository:** https://github.com/jbwncster/haute-and-hazard
 
-Jake Weiner is a Raleigh, North Carolina-based board game designer and library professional. He is a **Certified Library Support Staff (CLSS)** professional and Library Technical Assistant at Wake Technical Community College, with experience in academic library operations, digital resources, accessibility, technology support, generative-AI initiatives, and public-facing communications. He is also completing a B.A. in American Indian Studies with a History minor at UNC Pembroke.
+Jake Weiner is a Raleigh, North Carolina-based board game designer and library professional. He is a **Certified Library Support Staff (CLSS)** professional and Library Technical Assistant at Wake Technical Community College, with experience in academic library operations, accessibility, digital resources, technology support, generative-AI initiatives, promotional communications, and social-media support. He currently serves on Wake Tech's **Gemini Pilot Program Team** and is completing a B.A. in American Indian Studies with a History minor at UNC Pembroke.
 
 For creator-led streams, credit the channel as:
 
