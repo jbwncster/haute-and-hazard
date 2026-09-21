@@ -116,3 +116,12 @@ This module changes only the Stage-closing structure:
 **Stage Winner → finish current round → Runner-Up → optional Runner-Up Dragdagulan† → Curtain Call**
 
 It does **not** replace the canonical v7.8 rules. Clearly mark any session using it as **Alternate Two-Placement Stage Test**.
+
+
+## v7.9 development candidate
+
+A new Wardrobe/Tip economy candidate is under active development. It is **not yet the default physical or TTS kit**.
+
+The candidate uses 144 unique Wardrobe cards and a pre-Transformation **Tip Count** from the printed Tip values in hand. See [`V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md`](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
+
+Only use it when the playtest organizer specifically asks for a v7.9 card-economy test. Otherwise use the synchronized v7.8 physical/TTS materials.
