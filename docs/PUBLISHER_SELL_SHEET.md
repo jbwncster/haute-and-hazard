@@ -69,6 +69,9 @@ A publisher interested in a visually distinctive, interactive hobby game and wil
 ---
 
 **Designer:** Jake Weiner  
+**Twitch / streaming:** InAxolotlPain_Jakey  
+**Email:** jbwncster1@gmail.com  
+**Portfolio:** https://enchantedlibrarytech.me  
 **Project:** *Haute & Hazard*  
 **Repository:** https://github.com/jbwncster/haute-and-hazard  
 **TTS information:** [Tabletop Simulator Playtest](TABLETOP_SIMULATOR.md)  
