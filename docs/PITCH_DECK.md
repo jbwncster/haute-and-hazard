@@ -1,6 +1,8 @@
 # Haute & Hazard — Publisher Pitch Deck
 
-Use this as the slide script for an 8–10 slide publisher presentation.
+Use this as the slide script for the current 10-slide publisher presentation.
+
+**Generated deck status:** `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx` has been produced from this outline and completed an overlap/layout correction pass. See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for the current file hash and attachment-status note.
 
 ## Slide 1 — Cover
 
