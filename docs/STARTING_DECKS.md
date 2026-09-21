@@ -129,3 +129,20 @@ If every player has that exact mix, the Dressing Room Floor setup is correct.
 ---
 
 For the full physical card accounting, see [`CARD_POOL.md`](CARD_POOL.md). For the current turn structure and core systems, see [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+
+
+## v7.9 candidate — printed Tip Count
+
+The active next-build candidate changes **how printed Tips are collected**, without changing the current v7.8 packaged files yet.
+
+In the candidate system, every Poker card shows a printed Tip value. At the start of a turn, before Transformation, the player adds the printed Tips on every card in hand to their Tip pool. Counting those Tips does not discard the cards; the same cards can still be played or equipped that turn.
+
+Recommended starter values for the candidate are:
+
+- **Basic Beat — 1 printed Tip**;
+- **Messy Lip Sync — 0 printed Tips**;
+- **Chapstick — 1 printed Tip**.
+
+Purchased cards still go to the player's Backstage Archive/personal discard pile and must later be reshuffled and drawn before they can contribute printed Tips or be played/equipped.
+
+See [`V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md`](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md) for the full candidate timing and Wardrobe redesign.
