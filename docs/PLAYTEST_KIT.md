@@ -9,13 +9,14 @@ For a tester-facing ZIP or folder, include:
 1. `README_START_HERE.md` or this file.
 2. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
 3. [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
-4. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
-5. [`STARTING_DECKS.md`](STARTING_DECKS.md).
-6. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
-7. [`FEEDBACK.md`](FEEDBACK.md).
-8. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
-9. The current player aid files/images.
-10. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
+4. [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) when deliberately testing the experimental two-placement Stage module.
+5. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+6. [`STARTING_DECKS.md`](STARTING_DECKS.md).
+7. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
+8. [`FEEDBACK.md`](FEEDBACK.md).
+9. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
+10. The current player aid files/images.
+11. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
 
 ## Which build to use
 
@@ -92,3 +93,14 @@ Suggested disclaimer:
 Short † note:
 
 > † Working prototype term; subject to legal/IP and publisher review.
+
+
+## Experimental Stage module
+
+For a deliberate A/B test, use [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md).
+
+This module changes only the Stage-closing structure:
+
+**Stage Winner → finish current round → Runner-Up → optional Runner-Up Dragdagulan† → Curtain Call**
+
+It does **not** replace the canonical v7.8 rules. Clearly mark any session using it as **Alternate Two-Placement Stage Test**.
