@@ -6,13 +6,24 @@
 
 ## Jake Weiner — Board Game Designer
 
-Jake Weiner is the designer of **Haute & Hazard**, an original competitive drag fashion deck-building game currently in active prototype playtesting. His design interests center on **strong thematic integration, character-driven play, meaningful player interaction, and systems that make the theme matter mechanically rather than simply decorating the game**.
+Jake Weiner is the designer of **Haute & Hazard**, an original competitive drag fashion deck-building game currently in active prototype playtesting.
+
+Jake is based in **Raleigh, North Carolina** and works in academic libraries as a **Library Technical Assistant at Wake Technical Community College**. He is a **Certified Library Support Staff (CLSS)** professional through ALA-APA and has hands-on experience in library technology, accessibility, digital-resource management, patron services, collaborative institutional projects, and public-facing communications. He currently participates in Wake Tech's **Gemini Pilot Program Team**, exploring and evaluating generative-AI tools and workplace applications.
+
+He is also completing a **B.A. in American Indian Studies with a History minor at UNC Pembroke**.
+
+His design interests center on **strong thematic integration, character-driven play, meaningful player interaction, accessible information design, and systems that make the theme matter mechanically rather than simply decorating the game**.
 
 With *Haute & Hazard*, Jake is exploring how deck-building, fashion coordination, asymmetric characters, performance, rivalry, and table drama can work together as one cohesive game experience. He approaches development iteratively and welcomes playtest feedback, editorial collaboration, balance work, production changes, and publisher development that can help the strongest version of a design emerge.
 
-Jake is currently seeking opportunities to connect with independent tabletop publishers, fellow designers, and playtesters while continuing to develop *Haute & Hazard*.
+The game's initial idea came while Jake was **watching the Aikatsu! anime**, which led him to discover **Data Carddass Aikatsu!** and its fashion-card structure. After later getting into the **DC Deck-Building Game**, the deck-building framework clicked into place. Haute & Hazard transforms those high-level influences into its own drag-centered tabletop systems, world, Queens, Tenets, Brands, Stages, Shopping economy, and rivalry mechanics.
 
+Jake streams and demonstrates game-development content as **InAxolotlPain_Jakey** on Twitch.
+
+**Twitch:** https://www.twitch.tv/inaxolotlpain_jakey  
+**Portfolio:** https://enchantedlibrarytech.me  
 **Current project:** [Haute & Hazard](../README.md)  
 **Publisher overview:** [Publisher Sell Sheet](PUBLISHER_SELL_SHEET.md)  
+**Streamer / Playtester Media Kit:** [Streamer Media Kit](STREAMER_MEDIA_KIT.md)  
 **Playtest feedback:** [Feedback Guide](FEEDBACK.md)  
 **Tabletop Simulator:** [TTS Playtest Information](TABLETOP_SIMULATOR.md)
