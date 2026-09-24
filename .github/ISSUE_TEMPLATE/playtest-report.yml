@@ -6,22 +6,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing **Haute & Hazard**. Please use files from the same version and describe what actually happened at the table before suggesting a balance change. The current physical and digital balance-test target is **v7.8**.
+        Thanks for testing **Haute & Hazard**. The current base-game target is **v7.9** and the current experimental solo target is **Solo Circuit v0.2**.
 
-        **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See `docs/ATTRIBUTIONS.md`.
+        **v7.9 reminder:** Tip Count happens before Transformation. Count each card's printed Tips once from the cards currently in hand.
+
+        **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
 
   - type: dropdown
     id: version
     attributes:
       label: Version tested
       options:
-        - v7.8 Physical — Game Crafter
-        - v7.8 Digital — Tabletop Simulator
-        - Solo Circuit v0.1 — Physical Print & Play
-        - Solo Circuit v0.1 — Tabletop Simulator add-on
-        - v7.7 Core Playtest Set — legacy
-        - v7.7 Tabletop Simulator — legacy
-        - v7.7.1 Game Crafter — archived legacy reference
+        - v7.9 Physical — Game Crafter / Print & Play
+        - v7.9 Digital — Tabletop Simulator
+        - Solo Circuit v0.2 — Physical
+        - Solo Circuit v0.2 — Tabletop Simulator add-on
+        - v7.8 — archived comparison build
+        - v7.7 / v7.7.1 — legacy
         - Other / mixed build
     validations:
       required: true
@@ -30,12 +31,11 @@ body:
     id: mode
     attributes:
       label: Rules mode
-      description: Beginner Mode uses only Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect on Stages.
       options:
         - Beginner Mode
         - Full Stage rules
         - Alternate Two-Placement Stage Test
-        - Solo Circuit — Experimental
+        - Solo Circuit v0.2
         - Mixed / modified teaching game
     validations:
       required: true
@@ -44,7 +44,7 @@ body:
     id: players
     attributes:
       label: Player count
-      placeholder: "Example: 2 (or 1 for Solo Circuit)"
+      placeholder: "Example: 2, or 1 for Solo Circuit"
     validations:
       required: true
 
@@ -53,8 +53,6 @@ body:
     attributes:
       label: Queens used
       placeholder: "Example: Siren Diesel vs. Opal Dynasty"
-    validations:
-      required: true
 
   - type: input
     id: duration
@@ -67,81 +65,62 @@ body:
     attributes:
       label: Result
       description: Include winner, Gross SP / Final Score, and Stage trophies if known.
-      placeholder: "Who won and what were the final scores?"
     validations:
       required: true
+
+  - type: textarea
+    id: tip_count
+    attributes:
+      label: Tip Count / Shopping notes
+      description: Was Tip Count remembered before Transformation? Did anyone double-count printed Tips after playing/equipping a card? Did Shopping feel useful?
 
   - type: textarea
     id: stages
     attributes:
       label: Stage results
-      description: Note which venue Stages appeared and who Slayed them. If using full Stage rules, also record Judge's Favors and Brand Ovations.
-
-  - type: textarea
-    id: beginner_mode
-    attributes:
-      label: Beginner Mode teaching notes
-      description: If this was a Beginner Mode game, what was easy to learn, what still caused confusion, and did ignoring the Judge/Spotlight layer help?
-
-  - type: textarea
-    id: alternate_stage
-    attributes:
-      label: Alternate two-placement Stage notes
-      description: If tested, record Stage Winner, Runner-Up, recorded Appeal, optional Dragdagulan† target/result, extra time, and whether Curtain Call timing was clear.
+      description: Note venues, Slay Targets, winners, and relevant Judge/Brand Ovation results if using full rules.
 
   - type: textarea
     id: solo_circuit
     attributes:
-      label: Solo Circuit notes
-      description: If testing Solo Circuit, record Physical/TTS, player Queen, House Queen/Personality, difficulty, Stage rounds, player/House Appeal, Market removals, Stage Timer results, and solo Dragdagulan† scores. For TTS, also note additive-load and asset-loading issues.
+      label: Solo Circuit v0.2 notes
+      description: For Solo, record House Queen/Personality, difficulty, Slay Target, House Base Appeal, Stage round, player/House Appeal, Market removal, Appeal vs. Round 4 timeout, and Dragdagulan scores.
 
   - type: textarea
     id: looks
     attributes:
-      label: Coordinate and Look notes
-      description: Record Matching, Perfect Illusion, Fusion, simultaneous Matching + Fusion, or any difficult Look-state rulings.
-
-  - type: textarea
-    id: shopping
-    attributes:
-      label: Shopping and deck-building notes
-      description: Note Wardrobe purchases, Tip availability, Thrift purchases, or cards that felt too cheap/expensive.
+      label: Coordinate / Look notes
+      description: Record Matching, Perfect Illusion, Fusion, or difficult Look-state rulings.
 
   - type: textarea
     id: dragdagulan
     attributes:
       label: Dragdagulan† notes
-      description: Record attempts, winners, Battle Scores, unusual LS interactions, and penalties received. † Working term subject to legal/IP review.
+      description: Record attempts, Battle Scores, winner, penalties/rewards, and unusual LS interactions.
 
   - type: textarea
     id: queen_abilities
     attributes:
-      label: Queen abilities and Special Appeals
-      description: Note which abilities were used, whether the once-per-game Special Appeal mattered, and any unclear timing.
+      label: Queen abilities / Special Appeals
+      description: Note usage, timing questions, and unusually strong/weak interactions.
 
   - type: textarea
     id: unclear
     attributes:
       label: Confusing rule or card text
-      description: Quote the exact rule/card wording when possible and explain what happened before the question came up.
-
-  - type: textarea
-    id: theme_lore
-    attributes:
-      label: Theme, design intent, and lore
-      description: Did fashion, Shopping, Coordinates, Stages, rivalry, and Final Judging feel like one connected drag-performance experience? If using the Haute Circuit / Backstage Beat lore, did it help understanding or immersion?
-
-  - type: textarea
-    id: stream
-    attributes:
-      label: Stream / recording details
-      description: If this session was streamed or recorded, include platform, channel/creator, public VOD link if available, and whether the designer was present. Designer Twitch: InAxolotlPain_Jakey.
+      description: Quote exact wording when possible and explain what happened before the question.
 
   - type: textarea
     id: balance
     attributes:
       label: Balance observations
-      description: What felt too strong, too weak, too slow, too easy, or too difficult? Please separate observation from proposed fix.
+      description: Separate what happened from the change you would propose.
+
+  - type: textarea
+    id: fun
+    attributes:
+      label: Most fun / replay?
+      description: What was the best moment, and would you play again?
 
   - type: checkboxes
     id: confirm
