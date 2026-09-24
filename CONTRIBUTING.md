@@ -2,67 +2,58 @@
 
 Thank you for testing **Haute & Hazard**.
 
-> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md). Any other element identified for legal/IP review should be marked † until cleared or replaced.
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It remains subject to legal/IP, trademark, and publisher review.
 
 ## Before testing
 
-1. Confirm that every file used in the game belongs to the same intended build.
-2. For current balance testing, use **v7.8** for both the physical Game Crafter prototype and the Tabletop Simulator build.
-3. Treat **v7.7.1** as an archived/legacy physical reference and **v7.7** Core/TTS/Promotional packages as legacy comparison builds.
-4. If you deliberately mix versions, say so in the report.
-5. For a first game, use **Beginner Mode** unless you specifically want to test the complete Stage system.
-6. For TTS, note whether you used the v7.8 standard setup or the Siren Diesel vs. Opal Dynasty teaching setup.
+1. Use files from one intended build.
+2. The current base-game target is **v7.9**.
+3. The current experimental solo target is **Solo Circuit v0.2**.
+4. Treat v7.8 and earlier as archive/comparison builds.
+5. Label any mixed-version test clearly.
+6. For a first game, use Beginner Mode.
 
-## Feedback guide
+## v7.9 checkpoint
 
-Before filing a full report, you can use [`docs/FEEDBACK.md`](docs/FEEDBACK.md) for a structured post-game debrief. It includes quick questions, 1–5 ratings, and focused prompts for:
+Confirm that the rules, Player Aid, and cards all agree that:
 
-- Beginner Mode versus Full Stage Rules;
-- Shopping and deck-building;
-- Fashion, Tenets, Brands, and Look states;
-- Queen Signature Abilities and Special Appeals;
-- Dragdagulan† and LS;
-- rules clarity and terminology;
-- balance and pacing.
+- Tip Count happens before Transformation;
+- every Poker card has a printed Tip value;
+- printed Tips are counted once from cards in hand;
+- playing/equipping the same card does not grant those printed Tips again;
+- purchased cards go to Backstage Archive.
 
-## Submit a Playtest report
+## Submit a playtest report
 
-Open a **Playtest report** under Issues and record as much of the following as possible:
+Record as much as possible:
 
-- version/build and mode tested;
-- physical or Tabletop Simulator medium;
-- player count and game duration;
-- Queen choices;
-- winner, Gross SP, Final Score, and Stage trophies;
-- Stage venues Slayed and by whom;
-- Judge's Favors and Brand Ovations when using Full Stage Rules;
-- Matching, Perfect Illusion, Fusion, and simultaneous Matching + Fusion frequency;
-- Wardrobe and Thrift purchases;
-- Action cards played;
-- cards trashed;
-- Dragdagulan† attempts, wins, and notable LS totals;
-- penalties gained;
-- Queen Signature Ability and Special Appeal usage;
+- version/build and mode;
+- physical / TTS / Solo;
+- player count and duration;
+- Queens;
+- winner and Final Score;
+- Stage results;
+- Tip Count mistakes or double-counting;
+- Shopping purchases;
+- Matching / Perfect Illusion / Fusion;
+- Dragdagulan† attempts and scores;
+- Penalties;
+- Queen abilities/Special Appeals;
 - most fun moment;
 - most confusing moment;
-- whether the group would play again;
-- any rule or card that required table interpretation.
+- whether the group would replay.
 
-When reporting unclear wording, quote the exact card or rule when possible and explain what happened immediately before the question came up.
+For Solo v0.2 also record House Queen/Personality, difficulty, House Base Appeal, Stage round, Market removal, and whether the Stage resolved by Appeal or Round 4 timeout.
 
-When reporting balance concerns, describe the observed play pattern before proposing a fix. Repeated play patterns are more useful than a single theoretical interaction.
+## References
 
-## Current references
+- [PLAYTEST_START_HERE.md](docs/PLAYTEST_START_HERE.md)
+- [FEEDBACK.md](docs/FEEDBACK.md)
+- [CURRENT_GAMEPLAY.md](docs/CURRENT_GAMEPLAY.md)
+- [STARTING_DECKS.md](docs/STARTING_DECKS.md)
+- [QUEEN_ROSTER.md](docs/QUEEN_ROSTER.md)
+- [CARD_POOL.md](docs/CARD_POOL.md)
+- [v7.9 release](releases/v7.9/README.md)
+- [Solo Circuit v0.2](releases/solo-circuit-v0.2/README.md)
 
-- [`docs/FEEDBACK.md`](docs/FEEDBACK.md)
-- [`docs/BEGINNER_MODE.md`](docs/BEGINNER_MODE.md)
-- [`docs/CURRENT_GAMEPLAY.md`](docs/CURRENT_GAMEPLAY.md)
-- [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md)
-- [`docs/STARTING_DECKS.md`](docs/STARTING_DECKS.md)
-- [`docs/QUEEN_ROSTER.md`](docs/QUEEN_ROSTER.md)
-- [`docs/TABLETOP_SIMULATOR.md`](docs/TABLETOP_SIMULATOR.md)
-- [`docs/V7_8_ALIGNMENT.md`](docs/V7_8_ALIGNMENT.md)
-- [`docs/VERSION_HISTORY.md`](docs/VERSION_HISTORY.md)
-- [`releases/v7.8/`](releases/v7.8/) for the current physical + digital v7.8 release documentation
-
-Please do not upload modified cards, unofficial builds, or third-party artwork to this repository.
+When reporting unclear wording, quote the exact card/rule if possible and describe what happened immediately before the question.
