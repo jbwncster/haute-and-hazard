@@ -29,7 +29,7 @@ Calculate fresh each round.
 1. Reveal 1 Automa card.
 2. Resolve Wardrobe removal; refill Market.
 3. Keep the card face-up for Appeal/effect.
-4. Player takes a normal **v7.9 turn beginning with Tip Count**.
+4. Player takes a normal **v7.9 turn**, generating printed Tips as cards are played during Transformation.
 5. If player Slays, player claims Stage normally.
 6. Otherwise calculate House Appeal.
 7. If House meets target, House claims Stage and gains its printed Gross SP reward.
