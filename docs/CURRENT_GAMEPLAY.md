@@ -31,6 +31,25 @@ A Coordinate is **Complete** when all four core slots have a Master. Accessory i
 
 A **Tenet** is a gameplay color/faction. A **Brand** is a named fashion line within a Tenet.
 
+## DC-style deck-building engine map
+
+For v7.9, the core deck-building cadence intentionally follows the familiar DC Deck-Building Game / Cerberus-style structure:
+
+| Haute & Hazard | Deck-building role |
+|---|---|
+| **Tips** | Power / buying power |
+| **Wardrobe Rack** | five-card shared Line-Up |
+| **Wardrobe deck** | shared Main Deck |
+| **Personal Deck** | player draw pile |
+| **Backstage Archive** | player discard pile |
+| **5-card hand** | normal turn hand |
+| **Penalty cards** | deck-clogging negative cards / Weakness-like role |
+| **Queen** | asymmetric player power / Character role |
+
+The systems that remain distinctly Haute & Hazard are the persistent **Coordinate**, **Appeal**, **Looks**, venue **Stages**, and **Dragdagulan†**.
+
+This means the deck-building engine should not invent separate hand-counting, market-refill, or acquisition rules when the DC-style cadence already provides a clear default.
+
 ## Tips — the deck-building resource
 
 **Tips are Haute & Hazard's equivalent of the Power resource in a traditional shared-market deck-builder.**
