@@ -52,7 +52,7 @@ Use:
 - **Working Queen** difficulty;
 - **Beginner Mode**;
 - generic House Queen before adding a Personality;
-- v7.9 Tip Count rules;
+- v7.9 DC-style play-generated Tip rules;
 - four-round Stage Timer.
 
 Record Market removal, player/House Appeal, Stage result, timer round, and any Dragdagulan† result.
