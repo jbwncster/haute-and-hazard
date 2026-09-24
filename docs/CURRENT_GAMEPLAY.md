@@ -31,20 +31,49 @@ A Coordinate is **Complete** when all four core slots have a Master. Accessory i
 
 A **Tenet** is a gameplay color/faction. A **Brand** is a named fashion line within a Tenet.
 
+## Tips — the deck-building resource
+
+**Tips are Haute & Hazard's equivalent of the Power resource in a traditional shared-market deck-builder.**
+
+You do **not** gain a card's printed Tips simply because it is in your hand.
+
+During **Transformation**, whenever you play a card from your hand:
+
+1. add that card's printed Tip value to your Tip pool;
+2. then resolve its legal play/equip instructions.
+
+A printed **0** generates no Tips but is still a meaningful printed value for effects that check it.
+
+Each physical card can generate its printed Tips **once when played that turn**.
+
+- A card left unplayed in your hand generates **0 Tips**.
+- A Master already equipped from an earlier turn does **not** generate its printed Tips again.
+- A card drawn during Transformation may be played later in the same Transformation and then generates its printed Tips normally.
+- A card drawn after Transformation normally cannot be played for Tips that turn unless an effect explicitly lets you play it.
+- Explicit effects that say “gain Tips” add to the same Tip pool.
+
+### Playing Actions
+
+Play an Action from your hand, gain its printed Tips, resolve its Play/Vogue/other legal effect, then leave it in your played area until Cleanup. Archive it during Cleanup unless an effect moved it elsewhere.
+
+### Playing Fashion
+
+When you play Fashion from your hand, gain its printed Tips, then choose one legal option:
+
+- **Equip it** as a Master in its slot and resolve its Equip effect, if any; or
+- **Play it for Tips only** without equipping it. It contributes no Master Appeal, LS, Tenet, Brand, or Look status and is archived during Cleanup.
+
+This keeps Fashion useful as deck-building currency even when its slot is already occupied.
+
 ## v7.9 turn order
 
-Every turn begins with a resource step, followed by five phases:
+Every turn follows five phases:
 
-0. **Tip Count** — add the printed Tip value of every card currently in your hand to your Tip pool. Count each card once. Do not discard it.
-1. **Transformation** — equip Fashion, play Actions, and use eligible Queen abilities.
-2. **The Reveal** — total printed Appeal and other Reveal-specific values, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier. **Do not add printed Tips here; those were counted during Tip Count.**
-3. **Shopping** — spend Tips on the Wardrobe Rack and eligible Thrift Store cards.
+1. **Transformation** — play cards from hand, generate printed Tips, equip Fashion, resolve Actions, and use eligible Queen abilities.
+2. **The Reveal** — total printed Appeal and other Reveal-specific values, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier.
+3. **Shopping** — spend the Tips generated this turn on the Wardrobe Rack and eligible Thrift Store cards.
 4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
-5. **Cleanup** — archive temporary cards/hand as required, draw a new hand, and reset Tips and Appeal.
-
-A card counted during Tip Count can still be played or equipped later that turn. Its printed Tip value is **not counted a second time** when it leaves the hand.
-
-Cards that enter your hand **after Tip Count**—by drawing, returning from the Archive/Trash, or another effect—do **not** add their printed Tips retroactively. Their printed Tips can be counted on a later turn if they are in hand at that turn's Tip Count. Tip Count is a rules step, not a card effect, unless a rule explicitly says otherwise.
+5. **Cleanup** — archive played non-Master cards and remaining hand as required, draw a new hand, and reset Tips and Appeal.
 
 ## Look states
 
@@ -122,7 +151,9 @@ The base game contains **12 Queens**, each with:
 - Signature Ability
 - **Special Appeal — Once Per Game**
 
-See [QUEEN_ROSTER.md](QUEEN_ROSTER.md). Opulencia's v7.9 wording explicitly gives her +1 Tip after a nonzero Tip Count, then preserves her +1 bonus on later Tip-gain effects.
+See [QUEEN_ROSTER.md](QUEEN_ROSTER.md).
+
+**Opulencia — More Is More** keys off the Power-like economy: whenever a card she plays generates one or more printed Tips, she gains 1 additional Tip; a separate effect-based Tip gain can also trigger her ability.
 
 ## Starter deck
 
@@ -132,7 +163,7 @@ Each player starts with:
 - 3 × Messy Lip Sync — printed Tip 0
 - 2 × Chapstick — printed Tip 1
 
-The printed Tip values are collected during **Tip Count**, not again when the card is played/equipped. See [STARTING_DECKS.md](STARTING_DECKS.md).
+Basic Beat and Chapstick generate their printed Tips only when they are actually played from hand. See [STARTING_DECKS.md](STARTING_DECKS.md).
 
 ## Solo Circuit
 
@@ -147,4 +178,4 @@ Use [SOLO_CIRCUIT_AUTOMA_PLAYTEST.md](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) for solo 
 - **v7.8** — archived synchronized comparison build.
 - **v7.7/v7.7.1** — legacy/archive material.
 
-Do not mix v7.8 starter text, Player Aids, or turn timing into a normal v7.9 test.
+Do not mix old Tip-timing text, Player Aids, or starter wording into a normal v7.9 test.
