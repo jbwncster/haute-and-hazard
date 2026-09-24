@@ -13,7 +13,7 @@ Plus quick reference, trackers/counters, and playtest log.
 
 ## Rules changes from v0.1
 
-- base game updated from v7.8 timing to **v7.9 Tip Count** timing;
+- base game updated from v7.8 timing to **v7.9 play-generated Tip** timing;
 - Stage Timer expanded from 3 to **4 rounds**;
 - House Base Appeal is explicit:
   - `max(0, Stage Slay Target - 6)`
