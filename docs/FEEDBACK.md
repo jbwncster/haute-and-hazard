@@ -2,7 +2,7 @@
 
 Thank you for playtesting **Haute & Hazard**. Feedback is most useful when it tells us both **what happened at the table** and **how the game felt while it was happening**.
 
-For the current physical build, use **v7.9 Game Crafter Print Edition**. If you deliberately test an older or mixed build, note that clearly.
+For current balance testing, use a **synchronized v7.9 rules/card set**. If a generated v7.9 Game Crafter or Print & Play binary has not yet been visibly attached/distributed, do not substitute a v7.8 package and call it v7.9. If you deliberately test an older or mixed build, note that clearly.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 
@@ -150,6 +150,8 @@ When testing the current v7.9 build, record:
 - whether Tip Count is remembered before Transformation;
 - whether players understand that counting a card's printed Tips does not discard it;
 - whether players accidentally count equipped cards' printed Tips again;
+- whether players try to add printed Tips from cards drawn or returned to hand after Tip Count;
+- whether Opulencia's More Is More timing is clear and feels balanced;
 - whether 0-Tip cards remain attractive because of their other stats/effects;
 - whether purchased cards going to the Archive/discard and appearing only after a later draw feels satisfying;
 - whether the larger variety creates too much reading or rules load.
