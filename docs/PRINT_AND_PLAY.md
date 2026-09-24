@@ -1,85 +1,77 @@
-# Haute & Hazard v7.8 — Print & Play Physical Kit
+# Haute & Hazard v7.9 — Print & Play Physical Kit
 
-This is the noob-friendly route for playing **Haute & Hazard physically without ordering a manufactured prototype**.
+This is the home-print route for playing the current v7.9 base game.
 
-## Download this package
+## Package target
 
-**Current package:** `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`
+`Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
 
-SHA-256:
+Do not substitute the older v7.8 ZIP and call it v7.9.
 
-`cf98822211032e2b76d11fb4b7f081cabc8459648f6ca92e877fd3d670e6dabb`
+If the v7.9 binary is not visibly committed or attached to a GitHub Release, use this documentation as the current source/rules record and distribute the matching v7.9 package separately.
 
-The generated ZIP is the current physical Print & Play handoff. If you are reading this on GitHub and the binary ZIP is not visibly attached to the repository or a Release, the documentation is still current but the binary must be attached/distributed separately.
+## v7.9 contents
 
-## What's inside
+The complete home-print package should include:
 
-- `00_START_HERE_Print_and_Play.pdf` — read this first.
-- `01_RULES_MEDIUM_FOLIO_PRINT.pdf` — two-page 11×17 rules folio.
-- `02_POKER_DECK_240_FRONT_ONLY.pdf` — complete 240-card main deck, 9 cards per Letter page.
-- `03_STAGES_12_FRONT_ONLY.pdf` — all 12 current venue Stages.
-- `04_QUEENS_12_FRONT_ONLY.pdf` — all 12 current Queens.
-- `05_PLAYER_AIDS_5_FRONT_ONLY.pdf` — five Player Aids.
-- `06_OPTIONAL_CARD_BACKS.pdf` — optional backs.
-- `README_FIRST.txt` and `CHECKSUMS.sha256`.
+- Start Here sheet
+- Medium Folio rules
+- **240-card Poker Deck**
+- **12 Stages**
+- **12 Queens**
+- **5 Player Aids**
+- optional backs
+- readme/checksums
 
-## Easiest printing method
+The 240-card deck is:
 
-1. Print every `FRONT_ONLY` PDF **single-sided**.
+- 60 starter
+- 144 Wardrobe = 130 unique Fashion + 14 unique Actions
+- 16 Thrift
+- 20 Penalty
+
+## Critical print check
+
+Every Poker card must visibly show its **printed Tip value**, including 0.
+
+The Player Aid/rules must show:
+
+**Tip Count → Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup**
+
+Legacy starter text that duplicates printed Tips is not valid v7.9 wording.
+
+## Printing
+
+1. Print card fronts single-sided.
 2. Use **Actual Size / 100%**.
-3. Cut along the card edges/crop marks.
-4. Put each printed front into an **opaque card sleeve** with a spare playing/trading card or cardstock behind it.
-5. Skip the backs unless you specifically want them.
-6. Print one Player Aid per player.
-7. Keep the rules open digitally, or print the Medium Folio on 11×17 paper.
-
-This avoids duplex-alignment headaches and makes replacement cards easy.
+3. Cut along card edges/crop marks.
+4. Put fronts into opaque sleeves with spare cards/cardstock behind them.
+5. Print one Player Aid per player.
+6. Keep the Medium Folio available digitally or print it on 11×17.
 
 ## Paper sizes
 
 | File | Paper |
 |---|---|
-| Poker / Stages / Queens / Player Aids | US Letter, portrait |
+| Poker / Stages / Queens / Player Aids | US Letter |
 | Medium Folio Rules | 11×17 Tabloid, landscape |
-
-If your printer cannot print 11×17, keep the rules on a phone/tablet/laptop or print them scaled to Letter for reference.
-
-## What else you need
-
-Recommended:
-
-- opaque sleeves;
-- spare poker/trading cards or cardstock as backing;
-- scissors or paper cutter;
-- a few tokens/counters for temporary tracking if useful.
-
-No special board, dice, miniatures, or custom hardware are required for this playtest kit.
 
 ## First game
 
 Use [Beginner Mode](BEGINNER_MODE.md).
 
-Do **not** add the experimental two-placement Stage rules until the group understands the base game, unless the playtest organizer specifically asks for that test.
+The first thing every player does on a turn is **Tip Count** before Transformation.
 
-## Manufactured physical prototype
+## Manufactured prototype
 
-The current Game Crafter build uses:
+See [v7.9 Game Crafter Upload Guide](../releases/v7.9/UPLOAD_GUIDE.md).
 
-- Rules — Medium Folio Set;
-- Haute & Hazard — 240-card Poker Deck;
-- Stages — 12-card Foil Euro Poker Deck;
-- The Queens — 12-card Jumbo Deck;
-- Player Aid — five Postcard Mats;
-- Box — Medium Prototype Box.
+## Solo
 
-The Print & Play kit reproduces the **playtest information and card pool**, not the premium production materials.
+Solo Circuit v0.2 is separate. See [Solo Circuit Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md).
 
 ## Feedback
 
 After playing, use [FEEDBACK.md](FEEDBACK.md).
 
-Designer-led streams/playtests may credit:
-
-**Jake Weiner — Twitch: InAxolotlPain_Jakey**
-
-> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review before commercial release.
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
