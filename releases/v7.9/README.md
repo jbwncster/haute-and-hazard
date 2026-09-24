@@ -24,9 +24,9 @@ The optional **Solo Circuit v0.2** module is separate and adds 30 solo cards.
 ## Major v7.9 changes
 
 - every Poker card has an explicit printed Tip value, including 0;
-- every turn begins with **Tip Count** before Transformation;
-- printed Tips are counted once from cards in hand;
-- playing/equipping a card does not generate its printed Tips again;
+- playing cards during **Transformation** generates their printed Tips;
+- unplayed cards generate no Tips and old Masters do not regenerate them;
+- Fashion may be played for Tips without being equipped;
 - purchases go to the Backstage Archive and enter play only after a later draw;
 - the 144-card Wardrobe is fully unique: 130 Fashion + 14 Actions;
 - starter wording is corrected so Basic Beat and Chapstick do not double-pay their printed Tips;
