@@ -1,4 +1,4 @@
-# Haute & Hazard v7.8 — Tabletop Simulator Source / Status
+> **ARCHIVED DEVELOPMENT SNAPSHOT:** v7.8 is superseded by **v7.9** as the current base-game rules/card/production target. This file is retained for historical comparison and package provenance.\n\n# Haute & Hazard v7.8 — Tabletop Simulator Source / Status
 
 This folder records the **current v7.8 Tabletop Simulator conversion**, aligned to the current v7.8 Game Crafter physical prototype.
 
