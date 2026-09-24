@@ -1,60 +1,62 @@
-# Haute & Hazard — Learn to Play in 5 Minutes
+# Haute & Hazard v7.9 — Learn to Play in 5 Minutes
 
 **Goal:** Build the sharpest Look, Slay venue Stages, survive rival battles, and finish with the most Style Points.
 
-## What you are doing
+## Your Coordinate
 
-You are a drag Queen building a wardrobe from a shared market. Your Fashion cards fill four core slots:
+Fashion fills four core slots:
 
 1. Face
 2. Wig
 3. Body
 4. Shoes
 
-Accessory is optional unless a card says otherwise.
-
-A full set of Face, Wig, Body, and Shoes is a **Complete Coordinate**.
+Accessory is optional unless a card says otherwise. Filling all four core slots creates a **Complete Coordinate**.
 
 ## Your turn
 
-Every turn has five phases:
+Every turn follows this order:
 
-1. **Transform** — equip Fashion, play Actions, and use Queen abilities.
-2. **Reveal** — total your resources and determine your Look.
+0. **Tip Count** — before playing anything, add the printed Tip values of every card currently in your hand.
+1. **Transform** — equip Fashion, play Actions, and use eligible Queen abilities.
+2. **Reveal** — total resources and determine your Look.
 3. **Shop** — spend Tips to buy cards from the Wardrobe Rack or Thrift Store.
-4. **Slay / Dragdagulan† / Pass** — either take the Stage, battle a rival, or pass.
-5. **Cleanup** — archive temporary cards, draw a new hand, and reset temporary resources.
+4. **Slay / Dragdagulan† / Pass** — take the Stage, battle a rival, or pass.
+5. **Cleanup** — archive as required, draw a new hand, and reset temporary Tips/Appeal.
 
-## The three numbers
+### Tip Count rule
+
+Counting a card's printed Tips does **not** discard it. You can still play/equip that card later in the turn.
+
+Count each card's printed Tip value only **once per turn**. Do not count it again after you play or equip it.
+
+## The numbers
 
 - **Tips** buy cards.
 - **Appeal** Slays the active Stage.
 - **Gross SP** is your score before final penalties.
-
-**LS** is used in Dragdagulan† battles.
+- **LS** is used in Dragdagulan†.
 
 ## Looks
 
-A **Matching Look** happens when all four core Fashion pieces share the same non-Neutral Tenet. Matching gives a stronger Reveal.
-
-A **Perfect Illusion** is a Matching Look that matches your Queen's Signature Tenet.
-
-A **Fusion Look** uses exactly two non-Neutral Tenets in the Coordinate/Fusion pool.
+- **Matching Look:** all four core Masters share one non-Neutral Tenet.
+- **Perfect Illusion:** a Matching Look that matches your Queen's Signature Tenet.
+- **Fusion Look:** exactly two non-Neutral Tenets in the Coordinate/Fusion pool.
 
 ## Shopping
 
-The Wardrobe Rack has five face-up cards. Spend Tips to buy any affordable cards. Purchased cards go to your Backstage Archive and enter your future deck cycle.
+The Wardrobe Rack has five face-up cards. Spend Tips to buy affordable cards.
+
+Purchased cards go to your **Backstage Archive / personal discard pile**. They do not enter your current hand; you draw them after your deck cycles.
 
 ## Slaying the Stage
 
-If your Appeal meets or beats the active Stage's Slay Target, you may Slay it, gain its reward, and claim the Stage trophy.
+If your Appeal meets or beats the active Stage's Slay Target and you meet its requirements, you may Slay it, claim the Stage trophy, and gain its reward.
 
 ## Dragdagulan†
 
-Dragdagulan† is the head-to-head Lip Sync battle system.
-
-1. Choose an opponent who is not Untouchable.
-2. Both players draw 3 battle cards from their own deck.
+1. Choose an eligible opponent.
+2. Both players draw 3 battle cards from their personal Deck.
 3. Add printed LS on those three cards plus explicit battle modifiers.
 4. Higher Battle Score wins.
 
@@ -62,7 +64,7 @@ Equipped Fashion does **not** automatically add LS.
 
 ## Beginner Mode
 
-For your first game, read only five Stage fields:
+For your first game, read only:
 
 - Favored Tenet
 - Featured Brand
@@ -74,8 +76,8 @@ Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation.
 
 ## Win condition
 
-The game ends when the standard end trigger is reached: 30 Gross SP at the end of Phase 4/Curtain Call or when the Stage Deck empties after a Stage is Slayed. Final Score is Gross SP plus explicit bonuses minus Penalty values.
+The game ends when a standard end trigger is reached: **30 Gross SP** at the end of Phase 4/Curtain Call or an empty Stage Deck after a Stage is Slayed.
 
-## Legal/IP note
+Final Score is Gross SP plus explicit bonuses minus Penalty values.
 
-**Dragdagulan†** is working prototype terminology credited to *Drag Den Philippines* and subject to legal/IP, trademark, and publisher review before commercial release.
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
