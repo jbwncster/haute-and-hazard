@@ -4,7 +4,7 @@ Purpose: show the hook quickly for publishers, playtesters, and streamers. This 
 
 ## Video title
 
-**Haute & Hazard v7.8 Prototype — How a Turn Works**
+**Haute & Hazard v7.9 Prototype — How a Turn Works**
 
 ## Opening disclaimer, 5 seconds
 
@@ -75,7 +75,7 @@ Voiceover:
 
 ## 4:30–5:00 — Call to action
 
-> The current v7.8 prototype is available for structured playtesting, with physical and Tabletop Simulator builds aligned. Feedback should focus on clarity, pacing, balance, Queen identity, and whether players want to play again.
+> The current v7.9 rules/card target is available for structured playtesting, with physical and Tabletop Simulator production targets intended to remain synchronized. Feedback should focus on clarity, pacing, balance, Queen identity, and whether players want to play again.
 
 ## Caption/legal note
 
