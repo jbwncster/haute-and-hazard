@@ -1,6 +1,6 @@
 # Haute & Hazard — Alternate Stage Rules: Two Placements + Runner-Up Dragdagulan†
 
-**Status: EXPERIMENTAL PLAYTEST MODULE — not part of the canonical v7.8 rules.**
+**Status: EXPERIMENTAL PLAYTEST MODULE — not part of the canonical v7.9 rules.**
 
 Use this only when deliberately testing whether a two-placement Stage structure makes Stages feel more competitive and gives **Dragdagulan†** a stronger, more natural role in the game.
 
@@ -16,7 +16,7 @@ The test asks:
 
 ### 1. Stage opens
 
-Play the Stage normally. All standard v7.8 rules remain in effect unless this document changes them.
+Play the Stage normally. All standard v7.9 rules remain in effect unless this document changes them.
 
 ### 2. First Slay — Stage Winner
 
@@ -66,7 +66,7 @@ This challenge is **optional**.
 
 If the Runner-Up declines, proceed to Curtain Call.
 
-If accepted by the rules, resolve Dragdagulan† using the normal current v7.8 battle rules:
+If accepted by the rules, resolve Dragdagulan† using the normal current v7.9 battle rules:
 
 1. Choose an eligible opponent who is not Untouchable.
 2. Each player draws 3 battle cards from their personal Deck.
@@ -95,7 +95,7 @@ Then resolve normal Curtain Call cleanup and reveal the next Stage.
 
 ## What does not change
 
-Unless specifically stated above, keep the normal v7.8 rules for:
+Unless specifically stated above, keep the normal v7.9 rules for:
 
 - Tenets and Brands;
 - Shopping;
@@ -154,7 +154,7 @@ For every Stage tested with this module, record:
 
 Compare at least:
 
-- one game using standard v7.8 Stage/Curtain Call rules; and
+- one game using standard v7.9 Stage/Curtain Call rules; and
 - one game with the same player count using this alternate module.
 
 Do not replace the canonical Stage system based on one session. Treat this as a **watching/test** rule until repeated play data shows whether it improves interaction, pacing, and drama.
