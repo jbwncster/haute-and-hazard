@@ -1,74 +1,66 @@
-# Haute & Hazard — Solo Circuit v0.1 Print & Play
+# Haute & Hazard — Solo Circuit v0.2 Print & Play
 
-**Status:** Experimental one-player playtest module. This is separate from the synchronized v7.8 physical/TTS component set.
+**Status:** experimental one-player module for the v7.9 base game.
 
-The first physical Solo Circuit prototype has been laid out as poker-size print-and-play cards for one-person testing. A matching experimental [Tabletop Simulator add-on](../releases/solo-circuit-v0.1/TTS/README.md) is also committed for digital testing.
+Solo Circuit v0.2 uses **30 separate solo cards**:
 
-## Printable component set
+- 18 Automa cards
+- 12 House Queen Personality cards
 
-The generated v0.1 package contains:
+These cards are not part of the 240-card base-game Poker Deck.
 
-- **18 Automa cards** — poker size, 2.5 × 3.5 in;
-- **12 House Queen Personality cards** — poker size, 2.5 × 3.5 in;
-- **Solo Circuit Quick Reference** — two copies per US Letter sheet;
-- **Solo Circuit Playtest Log**;
-- **README_FIRST.txt** with printing instructions.
+## Current v0.2 print target
 
-Generated package filename:
+Package filename:
 
-`Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`
+`Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip`
 
-Individual generated files:
+The v0.2 print package should contain:
 
 - `01_Solo_Circuit_Automa_18_Cards.pdf`
 - `02_House_Queen_Personalities_12_Cards.pdf`
 - `03_Solo_Circuit_Quick_Reference.pdf`
 - `04_Solo_Circuit_Playtest_Log.pdf`
+- `README_FIRST.txt`
+
+For a complete home-print session, use the v7.9 base-game Print & Play kit for Stages, Queens, Player Aids, and rules.
 
 ## Printing
 
-Print the card PDFs:
+Print poker-size Solo cards:
 
-- US Letter;
-- single-sided;
-- **Actual Size / 100%**;
-- do not use Fit to Page.
+- US Letter
+- single-sided
+- **Actual Size / 100%**
+- do not use Fit to Page
 
-Cut on the card boundaries. The easiest prototype method is to put each paper front into an **opaque poker/trading-card sleeve** with a spare playing card, trading card, or cardstock behind it.
+Sleeve each paper front with an opaque sleeve and spare card/cardstock behind it.
 
-Card backs are not required for v0.1.
+## Required rules
 
-## What to use with the cards
+Read:
 
-Read these before testing:
+1. [Solo Circuit v0.2 rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)
+2. [Automa deck v0.2](SOLO_CIRCUIT_AUTOMA_DECK.md)
+3. [House Queen Personalities v0.2](SOLO_CIRCUIT_PERSONALITIES.md)
+4. [Quick Reference](SOLO_CIRCUIT_QUICK_REFERENCE.md)
 
-1. [Solo Circuit rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)
-2. [18-card Automa deck reference](SOLO_CIRCUIT_AUTOMA_DECK.md)
-3. [House Queen Personalities](SOLO_CIRCUIT_PERSONALITIES.md)
-4. [Solo Circuit Quick Reference](SOLO_CIRCUIT_QUICK_REFERENCE.md)
+## First baseline test
 
-Record results in [`../data/solo_circuit_playtest_log_template.csv`](../data/solo_circuit_playtest_log_template.csv).
+Use:
 
-## Physical-package status
+- **Working Queen** difficulty;
+- **Beginner Mode**;
+- generic House Queen before adding a Personality;
+- v7.9 Tip Count rules;
+- four-round Stage Timer.
 
-The print-ready PDFs and ZIP have been generated and visually QA'd as development artifacts. They are **not part of the canonical v7.8 Game Crafter package** and should not increase the official 240-card Poker Deck count.
+Record Market removal, player/House Appeal, Stage result, timer round, and any Dragdagulan† result.
 
-The complete generated ZIP is now committed at [`../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip). It contains all four printable PDFs plus `README_FIRST.txt`. The Markdown files in this repository remain the source of truth for the experimental v0.1 card text.
+## GitHub artifact note
 
-## Digital version
+The v0.1 package remains archived under `releases/solo-circuit-v0.1/`.
 
-For Tabletop Simulator, download [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip). Load the normal v7.8 Standard Setup, then **Additive Load** the Solo Circuit save. See the [TTS README](../releases/solo-circuit-v0.1/TTS/README.md) for setup and runtime-status notes.
+The current text/source target is **v0.2**. Do not label a v0.1 binary as v0.2. If the v0.2 ZIP is not visibly committed or attached to a GitHub Release, distribute it separately until the binary is uploaded.
 
-## First physical test
-
-For the first physical solo game:
-
-- use **Working Queen** difficulty;
-- use **Beginner Mode** Stage fields;
-- start with the generic House Queen before adding a Personality if you want the cleanest baseline;
-- record every Market removal and Stage result;
-- note any Automa card that requires rereading or causes unclear timing.
-
-After a few baseline games, add House Queen Personalities and compare the results.
-
-> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed.
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
