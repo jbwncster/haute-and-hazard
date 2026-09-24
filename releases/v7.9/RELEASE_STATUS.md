@@ -12,7 +12,9 @@ Core changes:
 - explicit printed Tips on every Poker card;
 - 144 unique Wardrobe cards;
 - Archive delay for purchases;
-- corrected starter wording to prevent Tip double counting;
+- purchases go to Backstage Archive;
+- Wardrobe Rack refills at Cleanup;
+- Cleanup draws 5;
 - base component counts remain 240 Poker / 12 Stage / 12 Queen / 5 Player Aids.
 
 ## Canonical card-data status
