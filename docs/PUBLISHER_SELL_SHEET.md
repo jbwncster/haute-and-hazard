@@ -34,7 +34,7 @@ Build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe
 
 ## Current prototype
 
-The current **v7.8 playtest edition** includes:
+The current **v7.9 playtest target** includes:
 
 - 12 playable Queens
 - 5 identical 12-card starter decks
@@ -44,11 +44,11 @@ The current **v7.8 playtest edition** includes:
 - 12 venue-style Stage cards
 - player aids, Beginner Mode, and structured playtest feedback tools
 
-The physical Game Crafter prototype and the current **v7.8 Tabletop Simulator build** now target the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, and core rules. Current rules documentation, print-production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
+The **v7.9 physical and Tabletop Simulator production targets** use the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, Tip Count economy, and core rules. Current rules documentation, production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
 
-The older v7.7 TTS package remains archived for comparison only; current multiplayer balance testing should use v7.8 when available.
+v7.8 and the older v7.7/v7.7.1 packages remain archived for comparison only; current multiplayer balance testing should use synchronized v7.9 materials.
 
-An **experimental one-player Solo Circuit v0.1** is also in active development. It uses an 18-card House Queen Automa, optional Queen Personality cards, and four difficulty levels. Both a physical Print & Play kit and a GitHub-hosted Tabletop Simulator add-on are available for structured solo testing. This does **not** change the current published prototype player count claim of 2–5; solo support remains a development experiment until it clears its playtest gates.
+An **experimental one-player Solo Circuit v0.2** is also in active development. It uses an 18-card House Queen Automa, 12 optional Queen Personality cards, four difficulty levels, a four-round Stage timer, and explicit House Appeal/scoring rules. Solo remains a development experiment and does **not** change the base game's 2–5 player claim.
 
 ## Design provenance
 
@@ -66,7 +66,7 @@ The Queens, Brands, Tenets, card systems, scoring, and game-world material are i
 
 A publisher interested in a visually distinctive, interactive hobby game and willing to evaluate a prototype while it is still being refined. Publisher development, editing, art direction, production changes, legal/IP review, and further balance work are welcome.
 
-**Available for review:** rules · print-and-play files · Game Crafter prototype · v7.8 Tabletop Simulator multiplayer files · experimental Solo Circuit physical/TTS module · component manifest · prototype photos · playtest documentation
+**Available for review / development:** v7.9 rules and production target · print-and-play/Game Crafter specifications · Tabletop Simulator source/status materials · experimental Solo Circuit v0.2 · component manifest · prototype photos · playtest documentation
 
 ---
 
