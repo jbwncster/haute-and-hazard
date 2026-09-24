@@ -21,7 +21,9 @@ Before starting, make sure every player knows:
 3. a card generates its printed Tips when it is **played from hand during Transformation**;
 4. unplayed cards generate nothing, and already-equipped Masters do not pay again;
 5. Fashion may be played for Tips without being equipped;
-6. purchased cards go to Backstage Archive and are drawn later.
+6. purchased cards go to Backstage Archive and are drawn later;
+7. the Wardrobe Rack has five face-up cards and refills at Cleanup;
+8. Cleanup archives unused hand cards and draws a fresh hand of 5.
 
 ## Recommended tester packet
 
