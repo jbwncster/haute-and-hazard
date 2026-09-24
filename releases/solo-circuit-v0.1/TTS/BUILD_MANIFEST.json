@@ -1,0 +1,16 @@
+{
+  "version": "solo-circuit-v0.1",
+  "status": "experimental TTS solo add-on",
+  "base_game": "Haute & Hazard v7.8 Standard Setup",
+  "save_file": "Haute_Hazard_Solo_Circuit_v0_1_TTS_AddOn.json",
+  "automa_cards": 18,
+  "personality_cards": 12,
+  "remote_assets": [
+    "Assets/solo_automa_18.png",
+    "Assets/solo_personalities_12.png",
+    "Assets/solo_back.png"
+  ],
+  "loading": "Additive Load over the v7.8 Standard Setup",
+  "runtime_note": "Generated/schema-checked; in-app TTS additive-load verification still required.",
+  "legal_ip_review": "Dragdagulan† remains working prototype terminology subject to review."
+}

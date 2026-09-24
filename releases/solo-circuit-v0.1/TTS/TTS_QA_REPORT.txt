@@ -1,0 +1,16 @@
+HAUTE & HAZARD — SOLO CIRCUIT v0.1 TTS QA
+
+Automa cards: 18
+Personality cards: 12
+Automa image grid: 6 × 3
+Personality image grid: 4 × 3
+Shared custom back: present
+Automa CustomDeck key: 11
+Personality CustomDeck key: 12
+Counters: House Gross SP / House Appeal / Stage Timer / Bargain Tokens
+References: Start Here / House Wardrobe / Difficulty / Dragdagulan† Battle Area
+Asset mode: raw.githubusercontent.com
+Intended use: additive-load over v7.8 Standard Setup
+JSON generation and card/deck ID mapping: checked
+
+LIMITATION: Tabletop Simulator itself was not available in the build environment, so an in-app additive-load test remains required.
