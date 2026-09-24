@@ -41,13 +41,13 @@ Voiceover:
 
 > Fashion goes into four core slots: Face, Wig, Body, and Shoes. A complete Coordinate can become a Matching Look, Perfect Illusion, or Fusion Look depending on Tenets and Brands.
 
-## 1:45–2:20 — Reveal and Shop
+## 1:45–2:20 — Tip Count, Reveal, and Shop
 
 Show Tips and Appeal.
 
 Voiceover:
 
-> Tips buy better cards. Appeal is your performance power for Slaying the active Stage. Shopping improves your deck, but the Look you build on the table drives your performance.
+> At the start of your turn, before Transformation, count the printed Tips on every card in your hand. Those cards stay in your hand and can still be played or equipped, but their printed Tips are counted only once. Tips buy better cards; Appeal is your performance power for Slaying the active Stage. Purchased cards go to your Backstage Archive and enter your hand only after your deck cycles.
 
 ## 2:20–3:10 — Slay a Stage
 
