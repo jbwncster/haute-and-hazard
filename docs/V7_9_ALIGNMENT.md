@@ -9,7 +9,7 @@ A build is synchronized only when the same rule/card target is represented acros
 | System / component | v7.9 Physical / PnP | v7.9 TTS | Canonical source |
 |---|---|---|---|
 | Players | 2–5 | 2–5 | `CURRENT_GAMEPLAY.md` |
-| Turn start | **Tip Count** before Transformation | Same | `CURRENT_GAMEPLAY.md` |
+| Tip economy | **Play cards during Transformation to generate printed Tips** | Same | `CURRENT_GAMEPLAY.md` |
 | Starter cards | 60 total / five 12-card decks | Same | `STARTING_DECKS.md` |
 | Starter mix | 7 Basic Beat / 3 Messy Lip Sync / 2 Chapstick | Same | `STARTING_DECKS.md` |
 | Starter Tips | 1 / 0 / 1 | Same | `STARTING_DECKS.md` |
@@ -53,18 +53,18 @@ The Stage registry is intentionally incomplete. The repository does **not yet ha
 
 Do not guess or reconstruct those fields from memory. A v7.9 Stage-face regeneration cannot be called deterministic until exact current Stage text is migrated from a verified source.
 
-## Non-negotiable Tip Count checks
+## Non-negotiable Tip-generation checks
 
 A synchronized v7.9 build must show all of the following:
 
-1. Tip Count occurs before Transformation.
-2. Every Poker card visibly has a printed Tip value, including 0.
-3. A card's printed Tips are counted once from hand.
-4. Counting does not discard the card.
-5. Playing/equipping the card does not pay its printed Tips again.
-6. Basic Beat and Chapstick do not retain legacy double-pay wording.
-7. Cards drawn or returned to hand after Tip Count do not contribute printed Tips retroactively.
-8. Opulencia uses her explicit v7.9 Tip Count wording.
+1. Every Poker card visibly has a printed Tip value, including 0.
+2. A card generates its printed Tips only when played from hand during Transformation.
+3. Unplayed cards generate no Tips.
+4. A Master already equipped from an earlier turn does not regenerate printed Tips.
+5. Fashion may be played for Tips without being equipped; it then archives at Cleanup.
+6. Cards drawn during Transformation may be played later that Transformation and generate Tips normally.
+7. Basic Beat uses clean no-additional-effect wording; Chapstick does not duplicate its printed Tip in its Equip effect.
+8. Opulencia uses explicit per-play printed-Tip wording.
 
 ## Physical production
 
