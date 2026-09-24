@@ -34,7 +34,7 @@ Use only synchronized v7.9 files for this build.
    - Folder target: `05_PLAYER_AIDS_POSTCARD_MAT_SET_5`
    - Game Crafter quantity: **5**
    - **1875 × 1275 px**
-   - Must show the v7.9 turn order beginning with **Tip Count**.
+   - Must show the v7.9 turn order beginning with **Transformation**.
 
 6. **Box — Medium Prototype Box**
    - Folder target: `06_BOX_MEDIUM_PROTOTYPE`
@@ -42,8 +42,8 @@ Use only synchronized v7.9 files for this build.
 
 ## v7.9 rules that must appear consistently
 
-- Tip Count occurs before Transformation.
-- Printed Tips are counted once from cards in hand.
+- Cards generate their printed Tips when played from hand during Transformation.
+- Unplayed cards generate no Tips; already-equipped Masters do not automatically generate Tips again.
 - Printed Tips do not fire again when those cards are played/equipped.
 - Purchased cards go to Backstage Archive.
 - Starter printed Tips:
@@ -76,4 +76,4 @@ Verify:
 - Medium Folio front/back
 - Box art **5850 × 5400**
 - no v7.8 version labels on v7.9 production files
-- no legacy “gain 1 Tip when played” starter wording that duplicates printed Tips
+- no legacy hand-counting / Tip Count wording
