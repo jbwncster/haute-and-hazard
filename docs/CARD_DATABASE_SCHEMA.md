@@ -2,7 +2,9 @@
 
 Use a single structured source of truth for cards so the physical build, TTS build, rules docs, player aids, and balance tracker do not drift.
 
-Template file: [../data/card_database_template.csv](../data/card_database_template.csv)
+**Current v7.9 database:** [`../data/v7_9_card_database.csv`](../data/v7_9_card_database.csv)  
+**Validation/readme:** [`../data/V7_9_CARD_DATABASE.md`](../data/V7_9_CARD_DATABASE.md)  
+**Blank template:** [`../data/card_database_template.csv`](../data/card_database_template.csv)
 
 ## Required fields
 
@@ -61,8 +63,8 @@ For the current v7.9 Wardrobe redesign:
 - every Poker card has an explicit printed Tip value, including 0;
 - Cost and printed Tips are separate fields and must never be conflated;
 - printed Tips are counted from the player's hand at the start of the turn before cards are played/equipped;
-- every one of the 144 Wardrobe cards is unique in the candidate database;
-- no two candidate cards share identical ability text;
+- every one of the 144 Wardrobe cards has a distinct current rules-text entry in the v7.9 database;
+- no two current Wardrobe rows share identical rules text;
 - no Brand/slot combination is represented only by repeated copies of one garment;
 - Brand defines a strategic family, while each garment must create its own purchase reason.
 
