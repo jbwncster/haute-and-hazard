@@ -1,0 +1,15 @@
+{
+  "version": "solo-circuit-v0.2",
+  "status": "experimental TTS solo add-on source target",
+  "base_game": "Haute & Hazard v7.9 Standard Setup",
+  "expected_save_file": "Haute_Hazard_Solo_Circuit_v0_2_TTS_AddOn.json",
+  "automa_cards": 18,
+  "personality_cards": 12,
+  "total_solo_cards": 30,
+  "stage_timer_rounds": 4,
+  "house_base_appeal": "max(0, Stage Slay Target - 6)",
+  "loading": "Additive Load over the v7.9 Standard Setup",
+  "binary_status": "v0.2 save/images/zip require regeneration and attachment verification",
+  "runtime_note": "In-app Tabletop Simulator verification required before runtime-verified status.",
+  "legal_ip_review": "Dragdagulan† remains working prototype terminology subject to review."
+}
