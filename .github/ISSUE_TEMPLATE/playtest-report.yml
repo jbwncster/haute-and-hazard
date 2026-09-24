@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for testing **Haute & Hazard**. The current base-game target is **v7.9** and the current experimental solo target is **Solo Circuit v0.2**.
 
-        **v7.9 reminder:** Tip Count happens before Transformation. Count each card's printed Tips once from the cards currently in hand.
+        **v7.9 reminder:** Tips work like deck-building Power. A card generates its printed Tips only when you play it from hand during Transformation. Unplayed cards and already-equipped Masters generate no Tips.
 
         **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
 
@@ -69,10 +69,10 @@ body:
       required: true
 
   - type: textarea
-    id: tip_count
+    id: tip_generation
     attributes:
-      label: Tip Count / Shopping notes
-      description: Was Tip Count remembered before Transformation? Did anyone double-count printed Tips after playing/equipping a card? Did Shopping feel useful?
+      label: Tip generation / Shopping notes
+      description: Was it clear that only played cards generate Tips? Did anyone gain Tips from unplayed cards or old Masters? Did playing Fashion for Tips work smoothly? Did Shopping feel useful?
 
   - type: textarea
     id: stages
