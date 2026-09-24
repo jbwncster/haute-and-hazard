@@ -17,6 +17,8 @@ body:
       options:
         - v7.8 Physical — Game Crafter
         - v7.8 Digital — Tabletop Simulator
+        - Solo Circuit v0.1 — Physical Print & Play
+        - Solo Circuit v0.1 — Tabletop Simulator add-on
         - v7.7 Core Playtest Set — legacy
         - v7.7 Tabletop Simulator — legacy
         - v7.7.1 Game Crafter — archived legacy reference
@@ -33,6 +35,7 @@ body:
         - Beginner Mode
         - Full Stage rules
         - Alternate Two-Placement Stage Test
+        - Solo Circuit — Experimental
         - Mixed / modified teaching game
     validations:
       required: true
@@ -41,7 +44,7 @@ body:
     id: players
     attributes:
       label: Player count
-      placeholder: "Example: 2"
+      placeholder: "Example: 2 (or 1 for Solo Circuit)"
     validations:
       required: true
 
@@ -85,6 +88,12 @@ body:
     attributes:
       label: Alternate two-placement Stage notes
       description: If tested, record Stage Winner, Runner-Up, recorded Appeal, optional Dragdagulan† target/result, extra time, and whether Curtain Call timing was clear.
+
+  - type: textarea
+    id: solo_circuit
+    attributes:
+      label: Solo Circuit notes
+      description: If testing Solo Circuit, record Physical/TTS, player Queen, House Queen/Personality, difficulty, Stage rounds, player/House Appeal, Market removals, Stage Timer results, and solo Dragdagulan† scores. For TTS, also note additive-load and asset-loading issues.
 
   - type: textarea
     id: looks
