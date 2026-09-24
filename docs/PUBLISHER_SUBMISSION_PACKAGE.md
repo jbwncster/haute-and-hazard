@@ -4,7 +4,7 @@ Use this checklist to create a clean one-click folder for publishers.
 
 ## Folder name
 
-`Haute_Hazard_v7.8_Publisher_Submission_Jake_Weiner`
+`Haute_Hazard_v7.9_Publisher_Submission_Jake_Weiner`
 
 ## Current generated publisher files
 
@@ -43,7 +43,7 @@ See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for current hashes and bi
 
 ## Start Here copy
 
-> Haute & Hazard is a 2–5 player competitive drag fashion deck-building game by Jake Weiner. Players build wardrobes from a shared market, assemble persistent Looks, Slay venue Stages, and challenge rivals in Dragdagulan† Lip Sync battles. The game is an unpublished v7.8 prototype in active playtesting; balance, wording, components, art, terminology, and legal/IP-reviewed elements remain open to publisher development.
+> Haute & Hazard is a 2–5 player competitive drag fashion deck-building game by Jake Weiner. Players build wardrobes from a shared market, assemble persistent Looks, Slay venue Stages, and challenge rivals in Dragdagulan† Lip Sync battles. The game is an unpublished v7.9 prototype in active playtesting; balance, wording, components, art, terminology, and legal/IP-reviewed elements remain open to publisher development.
 
 ## Publisher-facing legal/IP note
 
