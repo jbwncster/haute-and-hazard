@@ -2,7 +2,7 @@
 
 **Status: current v7.9 base-game rules and card-pool target.**
 
-This document defines the v7.9 Wardrobe redesign and printed-Tip economy. The **canonical per-card data** is committed at [`../data/v7_9_card_database.csv`](../data/v7_9_card_database.csv), with validation notes in [`../data/V7_9_CARD_DATABASE.md`](../data/V7_9_CARD_DATABASE.md). It supersedes the v7.8 repeated-garment Wardrobe model.
+This document defines the v7.9 Wardrobe redesign and printed-Tip economy. The **canonical per-card data** is committed at [`../data/v7_9_card_database.csv`](../data/v7_9_card_database.csv), with validation notes in [`../data/V7_9_CARD_DATABASE.md`](../data/V7_9_CARD_DATABASE.md).
 
 ## Canonical data source
 
@@ -25,8 +25,6 @@ The 144-card Wardrobe contains:
 - **144 distinct rules-text entries**
 
 There are no repeated Fashion cards in the v7.9 Wardrobe.
-
-Within a Brand, different cards should share a strategic identity without becoming copies of one another. Slot identity also matters: Face, Wig, Body, Shoes, and Accessory should create different tactical jobs even when they belong to the same Brand.
 
 ### Brand distribution
 
@@ -58,39 +56,54 @@ Total Fashion: **130**. The remaining **14 Wardrobe cards are unique neutral/Vog
 - **Big Top:** Wild effects, risk/reward, unpredictable tempo.
 - **Swamp Witch:** Deep Storage, slow engines, recursion.
 
-## Printed Tips on every Poker card
+## Tips = Power-like deck-building currency
 
-Every card in the 240-card Poker Deck displays a **printed Tip value**, including cards whose value is **0**.
+Every card in the 240-card Poker Deck displays a **printed Tip value**, including 0.
 
 **Cost** and **printed Tips** are different:
 
 - **Cost** is what you pay to buy a card.
-- **Printed Tips** are purchasing power contributed by a card in your hand during Tip Count.
+- **Printed Tips** are the purchasing power generated when you **play that card from your hand**.
 
-## Tip Count
+This is intentionally analogous to a Power-style shared-market deck-builder: cards must be played to generate buying power.
 
-At the **start of your turn, before Transformation**, perform Tip Count:
+## Generating printed Tips
 
-1. Look at every card currently in your hand.
-2. Add the printed Tip values of those cards to your Tip pool.
-3. A printed 0 contributes nothing but is still shown.
-4. Counting a card does not discard, play, or equip it.
-5. A card's printed Tip value is counted **once per turn**.
-6. Moving the card to the Coordinate or playing it later does not generate its printed Tips again.
-7. A card that enters your hand after Tip Count does not add its printed Tips retroactively. If it remains in hand until a later turn, its printed Tips can be counted during that later turn's Tip Count.
+During **Transformation**:
 
-Tip Count is a rules step rather than a card effect. Queen abilities and card effects may still add or remove Tips after Tip Count. **Opulencia** is an explicit exception in wording: after a nonzero Tip Count she gains +1 additional Tip, and her ability also continues to reward later effect-based Tip gains.
+1. Play a card from your hand.
+2. Immediately add its printed Tip value to your Tip pool.
+3. Resolve that card's legal Action/equip instructions.
+4. Each physical card generates its printed Tips only once when played that turn.
 
-### Starter-card correction
+Important consequences:
 
-To prevent double counting under v7.9:
+- Holding a card does not generate Tips.
+- A printed 0 generates no Tips.
+- A Master that was already equipped before this turn does not generate Tips again.
+- If you draw a card during Transformation, you may later play it during that same Transformation and generate its printed Tips.
+- If you draw a card after Transformation, it normally cannot generate printed Tips that turn unless an effect lets you play it.
+- Explicit “gain Tips” effects add to the same pool and are separate from printed Tips.
 
-- **Basic Beat:** printed Tip **1**; it does not also say “gain 1 Tip when played.”
-- **Messy Lip Sync:** printed Tip **0**.
-- **Chapstick:** printed Tip **1**; it does not also generate that printed Tip again when equipped/played.
+### Actions
+
+Playing an Action generates its printed Tips, then resolves its effect. Unless moved elsewhere, it is archived during Cleanup.
+
+### Fashion
+
+Playing Fashion generates its printed Tips, then you may:
+
+- legally equip it as a Master and resolve its Equip effect; or
+- play it for Tips only without equipping it.
+
+Fashion played for Tips only contributes no Appeal, LS, Tenet, Brand, or Look status and is archived during Cleanup.
+
+## Starter cards
+
+- **Basic Beat:** printed Tip **1**; no additional effect.
+- **Messy Lip Sync:** printed Tip **0**; its play effect supplies performance value instead.
+- **Chapstick:** printed Tip **1**; after its printed Tip is generated, its Equip effect may filter the hand.
 - **Penalty cards:** normally printed Tip **0**.
-
-Any older starter wording that grants the same Tip again when played is legacy v7.8 wording and should not be used in a v7.9 test.
 
 ## Shopping and purchased cards
 
@@ -100,13 +113,13 @@ When you buy a card:
 
 The deck-building loop is:
 
-**buy → Archive → reshuffle when needed → draw later → count printed Tips → play/equip**
+**draw hand → play cards to generate Tips → resolve Look → Shop → purchases enter Archive → reshuffle later → draw upgraded cards**
 
 ## v7.9 turn timing
 
-**0. Tip Count → 1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
+**1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-Tip Count happens before any card can leave the hand for the Coordinate.
+Printed Tips are generated during Transformation as cards are played.
 
 ## Main component accounting
 
@@ -121,19 +134,7 @@ Stages, Queens, Player Aids, rules, and the optional Solo Circuit module are sep
 
 ## Build synchronization rule
 
-A v7.9 playtest should use v7.9 wording across the same session. Do not mix a v7.9 Tip Count deck with v7.8 starter text, Player Aids, or rules.
-
-The synchronized v7.9 production target includes:
-
-- Poker-card faces;
-- Print & Play PDFs;
-- Game Crafter upload package;
-- Tabletop Simulator assets/save;
-- Player Aids;
-- rules / Learn to Play;
-- card database and manifests.
-
-Binary availability on GitHub is tracked separately from rules status. If a binary ZIP is not visibly attached, do not substitute an older v7.8 package and call it v7.9.
+A v7.9 playtest should use the same Power-like Tip rule across card text, Player Aids, rules, Game Crafter, Print & Play, and TTS.
 
 ## Playtest questions
 
@@ -141,13 +142,13 @@ Record whether:
 
 1. cards within the same Brand + slot create different purchase decisions;
 2. Brand identities remain recognizable;
-3. Tip Count is remembered before Transformation;
-4. players accidentally count an equipped/played card's printed Tips twice;
-5. players try to count printed Tips from cards drawn after Tip Count;
-6. Opulencia's updated Tip Count wording is clear and balanced;
-7. 0-Tip cards remain attractive;
-8. the Archive delay makes purchases feel like deck-building;
-9. the larger unique Wardrobe creates too much reading;
-10. the revised economy produces enough meaningful Shopping choices.
+3. players understand that **only played cards generate printed Tips**;
+4. players accidentally count unplayed hand cards;
+5. players accidentally regenerate Tips from Masters already equipped from earlier turns;
+6. playing Fashion for Tips without equipping is intuitive;
+7. cards drawn during Transformation create satisfying combo turns;
+8. Opulencia's per-card Tip bonus is clear and balanced;
+9. 0-Tip cards remain attractive;
+10. the Archive delay and Power-like economy create meaningful Shopping choices.
 
-> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review before commercial release.
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
