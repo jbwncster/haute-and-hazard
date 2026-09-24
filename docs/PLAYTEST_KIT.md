@@ -129,8 +129,8 @@ Only use it when the playtest organizer specifically asks for a v7.9 card-econom
 
 ## Experimental Solo Circuit automa
 
-For one-player development testing, use [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md).
+For one-player development testing, use [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md). For the physical card layout, component list, and printing instructions, see [`SOLO_CIRCUIT_PRINT_AND_PLAY.md`](SOLO_CIRCUIT_PRINT_AND_PLAY.md).
 
-The human player uses normal Haute & Hazard rules while a streamlined **House Queen** is driven by a proposed 18-card Automa deck. The module tests Market pressure, Stage pacing, solo Dragdagulan†, difficulty modifiers, and optional Queen Personality behaviors without requiring the tester to run a second full deck/tableau.
+The human player uses normal Haute & Hazard rules while a streamlined **House Queen** is driven by an 18-card Automa deck. The module tests Market pressure, Stage pacing, solo Dragdagulan†, difficulty modifiers, and optional Queen Personality behaviors without requiring the tester to run a second full deck/tableau.
 
 Record these sessions as **Solo Circuit — Experimental Playtest Module**. The proposed Automa cards, House Base Appeal values, and Personality rules are development material and are not yet part of the synchronized v7.8 Game Crafter/TTS component set.
