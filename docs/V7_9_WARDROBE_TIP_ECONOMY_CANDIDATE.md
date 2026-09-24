@@ -2,7 +2,19 @@
 
 **Status: current v7.9 base-game rules and card-pool target.**
 
-This document is the source of truth for the v7.9 Wardrobe redesign and printed-Tip economy. It supersedes the v7.8 repeated-garment Wardrobe model.
+This document defines the v7.9 Wardrobe redesign and printed-Tip economy. The **canonical per-card data** is committed at [`../data/v7_9_card_database.csv`](../data/v7_9_card_database.csv), with validation notes in [`../data/V7_9_CARD_DATABASE.md`](../data/V7_9_CARD_DATABASE.md). It supersedes the v7.8 repeated-garment Wardrobe model.
+
+## Canonical data source
+
+**Update the CSV first.** Physical card faces, Print & Play output, Game Crafter assets, TTS assets, balance sheets, and card lists should be regenerated from the same CSV revision.
+
+Current database QA:
+
+- 240 physical Poker-card rows;
+- 130 unique Wardrobe Fashion names;
+- 14 unique Wardrobe Actions;
+- 144 distinct Wardrobe rules-text entries;
+- explicit printed Tip values on all 240 rows.
 
 ## v7.9 card-pool rule
 
