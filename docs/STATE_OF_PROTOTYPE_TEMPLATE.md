@@ -1,6 +1,6 @@
 # Haute & Hazard — State of the Prototype Report Template
 
-Use this after the first 10 external v7.8 playtests, then update after 20 and 30 plays.
+Use this after the first 10 external v7.9 playtests, then update after 20 and 30 plays.
 
 ## Snapshot
 
