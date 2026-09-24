@@ -24,7 +24,25 @@ The first playable v0.1 versions now exist. Keep them separate from the current 
 - **1 difficulty reference** — included on the quick reference
 - **1 Solo Circuit playtest log** — see [`../data/solo_circuit_playtest_log_template.csv`](../data/solo_circuit_playtest_log_template.csv)
 
-Do **not** add these cards to the synchronized v7.8 Game Crafter or TTS component counts yet. Test them first as a separate Print & Play / development module.
+Do **not** add these cards to the synchronized v7.8 multiplayer Game Crafter or TTS component counts. Solo Circuit remains a separate development module with both physical and digital implementations.
+
+## Ways to play Solo Circuit
+
+### Physical
+
+Use [Solo Circuit v0.1 Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md) and the committed package:
+
+`releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`
+
+### Tabletop Simulator
+
+Use the committed [Solo Circuit v0.1 TTS add-on](../releases/solo-circuit-v0.1/TTS/README.md):
+
+`releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`
+
+Load the normal **v7.8 Standard Setup**, then **Additive Load** the Solo Circuit save. The TTS module includes the 18-card Automa deck, 12 selectable Personality cards, House counters, Stage Timer, House Wardrobe marker, difficulty reference, and Dragdagulan† battle reminder.
+
+The digital build is generated/schema-checked but still requires an actual in-app TTS additive-load test before it should be called fully runtime-verified.
 
 ## Automa card anatomy
 
