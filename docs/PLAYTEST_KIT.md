@@ -9,7 +9,8 @@ Send new testers to [`PLAYTEST_START_HERE.md`](PLAYTEST_START_HERE.md), not the 
 They will choose:
 
 - **Physical:** [`PRINT_AND_PLAY.md`](PRINT_AND_PLAY.md), using `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`.
-- **Digital:** [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md), using `Haute_Hazard_v7.8_TTS_Playtest.zip`.
+- **Digital multiplayer:** [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md), using `Haute_Hazard_v7.8_TTS_Playtest.zip`.
+- **Solo:** [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md), with either the physical `Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip` or the committed TTS add-on [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip).
 
 For either route, first-time players should read [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md) and use Beginner Mode.
 
@@ -22,7 +23,8 @@ For a tester-facing ZIP or folder, include:
 3. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
 4. [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
 5. [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) when deliberately testing the experimental two-placement Stage module.
-6. [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) when testing the experimental one-player House Queen automa.\n7. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+6. [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) when testing the experimental one-player House Queen automa.
+7. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
 8. [`STARTING_DECKS.md`](STARTING_DECKS.md).
 9. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
 10. [`FEEDBACK.md`](FEEDBACK.md).
@@ -129,8 +131,8 @@ Only use it when the playtest organizer specifically asks for a v7.9 card-econom
 
 ## Experimental Solo Circuit automa
 
-For one-player development testing, use [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md). For the physical card layout, component list, and printing instructions, see [`SOLO_CIRCUIT_PRINT_AND_PLAY.md`](SOLO_CIRCUIT_PRINT_AND_PLAY.md).
+For one-player development testing, use [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md). For physical cards, see [`SOLO_CIRCUIT_PRINT_AND_PLAY.md`](SOLO_CIRCUIT_PRINT_AND_PLAY.md). For digital testing, use the [Solo Circuit TTS add-on](../releases/solo-circuit-v0.1/TTS/README.md), which is designed to be **Additive Loaded** over the normal v7.8 Standard Setup.
 
 The human player uses normal Haute & Hazard rules while a streamlined **House Queen** is driven by an 18-card Automa deck. The module tests Market pressure, Stage pacing, solo Dragdagulan†, difficulty modifiers, and optional Queen Personality behaviors without requiring the tester to run a second full deck/tableau.
 
-Record these sessions as **Solo Circuit — Experimental Playtest Module**. The proposed Automa cards, House Base Appeal values, and Personality rules are development material and are not yet part of the synchronized v7.8 Game Crafter/TTS component set.
+Record these sessions as **Solo Circuit — Experimental Playtest Module** and specify **Physical** or **TTS**. The Automa cards, House Base Appeal values, and Personality rules are development material and are not part of the synchronized v7.8 multiplayer Game Crafter/TTS component set. The Solo TTS save is generated/schema-checked but still needs an in-app runtime verification.
