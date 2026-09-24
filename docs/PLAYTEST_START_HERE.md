@@ -52,7 +52,7 @@ Read:
 
 ### The v7.9 rule you must not miss
 
-During **Transformation**, Tips work like deck-building Power:
+During **Transformation**, Tips work like DC-style deck-building Power:
 
 > **Play a card from your hand to generate its printed Tips.**
 
