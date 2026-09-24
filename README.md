@@ -47,6 +47,7 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 - **Digital:** [Tabletop Simulator](docs/TABLETOP_SIMULATOR.md)
 - **Game Crafter:** [v7.9 Upload Guide](releases/v7.9/UPLOAD_GUIDE.md)
 - **v7.9 release status:** [Release Status](releases/v7.9/RELEASE_STATUS.md)
+- **Canonical v7.9 card data:** [240-card CSV](data/v7_9_card_database.csv) · [database notes](data/V7_9_CARD_DATABASE.md)
 
 ### Expected v7.9 package names
 
