@@ -46,7 +46,9 @@ The current **v7.8 playtest edition** includes:
 
 The physical Game Crafter prototype and the current **v7.8 Tabletop Simulator build** now target the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, and core rules. Current rules documentation, print-production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
 
-The older v7.7 TTS package remains archived for comparison only; current balance testing should use v7.8 when available.
+The older v7.7 TTS package remains archived for comparison only; current multiplayer balance testing should use v7.8 when available.
+
+An **experimental one-player Solo Circuit v0.1** is also in active development. It uses an 18-card House Queen Automa, optional Queen Personality cards, and four difficulty levels. Both a physical Print & Play kit and a GitHub-hosted Tabletop Simulator add-on are available for structured solo testing. This does **not** change the current published prototype player count claim of 2–5; solo support remains a development experiment until it clears its playtest gates.
 
 ## Design provenance
 
@@ -64,7 +66,7 @@ The Queens, Brands, Tenets, card systems, scoring, and game-world material are i
 
 A publisher interested in a visually distinctive, interactive hobby game and willing to evaluate a prototype while it is still being refined. Publisher development, editing, art direction, production changes, legal/IP review, and further balance work are welcome.
 
-**Available for review:** rules · print-and-play files · Game Crafter prototype · v7.8 Tabletop Simulator playtest files · component manifest · prototype photos · playtest documentation
+**Available for review:** rules · print-and-play files · Game Crafter prototype · v7.8 Tabletop Simulator multiplayer files · experimental Solo Circuit physical/TTS module · component manifest · prototype photos · playtest documentation
 
 ---
 
