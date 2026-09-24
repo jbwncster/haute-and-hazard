@@ -28,9 +28,9 @@ The result is a game about **fashion as strategy**: what you wear affects how yo
 
 ## Core turn
 
-**TRANSFORM → REVEAL → SHOP → SLAY / DRAGDAGULAN† / PASS → CLEANUP**
+**TIP COUNT → TRANSFORM → REVEAL → SHOP → SLAY / DRAGDAGULAN† / PASS → CLEANUP**
 
-Build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe, then either take the Stage or take on a rival.
+Count printed Tips from the cards in hand, build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe, then either take the Stage or take on a rival. Printed Tips are counted once; playing or equipping the same card does not pay them again.
 
 ## Current prototype
 
