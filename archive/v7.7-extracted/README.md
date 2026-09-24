@@ -12,3 +12,5 @@ Recovered files:
 - `Haute_Hazard_Playtest_Card_List_v7.7.csv` - 13812 bytes - source `Haute_Hazard_v7.7_Core_Playtest_Set/Haute_Hazard_Playtest_Card_List_v7.7.csv`
 - `PRINT_ME_FIRST.txt` - 2920 bytes - source `Haute_Hazard_v7.7_Core_Playtest_Set/PRINT_ME_FIRST.txt`
 - `PLAYTEST_CHECKLIST.txt` - 1579 bytes - source `Haute_Hazard_v7.7_Core_Playtest_Set/PLAYTEST_CHECKLIST.txt`
+- `Haute_Hazard_v7.7_Stage_Cards_FRONTS_Letter_9up_TEXT.txt` - 4707 bytes - source `Haute_Hazard_v7.7_Core_Playtest_Set/Haute_Hazard_v7.7_Stage_Cards_FRONTS_Letter_9up.pdf`
+- `Haute_Hazard_v7.7_Stage_Cards_DUPLEX_READY_Letter_TEXT.txt` - 5531 bytes - source `Haute_Hazard_v7.7_Core_Playtest_Set/Haute_Hazard_v7.7_Stage_Cards_DUPLEX_READY_Letter.pdf`

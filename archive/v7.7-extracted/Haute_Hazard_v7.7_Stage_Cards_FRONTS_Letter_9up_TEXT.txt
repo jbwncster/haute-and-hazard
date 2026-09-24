@@ -1,0 +1,203 @@
+--- PAGE 1 ---
+STAGE
+THE MONSTER BALL
+TARGET 10 AP
++5 SP
+JUDGE
+Dr. Abomination
+FEATURED BRAND
+Necropolis - +2 Gross SP
+PREREQUISITE
+Control at least 1 Blue Master or Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay with a Complete Coordinate containing two different
+Blue Brands
+JUDGE'S FAVOR
+Beautifully Monstrous - Once per game after drawing for
+Dragdagulan, gain +4 LS for that battle.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+ANIME MATSURI
+TARGET 12 AP
++6 SP
+JUDGE
+Hoshi Supreme
+FEATURED BRAND
+Sugar Rush - +2 Gross SP
+PREREQUISITE
+Control at least 1 Pink Master or Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay with a Matching Pink Look
+JUDGE'S FAVOR
+Encore Edit - Once per game after drawing your hand, draw 2
+cards and then archive 2 cards from hand.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+THE FILTH FLOOR
+TARGET 10 AP
++5 SP
+JUDGE
+Mother Grime
+FEATURED BRAND
+Trash Can - +2 Gross SP
+PREREQUISITE
+Trash 1 eligible card from hand.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Trash at least two eligible cards during the Slay turn; the
+Stage cost counts
+JUDGE'S FAVOR
+Filthy Rich - Once per game during Transformation, trash 1
+eligible card from hand or Archive and then draw 1 card.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+GRAND FINALE
+TARGET 20 AP
++10 SP
+JUDGE
+Empress Finale
+FEATURED BRAND
+Gilded Cage - +2 Gross SP
+PREREQUISITE
+Your Reveal is a Matching Look.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay with a Perfect Illusion
+JUDGE'S FAVOR
+Final Ovation - This Stage trophy is worth +2 SP during Final
+Judging.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+DUALITY BALL
+TARGET 15 AP
++8 SP
+JUDGE
+Gemini Glitz
+FEATURED BRAND
+Velvet Trap - +2 Gross SP
+PREREQUISITE
+Your Reveal is a Fusion Look.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay with a Fusion Look that uses at least one Deep Storage
+card
+JUDGE'S FAVOR
+Two for One - Once per game during Shopping, gain 5 Tips that
+may be spent on one purchase only.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+FACE FACE FACE
+TARGET 8 AP
++4 SP
+JUDGE
+Madame Visage
+FEATURED BRAND
+Big Top - +2 Gross SP
+PREREQUISITE
+You have a Face Master.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while your Face Master has at least 2 printed Appeal
+JUDGE'S FAVOR
+Painted for the Gods - Once per game after equipping a Face
+Master, draw 2 cards and then archive 1 card from hand.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+WITCHING HOUR
+TARGET 13 AP
++7 SP
+JUDGE
+Belladonna Hex
+FEATURED BRAND
+Swamp Witch - +2 Gross SP
+PREREQUISITE
+Control a Swamp Witch or Void Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while controlling both a Swamp Witch card and a Void
+card
+JUDGE'S FAVOR
+Back from the Beyond - Once per game during Transformation,
+play or equip one eligible non-Penalty card from your Archive as
+though it were in hand.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+DUNGEON DRAG
+TARGET 14 AP
++7 SP
+JUDGE
+Chain Reaction
+FEATURED BRAND
+Slasher - +2 Gross SP
+PREREQUISITE
+Control a Slasher or Velvet Trap Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while controlling both a Slasher card and a Velvet Trap
+card
+JUDGE'S FAVOR
+Break the Chains - Once per game when you lose Dragdagulan,
+prevent the Penalty you would take.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+CIRCUS BERSERKUS
+TARGET 11 AP
++6 SP
+JUDGE
+Ringmistress Riot
+FEATURED BRAND
+Big Top - +2 Gross SP
+PREREQUISITE
+Control a Big Top or Sugar Rush Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while controlling both a Big Top card and a Sugar Rush
+card
+JUDGE'S FAVOR
+Center Ring - Once per game during The Reveal, gain 3 Appeal
+after multipliers are applied.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+
+--- PAGE 2 ---
+STAGE
+NEON NIGHTS
+TARGET 12 AP
++6 SP
+JUDGE
+DJ Electra
+FEATURED BRAND
+Hyper-Glitch - +2 Gross SP
+PREREQUISITE
+Control a Hyper-Glitch Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while your Shoes Master belongs to Hyper-Glitch
+JUDGE'S FAVOR
+VIP List - Once per game during Shopping, reduce one
+purchase's Cost by 3, minimum 0.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+ROYAL RUMBLE
+TARGET 16 AP
++8 SP
+JUDGE
+The Grand Regent
+FEATURED BRAND
+Gilded Cage - +2 Gross SP
+PREREQUISITE
+Control a Gilded Cage Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while controlling a Gilded Cage Accessory
+JUDGE'S FAVOR
+Royal Decree - Once per game when you gain Gross SP, gain 2
+additional Gross SP.
+v7.7 PLAYTEST - CLAIM AS TROPHY
+STAGE
+APOCALYPSE NOW
+TARGET 14 AP
++7 SP
+JUDGE
+Last Call
+FEATURED BRAND
+Void - +2 Gross SP
+PREREQUISITE
+Control a Trash Can or Necropolis Master/Accessory.
+SPOTLIGHT REQUIREMENT (OPTIONAL)
+Slay while controlling both a Trash Can card and a
+Necropolis card
+JUDGE'S FAVOR
+Last One Standing - Once per game during Transformation,
+trash one Penalty from your hand or Archive.
+v7.7 PLAYTEST - CLAIM AS TROPHY
