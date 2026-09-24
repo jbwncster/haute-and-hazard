@@ -1,61 +1,66 @@
-# Haute & Hazard v7.8 — PLAYTESTERS START HERE
+# Haute & Hazard v7.9 — PLAYTESTERS START HERE
 
-New to the project? Pick **one** way to play and ignore the rest of the repository until after your first game.
+New to the project? Pick **one** way to play and ignore older release folders until after your first game.
 
-## I want to play physically
+## Physical / home print
 
-➡️ **Go to: [PRINT & PLAY — Physical Kit](PRINT_AND_PLAY.md)**
+➡️ [PRINT & PLAY — Physical Kit](PRINT_AND_PLAY.md)
 
-Use the current package:
+Current package target:
 
-`Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip`
+`Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
 
-It contains print-ready PDFs for:
+Use only files labeled **v7.9** together.
 
-- the complete 240-card Poker Deck;
-- all 12 Stages;
-- all 12 Queens;
-- five Player Aids;
-- the current Medium Folio rules;
-- optional card backs;
-- a beginner-friendly Start Here sheet.
+## Tabletop Simulator
 
-**Easiest method:** print the card fronts single-sided, cut them out, and put them in opaque sleeves with spare cards behind them. You do not need to print backs.
+➡️ [TABLETOP SIMULATOR — Digital Kit](TABLETOP_SIMULATOR.md)
 
-## I want to play in Tabletop Simulator
+Current package target:
 
-➡️ **Go to: [TABLETOP SIMULATOR — Digital Kit](TABLETOP_SIMULATOR.md)**
+`Haute_Hazard_v7.9_TTS_Playtest.zip`
 
-Use the current package:
+Use the v7.9 standard or teaching setup. Do not mix in v7.8 Player Aids or starter text.
 
-`Haute_Hazard_v7.8_TTS_Playtest.zip`
+## Solo
 
-For Windows, the package includes `INSTALL_WINDOWS.ps1`. It also includes a standard 2–5 player setup and a two-player teaching setup.
+➡️ [SOLO CIRCUIT v0.2 — Automa Rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)
 
-## I want to play solo
+Solo Circuit v0.2 is an experimental one-player module for the v7.9 base game.
 
-➡️ **Go to: [SOLO CIRCUIT — Automa Rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)**
+It uses:
 
-Solo Circuit v0.1 is an **experimental one-player module**. You still play a normal Queen and build your normal deck/Coordinate; a streamlined **House Queen** contests the Market and Stages through an 18-card Automa deck.
+- 18 Automa cards
+- 12 House Queen Personality cards
+- four-round Stage Timer
+- explicit House Base Appeal and Stage scoring
 
-Choose your format:
+Current package targets:
 
-- **Physical:** [Solo Circuit Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md) using `Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`.
-- **Tabletop Simulator:** download [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip), load the normal v7.8 Standard Setup, then **Additive Load** the Solo Circuit save.
+- `Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip`
+- `Haute_Hazard_Solo_Circuit_v0_2_TTS.zip`
 
-For the first Solo Circuit game, use **Working Queen** difficulty and **Beginner Mode**.
+See [Solo v0.2 release status](../releases/solo-circuit-v0.2/README.md).
 
-## I have never played before
-
-Start with **Beginner Mode**.
+## First game
 
 Read:
 
 1. [Learn to Play in 5 Minutes](LEARN_TO_PLAY_5_MIN.md)
 2. [Beginner Mode](BEGINNER_MODE.md)
-3. [Current Gameplay Reference](CURRENT_GAMEPLAY.md) only when you need more detail.
+3. [Current Gameplay](CURRENT_GAMEPLAY.md) when you need more detail
 
-On Stage cards in Beginner Mode, use only:
+### The v7.9 rule you must not miss
+
+Every turn starts with **Tip Count**:
+
+> Before Transformation, add the printed Tip values of every card currently in your hand.
+
+Count each card once. You can still play/equip it afterward. Do not count its printed Tips again.
+
+## Beginner Mode Stage fields
+
+Use:
 
 - Favored Tenet
 - Featured Brand
@@ -63,32 +68,32 @@ On Stage cards in Beginner Mode, use only:
 - Reward
 - Venue Effect
 
-Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for your first game.
+Ignore:
+
+- Judge
+- Spotlight Requirement
+- Judge's Favor
+- Brand Ovation
 
 ## After the game
 
-Use the [Playtest Feedback Guide](FEEDBACK.md) or the repository's **Playtest report** issue form.
+Use [FEEDBACK.md](FEEDBACK.md) or the repository **Playtest report** issue form.
 
-Useful feedback is not just whether you liked it. Record what happened:
+Always record the exact build:
 
-- player count;
-- game length;
-- Queens used;
-- final scores;
-- Stages Slayed;
-- Dragdagulan† attempts;
-- confusing moments;
-- most fun moment;
-- whether you would play again.
-
-## Experimental rules
-
-The [Alternate Two-Placement Stage Rules](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) are **optional experimental rules**. Do not use them for your first game unless the playtest organizer specifically asks you to.
+- v7.9 Physical
+- v7.9 TTS
+- Solo Circuit v0.2 Physical
+- Solo Circuit v0.2 TTS
+- mixed/legacy build
 
 ## Version check
 
-**Use v7.8 for the synchronized multiplayer base game.** If testing one player, use **Solo Circuit v0.1** as an explicitly labeled experimental add-on to that base.
+- **v7.9** — current base-game rules/card target.
+- **Solo Circuit v0.2** — current experimental solo target.
+- **v7.8** — archived synchronized comparison build.
+- **v7.7/v7.7.1** — legacy/archive material.
 
-v7.7 and v7.7.1 are legacy/archive material and should not be mixed into a normal current playtest.
+If a current binary ZIP is not visibly attached, do not relabel an older ZIP.
 
-> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review before commercial release.
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
