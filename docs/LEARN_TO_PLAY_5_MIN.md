@@ -17,11 +17,11 @@ Accessory is optional unless a card says otherwise. Filling all four core slots 
 
 Every turn follows this order:
 
-1. **Transform** — play cards from hand, generate their printed Tips, equip Fashion, play Actions, and use eligible Queen abilities.
+1. **Transform** — play cards from hand **one at a time, in any order**. Each played card generates its printed Tips, then resolves its text. Equip Fashion, play Actions, and use eligible Queen abilities.
 2. **Reveal** — total Appeal, resolve Reveal effects, and determine your Look.
-3. **Shop** — spend the Tips you generated to buy cards from the Wardrobe Rack or Thrift Store.
+3. **Shop** — spend the Tips you generated. You may buy multiple legal cards as long as you can afford them.
 4. **Slay / Dragdagulan† / Pass** — take the Stage, battle a rival, or pass.
-5. **Cleanup** — archive played non-Master cards and remaining hand as required, draw a new hand, and reset temporary Tips/Appeal.
+5. **Cleanup** — archive played non-Master cards and every card still in hand, refill empty Wardrobe Rack spaces, draw a fresh hand of **5**, and reset temporary Tips/Appeal.
 
 ### Tips work like Power
 
@@ -52,6 +52,8 @@ The Wardrobe Rack has five face-up cards. Spend Tips to buy affordable cards.
 
 Purchased cards go to your **Backstage Archive / personal discard pile**. They do not enter your current hand; you draw them after your deck cycles.
 
+The Wardrobe Rack starts with five face-up cards. If you buy one or more, leave those spaces empty until Cleanup, then refill back to five.
+
 ## Slay or battle
 
 After Shopping, choose one normal Phase-4 option:
@@ -62,6 +64,6 @@ After Shopping, choose one normal Phase-4 option:
 
 ## Cleanup
 
-Archive played Actions, Fashion played only for Tips, and remaining hand as required. Keep legal Masters equipped. Draw a fresh hand, then reset temporary Tips and Appeal.
+Archive played Actions, Fashion played only for Tips, and every unplayed card still in your hand. Keep legal Masters equipped. Refill the Wardrobe Rack to five, then draw a fresh hand of **5 cards**. If your Deck runs out while drawing, shuffle the Archive to form a new Deck and continue. Reset temporary Tips and Appeal.
 
 > **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to review.
