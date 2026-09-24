@@ -1,6 +1,6 @@
 # Haute & Hazard — Tabletop Simulator Playtest
 
-The **current Tabletop Simulator playtest build is v7.8**, aligned to the current v7.8 Game Crafter physical prototype.
+The **current synchronized multiplayer Tabletop Simulator playtest build is v7.8**, aligned to the current v7.8 Game Crafter physical prototype. An experimental **Solo Circuit v0.1** one-player add-on is also available and is loaded additively over the v7.8 Standard Setup.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 
@@ -14,6 +14,8 @@ If you just want to play digitally:
 4. Launch Tabletop Simulator and open the installed v7.8 save.
 5. For your first game, use the **two-player teaching setup** or the standard setup with **Beginner Mode**.
 6. Read [Learn to Play in 5 Minutes](LEARN_TO_PLAY_5_MIN.md) before opening the full rules reference.
+
+**Playing solo?** Use the normal v7.8 Standard Setup as the base, then download [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip) and follow the [Solo Circuit TTS README](../releases/solo-circuit-v0.1/TTS/README.md).
 
 If the complete ZIP is not visibly attached on GitHub, the [`../releases/v7.8/TTS/`](../releases/v7.8/TTS/) folder is the authoritative source/status record; the binary package must be distributed separately.
 
@@ -35,6 +37,36 @@ The v7.8 TTS build contains:
 - a physical-card-to-TTS asset manifest and QA report.
 
 The TTS source/status files live under [`../releases/v7.8/TTS/`](../releases/v7.8/TTS/). The complete binary ZIP includes the image assets; if the ZIP has not yet been attached to GitHub, use the source/status folder as the build record and attach the packaged ZIP separately.
+
+## Experimental Solo Circuit v0.1 add-on
+
+Solo Circuit is the current one-player development module. The human player uses normal Haute & Hazard rules while a streamlined **House Queen** is driven by an 18-card Automa deck.
+
+**Committed package:** [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip)
+
+The package contains:
+
+- `Haute_Hazard_Solo_Circuit_v0_1_TTS_AddOn.json`;
+- an 18-card custom Automa deck;
+- 12 selectable House Queen Personality cards;
+- House Gross SP, Appeal, Stage Timer, and Bargain counters;
+- House Wardrobe, difficulty, and Dragdagulan† reference objects;
+- GitHub-hosted image assets for the Solo cards;
+- build manifest and TTS QA report.
+
+Recommended use:
+
+1. Load the normal **v7.8 Standard Setup**.
+2. Additively load the Solo Circuit save.
+3. Shuffle the Automa deck.
+4. Choose a Personality or use the generic House Queen.
+5. Start at **Working Queen** difficulty and use **Beginner Mode** for the cleanest first baseline.
+
+Because the Solo card graphics are loaded from public raw GitHub URLs, the Solo module itself does not require a separate local image installer and is suitable for remote TTS testing once the base v7.8 table is available.
+
+See [Solo Circuit rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md), [Automa deck](SOLO_CIRCUIT_AUTOMA_DECK.md), [House Queen Personalities](SOLO_CIRCUIT_PERSONALITIES.md), and [physical Solo PnP](SOLO_CIRCUIT_PRINT_AND_PLAY.md).
+
+**Runtime caveat:** the Solo save JSON, card/deck IDs, image grids, counts, and remote asset paths were generated/schema-checked, but Tabletop Simulator itself was not available in the build environment. An actual in-app additive-load check is still required before calling this build fully runtime-verified.
 
 ## Rules alignment
 
