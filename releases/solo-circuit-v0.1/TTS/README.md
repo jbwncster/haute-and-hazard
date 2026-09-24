@@ -1,4 +1,4 @@
-# Haute & Hazard — Solo Circuit v0.1 for Tabletop Simulator
+> **ARCHIVED DEVELOPMENT SNAPSHOT:** Solo Circuit v0.1 is superseded by **Solo Circuit v0.2** for the current v7.9 base game. This file is retained for historical package documentation.\n\n# Haute & Hazard — Solo Circuit v0.1 for Tabletop Simulator
 
 **Experimental one-player add-on.** This adds the House Queen Automa to the current v7.8 Tabletop Simulator prototype without changing normal multiplayer.
 
