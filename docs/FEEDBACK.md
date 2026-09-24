@@ -141,22 +141,23 @@ The next rulebook revision uses a light **Haute Circuit** lore thread with short
 
 See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) and [`RULEBOOK_LORE_THREAD.md`](RULEBOOK_LORE_THREAD.md) for the intended design context.
 
-## v7.9 Wardrobe / Tip Count feedback
+## v7.9 Wardrobe / Power-like Tips feedback
 
 When testing the current v7.9 build, record:
 
 - whether multiple cards from the same Brand + slot create meaningfully different choices;
 - whether the Brand still feels coherent despite unique garment abilities;
-- whether Tip Count is remembered before Transformation;
-- whether players understand that counting a card's printed Tips does not discard it;
-- whether players accidentally count equipped cards' printed Tips again;
-- whether players try to add printed Tips from cards drawn or returned to hand after Tip Count;
+- whether players understand that only **played** cards generate printed Tips;
+- whether players accidentally count cards that remained unplayed in hand;
+- whether players regenerate Tips from Masters that were already equipped from earlier turns;
+- whether playing Fashion for Tips without equipping feels natural;
+- whether cards drawn during Transformation create satisfying combo turns;
 - whether Opulencia's More Is More timing is clear and feels balanced;
 - whether 0-Tip cards remain attractive because of their other stats/effects;
 - whether purchased cards going to the Archive/discard and appearing only after a later draw feels satisfying;
 - whether the larger variety creates too much reading or rules load.
 
-For v7.9 reports, explicitly record Tip Count mistakes or any case where a card's printed Tips were accidentally counted again after it was played/equipped.
+For v7.9 reports, explicitly record any case where Tips were granted from an unplayed card, regenerated from an old Master, or missed when a newly played card should have generated them.
 
 ## Shopping and deck-building feedback
 
