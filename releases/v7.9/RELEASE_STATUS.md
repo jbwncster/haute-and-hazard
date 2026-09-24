@@ -1,0 +1,67 @@
+# Haute & Hazard v7.9 — Release Status
+
+**Status:** current source/rules/card target; physical and TTS package synchronization in progress.
+
+## Canonical rules target
+
+v7.9 is now the current base-game rules target.
+
+Core changes:
+
+- pre-Transformation **Tip Count**;
+- explicit printed Tips on every Poker card;
+- 144 unique Wardrobe cards;
+- Archive delay for purchases;
+- corrected starter wording to prevent Tip double counting;
+- base component counts remain 240 Poker / 12 Stage / 12 Queen / 5 Player Aids.
+
+## Generated-build QA record
+
+The most recent v7.9 generation pass was built around these counts:
+
+- **240 Poker fronts**
+- **12 Stage fronts**
+- **12 Queen fronts**
+- **5 Player Aids**
+- **30 separate Solo Circuit fronts** when the optional solo module is included
+- **3 TTS save targets** across standard/teaching/solo workflows
+
+The working v7.9 TTS pass also corrected a Solo asset-path issue so bundled Solo images resolve from the package rather than relying on stale paths.
+
+## Binary attachment status
+
+Expected base-game package names:
+
+- `Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`
+- `Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
+- `Haute_Hazard_v7.9_TTS_Playtest.zip`
+
+Do not claim a binary is downloadable from GitHub unless it is visibly committed or attached to a GitHub Release.
+
+The text/source documentation can be current even while a large ZIP still needs manual attachment.
+
+## TTS runtime status
+
+Source/schema/path validation is not the same as an in-app runtime test.
+
+Before marking v7.9 TTS fully runtime-verified, confirm in Tabletop Simulator:
+
+- standard setup opens;
+- two-player teaching setup opens;
+- card images resolve;
+- decks have the expected counts;
+- Player Aid uses Tip Count wording;
+- Solo Circuit v0.2 additively loads over the v7.9 base;
+- Solo cards display correctly;
+- remote/cloud-hosted play works after host resave when applicable.
+
+## Game Crafter status
+
+Use [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md). The required Medium Prototype Box artboard is **5850 × 5400 px**.
+
+## Legacy builds
+
+- **v7.8** — archived synchronized comparison build.
+- **v7.7/v7.7.1** — older legacy/archive references.
+
+Do not use an older binary for a v7.9 balance report without labeling the session as mixed-version.
