@@ -1,0 +1,12 @@
+{
+  "version": "solo-circuit-v0.2",
+  "print_zip": "Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip",
+  "tts_zip": "Haute_Hazard_Solo_Circuit_v0_2_TTS.zip",
+  "automa_cards": 18,
+  "personality_cards": 12,
+  "physical_card_size_px": [
+    825,
+    1125
+  ],
+  "status": "generated"
+}

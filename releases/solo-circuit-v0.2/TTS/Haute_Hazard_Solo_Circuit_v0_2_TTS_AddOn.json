@@ -1,0 +1,2186 @@
+{
+  "SaveName": "Haute & Hazard - Solo Circuit v0.2 Add-On",
+  "GameMode": "Haute & Hazard",
+  "Date": "9/24/2026 6:00:00 PM",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [
+    "Haute & Hazard",
+    "Solo",
+    "Automa",
+    "Prototype",
+    "v0.2"
+  ],
+  "Table": "Table_RPG",
+  "Sky": "Sky_Clouds",
+  "Note": "Experimental Solo Circuit v0.2 add-on. Additive-load into the v7.9 TTS base.",
+  "Rules": "Use docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md. Four-round Stage timer; v7.9 play-generated Tips.",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "c20001",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -11,
+        "posY": 1,
+        "posZ": -5,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "SOLO CIRCUIT v0.2 - START HERE",
+      "Description": "EXPERIMENTAL ONE-PLAYER MODULE\n\n1. Load Haute & Hazard v7.9 TTS base.\n2. Additively load this save.\n3. Shuffle the 18-card Automa deck.\n4. Choose one Personality or play generic.\n5. Recommended first test: Working Queen + Beginner Mode.\n\nHouse Base Appeal = max(0, Stage Slay Target - 6).\nStage Timer: 4 rounds.\n\n† Working prototype term; subject to legal/IP and publisher review.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c20002",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -11,
+        "posY": 1,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "HOUSE WARDROBE",
+      "Description": "Place Wardrobe Rack cards removed by the Automa beside this marker. House Wardrobe is public information.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c20003",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -11,
+        "posY": 1,
+        "posZ": 5,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "STAGE TIMER - ROUND 1 to 4",
+      "Description": "Advance after a round where neither side claims the Stage. At end of Round 4, House claims by timeout.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c20004",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 11,
+        "posY": 1,
+        "posZ": -5,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "DIFFICULTY",
+      "Description": "Local Girl: -2 Appeal / -1 LS\nWorking Queen: printed values\nHeadliner: +1 Appeal\nLegend: +2 Appeal / +1 LS\n\nDifficulty LS applies once to the final House battle score.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c20005",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 11,
+        "posY": 1,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "HOUSE APPEAL",
+      "Description": "House Stage Appeal = Base + revealed Automa Appeal + effects + difficulty. Calculate fresh each round.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c20006",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 11,
+        "posY": 1,
+        "posZ": 5,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "DRAGDAGULAN†",
+      "Description": "Player draws normal 3 battle cards. House reveals 3 Automa. Use printed LS + explicit House battle effects + difficulty LS once. Ignore those 3 Automa cards' Wardrobe/normal round effects.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c21000",
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -4,
+        "posY": 1.2,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "House Queen Automa Deck - 18",
+      "Description": "Shuffle. Reveal 1 each Solo Circuit round. During Dragdagulan† reveal 3; use printed LS only.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "DeckIDs": [
+        2100,
+        2101,
+        2102,
+        2103,
+        2104,
+        2105,
+        2106,
+        2107,
+        2108,
+        2109,
+        2110,
+        2111,
+        2112,
+        2113,
+        2114,
+        2115,
+        2116,
+        2117
+      ],
+      "CustomDeck": {
+        "21": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+          "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+          "NumWidth": 6,
+          "NumHeight": 3,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "a20001",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Front Row Favorite",
+          "Description": "Solo Circuit v0.2 Automa 01\nFamily: Fashion Hunter\nAppeal: 3\nLS: 2\n\nWARDROBE: Remove the highest-Cost Fashion.\n\nHOUSE EFFECT: If its Brand matches the Featured Brand, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2100,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20002",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Sample Sale Snatch",
+          "Description": "Solo Circuit v0.2 Automa 02\nFamily: Fashion Hunter\nAppeal: 2\nLS: 2\n\nWARDROBE: Remove the lowest-Cost Fashion.\n\nHOUSE EFFECT: If its Cost is 2 or less, place a Bargain token on the House. At 2 tokens, gain 1 Gross SP and clear them.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2101,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20003",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Brand Obsession",
+          "Description": "Solo Circuit v0.2 Automa 03\nFamily: Fashion Hunter\nAppeal: 3\nLS: 2\n\nWARDROBE: Remove a card matching the Featured Brand; otherwise highest Cost.\n\nHOUSE EFFECT: If a Featured Brand card was removed, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2102,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20004",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Complete the Look",
+          "Description": "Solo Circuit v0.2 Automa 04\nFamily: Fashion Hunter\nAppeal: 3\nLS: 3\n\nWARDROBE: Remove the first Fashion with a slot not yet in House Wardrobe; otherwise leftmost Fashion.\n\nHOUSE EFFECT: If House Wardrobe contains 4+ different slots, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2103,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20005",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Crowd Erupts",
+          "Description": "Solo Circuit v0.2 Automa 05\nFamily: Spotlight Hog\nAppeal: 5\nLS: 2\n\nWARDROBE: Remove the leftmost Fashion.\n\nHOUSE EFFECT: No additional effect.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2104,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20006",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Standing Ovation",
+          "Description": "Solo Circuit v0.2 Automa 06\nFamily: Spotlight Hog\nAppeal: 4\nLS: 2\n\nWARDROBE: Remove the highest-Appeal Fashion.\n\nHOUSE EFFECT: If the House already owns a Stage trophy, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2105,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20007",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Camera Loves Her",
+          "Description": "Solo Circuit v0.2 Automa 07\nFamily: Spotlight Hog\nAppeal: 4\nLS: 1\n\nWARDROBE: Remove the rightmost Fashion.\n\nHOUSE EFFECT: If this is Round 2, 3, or 4 on the current Stage, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2106,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20008",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Main Character Energy",
+          "Description": "Solo Circuit v0.2 Automa 08\nFamily: Spotlight Hog\nAppeal: 5\nLS: 1\n\nWARDROBE: Remove the Fashion with the highest printed Appeal; ties leftmost.\n\nHOUSE EFFECT: The player cannot reduce House Appeal this round.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2107,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20009",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Cover Charge",
+          "Description": "Solo Circuit v0.2 Automa 09\nFamily: Tip Snatcher\nAppeal: 2\nLS: 2\n\nWARDROBE: Remove the highest printed-Tip Fashion.\n\nHOUSE EFFECT: After the player finishes generating Tips during Transformation, the player loses 1 Tip, minimum 0.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2108,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000a",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Sold Out",
+          "Description": "Solo Circuit v0.2 Automa 10\nFamily: Tip Snatcher\nAppeal: 2\nLS: 2\n\nWARDROBE: Remove the cheapest Market card.\n\nHOUSE EFFECT: The player's first purchase this turn costs +1 Tip.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2109,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000b",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "VIP Rope",
+          "Description": "Solo Circuit v0.2 Automa 11\nFamily: Tip Snatcher\nAppeal: 3\nLS: 2\n\nWARDROBE: Remove the rightmost card costing 4+; otherwise rightmost Fashion.\n\nHOUSE EFFECT: Player may buy at most 1 card this Shopping phase.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2110,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000c",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Lip Sync Assassin",
+          "Description": "Solo Circuit v0.2 Automa 12\nFamily: Lip Sync Assassin\nAppeal: 2\nLS: 5\n\nWARDROBE: Remove the leftmost Fashion.\n\nHOUSE EFFECT: If Dragdagulan† occurs this round, +1 House LS to the final House Battle Score.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2111,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000d",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "She Knows Every Word",
+          "Description": "Solo Circuit v0.2 Automa 13\nFamily: Lip Sync Assassin\nAppeal: 2\nLS: 4\n\nWARDROBE: Remove the lowest-LS Fashion; no LS counts as 0.\n\nHOUSE EFFECT: If House wins Dragdagulan†, steal 1 Gross SP if possible.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2112,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000e",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Death Drop",
+          "Description": "Solo Circuit v0.2 Automa 14\nFamily: Lip Sync Assassin\nAppeal: 3\nLS: 4\n\nWARDROBE: Remove the highest-LS Fashion.\n\nHOUSE EFFECT: If House wins Dragdagulan† by 3+, player takes The Chop instead of the normal House consequence.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2113,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a2000f",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Final Chorus",
+          "Description": "Solo Circuit v0.2 Automa 15\nFamily: Lip Sync Assassin\nAppeal: 3\nLS: 5\n\nWARDROBE: Remove the rightmost Fashion.\n\nHOUSE EFFECT: If this is Round 4 on the Stage, +1 House Appeal.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2114,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20010",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Wardrobe Malfunction",
+          "Description": "Solo Circuit v0.2 Automa 16\nFamily: Drama Queen\nAppeal: 3\nLS: 2\n\nWARDROBE: Remove a card matching the player's Queen Signature Tenet if possible; otherwise highest Cost.\n\nHOUSE EFFECT: If House wins Dragdagulan† this round, give the player Wardrobe Malfunction if available.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2115,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20011",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Read to Filth",
+          "Description": "Solo Circuit v0.2 Automa 17\nFamily: Drama Queen\nAppeal: 3\nLS: 2\n\nWARDROBE: Remove the Market card with the same slot as the player's newest Master if possible; otherwise leftmost Fashion.\n\nHOUSE EFFECT: Player loses 1 Appeal this Reveal, minimum 0.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2116,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "a20012",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "House Always Wins",
+          "Description": "Solo Circuit v0.2 Automa 18\nFamily: Drama Queen\nAppeal: 4\nLS: 4\n\nWARDROBE: Remove a Featured Brand card if possible; otherwise highest Cost.\n\nHOUSE EFFECT: If neither side Slays this round, advance the Stage Timer normally and House gains 1 Gross SP.\n\nDragdagulan† battle draws: use printed LS; ignore Wardrobe/normal round effects.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2117,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "21": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_automa_18.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 6,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "c22000",
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 4,
+        "posY": 1.2,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "House Queen Personalities - 12",
+      "Description": "Choose at most 1 Personality and place it face-up near the House Queen.",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ColorDiffuse": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "DeckIDs": [
+        2200,
+        2201,
+        2202,
+        2203,
+        2204,
+        2205,
+        2206,
+        2207,
+        2208,
+        2209,
+        2210,
+        2211
+      ],
+      "CustomDeck": {
+        "22": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+          "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "b20001",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Lady Lux",
+          "Description": "House Queen Personality v0.2\nTreasure From Trash\n\nSOLO EFFECT: Whenever the Automa removes a Market card costing 2 or less, +1 House Appeal this round.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2200,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20002",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Kawaii-Bot",
+          "Description": "House Queen Personality v0.2\nIdol Perfect\n\nSOLO EFFECT: Whenever the Automa removes a Pink Fashion card, gain 1 Match token. At 3, gain 1 Gross SP and clear the tokens.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2201,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20003",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Mother Mortis",
+          "Description": "House Queen Personality v0.2\nFrom the Grave\n\nSOLO EFFECT: Once per Stage, when a resolved Automa card would be discarded, set it aside. During the next round, add +1 House Appeal, then discard it normally.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2202,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20004",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Opulencia",
+          "Description": "House Queen Personality v0.2\nMore Is More\n\nSOLO EFFECT: The first time each round an Automa effect gives House +1 or more Appeal, add +1 additional House Appeal.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2203,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20005",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Velvet Venom",
+          "Description": "House Queen Personality v0.2\nToxic Entrance\n\nSOLO EFFECT: Whenever the Automa removes a Blue Fashion card, player archives 1 card from hand if able. Maximum once per round.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2204,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20006",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Maldita Manila",
+          "Description": "House Queen Personality v0.2\nDuality\n\nSOLO EFFECT: If House Wardrobe contains at least two non-Neutral Tenets, +1 House Appeal. If it contains all four, +2 instead.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2205,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20007",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Hexa Laroux",
+          "Description": "House Queen Personality v0.2\nPerfect Geometry\n\nSOLO EFFECT: Whenever House gains Gross SP, gain +1 House Appeal on the next Automa round.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2206,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20008",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Bubblegum Banshee",
+          "Description": "House Queen Personality v0.2\nSugar High\n\nSOLO EFFECT: Whenever the Automa removes Pink Shoes, reveal the next Automa card and use the higher Appeal of the two; discard the extra card without resolving it.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2207,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b20009",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Siren Diesel",
+          "Description": "House Queen Personality v0.2\nBuilt to Walk\n\nSOLO EFFECT: Whenever the Automa removes Shoes, +1 House Appeal this round.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2208,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b2000a",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Opal Dynasty",
+          "Description": "House Queen Personality v0.2\nFull Spectrum\n\nSOLO EFFECT: Once per Stage, when House Wardrobe contains Face, Wig, Body, and Shoes, gain 1 Gross SP.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2209,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b2000b",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Rapture Royale",
+          "Description": "House Queen Personality v0.2\nSacrifice\n\nSOLO EFFECT: Once per Stage, discard the top Automa card without resolving it to add +2 House Appeal to the current round. Do this automatically if House would otherwise miss the Slay Target by exactly 1 or 2.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2210,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "b2000c",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Gore-Jess",
+          "Description": "House Queen Personality v0.2\nFinal Girl\n\nSOLO EFFECT: Whenever House wins Dragdagulan†, gain 1 Gross SP. If House wins by 3+, gain 2 instead.\n\nUse at most one Personality. Baseline testing: Working Queen.",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132353,
+            "g": 0.7132353,
+            "b": 0.7132353
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 2211,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_personalities_12.jpg",
+              "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/solo-circuit-v0.2/TTS/Assets/solo_v0_2_back.jpg",
+              "NumWidth": 4,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
