@@ -107,19 +107,36 @@ Fashion played for Tips only contributes no Appeal, LS, Tenet, Brand, or Look st
 
 ## Shopping and purchased cards
 
-When you buy a card:
+The Wardrobe Rack is a **five-card face-up shared market**.
 
-> **Put it into your Backstage Archive / personal discard pile. Do not put it into your hand and do not immediately play or equip it.**
+During Shopping:
+
+- spend Tips to buy any number of legal cards you can afford;
+- place each purchased card into your Backstage Archive / personal discard pile;
+- do not put purchases into your current hand;
+- do not refill emptied Rack spaces immediately.
+
+At Cleanup, refill the Wardrobe Rack to five from the Wardrobe deck.
 
 The deck-building loop is:
 
-**draw hand → play cards to generate Tips → resolve Look → Shop → purchases enter Archive → reshuffle later → draw upgraded cards**
+**draw 5 → play cards to generate Tips → resolve Look → Shop → purchases enter Archive → Cleanup → refill Rack → archive played/unplayed cards → draw 5 → reshuffle Archive when needed**
 
 ## v7.9 turn timing
 
 **1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-Printed Tips are generated during Transformation as cards are played.
+The deck-building cadence follows the DC-style pattern:
+
+- normal hand size: **5**;
+- play cards one at a time in any order;
+- printed Tips are generated when cards are played;
+- buy from a five-card shared Rack;
+- acquired cards go to Archive;
+- refill the Rack during Cleanup;
+- archive played non-Masters and remaining hand;
+- draw a fresh 5-card hand;
+- reshuffle Archive into a new Deck when the Deck runs out.
 
 ## Main component accounting
 
