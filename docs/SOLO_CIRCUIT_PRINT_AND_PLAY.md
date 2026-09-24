@@ -53,7 +53,7 @@ Record results in [`../data/solo_circuit_playtest_log_template.csv`](../data/sol
 
 The print-ready PDFs and ZIP have been generated and visually QA'd as development artifacts. They are **not part of the canonical v7.8 Game Crafter package** and should not increase the official 240-card Poker Deck count.
 
-Until a generated binary is visibly committed to this repository or attached to a GitHub release, do not assume the ZIP/PDF binary itself is downloadable from GitHub. The Markdown files in this repository remain the source of truth for the experimental v0.1 card text.
+The complete generated ZIP is now committed at [`../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip). It contains all four printable PDFs plus `README_FIRST.txt`. The Markdown files in this repository remain the source of truth for the experimental v0.1 card text.
 
 ## First physical test
 
