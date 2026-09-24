@@ -1,0 +1,32 @@
+name: Validate v7.9 card data
+
+on:
+  push:
+    paths:
+      - "data/v7_9_card_database.csv"
+      - "scripts/validate_v7_9.py"
+      - ".github/workflows/validate-v7.9.yml"
+  pull_request:
+    paths:
+      - "data/v7_9_card_database.csv"
+      - "scripts/validate_v7_9.py"
+      - ".github/workflows/validate-v7.9.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate canonical v7.9 card database
+        run: python scripts/validate_v7_9.py
