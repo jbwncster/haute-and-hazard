@@ -18,6 +18,26 @@ WANTED_SUFFIXES = (
     "PLAYTEST_CHECKLIST.txt",
 )
 
+STAGE_PDF_SUFFIXES = (
+    "Haute_Hazard_v7.7_Stage_Cards_FRONTS_Letter_9up.pdf",
+    "Haute_Hazard_v7.7_Stage_Cards_DUPLEX_READY_Letter.pdf",
+)
+
+def extract_pdf_text(data: bytes, output: Path) -> bool:
+    try:
+        from pypdf import PdfReader
+        from io import BytesIO
+        reader = PdfReader(BytesIO(data))
+        parts = []
+        for i, page in enumerate(reader.pages, 1):
+            txt = page.extract_text() or ""
+            parts.append(f"--- PAGE {i} ---\n{txt.strip()}\n")
+        output.write_text("\n".join(parts), encoding="utf-8")
+        return True
+    except Exception as exc:
+        print(f"PDF TEXT EXTRACTION FAILED for {output.name}: {exc}")
+        return False
+
 def main() -> int:
     if not ZIP_PATH.exists():
         raise SystemExit(f"Missing source ZIP: {ZIP_PATH}")
@@ -38,6 +58,19 @@ def main() -> int:
             dest.write_bytes(data)
             recovered.append((src, dest, len(data)))
             print(f"RECOVERED: {src} -> {dest} ({len(data)} bytes)")
+
+        for suffix in STAGE_PDF_SUFFIXES:
+            matches = [n for n in names if n.endswith(suffix)]
+            if not matches:
+                print(f"NOT FOUND: {suffix}")
+                continue
+            src = matches[-1]
+            data = zf.read(src)
+            out_name = Path(suffix).stem + "_TEXT.txt"
+            dest = OUT_DIR / out_name
+            if extract_pdf_text(data, dest):
+                recovered.append((src, dest, dest.stat().st_size))
+                print(f"RECOVERED TEXT: {src} -> {dest}")
 
     manifest = OUT_DIR / "README.md"
     lines = [
