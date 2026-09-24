@@ -17,18 +17,21 @@ Accessory is optional unless a card says otherwise. Filling all four core slots 
 
 Every turn follows this order:
 
-0. **Tip Count** — before playing anything, add the printed Tip values of every card currently in your hand.
-1. **Transform** — equip Fashion, play Actions, and use eligible Queen abilities.
-2. **Reveal** — total Appeal, resolve Reveal effects, and determine your Look. Printed Tips are **not** counted again here.
-3. **Shop** — spend Tips to buy cards from the Wardrobe Rack or Thrift Store.
+1. **Transform** — play cards from hand, generate their printed Tips, equip Fashion, play Actions, and use eligible Queen abilities.
+2. **Reveal** — total Appeal, resolve Reveal effects, and determine your Look.
+3. **Shop** — spend the Tips you generated to buy cards from the Wardrobe Rack or Thrift Store.
 4. **Slay / Dragdagulan† / Pass** — take the Stage, battle a rival, or pass.
-5. **Cleanup** — archive as required, draw a new hand, and reset temporary Tips/Appeal.
+5. **Cleanup** — archive played non-Master cards and remaining hand as required, draw a new hand, and reset temporary Tips/Appeal.
 
-### Tip Count rule
+### Tips work like Power
 
-Counting a card's printed Tips does **not** discard it. You can still play/equip that card later in the turn.
+A card generates its printed Tips **when you play it**, not merely because it is in your hand.
 
-Count each card's printed Tip value only **once per turn**. Do not count it again after you play or equip it.
+- Play a card → add its printed Tips → resolve its effect.
+- Unplayed cards generate no Tips.
+- Already-equipped Masters do not generate Tips again on later turns.
+- A card drawn during Transformation can be played later that Transformation and generate its Tips.
+- Fashion may be played for Tips without being equipped; if so, it is archived during Cleanup and does not count toward the Coordinate.
 
 ## The numbers
 
@@ -49,35 +52,16 @@ The Wardrobe Rack has five face-up cards. Spend Tips to buy affordable cards.
 
 Purchased cards go to your **Backstage Archive / personal discard pile**. They do not enter your current hand; you draw them after your deck cycles.
 
-## Slaying the Stage
+## Slay or battle
 
-If your Appeal meets or beats the active Stage's Slay Target and you meet its requirements, you may Slay it, claim the Stage trophy, and gain its reward.
+After Shopping, choose one normal Phase-4 option:
 
-## Dragdagulan†
+- **Slay** if your Appeal meets the Stage target.
+- **Dragdagulan†** an eligible rival.
+- **Pass**.
 
-1. Choose an eligible opponent.
-2. Both players draw 3 battle cards from their personal Deck.
-3. Add printed LS on those three cards plus explicit battle modifiers.
-4. Higher Battle Score wins.
+## Cleanup
 
-Equipped Fashion does **not** automatically add LS.
+Archive played Actions, Fashion played only for Tips, and remaining hand as required. Keep legal Masters equipped. Draw a fresh hand, then reset temporary Tips and Appeal.
 
-## Beginner Mode
-
-For your first game, read only:
-
-- Favored Tenet
-- Featured Brand
-- Slay Target
-- Reward
-- Venue Effect
-
-Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation.
-
-## Win condition
-
-The game ends when a standard end trigger is reached: **30 Gross SP** at the end of Phase 4/Curtain Call or an empty Stage Deck after a Stage is Slayed.
-
-Final Score is Gross SP plus explicit bonuses minus Penalty values.
-
-> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to review.
