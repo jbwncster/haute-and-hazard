@@ -1,0 +1,238 @@
+HAUTE & HAZARD: MASTER CARD MANIFEST (v6.7)
+"The library is open."
+
+This document contains the complete card database for Haute & Hazard, including card text, mechanics, quantities, and flavor text organized by Tenet (brand) and rarity tier.
+
+====================================
+VERSION NOTES
+====================================
+
+Version 6.7 represents the current production baseline with all balance changes from version 3.1 REVERTED to original design values. This manifest reflects the game's intended mechanical balance as specified in Production Bible v6.7.
+
+Key reversions from v3.1:
+- Rat Tail Purse: No longer has "once per turn" restriction (unlimited use restored)
+- Necropolis brand: All cards restored to original Appeal values (v3.1 +1★ buffs removed)
+- Feather Boa: No longer capped at +3 Defense (unlimited scaling restored)
+
+====================================
+
+1. STARTER CARDS (The "Dressing Room Floor" Deck)
+Total Cards: 60 cards supporting up to 5 players
+Deck Composition per Player: 7 Basic Beat, 3 Messy Lip Sync, 2 Chapstick
+
+Qty | Card Name        | Type    | Cost | Effect                                          | SP | Lyric Snippet           | Flavor Text
+----|------------------|---------|------|------------------------------------------------|-----|------------------------|----------------------------------
+35  | Basic Beat       | Action  | 0    | +1 Tip ($)                                     | 0   | "...working 9 to 5..." | "It's clean. It's simple. It's... adequate."
+15  | Messy Lip Sync   | Action  | 0    | +1 Appeal (★)                                 | 0   | "...forgot the words..."| "Girl, do you even know the song?"
+10  | Chapstick        | Makeup  | 0    | +1 Tip ($). You may discard 1 card to draw 1 card. | 0 | "...kiss me..." | "The secret to a soft pout and a desperate budget."
+
+====================================
+
+2. THE WARDROBE RACK (The Main Deck)
+Total Cards: 120 fashion cards across six Tenets (brands)
+Brands organized by rarity: Common (3-4 copies), Uncommon (2 copies), Ultra Rare (1-3 copies)
+
+💗 PINK TENET (Pop / Kawaii)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BRAND: SUGAR RUSH (Common)
+Aesthetic: Anime, Pastel, Sweet | Qty: 4 copies of each
+
+Qty | Card Name           | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                    | Flavor
+----|---------------------|------|------|-------|-----------------------------------------------------------|-----|--------------------------|-----------------------------------
+4   | Bubblegum Pigtails  | Wig  | 3    | +1 ★  | Play: Draw 1 Card.                                        | 2   | "...pop goes the world..."| "Sweet enough to rot your teeth."
+4   | Sweet Lolita JSK    | Body | 5    | +2 ★  | Matching: If Matching Brand, Draw 1 Card.                 | 3   | "...dollhouse life..."   | "The petticoat count is strictly confidential."
+4   | Tea Party Platforms | Shoes| 4    | +1 ★  | Fusion: If you have Pink Wig, gain +2 Tips ($).           | 2   | "...walking on air..."   | "Rounded toes for a well-rounded queen."
+4   | Anime Eyes          | Face | 3    | +1 $  | Play: Look at top 3 cards of deck. Put 1 in hand, discard rest. | 1 | "...senpai noticed me..." | "Windows to an animated soul."
+4   | Lace Parasol        | Acc  | 4    | +2 ★  | Play: Return a card from Backstage Archive to hand.       | 2   | "...shade in the garden..." | "Protecting my porcelain complexion."
+
+BRAND: HYPER-GLITCH (Uncommon)
+Aesthetic: Cyber, Neon, Rave | Qty: 2 copies of each
+
+Qty | Card Name              | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|------------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|--------------------------------
+2   | Fiber Optic Dreads     | Wig  | 5    | +2 ★  | Play: Draw 2 Cards, then discard 1.                       | 3   | "...system overload..."    | "Plug in and tune out."
+2   | Holographic Bodysuit   | Body | 6    | +3 ★  | Matching: Pink cards cost -1 Tip to buy.                  | 4   | "...cyber love..."         | "Loading texture... 99%."
+2   | LED Hover-Boots        | Shoes| 5    | +2 ★  | Fusion: If Fusion Look, gain +1 SP Token.                 | 3   | "...future is now..."      | "Gravity is optional."
+2   | Chrome Face Plate      | Face | 4    | +1 ★  | Fusion: Copy the effect of another Face card in play.     | 2   | "...mirror mirror..."      | "Reflecting your flaws."
+2   | Pixel Shades           | Acc  | 3    | +2 ★  | Fusion: If 3+ Pink cards, gain +3 Appeal.                 | 2   | "...8-bit fantasy..."      | "Deal with it."
+
+♠️ BLUE TENET (Horror / Edgy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BRAND: NECROPOLIS (Common) 
+Aesthetic: Goth, Undead, Decay | Qty: 3 copies of each
+*** ORIGINAL VALUES RESTORED (v3.1 buffs removed) ***
+
+Qty | Card Name         | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|-------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+3   | Medusa Locks      | Wig  | 4    | +2 ★  | Play: Opponent discards 1 random card.                    | 3   | "...stone cold heart..."   | "Don't look her in the eye."
+3   | Funeral Shroud    | Body | 5    | +2 ★  | Play: You may trash a card from your hand.                | 3   | "...bury a friend..."      | "Mourning becomes her."
+3   | Combat Boots      | Shoes| 3    | +1 ★  | Matching: +2 LS Points in battles.                        | 4   | "...stomp stomp stomp..."  | "Made for crushing."
+3   | Pale Foundation   | Face | 3    | +1 ★  | Matching: +1 LS Point. Fusion: +1 LS Point.               | 3   | "...dead and gone..."      | "Not a pulse in sight."
+3   | Skull Choker      | Acc  | 4    | +2 ★  | Play: Opponent loses 1 Tip ($) next turn.                 | 3   | "...choke on it..."        | "Till death do us part."
+
+BRAND: SLASHER (Uncommon)
+Aesthetic: Blood, Movies, Sharp | Qty: 2 copies of each
+
+Qty | Card Name           | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|---------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+2   | Final Girl Bob      | Wig  | 5    | +2 ★  | Play: Give opponent an Extermination.                     | 4   | "...don't answer the phone..." | "She always survives."
+2   | Butcher's Apron     | Body | 6    | +3 ★  | Play: Opponent must discard an Action card.               | 5   | "...cut you up..."         | "Fresh meat."
+2   | Stiletto Knives     | Shoes| 5    | +2 ★  | Matching: If Matching Look, +3 LS Points.                 | 4   | "...sharp dressed man..."  | "Killer heels."
+2   | Stitched Mouth      | Face | 4    | +2 ★  | Play: Opponent cannot play Actions next turn.             | 3   | "...silent scream..."      | "Speak no evil."
+2   | Rusty Chainsaw      | Acc  | 5    | +3 ★  | Play: Trash a card in the Market Row. Replace it.         | 4   | "...rev it up..."          | "Accessorize with gasoline."
+
+BRAND: VOID (Ultra Rare)
+Aesthetic: Alien, Cosmic, Abyss | Qty: 1-3 copies
+
+Qty | Card Name              | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|------------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+2   | Galaxy Brain           | Wig  | 7    | +4 ★  | Play: Look at opponent's hand. Discard 1 card.            | 5   | "...space oddity..."       | "Your mind is so small."
+1   | Event Horizon Dress    | Body | 8    | +5 ★  | Matching: Opponents cannot target you.                    | 5   | "...black hole sun..."     | "No light escapes."
+2   | Anti-Gravity Heels     | Shoes| 6    | +3 ★  | Fusion: Counts as ANY color for Sets. Deep Storage.       | 4   | "...defying gravity..."    | "Floating above the haters."
+3   | Void Gaze              | Face | 6    | +3 ★  | Fusion: If Fusion Look, Steal 2 Tips ($).                 | 4   | "...into the abyss..."     | "The abyss stared back."
+2   | Tentacle Prosthetic    | Acc  | 5    | +3 ★  | Play: Opponent draws 1 fewer card next turn.              | 4   | "...creature feature..."   | "It feels... slimey."
+
+💎 PURPLE TENET (Glamour)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BRAND: VELVET TRAP (Common)
+Aesthetic: Vamp, Seductive, Noir | Qty: 4 copies of each
+
+Qty | Card Name              | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|------------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+4   | Femme Fatale Waves     | Wig  | 4    | +2 ★  | Fusion: If you have Purple Body, gain +1 Tip.             | 2   | "...red right hand..."     | "Dangerously wavy."
+4   | Velvet Corset          | Body | 5    | +3 ★  | Matching: +1 LS Point.                                    | 2   | "...smooth operator..."    | "Squeeze until you faint."
+4   | Silk Stockings         | Shoes| 4    | +1 ★  | Fusion: +1 Appeal for every Purple card in play.          | 2   | "...legs for days..."      | "Sheer perfection."
+4   | Vamp Lip               | Face | 4    | +2 ★  | Matching: If Matching Look, gain +1 SP Token.             | 2   | "...bite me..."            | "A kiss of death."
+4   | Feather Boa            | Acc  | 3    | +2 ★  | Matching: +1 LS Point per Purple card in play.            | 1   | "...tickle my fancy..."    | "Shedding everywhere."
+
+*** NOTE: Feather Boa has NO CAP on LS Point scaling (v3.1 +3 Defense cap removed) ***
+
+BRAND: GILDED CAGE (Ultra Rare)
+Aesthetic: Pageant, Rhinestone, Wealth | Qty: 1-3 copies
+
+Qty | Card Name          | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                         | Flavor
+----|-------------------|------|------|-------|-----------------------------------------------------------|-----|-------------------------------|----------------------------------
+2   | Pageant Updo      | Wig  | 6    | +3 ★  | Matching: +2 LS Points. Immune to "Discard".              | 4   | "...heavy lies the crown..." | "Closer to God."
+1   | Sequined Gown     | Body | 8    | +6 ★  | Matching: Worth 5 SP at end of game.                      | 5   | "...shining like a diamond..." | "Stones. Everywhere."
+2   | Glass Slippers    | Shoes| 6    | +3 ★  | Fusion: If Purple Body, gain +4 Appeal.                   | 3   | "...midnight stroke..."    | "Fragile but fierce."
+3   | Rhinestone Tears  | Face | 5    | +3 ★  | Play: Gain 1 SP Token immediately.                        | 3   | "...cry pretty..."         | "Sadness, but make it fashion."
+2   | Diamond Scepter   | Acc  | 7    | +5 ★  | Matching: If you Slay a Stage, gain +2 extra SP.          | 5   | "...rule the world..."     | "Bow down."
+
+⭐ YELLOW TENET (Camp / Filth)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BRAND: TRASH CAN (Common)
+Aesthetic: Garbage, Punk, Distressed | Qty: 3 copies of each
+
+Qty | Card Name         | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|-------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+3   | Spaghetti Wig     | Wig  | 3    | +1 ★  | Play: You may trash 1 card from your hand.                | 1   | "...eat it up..."          | "Al dente elegance."
+3   | Bin Bag Gown      | Body | 4    | +2 ★  | Play: Trash 1 card from Backstage Archive.                | 2   | "...garbage person..."     | "Derelicte."
+3   | Duct Tape Boots   | Shoes| 3    | +1 ★  | Fusion: +1 Appeal for every Trashed card this turn.       | 1   | "...sticky situation..."   | "Holds it all together."
+3   | Sharpie Brows     | Face | 2    | +1 $  | Fusion: Counts as ANY color for Sets.                     | 0   | "...drawing a blank..."    | "Permanent marker."
+3   | Rat Tail Purse    | Acc  | 3    | +2 ★  | Play: Retrieve a Trashed card (return to hand).           | 1   | "...rat a tat tat..."      | "It's taxidermy."
+
+*** NOTE: Rat Tail Purse has NO "once per turn" restriction (v3.1 restriction removed) ***
+
+BRAND: BIG TOP (Uncommon)
+Aesthetic: Clown, Surreal, Freakshow | Qty: 2 copies of each
+
+Qty | Card Name              | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|------------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+2   | Rainbow Afro           | Wig  | 4    | +2 ★  | Fusion: Counts as ANY color for Sets.                     | 2   | "...colors of the wind..." | "Honk honk."
+2   | Polka Dot Jumpsuit     | Body | 5    | +3 ★  | Play: Draw 2 cards. Opponent draws 1 card.                | 3   | "...circus life..."        | "Expand the tent."
+2   | Chicken Feet           | Shoes| 4    | +2 ★  | Fusion: Gain +1 Tip ($) for every card Trashed this turn. | 2   | "...cluck cluck..."        | "Walk a mile in my talons."
+2   | Clown White            | Face | 3    | +2 ★  | Matching: +1 LS Point. Fusion: Counts as wild for Sets.   | 2   | "...tears of a clown..."   | "A classic paint."
+2   | Rubber Chicken         | Acc  | 3    | +2 ★  | Play: Opponent puts a card from hand on top of deck.      | 2   | "...joke's on you..."      | "A classic prop."
+
+BRAND: SWAMP WITCH (Ultra Rare)
+Aesthetic: Bog, Nature, Wet Earth | Qty: 1-3 copies
+
+Qty | Card Name         | Slot | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|-------------------|------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+2   | Antler Crown      | Wig  | 6    | +3 ★  | Play: Look at top 3 cards of Stage Deck. Rearrange them.  | 4   | "...wild things..."       | "The forest speaks."
+1   | Living Moss Robe  | Body | 7    | +5 ★  | Fusion: Counts as ANY color. Play: Trash 1 from Archive.  | 4   | "...return to earth..."    | "It's literally growing."
+2   | Cloven Hooves     | Shoes| 6    | +3 ★  | Play: You may buy cards from the Trash pile this turn.    | 3   | "...devil in disguise..."  | "Leave no trace."
+3   | Mud Mask          | Face | 5    | +2 ★  | Matching: +3 LS Points.                                   | 4   | "...dirty work..."         | "Natural exfoliant."
+2   | Bog Root Corset   | Acc  | 5    | +3 ★  | Play: Retrieve any Camp card from Backstage Archive.      | 3   | "...deep in the mud..."    | "Structural support."
+
+⬛ NEUTRAL / VOGUE (Action Cards)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total: 14 Cards shuffled into Wardrobe Rack
+
+Qty | Card Name         | Type          | Cost | Stats | Triple Threat Box                                          | LS | Lyric                      | Flavor
+----|-------------------|---------------|------|-------|-----------------------------------------------------------|-----|----------------------------|----------------------------------
+4   | Ten, Ten, Tens!   | Vogue (Hands) | 3    | +2 ★  | Play: Starts a Vogue Chain sequence.                      | 2   | "...strike a pose..."      | "Serve it to the judges."
+4   | Catwalk Strut     | Vogue (Walk)  | 4    | +2 ★  | Vogue: If played after Hands, Draw 1 Card.                | 2   | "...walk for me..."        | "Legs for days."
+3   | Spin & Dip        | Vogue (Finish)| 6    | +4 ★  | Vogue: If played after Walk, +5 Appeal. (Rare)            | 3   | "...crash and burn..."     | "The death drop heard 'round the world."
+3   | Shade Fan         | Acc           | 3    | +1 ★  | Play: Discard to block an Attack effect.                  | 0   | "...no tea no shade..."    | "Thwack!"
+
+====================================
+
+3. THRIFT STORE THROWBACKS (Permanent Neutral Stack)
+Total Cards: 16 cards (permanent marketplace option)
+
+All Thrift Store Throwback cards:
+- Appeal: +2★ (fixed value)
+- LS Points: 0 (for combat)
+- Brand: Neutral (no brand matching)
+- Cost: Variable by slot type (Wigs $3, Bodies $4, Shoes $3, Face $2, Acc $3)
+
+====================================
+
+4. PENALTY STACK (Wardrobe Malfunctions)
+Total Cards: 20 penalty cards
+
+Qty | Card Name                    | Penalty Effect                                                    | Lyric Snippet                | Flavor Text
+----|------------------------------|-------------------------------------------------------------------|------------------------------|----------------------------------
+5   | Wardrobe Malfunction         | Worth -1 SP at game end. Provides no benefits.                    | "...zipper broke..."         | "Not even safety pins can fix this."
+10  | The Chop                     | Worth -1 SP at game end. Given for losing Dragdagulan.            | "...loser baby..."           | "Sashay away."
+5   | Extermination                | Worth -2 SP at game end. Severe penalty.                          | "...you're done..."          | "Pack your knives and go."
+
+====================================
+
+5. STAGE DECK (The Floor Shows)
+Total Cards: 12 unique Stage challenges
+
+Qty | Stage Name          | Win Condition (Prerequisite)                    | Target Appeal | SP Reward | LS | Flavor
+----|---------------------|-------------------------------------------------|---------------|-----------|-------|----------------------------------
+1   | The Monster Ball    | Must have Horror (Blue) item equipped.          | 10 ★          | 5 SP      | -     | "Scare us stiff."
+1   | Anime Matsuri       | Must have Pop (Pink) item equipped.             | 12 ★          | 6 SP      | -     | "Kawaii desu ne!"
+1   | The Filth Floor     | Must Trash 1 card from hand.                    | 10 ★          | 5 SP      | -     | "Get dirty."
+1   | Grand Finale        | Must have a Matching Look (Full Set).           | 20 ★          | 10 SP     | -     | "Category is: Eleganza Extravaganza."
+1   | Duality Ball        | Must have a Fusion Look (Mixed Set).            | 15 ★          | 8 SP      | -     | "Show us two sides of the same coin."
+1   | Face Face Face      | Must have a Face card equipped.                 | 8 ★           | 4 SP      | -     | "No butterfaces allowed."
+1   | Witching Hour       | Must have a Swamp Witch or Void item.           | 13 ★          | 7 SP      | -     | "Cast a spell on the judges."
+1   | Dungeon Drag        | Must have Slasher or Velvet Trap item.          | 14 ★          | 7 SP      | -     | "Leather and lace."
+1   | Circus Berserkus    | Must have Big Top or Sugar Rush item.           | 11 ★          | 6 SP      | -     | "Send in the clowns."
+1   | Neon Nights         | Must have Hyper-Glitch item.                    | 12 ★          | 6 SP      | -     | "Glow in the dark."
+1   | Royal Rumble        | Must have Gilded Cage item.                     | 16 ★          | 8 SP      | -     | "Heavy is the head."
+1   | Apocalypse Now      | Must have Trash Can or Necropolis item.         | 14 ★          | 7 SP      | -     | "The end is nigh."
+
+====================================
+
+6. THE QUEENS (Character Cards)
+Total Cards: 11 unique Queen characters
+
+Queen Name      | Archetype              | Favorite Brand      | Passive/Active Ability                                                        | Signature Tenet | Flavor
+----------------|------------------------|---------------------|------------------------------------------------------------------------------|-----------------|--------------------------------
+Lady Lux        | Haute Trash Queen      | Trash Can (Yellow)  | Passive: Complete Look w/ 3+ Trash mechanics: +2 SP, Draw 1.                 | Yellow          | "One person's trash is my treasure."
+Kawaii-Bot      | Digital Idol           | Sugar Rush (Pink)   | Passive: Matching-color Look: +1 SP, +1 Action card play.                    | Pink            | "Notice me!"
+Mother Mortis   | Goth Matriarch         | Necropolis (Blue)   | Active: Once/turn: Play a card from Backstage Archive as if in hand.         | Blue            | "Death becomes her."
+Greed           | Luxury Mogul           | Gilded Cage (Purple)| Passive: Whenever you gain Tips: gain +1 extra Tip.                          | Purple (Gold)   | "More is never enough."
+Velvet Venom    | Toxic Glamour          | Necropolis (Blue)   | Passive: Play Necropolis Top: Opponents discard 1.                           | Blue/Green      | "Beauty is poison."
+Maldita Manila  | Filipinx Fusion        | Multi-Tenet         | Passive: Complete Look w/ 2+ colors: Gain $2 Tips.                           | Multi           | "Dalawang mukha, isang puso."
+Hexa Laroux     | Geometric Perfection   | Multi-Tenet         | Passive: Gains $ equal to SP gained. If Look includes Accessory: +1 SP.      | Gold            | "Six sides, infinite angles."
+Bubblegum Banshee| Screaming Kawaii      | Sugar Rush (Pink)   | Passive: Play Sugar Rush Bottom: Draw 1 card.                                | Pink            | "Cute and deadly."
+Siren Diesel    | Industrial Punk        | Trash Can (Yellow)  | Passive: When you play Shoes: gain $1 Tip.                                   | Rust            | "Built for the long haul."
+Opal Dynasty    | Rainbow Monarch        | Multi-Tenet         | Passive: Completing 5-slot Look: +2 SP.                                      | Multi/Royal     | "All colors bow to the crown."
+Rapture Royale  | Apocalyptic Angel      | Multi-Tenet         | Active: Once/turn: Trash 1 card from hand to gain +1 SP.                     | Judgment        | "Ascension through destruction."
+
+====================================
+
+"The library is closed."
+
+END OF MANIFEST v6.7

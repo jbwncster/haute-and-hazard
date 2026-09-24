@@ -89,6 +89,8 @@ The current project workspace also has a **presentation-ready publisher pitch de
 - [State of the Prototype Template](docs/STATE_OF_PROTOTYPE_TEMPLATE.md) — report template after external v7.8 plays.
 - [Project data templates](docs/PROJECT_DATA_TEMPLATES.md) — CSV trackers for playtests, balance, cards, IP review, and rules questions.
 
+Historical v6.7 design files and the September 2026 rulebook/card retry are preserved in the [archive](archive/README.md). They do not replace the current v7.8 playtest kit.
+
 ## Documentation
 
 - [Publisher sell sheet](docs/PUBLISHER_SELL_SHEET.md) — one-page overview for publisher outreach, prototype status, core hook, and development goals.
