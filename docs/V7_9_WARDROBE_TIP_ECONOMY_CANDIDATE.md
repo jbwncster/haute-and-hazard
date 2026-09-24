@@ -1,36 +1,22 @@
-# Haute & Hazard — v7.9 Wardrobe + Tip Economy Candidate
+# Haute & Hazard — v7.9 Wardrobe + Tip Economy
 
-**Status: active development candidate for the next playtest build.**
+**Status: current v7.9 base-game rules and card-pool target.**
 
-This document records the card-pool redesign requested after reviewing the v7.8 Wardrobe. It does **not** retroactively change the already-produced v7.8 Game Crafter or Tabletop Simulator binaries.
+This document is the source of truth for the v7.9 Wardrobe redesign and printed-Tip economy. It supersedes the v7.8 repeated-garment Wardrobe model.
 
-## Why this redesign exists
+## v7.9 card-pool rule
 
-The v7.8 Wardrobe often represents multiple physical copies of the same garment. That makes a Brand easy to recognize, but it can make Shopping decisions too repetitive: once a player knows what a Brand's Wig or Shoes does, later copies can feel interchangeable.
+The 144-card Wardrobe contains:
 
-The v7.9 candidate changes that philosophy:
+- **130 unique Fashion cards**
+- **14 unique Actions**
+- **144 distinct rules-text entries**
 
-> **Brand tells you the strategy. Slot tells you the job. The individual garment tells you why this specific card is worth buying.**
+There are no repeated Fashion cards in the v7.9 Wardrobe.
 
-## Wardrobe diversity rule
+Within a Brand, different cards should share a strategic identity without becoming copies of one another. Slot identity also matters: Face, Wig, Body, Shoes, and Accessory should create different tactical jobs even when they belong to the same Brand.
 
-The candidate Wardrobe contains **130 unique Fashion cards + 14 unique Actions = 144 unique Wardrobe cards**.
-
-There are no repeated Fashion cards in the 144-card Wardrobe candidate.
-
-Within a Brand:
-
-- every Face is a different garment with different rules text;
-- every Wig is a different garment with different rules text;
-- every Body is a different garment with different rules text;
-- every Shoes card is a different garment with different rules text;
-- every Accessory is a different garment with different rules text.
-
-No two cards in the candidate share identical ability text.
-
-## Brand distribution
-
-The existing Tenets and Brands are retained.
+### Brand distribution
 
 | Brand | Tenet | Fashion cards | Unique cards per slot |
 |---|---|---:|---:|
@@ -45,131 +31,108 @@ The existing Tenets and Brands are retained.
 | Big Top | Yellow | 10 | 2 |
 | Swamp Witch | Yellow | 10 | 2 |
 
-Total Fashion: **130**.
+Total Fashion: **130**. The remaining **14 Wardrobe cards are unique neutral/Vogue Actions**.
 
-The remaining **14 Wardrobe cards are unique neutral/Vogue Actions**.
-
-## Brand identity remains consistent
-
-Cards in the same Brand should feel related without being copies.
+## Brand identity
 
 - **Sugar Rush:** draw, cycling, quick setup, Pink Matching.
-- **Hyper-Glitch:** deck/top-card manipulation, market manipulation, Fusion tricks.
+- **Hyper-Glitch:** top-deck and Market manipulation, Fusion tricks.
 - **Necropolis:** Archive recursion, trash/death value, battle setup.
 - **Slasher:** aggression, hostile interaction, Dragdagulan† pressure.
 - **Void:** sacrifice, denial, delayed value, Fusion and Deep Storage.
-- **Velvet Trap:** control, reactions, opponent choices, elegant tempo.
+- **Velvet Trap:** control, reactions, opponent choices, tempo.
 - **Gilded Cage:** high-Cost luxury, Gross SP, premium-value payoffs.
 - **Trash Can:** trashing, cheap-card value, salvage and reuse.
 - **Big Top:** Wild effects, risk/reward, unpredictable tempo.
 - **Swamp Witch:** Deep Storage, slow engines, recursion.
 
-## Slot identity also matters
+## Printed Tips on every Poker card
 
-The slot should help explain what kind of decision the card creates.
+Every card in the 240-card Poker Deck displays a **printed Tip value**, including cards whose value is **0**.
 
-- **Face:** setup, information, hand/top-deck manipulation.
-- **Wig:** cycling, Reveal setup, Tenet/battle preparation.
-- **Body:** larger Appeal and build-around effects.
-- **Shoes:** tempo, Shopping, completion, movement, LS.
-- **Accessory:** reactions, tactical tricks, unusual utility.
+**Cost** and **printed Tips** are different:
 
-A Slasher Shoe and a Slasher Wig should both feel like Slasher cards, but they should solve different problems.
+- **Cost** is what you pay to buy a card.
+- **Printed Tips** are purchasing power contributed by a card in your hand during Tip Count.
 
-## Printed Tips on every card
+## Tip Count
 
-Every Poker card must display a **printed Tip value**, including cards whose value is **0**.
+At the **start of your turn, before Transformation**, perform Tip Count:
 
-Printed Tips are different from **Cost**:
+1. Look at every card currently in your hand.
+2. Add the printed Tip values of those cards to your Tip pool.
+3. A printed 0 contributes nothing but is still shown.
+4. Counting a card does not discard, play, or equip it.
+5. A card's printed Tip value is counted **once per turn**.
+6. Moving the card to the Coordinate or playing it later does not generate its printed Tips again.
 
-- **Cost** is what you pay to buy the card.
-- **Printed Tips** are purchasing power the card contributes when it is in your hand.
+Queen abilities and card effects may still add or remove Tips after Tip Count.
 
-### Tip Count
+### Starter-card correction
 
-At the **start of your turn, before playing or equipping any cards**, perform a **Tip Count**:
+To prevent double counting under v7.9:
 
-1. Look at the cards currently in your hand.
-2. Add the printed Tip value of **every card in that hand** to your Tip pool.
-3. A printed value of 0 contributes nothing, but is still explicitly shown.
-4. Counting a card's Tips does **not** discard or spend that card.
-5. You may later play/equip the same card normally during Transformation.
+- **Basic Beat:** printed Tip **1**; it does not also say “gain 1 Tip when played.”
+- **Messy Lip Sync:** printed Tip **0**.
+- **Chapstick:** printed Tip **1**; it does not also generate that printed Tip again when equipped/played.
+- **Penalty cards:** normally printed Tip **0**.
 
-A card's printed Tip value is counted **once per turn**, during Tip Count. Moving that card to the tableau does not generate its printed Tips again.
-
-Queen abilities and rules effects may still add or remove Tips after Tip Count.
+Any older starter wording that grants the same Tip again when played is legacy v7.8 wording and should not be used in a v7.9 test.
 
 ## Shopping and purchased cards
-
-Shopping remains the point where accumulated Tips are spent.
 
 When you buy a card:
 
 > **Put it into your Backstage Archive / personal discard pile. Do not put it into your hand and do not immediately play or equip it.**
 
-The card becomes part of your deck-building engine only after your personal Deck cycles:
+The deck-building loop is:
 
-**buy → discard/Archive → reshuffle when needed → draw later → count its printed Tips → play/equip it**
+**buy → Archive → reshuffle when needed → draw later → count printed Tips → play/equip**
 
-This delay is intentional. Buying a strong garment improves future turns rather than immediately changing the current Coordinate.
-
-## Candidate turn timing
-
-The current candidate keeps the familiar five phases but adds a pre-phase resource step:
+## v7.9 turn timing
 
 **0. Tip Count → 1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-This preserves the existing timing for Queen abilities, Reveal effects, and Shopping while ensuring printed Tips are banked **before** cards leave the player's hand for the tableau.
+Tip Count happens before any card can leave the hand for the Coordinate.
 
-## Starter-deck treatment
+## Main component accounting
 
-For the next generated build, every starter card should explicitly show a Tip value.
+The base-game Poker Deck remains **240 cards**:
 
-Recommended candidate values:
+- 60 Dressing Room Floor starter cards
+- 144 Wardrobe Rack cards
+- 16 Thrift Store Throwbacks
+- 20 Penalty cards
 
-- **Basic Beat:** 1 printed Tip.
-- **Messy Lip Sync:** 0 printed Tips.
-- **Chapstick:** 1 printed Tip.
-- **Penalty cards:** normally 0 printed Tips.
+Stages, Queens, Player Aids, rules, and the optional Solo Circuit module are separate components.
 
-The exact starter balance remains a playtest variable, but no card should have an omitted Tip field.
+## Build synchronization rule
 
-## Current candidate database
+A v7.9 playtest should use v7.9 wording across the same session. Do not mix a v7.9 Tip Count deck with v7.8 starter text, Player Aids, or rules.
 
-The generated working files are:
-
-- `Haute_Hazard_v7_9_Wardrobe_Redesign_Candidate.xlsx`
-- `Haute_Hazard_v7_9_Wardrobe_Redesign_Candidate.csv`
-
-They contain **144 candidate Wardrobe cards with 144 distinct ability texts** and explicit printed Tip values from 0–2.
-
-## Playtest questions
-
-When testing this candidate, record:
-
-1. When two cards share a Brand and slot, do they create genuinely different purchase decisions?
-2. Does a Brand still feel coherent even though its cards have different abilities?
-3. Does Tip Count make hands more interesting?
-4. Is it clear that printed Tips are counted before cards are equipped?
-5. Do players accidentally count equipped cards' printed Tips a second time?
-6. Does putting purchases into the Archive/discard create a satisfying deck-building delay?
-7. Are 0-Tip cards worth drawing because their other effects are strong enough?
-8. Are high-Cost cards with low printed Tips interesting rather than frustrating?
-9. Do players have enough reason to buy multiple cards from the same Brand?
-10. Does the larger variety increase rules load too much?
-
-## Build policy
-
-Do not overwrite the v7.8 physical/TTS binaries with this candidate piecemeal.
-
-Once the candidate is approved for a test build, regenerate together:
+The synchronized v7.9 production target includes:
 
 - Poker-card faces;
 - Print & Play PDFs;
 - Game Crafter upload package;
-- TTS card assets/save;
-- Player Aid;
+- Tabletop Simulator assets/save;
+- Player Aids;
 - rules / Learn to Play;
 - card database and manifests.
 
-Until that synchronized regeneration happens, **v7.8 remains the last fully packaged physical/digital build and v7.9 remains the active redesign candidate.**
+Binary availability on GitHub is tracked separately from rules status. If a binary ZIP is not visibly attached, do not substitute an older v7.8 package and call it v7.9.
+
+## Playtest questions
+
+Record whether:
+
+1. cards within the same Brand + slot create different purchase decisions;
+2. Brand identities remain recognizable;
+3. Tip Count is remembered before Transformation;
+4. players accidentally count an equipped/played card's printed Tips twice;
+5. 0-Tip cards remain attractive;
+6. the Archive delay makes purchases feel like deck-building;
+7. the larger unique Wardrobe creates too much reading;
+8. the revised economy produces enough meaningful Shopping choices.
+
+> **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review before commercial release.
