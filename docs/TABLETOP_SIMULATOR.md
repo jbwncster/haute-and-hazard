@@ -29,9 +29,9 @@ The TTS base should contain:
 
 The TTS rules/player aid must use:
 
-**0. Tip Count → 1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
+**1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-Count printed Tips from cards in hand before playing/equipping them.
+Generate printed Tips when cards are actually played from hand during Transformation. Unplayed cards and already-equipped Masters generate no Tips.
 
 Do not use old starter text/scripts that also grant the same printed Tip when Basic Beat or Chapstick is played.
 
@@ -62,7 +62,7 @@ Before calling v7.9 fully runtime-verified, confirm:
 - teaching setup opens;
 - all images resolve;
 - deck counts are correct;
-- Player Aid shows Tip Count;
+- Player Aid shows play-generated Tip timing;
 - Solo v0.2 Additive Load works;
 - no stale v7.8/v0.1 asset paths remain.
 
