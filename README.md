@@ -61,7 +61,7 @@ Large binary availability is tracked separately from source/rules status. Do not
 
 **1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-During Transformation, play cards from hand to generate their printed Tips. Unplayed cards generate nothing, already-equipped Masters do not generate Tips again, and Fashion may be played for Tips without being equipped.
+During Transformation, play cards from your 5-card hand one at a time to generate their printed Tips. Unplayed cards generate nothing, already-equipped Masters do not generate Tips again, and Fashion may be played for Tips without being equipped. Spend Tips from a five-card Wardrobe Rack; purchases go to Backstage Archive. At Cleanup, refill the Rack, archive the rest of your hand/played non-Masters, and draw 5.
 
 ## Solo Circuit v0.2
 
