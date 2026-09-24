@@ -8,9 +8,9 @@ Every player begins with the same **12-card Dressing Room Floor starter deck**. 
 
 | Qty | Card | Type | Printed Tips | Basic role |
 |---:|---|---|---:|---|
-| 7 | **Basic Beat** | Action | 1 | Reliable early Shopping power through Tip Count. |
-| 3 | **Messy Lip Sync** | Action | 0 | Basic performance power; its play effect provides Appeal rather than a printed Tip. |
-| 2 | **Chapstick** | Makeup / Face Fashion | 1 | Early Face Fashion plus hand filtering. |
+| 7 | **Basic Beat** | Action | 1 | Reliable early Shopping power when played. |
+| 3 | **Messy Lip Sync** | Action | 0 | Basic performance power; its play effect provides Appeal instead of buying power. |
+| 2 | **Chapstick** | Makeup / Face Fashion | 1 | Early Face Fashion, hand filtering, and 1 Tip when played. |
 
 **Total: 12 cards per player.**
 
@@ -23,13 +23,18 @@ Across five starter decks:
 
 ## Critical v7.9 Tip rule
 
-At the start of each turn, before Transformation, perform **Tip Count** and add the printed Tip values of every card currently in your hand.
+Tips work like Power in a shared-market deck-builder:
 
-The same card may then be played or equipped normally.
+> **A card generates its printed Tips only when you play it from your hand during Transformation.**
 
-**Do not gain its printed Tip value again when you play/equip it.**
+Cards sitting in your hand do not generate Tips.
 
-This means legacy wording such as “Basic Beat: gain 1 Tip when played” or “Chapstick: gain 1 Tip when equipped” must not be used in a v7.9 test if that Tip duplicates the printed value.
+When you play a card:
+
+1. add its printed Tips to your Tip pool;
+2. then resolve its play/equip instructions.
+
+A card already equipped as a Master from an earlier turn does not generate its printed Tips again.
 
 ## Setup
 
@@ -49,19 +54,19 @@ There are no Queen-specific starter decks in v7.9.
 
 ## What the starter cards teach
 
-### Basic Beat — Tip Count and Shopping
+### Basic Beat — buying power
 
-Basic Beat's **printed Tip 1** makes the pre-Transformation Tip Count reliable. Its printed Tip is not a separate play trigger.
+Play Basic Beat to generate its **printed Tip 1**. It has no additional effect.
 
 ### Messy Lip Sync — performance
 
-Messy Lip Sync has **printed Tip 0** and teaches that a turn is not only about Shopping. Its performance effect contributes Appeal when used as instructed by the card.
+Messy Lip Sync has **printed Tip 0** and teaches that not every useful card increases buying power. Resolve its performance effect when played.
 
-### Chapstick — Fashion and hand filtering
+### Chapstick — Fashion, buying power, and hand filtering
 
-Chapstick has **printed Tip 1** and is Face Fashion. It can occupy the Face slot and smooth an awkward hand through its filtering effect.
+When you play Chapstick, it generates **1 Tip**. You may then equip it as Face Fashion and resolve its Equip effect.
 
-Its printed Tip was already counted during Tip Count, so equipping it does not generate that same Tip again.
+If you do not need it as your Face Master, you may play it for its printed Tip without equipping it; it is archived during Cleanup.
 
 ## Deck growth
 
@@ -69,7 +74,7 @@ Purchased Wardrobe and Thrift cards go to the player's **Backstage Archive**. Wh
 
 The v7.9 growth loop is:
 
-**draw hand → Tip Count → play/equip → Shop → purchases enter Archive → reshuffle later → draw upgraded cards**
+**draw hand → play cards / generate Tips → Reveal → Shop → purchases enter Archive → reshuffle later → draw upgraded cards**
 
 ## Coordinate growth
 
