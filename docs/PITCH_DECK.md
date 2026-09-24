@@ -23,9 +23,9 @@ Players are not only buying cards. They are constructing a persistent on-table C
 
 ## Slide 4 — Core loop
 
-Tip Count → Transform → Reveal → Shop → Slay / Dragdagulan† / Pass → Cleanup
+Transform → Reveal → Shop → Slay / Dragdagulan† / Pass → Cleanup
 
-Show how one turn begins by counting printed Tips from the current hand, then moves from building a Look to revealing performance, Shopping, and taking a tactical action.
+Show how one turn begins by playing cards to generate printed Tips while building a Look, then moves to revealing performance, Shopping, and taking a tactical action.
 
 ## Slide 5 — Coordinates, Tenets, and Brands
 
