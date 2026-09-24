@@ -57,6 +57,10 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 
 Large binary availability is tracked separately from source/rules status. Do not relabel an older v7.8 archive as v7.9 if the matching v7.9 package is not visibly attached.
 
+## Deck-building engine
+
+v7.9 uses a DC-style shared-market deck-building backbone: **5-card hands, play cards for buying power, a five-card Wardrobe Rack, acquired cards to Backstage Archive, refill at Cleanup, then draw 5**. Haute & Hazard layers its persistent Coordinate, Appeal, Stage, and Dragdagulan† systems on top.
+
 ## v7.9 turn order
 
 **1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
