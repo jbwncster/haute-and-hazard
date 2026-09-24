@@ -1,0 +1,63 @@
+name: Build v7.9 Physical and TTS Assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_v7_9_assets.py
+      - scripts/build_v7_9_assets.py.gz.b64
+      - data/v7_9_card_database.csv
+      - data/v7_9_queen_database.csv
+      - data/v7_9_stage_database.csv
+      - .github/workflows/build-v7.9-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-v7-9-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore generator bootstrap
+        shell: bash
+        run: |
+          if [ ! -f scripts/build_v7_9_assets.py ] && [ -f scripts/build_v7_9_assets.py.gz.b64 ]; then
+            base64 -d scripts/build_v7_9_assets.py.gz.b64 | gunzip > scripts/build_v7_9_assets.py
+            chmod +x scripts/build_v7_9_assets.py
+          fi
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --disable-pip-version-check pillow reportlab
+
+      - name: Build physical and TTS packages
+        run: python scripts/build_v7_9_assets.py .
+
+      - name: Commit generated build
+        shell: bash
+        run: |
+          rm -f scripts/build_v7_9_assets.py.gz.b64
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/build_v7_9_assets.py releases/v7.9
+          git add -u scripts/build_v7_9_assets.py.gz.b64
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "Build v7.9 physical and TTS packages [skip ci]"
+            git push
+          fi
