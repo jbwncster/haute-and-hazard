@@ -37,7 +37,7 @@ Every turn begins with a resource step, followed by five phases:
 
 0. **Tip Count** — add the printed Tip value of every card currently in your hand to your Tip pool. Count each card once. Do not discard it.
 1. **Transformation** — equip Fashion, play Actions, and use eligible Queen abilities.
-2. **The Reveal** — add printed Fashion resources, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier.
+2. **The Reveal** — total printed Appeal and other Reveal-specific values, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier. **Do not add printed Tips here; those were counted during Tip Count.**
 3. **Shopping** — spend Tips on the Wardrobe Rack and eligible Thrift Store cards.
 4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
 5. **Cleanup** — archive temporary cards/hand as required, draw a new hand, and reset Tips and Appeal.
