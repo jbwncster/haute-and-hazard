@@ -1,23 +1,14 @@
 # Haute & Hazard — Current Gameplay Reference
 
-This page summarizes the current Base Game systems used by the **v7.8 physical and Tabletop Simulator playtest editions**. It is a quick repository reference, not a replacement for the printed rulebook or card text.
+This page summarizes the **current v7.9 base-game rules**. It is a quick repository reference, not a replacement for the printed rulebook or card text.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
-## The Haute Circuit — rulebook framing
+## Goal
 
-The rules are framed as one night on **The Haute Circuit**: Queens arrive unfinished, build a Look, earn Tips, shop for Fashion, adapt to a series of venue Stages, confront rivals, carry the consequences of the night forward, and finally face **Final Judging**.
+Haute & Hazard is a competitive drag fashion deck-building game for **2–5 players**. Each player controls a Queen, builds a fashion Coordinate, generates Tips to Shop, builds Appeal to Slay venue Stages, and may challenge rivals to **Dragdagulan†**.
 
-> **Backstage Beat — The Invitation**  
-> Once a year, twelve venues light up for the Haute Circuit. Every Queen receives the same invitation: arrive with what you have, leave with a reputation. By sunrise, the city will have chosen the performance it cannot forget.
-
-This lore has **no rules effect**. The full rulebook callout sequence is maintained in [RULEBOOK_LORE_THREAD.md](RULEBOOK_LORE_THREAD.md).
-
-## Game goal
-
-Haute & Hazard is a competitive drag deck-building game for **2–5 players**. Each player controls a Queen, builds a four-piece fashion Coordinate, generates Tips for Shopping, builds Appeal to Slay the active Stage, and may challenge rivals to **Dragdagulan†**.
-
-The standard end trigger is **30 Gross Style Points (SP)** at the end of Phase 4 or Curtain Call, or an empty Stage Deck after a Stage is Slayed. Final Score is Gross SP plus explicit end-game bonuses minus Penalty values.
+The standard end trigger is **30 Gross Style Points (SP)** at the end of Phase 4 / Curtain Call, or an empty Stage Deck after a Stage is Slayed. Final Score is Gross SP plus explicit end-game bonuses minus Penalty values.
 
 ## Coordinate
 
@@ -28,14 +19,9 @@ The four core Fashion slots are:
 3. Body
 4. Shoes
 
-A Coordinate is **Complete** when all four core slots have a Master. Accessory is optional and is not a core slot unless a card explicitly says otherwise.
-
-> **Backstage Beat — The Mirror Is Not Finished Yet**  
-> Face. Wig. Body. Shoes. Piece by piece, the silhouette comes together. The first card is an idea. A Complete Coordinate is a statement.
+A Coordinate is **Complete** when all four core slots have a Master. Accessory is optional unless a card says otherwise.
 
 ## Tenets and Brands
-
-A **Tenet** is the gameplay color/faction. A **Brand** is a named fashion line within a Tenet.
 
 - **Pink** — Sugar Rush, Hyper-Glitch
 - **Blue** — Necropolis, Slasher, Void
@@ -43,23 +29,20 @@ A **Tenet** is the gameplay color/faction. A **Brand** is a named fashion line w
 - **Yellow** — Trash Can, Big Top, Swamp Witch
 - **Neutral** — colorless; not a Tenet for Matching or Perfect Illusion
 
-If a rule says **Tenet**, compare colors. If a rule or Stage names a **Brand**, the card must actually belong to that named Brand.
+A **Tenet** is a gameplay color/faction. A **Brand** is a named fashion line within a Tenet.
 
-> **Backstage Beat — A Look Says Something**  
-> Tenets are the broad language of the Look. Brands are the dialect. Matching says you committed. Perfect Illusion says the Look belongs to you. Fusion says you knew exactly which rules to break.
+## v7.9 turn order
 
-## Turn order
+Every turn begins with a resource step, followed by five phases:
 
-Every turn uses five phases:
-
-1. **Transformation** — equip Fashion, play Actions, use eligible Queen abilities.
-2. **The Reveal** — add printed Fashion resources, assign Wild Tenets, determine Look states, resolve Fusion/Matching abilities, then apply the Appeal multiplier.
+0. **Tip Count** — add the printed Tip value of every card currently in your hand to your Tip pool. Count each card once. Do not discard it.
+1. **Transformation** — equip Fashion, play Actions, and use eligible Queen abilities.
+2. **The Reveal** — add printed Fashion resources, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier.
 3. **Shopping** — spend Tips on the Wardrobe Rack and eligible Thrift Store cards.
 4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
-5. **Cleanup** — archive temporary cards/hand as required, draw a new hand, reset Tips and Appeal.
+5. **Cleanup** — archive temporary cards/hand as required, draw a new hand, and reset Tips and Appeal.
 
-> **Backstage Beat — Lights Up**  
-> The curtain parts. A pile of cards becomes a Look, a set of choices becomes Appeal, and suddenly everyone in the room can see whether the fantasy holds together.
+A card counted during Tip Count can still be played or equipped later that turn. Its printed Tip value is **not counted a second time** when it leaves the hand.
 
 ## Look states
 
@@ -69,20 +52,28 @@ Every turn uses five phases:
 
 Matching and Fusion may coexist when Deep Storage introduces the second Tenet.
 
-## Shopping economy
+## Shopping
 
-Tips are the game's Shopping currency. During Shopping, a player may buy any number of affordable cards from the five-card Wardrobe Rack Market Row and any affordable available Thrift Store Throwbacks. Purchases go to the player's Backstage Archive.
+Tips are the Shopping currency. During Shopping, a player may buy any number of affordable cards from the five-card Wardrobe Rack and any eligible Thrift Store cards.
+
+Purchased cards go to the player's **Backstage Archive / personal discard pile**. They do not enter the current hand and cannot be immediately played or equipped.
 
 Unspent Tips remain available until Cleanup for effects that care about Tips, then reset to 0.
 
-> **Backstage Beat — Spend the Applause**  
-> Applause becomes Tips, and Tips never stay quiet for long. The Wardrobe Rack is a feeding frenzy: better pieces, stranger pieces, and the one card another Queen was absolutely planning to buy.
+## v7.9 Wardrobe
 
-## Stages in v7.8
+The 144-card Wardrobe is now **fully unique**:
 
-The v7.8 Stage deck contains **12 venue-style Stages**. Stages are places where the performance happens rather than challenge-name cards.
+- 130 unique Fashion cards
+- 14 unique Actions
 
-Each current Stage can use:
+Every Poker card has an explicit printed Tip value, including 0. See [V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md) for the detailed distribution and economy rules.
+
+## Stages
+
+The base Stage deck contains **12 venue-style Stages**, balanced at 3 Pink / 3 Blue / 3 Purple / 3 Yellow and covering every Base Game Brand.
+
+Current Stage fields can include:
 
 - Favored Tenet
 - Featured Brand
@@ -94,14 +85,9 @@ Each current Stage can use:
 - Judge's Favor
 - Brand Ovation
 
-The 12-card deck is balanced at 3 Pink / 3 Blue / 3 Purple / 3 Yellow and includes every Base Game Brand at least once.
-
-> **Backstage Beat — New Room, New Rules**  
-> Every venue has its own crowd, its own taste, and its own idea of perfection. The Look that conquered the last room may be completely wrong for this one. Read the room before it reads you.
-
 ### Beginner Mode
 
-For a first game, use **Beginner Mode**. The Stage cards do not change; players simply use only:
+For a first game, use only:
 
 - Favored Tenet
 - Featured Brand
@@ -109,61 +95,54 @@ For a first game, use **Beginner Mode**. The Stage cards do not change; players 
 - Reward
 - Venue Effect
 
-Ignore **Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation** for the entire Beginner Mode game. All other game systems remain active, including Tenets/Brands, Shopping, Look states, Queen abilities, Special Appeals, Slay, and **Dragdagulan†**.
-
-See [BEGINNER_MODE.md](BEGINNER_MODE.md) for the complete teaching rules.
+Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for the entire Beginner Mode game.
 
 ## Slay
 
-A player may Slay the active Stage in Phase 4 if their current Appeal meets or exceeds the Stage's target and all prerequisites/costs are satisfied. A successful Slay claims the Stage trophy, grants its printed SP once, resolves Slay effects, and triggers Curtain Call.
-
-In Beginner Mode, do not check Spotlight Requirement and do not award Judge's Favor or Brand Ovation.
-
-> **Backstage Beat — Take the Stage**  
-> Enough Appeal turns preparation into a moment. Meet the room where it lives, give it more than it expected, and the Stage becomes part of your story.
+A player may Slay the active Stage in Phase 4 if their current Appeal meets or exceeds the Stage's target and all prerequisites/costs are satisfied. A successful Slay claims the Stage trophy, grants its printed reward once, resolves Slay effects, and triggers Curtain Call.
 
 ## Dragdagulan†
 
-**Dragdagulan†** is the head-to-head Lip Sync battle system.
-
 1. Choose an opponent who is not Untouchable.
 2. Challenger and defender each draw **3 battle cards** from their personal Deck.
-3. Each player's Battle Score is the sum of printed **LS** on those battle-drawn cards plus explicit active `+LS in battle` modifiers.
+3. Each Battle Score is the sum of printed **LS** on those battle-drawn cards plus explicit active battle modifiers.
 4. Equipped Masters and Deep Storage do **not** automatically add their printed LS.
 5. Higher Battle Score wins.
 
 The loser receives **The Chop** if available. The winner normally chooses either to steal 1 Gross SP or give the loser a Wardrobe Malfunction. A tie gives both players The Chop and no winner reward.
 
-> **Backstage Beat — Some Rivalries Need Music**  
-> Sometimes winning the room is not enough. One look across the floor, one name called into a microphone, and suddenly two Queens have to settle the question under the same lights.
-
 ## Queens
 
-The v7.8 Jumbo Queen set contains **12 Queens**. Each Queen has:
+The base game contains **12 Queens**, each with:
 
 - Signature Tenet
 - Favorite Brand
 - Signature Ability
 - **Special Appeal — Once Per Game**
 
-See [QUEEN_ROSTER.md](QUEEN_ROSTER.md) for the current roster and playtest wording.
+See [QUEEN_ROSTER.md](QUEEN_ROSTER.md).
 
-## Curtain Call and Final Judging
+## Starter deck
 
-Each successful Slay moves the night toward another venue. At Curtain Call, resolve the current Stage's closing/reset procedure and check the normal end conditions.
+Each player starts with:
 
-> **Backstage Beat — Clear the Stage**  
-> The lights come down. The room exhales. Whatever just happened becomes history before anyone has time to recover. Pack the Look, keep the gossip, and move. Another venue is already opening its doors.
+- 7 × Basic Beat — printed Tip 1
+- 3 × Messy Lip Sync — printed Tip 0
+- 2 × Chapstick — printed Tip 1
 
-At Final Judging, calculate Final Score using Gross SP, explicit end-game bonuses, penalties, and the current tiebreak rules.
+The printed Tip values are collected during **Tip Count**, not again when the card is played/equipped. See [STARTING_DECKS.md](STARTING_DECKS.md).
 
-> **Backstage Beat — What Will They Remember?**  
-> At the end of the Circuit, nobody remembers every stitch. They remember trophies, disasters, rivalries, impossible recoveries, and the Queen who made the whole night feel inevitable.
+## Solo Circuit
+
+**Solo Circuit v0.2** is a separate experimental one-player module. Its 30 solo cards are **not** part of the 240-card base-game Poker Deck.
+
+Use [SOLO_CIRCUIT_AUTOMA_PLAYTEST.md](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) for solo rules.
 
 ## Version guidance
 
-- **v7.8** is the current physical Game Crafter and Tabletop Simulator playtest target.
-- **v7.7.1** is archived as a legacy Game Crafter reference.
-- **v7.7** Core/TTS/Promotional packages are retained for historical comparison only.
+- **v7.9** — current base-game rules/card target.
+- **Solo Circuit v0.2** — current experimental solo target.
+- **v7.8** — archived synchronized comparison build.
+- **v7.7/v7.7.1** — legacy/archive material.
 
-Current v7.8 TTS setup/status information is in [TABLETOP_SIMULATOR.md](TABLETOP_SIMULATOR.md). Do not mix older Stage, Queen, Player Aid, or rulebook files into current v7.8 testing unless deliberately comparing builds.
+Do not mix v7.8 starter text, Player Aids, or turn timing into a normal v7.9 test.
