@@ -18,21 +18,31 @@ Use [`../data/rules_clarifications_log_template.csv`](../data/rules_clarificatio
 
 ## Current standing clarifications
 
-### Do cards drawn after Tip Count add their printed Tips this turn?
+### When does a card generate its printed Tips?
 
-No. Tip Count happens once at the start of the turn. Cards drawn, returned, or otherwise moved into your hand after that step do **not** contribute their printed Tips retroactively. If they remain in hand until a later turn, they can be counted during that later Tip Count.
+When you **play it from your hand during Transformation**. Add the printed Tips first, then resolve its legal play/equip instructions.
 
-### Is Tip Count itself an “effect”?
+Cards left unplayed in hand generate no Tips.
 
-No. Tip Count is a rules step, not a card or Queen effect. If a trigger says “when an effect gives you Tips,” normal Tip Count does not satisfy that wording unless that ability explicitly mentions Tip Count.
+### Do already-equipped Masters generate Tips every turn?
+
+No. A Master generates its printed Tips only when that physical card is played from hand. A Master that remains equipped from an earlier turn does not generate those Tips again.
+
+### What if I draw a card during Transformation?
+
+You may play it later during the same Transformation, so it can generate its printed Tips normally. A card drawn after Transformation normally cannot be played for Tips that turn unless an effect explicitly permits it.
+
+### Can I play Fashion for Tips without equipping it?
+
+Yes. Play it, gain its printed Tips, do not resolve an Equip effect, and place it in your played area. It contributes no Master stats, Tenet, Brand, or Look status and is archived during Cleanup.
 
 ### How does Opulencia work in v7.9?
 
-**More Is More** explicitly checks Tip Count. After Tip Count, if Opulencia gained at least 1 Tip from printed cards, she gains **+1 additional Tip**. Later in the same turn, whenever another effect causes her to gain one or more Tips, she gains +1 additional Tip from More Is More. The bonus cannot trigger itself.
+**More Is More** rewards individual Tip-generation events. Whenever a card Opulencia plays generates one or more printed Tips, she gains **+1 additional Tip**. A separate effect that causes her to gain one or more Tips can trigger More Is More separately. The bonus cannot trigger itself.
 
-### Do purchased cards count their printed Tips immediately?
+### Do purchased cards generate Tips immediately?
 
-No. Purchases go to the Backstage Archive. They must enter a later hand before their printed Tips can be counted at a later turn's Tip Count.
+No. Purchases go to the Backstage Archive. They must later be drawn and actually played from hand before their printed Tips generate.
 
 ### Does equipped Fashion automatically add LS during Dragdagulan†?
 
@@ -56,8 +66,10 @@ It is working prototype terminology or material subject to legal/IP, trademark, 
 
 ## Open questions to monitor
 
-- Do players remember that cards drawn after Tip Count do not add printed Tips retroactively?
-- Does Opulencia's explicit Tip Count bonus feel clear and appropriately strong?
+- Do players understand that only played cards generate printed Tips?
+- Do players accidentally regenerate Tips from already-equipped Masters?
+- Does playing Fashion for Tips without equipping feel intuitive?
+- Does Opulencia's per-card Tip bonus feel clear and appropriately strong?
 - Are Favored Tenet and Featured Brand easy to distinguish?
 - Are Queen Special Appeals remembered without extra reminders?
 - Does Dragdagulan† happen often enough?
