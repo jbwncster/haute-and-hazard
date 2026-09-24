@@ -1,14 +1,18 @@
-name: Validate v7.9 card data
+name: Validate v7.9 source data
 
 on:
   push:
     paths:
       - "data/v7_9_card_database.csv"
+      - "data/v7_9_queen_database.csv"
+      - "data/v7_9_stage_registry.csv"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   pull_request:
     paths:
       - "data/v7_9_card_database.csv"
+      - "data/v7_9_queen_database.csv"
+      - "data/v7_9_stage_registry.csv"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   workflow_dispatch:
@@ -28,5 +32,5 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate canonical v7.9 card database
+      - name: Validate canonical v7.9 source data
         run: python scripts/validate_v7_9.py
