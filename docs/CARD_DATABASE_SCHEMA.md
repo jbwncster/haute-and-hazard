@@ -4,7 +4,9 @@ Use a single structured source of truth for cards so the physical build, TTS bui
 
 **Current v7.9 database:** [`../data/v7_9_card_database.csv`](../data/v7_9_card_database.csv)  
 **Validation/readme:** [`../data/V7_9_CARD_DATABASE.md`](../data/V7_9_CARD_DATABASE.md)  
-**Blank template:** [`../data/card_database_template.csv`](../data/card_database_template.csv)
+**Blank Poker template:** [`../data/card_database_template.csv`](../data/card_database_template.csv)  
+**Current Queen database:** [`../data/v7_9_queen_database.csv`](../data/v7_9_queen_database.csv)  
+**Current Stage registry:** [`../data/v7_9_stage_registry.csv`](../data/v7_9_stage_registry.csv)
 
 ## Required fields
 
@@ -14,7 +16,7 @@ Use a single structured source of truth for cards so the physical build, TTS bui
 | version_added | First version where this wording/card appeared. |
 | current_status | active, watching, revise, retired, legacy. |
 | card_name | Printed card name. |
-| component | Starter, Wardrobe, Thrift, Penalty, Stage, Queen, Player Aid. |
+| component | For the canonical 240-card CSV: Starter, Wardrobe, Thrift, Penalty. Queens and Stages use their own v7.9 data files. |
 | card_type | Fashion, Action, Penalty, Stage, Queen, Aid, etc. |
 | slot | Face, Wig, Body, Shoes, Accessory, none. |
 | tenet | Pink, Blue, Purple, Yellow, Neutral, None. |
@@ -86,3 +88,16 @@ See [V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE
 - `revise` — change likely after testing.
 - `retired` — removed from current build.
 - `legacy` — retained only for version comparison.
+
+
+## v7.9 multi-source production model
+
+v7.9 deliberately separates component data instead of forcing unrelated formats into one table:
+
+- **Poker cards:** `data/v7_9_card_database.csv`
+- **Queens:** `data/v7_9_queen_database.csv`
+- **Stages:** `data/v7_9_stage_registry.csv`
+
+The Stage registry currently verifies only names, Favored Tenets, and Featured Brands. It is **not yet a complete Stage-card database**. Do not invent Slay Targets, rewards, Judge text, Spotlight Requirements, Judge's Favor, Brand Ovation, or Venue Effects merely to fill the schema.
+
+When a verified full Stage source becomes available, migrate those exact fields into a complete Stage database before regenerating Stage faces.
