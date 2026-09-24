@@ -1,6 +1,6 @@
 # Haute & Hazard v7.8 — Cross-Build Alignment
 
-**v7.8 is the single current rules/component target for the physical Game Crafter prototype and the Tabletop Simulator playtest build.**
+**ARCHIVED ALIGNMENT RECORD. v7.8 is no longer the current target; use [V7_9_ALIGNMENT.md](V7_9_ALIGNMENT.md) for current development.**
 
 The physical and digital builds should differ only in medium/interface, not in rules, card pool, Queen roster, Stage roster, or scoring.
 
