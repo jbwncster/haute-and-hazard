@@ -21,7 +21,7 @@ When an instruction cannot be completed, skip that part of the instruction. When
 | 01 | Front Row Favorite | Fashion Hunter | 3 | 2 | Remove the highest-Cost Fashion. | If its Brand matches the Featured Brand, +1 House Appeal. |
 | 02 | Sample Sale Snatch | Fashion Hunter | 2 | 2 | Remove the lowest-Cost Fashion. | If its Cost is 2 or less, place a Bargain token on the House Queen. At 2 Bargain tokens, gain 1 Gross SP and clear them. |
 | 03 | Brand Obsession | Fashion Hunter | 3 | 2 | Remove a card matching the Featured Brand; otherwise highest Cost. | If a Featured Brand card was removed, +1 House Appeal. |
-| 04 | Complete the Look | Fashion Hunter | 3 | 3 | Remove the first Fashion whose slot differs from the last card in House Wardrobe; otherwise leftmost Fashion. | If House Wardrobe now contains 4+ different slots, +1 House Appeal. |
+| 04 | Complete the Look | Fashion Hunter | 3 | 3 | Remove the first Fashion with a slot not yet in House Wardrobe; otherwise leftmost Fashion. | If House Wardrobe contains 4+ different slots, +1 House Appeal. |
 | 05 | The Crowd Erupts | Spotlight Hog | 5 | 2 | Remove the leftmost Fashion. | No additional effect. Raw performance pressure. |
 | 06 | Standing Ovation | Spotlight Hog | 4 | 2 | Remove the highest-Appeal Fashion. | If the House Queen already owns a Stage trophy, +1 House Appeal. |
 | 07 | Camera Loves Her | Spotlight Hog | 4 | 1 | Remove the rightmost Fashion. | If this is round 2 or 3 on the current Stage, +1 House Appeal. |
