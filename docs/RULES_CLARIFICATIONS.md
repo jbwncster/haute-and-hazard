@@ -44,6 +44,30 @@ Yes. Play it, gain its printed Tips, do not resolve an Equip effect, and place i
 
 No. Purchases go to the Backstage Archive. They must later be drawn and actually played from hand before their printed Tips generate.
 
+### When does the Wardrobe Rack refill?
+
+At **Cleanup**, after the active player has finished Shopping. Do not refill a purchased Rack slot immediately during the same Shopping phase.
+
+### How many cards do I draw at the end of my turn?
+
+Draw a fresh hand of **5 cards**.
+
+### What if my Deck runs out while drawing?
+
+Shuffle your Backstage Archive to form a new personal Deck, then continue drawing until you have 5 cards.
+
+### Do I discard/archive cards I chose not to play?
+
+Yes. At Cleanup, archive every card still in your hand unless an effect explicitly says to keep it.
+
+### In what order may I play cards?
+
+During Transformation, play cards **one at a time in any order**. Resolve a card before playing the next one unless a card explicitly interrupts that timing.
+
+### What happens when I equip Fashion into an occupied slot?
+
+The new Fashion becomes that slot's Master. Archive the old Master unless an effect explicitly says otherwise.
+
 ### Does equipped Fashion automatically add LS during Dragdagulan†?
 
 No. Dragdagulan† Battle Score uses the printed LS on the three battle-drawn cards plus explicit active `+LS in battle` modifiers. Equipped Fashion does not automatically contribute LS unless an effect explicitly says so.
