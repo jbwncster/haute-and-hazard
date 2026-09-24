@@ -1,39 +1,61 @@
-# Haute & Hazard — Solo Circuit Quick Reference
+# Haute & Hazard — Solo Circuit v0.2 Quick Reference
 
 ## Setup
-1. Set up one human player normally.
-2. Choose a House Queen and optional Personality.
-3. Shuffle the 18-card Automa deck.
+
+1. Set up one human player using v7.9.
+2. Choose House Queen + optional Personality.
+3. Shuffle the **18-card Automa deck**.
 4. Choose difficulty.
-5. House Queen begins at 0 Gross SP.
+5. House starts at **0 Gross SP**.
+6. Set Stage Timer to **Round 1**.
 
 ## Difficulty
+
 - **Local Girl:** −2 Appeal / −1 LS
 - **Working Queen:** printed values
 - **Headliner:** +1 Appeal
 - **Legend:** +2 Appeal / +1 LS
 
+## House Appeal
+
+**House Base Appeal = max(0, Stage Slay Target − 6)**
+
+**House Stage Appeal = Base + revealed Automa Appeal + effects + difficulty**
+
+Calculate fresh each round.
+
 ## Each solo round
+
 1. Reveal 1 Automa card.
-2. Resolve **Wardrobe** removal and refill Market.
-3. Keep card face up; apply its round effect.
-4. Player takes a normal turn.
-5. House Appeal = **House Base Appeal + Automa Appeal + effects + difficulty**.
-6. If player Slays, player claims Stage.
-7. Otherwise, if House reaches target, House claims Stage.
-8. If neither does, advance Stage timer. After 3 failed rounds, House claims Stage.
+2. Resolve Wardrobe removal; refill Market.
+3. Keep the card face-up for Appeal/effect.
+4. Player takes a normal **v7.9 turn beginning with Tip Count**.
+5. If player Slays, player claims Stage normally.
+6. Otherwise calculate House Appeal.
+7. If House meets target, House claims Stage and gains its printed Gross SP reward.
+8. If neither claims it, advance Stage Timer.
+9. After **Round 4**, House claims the Stage by timeout and gains its printed Gross SP reward.
+
+House does not earn Judge's Favor or Brand Ovation unless a Solo rule explicitly says so.
 
 ## Dragdagulan†
+
 - Player draws normal 3 battle cards.
 - House reveals 3 Automa cards.
-- Only their printed **LS** counts; ignore their Wardrobe/effects.
-- Apply difficulty LS once to the final House total.
+- Only those Automa cards' printed **LS** and explicit battle effects count.
+- Apply difficulty LS **once** to the final House total.
+- Ignore battle cards' Wardrobe/normal round effects.
 - Discard all 3 battle Automa cards afterward.
 
-## Automa deck
-If empty, shuffle discard pile to make a new draw pile.
+## Component reminder
 
-## Reminder
-**SOLO CIRCUIT — EXPERIMENTAL PLAYTEST MODULE**
+Solo v0.2 = **30 separate cards**
+
+- 18 Automa
+- 12 Personalities
+
+Do not add them to the 240-card base-game Poker Deck.
+
+> **SOLO CIRCUIT v0.2 — EXPERIMENTAL PLAYTEST MODULE**
 
 † Dragdagulan is working prototype terminology subject to legal/IP and publisher review.
