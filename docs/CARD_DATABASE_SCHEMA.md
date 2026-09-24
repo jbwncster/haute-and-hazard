@@ -22,7 +22,7 @@ Use a single structured source of truth for cards so the physical build, TTS bui
 | tenet | Pink, Blue, Purple, Yellow, Neutral, None. |
 | brand | Named Brand or None. |
 | cost | Tip cost if purchasable. |
-| tips | **Printed Tip value** contributed from hand during Tip Count. Use 0 explicitly when a card provides no printed purchasing power. |
+| tips | **Printed Tip value** generated when the card is played from hand during Transformation. Use 0 explicitly when a card provides no printed purchasing power. |
 | appeal | Appeal generated or modified. |
 | ls | Printed LS if any. |
 | sp | Gross SP or printed Stage reward if applicable. |
@@ -64,7 +64,7 @@ For the current v7.9 Wardrobe redesign:
 
 - every Poker card has an explicit printed Tip value, including 0;
 - Cost and printed Tips are separate fields and must never be conflated;
-- printed Tips are counted from the player's hand at the start of the turn before cards are played/equipped;
+- printed Tips are generated only when the card is played from hand during Transformation;
 - every one of the 144 Wardrobe cards has a distinct current rules-text entry in the v7.9 database;
 - no two current Wardrobe rows share identical rules text;
 - no Brand/slot combination is represented only by repeated copies of one garment;
