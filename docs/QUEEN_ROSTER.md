@@ -9,7 +9,7 @@ This is the current **12-Queen v7.9 playtest roster**. The Queen identities, Sig
 | **Lady Lux** | Yellow | Trash Can | **Treasure from Trash** — Once per Round, immediately after you trash your third card that Round, gain 2 Gross SP and draw 1 card. |
 | **Kawaii-Bot** | Pink | Sugar Rush | **Idol Perfect** — Once per Round when you reveal a Matching Look, gain 1 Gross SP and draw 1 card. |
 | **Mother Mortis** | Blue | Necropolis | **From the Grave** — Once during Transformation, play/equip one eligible non-Penalty card from your Backstage Archive as though it were in your hand. |
-| **Opulencia** | Purple | Gilded Cage | **More Is More** — After Tip Count, if your printed cards generated at least 1 Tip, gain 1 additional Tip. Whenever another effect causes you to gain one or more Tips, gain 1 additional Tip. This bonus cannot trigger itself. |
+| **Opulencia** | Purple | Gilded Cage | **More Is More** — Whenever a card you play generates one or more printed Tips, gain 1 additional Tip. Whenever another single effect causes you to gain one or more Tips, gain 1 additional Tip. This bonus cannot trigger itself. |
 | **Velvet Venom** | Blue | Necropolis | **Toxic Entrance** — When you equip a Necropolis Body as Master, choose an opponent; they discard 1 card from hand to their Backstage Archive if able. |
 | **Maldita Manila** | None | Multi-Brand / Fusion | **Duality** — Once per turn when you reveal a Complete Coordinate containing at least two non-Neutral Tenets, gain 2 Tips. |
 | **Hexa Laroux** | Purple | Gilded Cage | **Perfect Geometry** — Whenever you gain Gross SP, gain that many Tips. Once per turn during The Reveal, if you have an Accessory equipped, gain 1 Gross SP. |
@@ -33,7 +33,7 @@ Once per game during The Reveal, if you have a Matching Pink Look, improve the R
 Once per game during Transformation, equip one eligible Fashion card from your Backstage Archive as though it were in your hand. Resolve its Play ability normally and ignore any additional effect cost specifically required to equip that card.
 
 ### Opulencia — No Budget, No Problem
-Once per game during Shopping, reduce the cost of one Wardrobe purchase by 4 Tips, minimum 0. If the purchased card is Gilded Cage, draw 1 card afterward. Because this draw happens after Tip Count, the drawn card's printed Tips are not counted this turn.
+Once per game during Shopping, reduce the cost of one Wardrobe purchase by 4 Tips, minimum 0. If the purchased card is Gilded Cage, draw 1 card afterward. Because Transformation has already ended, that drawn card normally cannot be played to generate its printed Tips this turn.
 
 ### Velvet Venom — Death Drop
 Once per game when an opponent targets you with a hostile effect, cancel that effect. That opponent then loses 1 Tip, minimum 0.
