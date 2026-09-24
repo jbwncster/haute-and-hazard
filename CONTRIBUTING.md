@@ -17,10 +17,11 @@ Thank you for testing **Haute & Hazard**.
 
 Confirm that the rules, Player Aid, and cards all agree that:
 
-- Tip Count happens before Transformation;
 - every Poker card has a printed Tip value;
-- printed Tips are counted once from cards in hand;
-- playing/equipping the same card does not grant those printed Tips again;
+- **only cards played from hand generate their printed Tips**;
+- printed Tips are generated once when that physical card is played that turn;
+- already-equipped Masters do not generate printed Tips again merely for remaining equipped;
+- Fashion may be played for Tips without being equipped;
 - purchased cards go to Backstage Archive.
 
 ## Submit a playtest report
@@ -33,7 +34,7 @@ Record as much as possible:
 - Queens;
 - winner and Final Score;
 - Stage results;
-- Tip Count mistakes or double-counting;
+- Tip-generation mistakes, especially counting unplayed cards or re-paying already-equipped Masters;
 - Shopping purchases;
 - Matching / Perfect Illusion / Fusion;
 - Dragdagulan† attempts and scores;
