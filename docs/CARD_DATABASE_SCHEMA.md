@@ -54,9 +54,9 @@ No field may be silently dropped because a new frame has less room. The frame mu
 
 See [CARD_VISUAL_REFRESH.md](CARD_VISUAL_REFRESH.md).
 
-## v7.9 candidate card-design rules
+## v7.9 card-design rules
 
-For the active v7.9 Wardrobe redesign candidate:
+For the current v7.9 Wardrobe redesign:
 
 - every Poker card has an explicit printed Tip value, including 0;
 - Cost and printed Tips are separate fields and must never be conflated;
