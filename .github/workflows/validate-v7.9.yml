@@ -6,6 +6,7 @@ on:
       - "data/v7_9_card_database.csv"
       - "data/v7_9_queen_database.csv"
       - "data/v7_9_stage_registry.csv"
+      - "data/v7_9_stage_database.csv"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   pull_request:
@@ -13,6 +14,7 @@ on:
       - "data/v7_9_card_database.csv"
       - "data/v7_9_queen_database.csv"
       - "data/v7_9_stage_registry.csv"
+      - "data/v7_9_stage_database.csv"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   workflow_dispatch:
@@ -26,11 +28,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Validate canonical v7.9 source data
         run: python scripts/validate_v7_9.py
