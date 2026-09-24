@@ -1,6 +1,6 @@
 # Haute & Hazard v7.9 — Beginner Mode
 
-Beginner Mode is the recommended first game. It uses the normal v7.9 Queens, starter decks, Wardrobe Rack, Thrift Store, Penalties, **Tip Count**, Shopping economy, Look rules, Slay rules, and Dragdagulan†.
+Beginner Mode is the recommended first game. It uses the normal v7.9 Queens, starter decks, five-card Wardrobe Rack, Thrift Store, Penalties, **play-generated Tips**, Shopping economy, Look rules, Slay rules, and Dragdagulan†.
 
 The only simplification is how you read each Stage.
 
@@ -32,7 +32,8 @@ Players still use:
 - Matching Look
 - Perfect Illusion
 - Fusion
-- **Tip Count**
+- play-generated Tips
+- five-card hands
 - Shopping
 - Appeal
 - Slay
@@ -52,18 +53,19 @@ Each player receives:
 - 3 × Messy Lip Sync — printed Tip 0
 - 2 × Chapstick — printed Tip 1
 
+Shuffle each 12-card starter deck and draw **5 cards**. Set the Wardrobe Rack to **5 face-up cards**.
+
 Shuffle the 12 venue Stages and point out only the five Beginner Mode fields.
 
 ## v7.9 turn structure
 
-0. **Tip Count** — add printed Tips from every card currently in hand. Count each card once.
-1. **Transformation**
-2. **The Reveal**
-3. **Shopping**
+1. **Transformation** — play cards from hand one at a time, in any order. Each played card generates its printed Tips, then resolves its text.
+2. **The Reveal** — total Appeal, determine the Look, and resolve Reveal effects.
+3. **Shopping** — spend Tips to buy any number of legal affordable cards. Purchased cards go to the Backstage Archive.
 4. **Slay / Dragdagulan† / Pass**
-5. **Cleanup**
+5. **Cleanup** — archive played non-Masters and unplayed hand cards, refill the Wardrobe Rack to five, draw a fresh hand of 5, and reset temporary Tips/Appeal.
 
-A card counted during Tip Count can still be played/equipped that turn. Its printed Tip value does not trigger again merely because it was played.
+A card left unplayed in hand generates no printed Tips. A Master carried over from an earlier turn does not generate its printed Tips again.
 
 ## Slaying a Stage
 
@@ -90,7 +92,7 @@ Nothing else changes.
 
 ## Teaching line
 
-> **Count your Tips, build the Look, Shop the Wardrobe, and Slay the venue. The Judge layer comes next game.**
+> **Play your cards for Tips, build the Look, Shop the Wardrobe, and Slay the venue. The Judge layer comes next game.**
 
 **USE:** Favored Tenet • Featured Brand • Slay Target • Reward • Venue Effect  
 **IGNORE:** Judge • Spotlight Requirement • Judge's Favor • Brand Ovation
