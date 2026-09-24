@@ -1,0 +1,17 @@
+{
+  "version": "7.9",
+  "save": "Haute_Hazard_v7_9_TTS_Playtest.json",
+  "asset_count": 15,
+  "max_texture_px": 4096,
+  "counts": {
+    "Poker": 240,
+    "Wardrobe": 144,
+    "Starter": 60,
+    "Thrift": 16,
+    "Penalty": 20,
+    "Stages": 12,
+    "Queens": 12,
+    "PlayerAids": 5
+  },
+  "remote_base": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets"
+}

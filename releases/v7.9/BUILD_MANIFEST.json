@@ -1,0 +1,19 @@
+{
+  "version": "7.9",
+  "source_counts": {
+    "poker": 240,
+    "queens": 12,
+    "stages": 12
+  },
+  "outputs": {
+    "game_crafter_zip": "Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip",
+    "print_and_play_zip": "Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip",
+    "tts_zip": "Haute_Hazard_v7.9_TTS_Playtest.zip",
+    "tts_save": "TTS/Haute_Hazard_v7_9_TTS_Playtest.json"
+  },
+  "sha256": {
+    "game_crafter_zip": "b5698e4c6aba0a00b2e830cd9b2c278691ad485fc3ab1d1b307f4bdb733f6abf",
+    "print_and_play_zip": "1f63841aace889285d4a6fb043a442b6bfc7b5272f02f865acd03e3d9902c6fc",
+    "tts_zip": "2a1dfec17730838a7208b7182f7b16d17878d3dfec5e4b51c0be3a061e5b8f6c"
+  }
+}

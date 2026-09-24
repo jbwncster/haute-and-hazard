@@ -1,0 +1,15 @@
+Haute & Hazard v7.9 generated physical preflight
+PASS: 240 Poker fronts at 825x1125
+PASS: essential card text is inside the 75 px TGC safe-content inset
+PASS: 1 Poker shared back at 825x1125
+PASS: 12 Stage fronts at 825x1125
+PASS: Stage text source verified from v7.8 venue print assets
+PASS: 12 Queen fronts at 1125x1725
+PASS: 5 Player Aid fronts + 5 backs at 1875x1275
+PASS: Medium Folio front/back at 4875x2475
+PASS: Medium Prototype Box artboard at 5850x5400
+PASS: PnP Poker/Stage trim size 2.5x3.5 in; Queen trim 3.5x5.5 in; Player Aid 6x4 in
+PASS: all 240 Poker cards display printed Tips, including 0
+PASS: v7.9 five-phase play-generated-Tips Player Aid wording
+PASS: Game Crafter and PnP ZIPs generated with SHA-256 checksums
+NOTE: visual prototype art is functional and safe-text-oriented; commercial art review is separate from print preflight.

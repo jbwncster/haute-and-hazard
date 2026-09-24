@@ -1,0 +1,11 @@
+Haute & Hazard v7.9 TTS generated QA
+PASS: JSON parses
+PASS: 240 Poker cards mapped across 8 custom-deck sheets
+PASS: 144 Wardrobe / 60 Starter / 16 Thrift / 20 Penalty IDs
+PASS: 12 Stages / 12 Queens / 5 Player Aids
+PASS: five 12-card starter decks
+PASS: all TTS GUIDs unique
+PASS: every CardID/DeckID has its required CustomDeck mapping
+PASS: all TTS textures <= 4096 px
+PASS: asset URLs point to releases/v7.9/TTS/Assets on main
+RUNTIME NOTE: source-level QA cannot substitute for opening the save inside Tabletop Simulator.
