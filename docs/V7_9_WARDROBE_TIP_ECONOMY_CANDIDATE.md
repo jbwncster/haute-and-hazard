@@ -77,8 +77,9 @@ At the **start of your turn, before Transformation**, perform Tip Count:
 4. Counting a card does not discard, play, or equip it.
 5. A card's printed Tip value is counted **once per turn**.
 6. Moving the card to the Coordinate or playing it later does not generate its printed Tips again.
+7. A card that enters your hand after Tip Count does not add its printed Tips retroactively. If it remains in hand until a later turn, its printed Tips can be counted during that later turn's Tip Count.
 
-Queen abilities and card effects may still add or remove Tips after Tip Count.
+Tip Count is a rules step rather than a card effect. Queen abilities and card effects may still add or remove Tips after Tip Count. **Opulencia** is an explicit exception in wording: after a nonzero Tip Count she gains +1 additional Tip, and her ability also continues to reward later effect-based Tip gains.
 
 ### Starter-card correction
 
@@ -142,9 +143,11 @@ Record whether:
 2. Brand identities remain recognizable;
 3. Tip Count is remembered before Transformation;
 4. players accidentally count an equipped/played card's printed Tips twice;
-5. 0-Tip cards remain attractive;
-6. the Archive delay makes purchases feel like deck-building;
-7. the larger unique Wardrobe creates too much reading;
-8. the revised economy produces enough meaningful Shopping choices.
+5. players try to count printed Tips from cards drawn after Tip Count;
+6. Opulencia's updated Tip Count wording is clear and balanced;
+7. 0-Tip cards remain attractive;
+8. the Archive delay makes purchases feel like deck-building;
+9. the larger unique Wardrobe creates too much reading;
+10. the revised economy produces enough meaningful Shopping choices.
 
 > **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review before commercial release.
