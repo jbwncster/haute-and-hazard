@@ -1,0 +1,31 @@
+HAUTE & HAZARD — SOLO CIRCUIT v0.2 TTS QA
+
+SOURCE TARGET
+Automa cards: 18
+Personality cards: 12
+Total solo cards: 30
+Base game: v7.9
+Stage Timer: 4 rounds
+House Base Appeal: max(0, Stage Slay Target - 6)
+Loading target: Additive Load over v7.9 Standard Setup
+
+RULE QA
+PASS - Solo rules use v7.9 Tip Count timing.
+PASS - Automa card text references Round 4 where required.
+PASS - Quick Reference uses four-round timeout.
+PASS - House Stage scoring is explicitly documented.
+PASS - Difficulty modifiers are explicitly documented.
+
+BINARY / RUNTIME QA
+PENDING - Generate v0.2 card image sheets with current card text.
+PENDING - Generate v0.2 TTS AddOn JSON.
+PENDING - Verify asset paths point to existing v0.2 assets.
+PENDING - Package Haute_Hazard_Solo_Circuit_v0_2_TTS.zip.
+PENDING - Additive Load over a real v7.9 Standard Setup.
+PENDING - Verify 18 Automa cards display.
+PENDING - Verify 12 Personality cards display.
+PENDING - Verify counters and Stage Timer.
+PENDING - Verify no broken textures.
+PENDING - Verify remote/cloud-hosted multiplayer behavior if used.
+
+Do not reuse v0.1 card images as v0.2 if their printed Round/timer text is stale.
