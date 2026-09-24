@@ -1,4 +1,4 @@
-# Haute & Hazard v7.8 — Physical + Tabletop Simulator Playtest Edition
+> **ARCHIVED DEVELOPMENT SNAPSHOT:** v7.8 is superseded by **v7.9** as the current base-game rules/card/production target. This file is retained for historical comparison and package provenance.\n\n# Haute & Hazard v7.8 — Physical + Tabletop Simulator Playtest Edition
 
 **Status: current physical and digital playtest target / unpublished prototype.**
 
