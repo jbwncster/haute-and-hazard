@@ -28,9 +28,9 @@ The result is a game about **fashion as strategy**: what you wear affects how yo
 
 ## Core turn
 
-**TIP COUNT → TRANSFORM → REVEAL → SHOP → SLAY / DRAGDAGULAN† / PASS → CLEANUP**
+**TRANSFORM → REVEAL → SHOP → SLAY / DRAGDAGULAN† / PASS → CLEANUP**
 
-Count printed Tips from the cards in hand, build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe, then either take the Stage or take on a rival. Printed Tips are counted once; playing or equipping the same card does not pay them again.
+Play cards to generate their printed Tips, build your Coordinate, reveal its Appeal, spend Tips to strengthen your wardrobe, then either take the Stage or take on a rival. Tips function as the deck-building buying-power resource: unplayed cards generate nothing.
 
 ## Current prototype
 
@@ -44,7 +44,7 @@ The current **v7.9 playtest target** includes:
 - 12 venue-style Stage cards
 - player aids, Beginner Mode, and structured playtest feedback tools
 
-The **v7.9 physical and Tabletop Simulator production targets** use the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, Tip Count economy, and core rules. Current rules documentation, production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
+The **v7.9 physical and Tabletop Simulator production targets** use the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, play-generated Tip economy, and core rules. Current rules documentation, production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
 
 v7.8 and the older v7.7/v7.7.1 packages remain archived for comparison only; current multiplayer balance testing should use synchronized v7.9 materials.
 
