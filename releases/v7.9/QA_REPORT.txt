@@ -4,7 +4,12 @@ STATUS
 Current rules/card/production target.
 
 SOURCE CHECKS
+PASS - Canonical per-card source committed at data/v7_9_card_database.csv.
+PASS - Canonical database rows = 240.
 PASS - Base Poker Deck accounting = 240.
+PASS - Wardrobe Fashion names are unique = 130/130.
+PASS - Wardrobe rules-text entries are unique = 144/144.
+PASS - Every Poker row has an explicit printed Tip value.
 PASS - Wardrobe accounting = 130 unique Fashion + 14 unique Actions = 144.
 PASS - Starter deck = 7 Basic Beat + 3 Messy Lip Sync + 2 Chapstick = 12/player.
 PASS - Starter printed Tips = Basic Beat 1 / Messy Lip Sync 0 / Chapstick 1.
