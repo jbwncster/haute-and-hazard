@@ -15,9 +15,27 @@ Core changes:
 - corrected starter wording to prevent Tip double counting;
 - base component counts remain 240 Poker / 12 Stage / 12 Queen / 5 Player Aids.
 
+## Canonical card-data status
+
+**Committed:** [`../../data/v7_9_card_database.csv`](../../data/v7_9_card_database.csv)
+
+Validated source counts:
+
+- 240 Poker-card rows;
+- 60 Starter;
+- 144 Wardrobe;
+- 130 unique Fashion names;
+- 14 unique Actions;
+- 16 Thrift;
+- 20 Penalty;
+- 144 distinct Wardrobe rules-text entries;
+- explicit printed Tips on all 240 Poker rows.
+
+This closes the previous reproducibility gap: v7.9 now has a committed per-card source instead of only a design specification.
+
 ## Generated-build QA record
 
-The most recent v7.9 generation pass was built around these counts:
+The current v7.9 production target is built around these counts:
 
 - **240 Poker fronts**
 - **12 Stage fronts**
