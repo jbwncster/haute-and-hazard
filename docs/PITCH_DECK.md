@@ -9,7 +9,7 @@ Use this as the slide script for the current 10-slide publisher presentation.
 **Haute & Hazard**  
 *Build the look. Work the runway. Destroy the competition.*
 
-2–5 players · competitive deck-building · drag fashion strategy · active v7.8 prototype
+2–5 players · competitive deck-building · drag fashion strategy · active v7.9 prototype
 
 ## Slide 2 — Elevator pitch
 
@@ -56,7 +56,7 @@ Beginner Mode removes the advanced Judge/Spotlight layer for first games.
 
 ## Slide 8 — Components and build status
 
-Current v7.8 prototype includes:
+Current v7.9 prototype includes:
 
 - 240-card Poker Deck
 - 12 venue Stages
@@ -78,7 +78,7 @@ Current focus:
 - Dragdagulan† frequency and payoff
 - replay interest
 
-Target evidence: 10+ external v7.8 plays followed by a State of the Prototype report.
+Target evidence: 10+ external v7.9 plays followed by a State of the Prototype report.
 
 ## Slide 10 — What I am looking for
 
