@@ -1,6 +1,6 @@
 # Haute & Hazard — Queen Roster
 
-This is the current **12-Queen v7.8 playtest roster** for the Game Crafter Print Edition. Each Jumbo Queen has an established Signature Ability plus one **Special Appeal — Once Per Game**.
+This is the current **12-Queen v7.9 playtest roster**. The Queen identities, Signature Abilities, and **Special Appeal — Once Per Game** structure carry forward into the v7.9 base-game target. Each Jumbo Queen has an established Signature Ability plus one **Special Appeal — Once Per Game**.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 
