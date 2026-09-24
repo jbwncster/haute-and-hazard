@@ -2,7 +2,7 @@
 
 Thank you for playtesting **Haute & Hazard**. Feedback is most useful when it tells us both **what happened at the table** and **how the game felt while it was happening**.
 
-For the current physical build, use **v7.8 Game Crafter Print Edition**. If you deliberately test an older or mixed build, note that clearly.
+For the current physical build, use **v7.9 Game Crafter Print Edition**. If you deliberately test an older or mixed build, note that clearly.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 
@@ -10,7 +10,7 @@ For the current physical build, use **v7.8 Game Crafter Print Edition**. If you 
 
 If you do not want to write a full session report, answer these questions after the game:
 
-1. **Which mode did you play?** Beginner Mode, Full Stage Rules, experimental Two-Placement Stage Test, or **Solo Circuit v0.1**?
+1. **Which mode did you play?** Beginner Mode, Full Stage Rules, experimental Two-Placement Stage Test, or **Solo Circuit v0.2**?
 2. **How many players were there, and how long did the game take?**
 3. **Which Queens were played?**
 4. **What was the most fun moment?**
@@ -81,11 +81,11 @@ If you used the alternate Stage Winner/Runner-Up module in [`ALTERNATE_TWO_PLACE
 - whether the Runner-Up rule increased engagement;
 - whether Dragdagulan† happened more often.
 
-Treat these sessions as experimental A/B tests, not as evidence about the canonical v7.8 Stage rules unless clearly separated.
+Treat these sessions as experimental A/B tests, not as evidence about the canonical v7.9 Stage rules unless clearly separated.
 
 ## Solo Circuit feedback
 
-If you tested **Solo Circuit v0.1**, clearly label the session **Physical** or **Tabletop Simulator** and record:
+If you tested **Solo Circuit v0.2**, clearly label the session **Physical** or **Tabletop Simulator** and record:
 
 - player Queen;
 - House Queen and whether a Personality was used;
@@ -94,7 +94,7 @@ If you tested **Solo Circuit v0.1**, clearly label the session **Physical** or *
 - House Appeal and player Appeal when each Stage resolved;
 - how many rounds each Stage remained active;
 - which Market card the Automa removed each round;
-- whether the three-round Stage timer ever awarded a Stage automatically;
+- whether the four-round Stage timer ever awarded a Stage automatically;
 - Dragdagulan† attempts, player Battle Score, House Battle Score, and winner;
 - whether the House Queen felt competitive without requiring too much bookkeeping;
 - whether Market removal created meaningful pressure or merely felt arbitrary;
@@ -102,7 +102,7 @@ If you tested **Solo Circuit v0.1**, clearly label the session **Physical** or *
 - whether the chosen Personality triggered and felt recognizably tied to that Queen;
 - whether the player would choose to use the solo mode again.
 
-For **TTS Solo Circuit**, also record whether the add-on loaded successfully over the v7.8 Standard Setup, whether all 18 Automa cards and 12 Personality cards displayed correctly, and whether the remote GitHub image assets loaded without broken textures.
+For **TTS Solo Circuit**, also record whether the add-on loaded successfully over the v7.9 Standard Setup, whether all 18 Automa cards and 12 Personality cards displayed correctly, and whether the remote GitHub image assets loaded without broken textures.
 
 Do not mix Solo Circuit win rates or balance observations directly into normal 2–5 player balance data. Treat solo results as their own experimental dataset.
 
@@ -141,9 +141,9 @@ The next rulebook revision uses a light **Haute Circuit** lore thread with short
 
 See [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) and [`RULEBOOK_LORE_THREAD.md`](RULEBOOK_LORE_THREAD.md) for the intended design context.
 
-## v7.9 Wardrobe / Tip Count candidate feedback
+## v7.9 Wardrobe / Tip Count feedback
 
-If you are deliberately testing the v7.9 candidate, record:
+When testing the current v7.9 build, record:
 
 - whether multiple cards from the same Brand + slot create meaningfully different choices;
 - whether the Brand still feels coherent despite unique garment abilities;
@@ -154,7 +154,7 @@ If you are deliberately testing the v7.9 candidate, record:
 - whether purchased cards going to the Archive/discard and appearing only after a later draw feels satisfying;
 - whether the larger variety creates too much reading or rules load.
 
-Do not mix these results with canonical v7.8 card-balance data without labeling the session as a **v7.9 Wardrobe/Tip candidate**.
+For v7.9 reports, explicitly record Tip Count mistakes or any case where a card's printed Tips were accidentally counted again after it was played/equipped.
 
 ## Shopping and deck-building feedback
 
