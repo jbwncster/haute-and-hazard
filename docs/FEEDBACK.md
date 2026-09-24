@@ -10,7 +10,7 @@ For the current physical build, use **v7.8 Game Crafter Print Edition**. If you 
 
 If you do not want to write a full session report, answer these questions after the game:
 
-1. **Which mode did you play?** Beginner Mode, Full Stage Rules, or the experimental Two-Placement Stage Test?
+1. **Which mode did you play?** Beginner Mode, Full Stage Rules, experimental Two-Placement Stage Test, or **Solo Circuit v0.1**?
 2. **How many players were there, and how long did the game take?**
 3. **Which Queens were played?**
 4. **What was the most fun moment?**
@@ -82,6 +82,29 @@ If you used the alternate Stage Winner/Runner-Up module in [`ALTERNATE_TWO_PLACE
 - whether Dragdagulan† happened more often.
 
 Treat these sessions as experimental A/B tests, not as evidence about the canonical v7.8 Stage rules unless clearly separated.
+
+## Solo Circuit feedback
+
+If you tested **Solo Circuit v0.1**, clearly label the session **Physical** or **Tabletop Simulator** and record:
+
+- player Queen;
+- House Queen and whether a Personality was used;
+- difficulty: Local Girl / Working Queen / Headliner / Legend;
+- whether Beginner Mode or Full Stage fields were used;
+- House Appeal and player Appeal when each Stage resolved;
+- how many rounds each Stage remained active;
+- which Market card the Automa removed each round;
+- whether the three-round Stage timer ever awarded a Stage automatically;
+- Dragdagulan† attempts, player Battle Score, House Battle Score, and winner;
+- whether the House Queen felt competitive without requiring too much bookkeeping;
+- whether Market removal created meaningful pressure or merely felt arbitrary;
+- whether any Automa family appeared too often or too punishing;
+- whether the chosen Personality triggered and felt recognizably tied to that Queen;
+- whether the player would choose to use the solo mode again.
+
+For **TTS Solo Circuit**, also record whether the add-on loaded successfully over the v7.8 Standard Setup, whether all 18 Automa cards and 12 Personality cards displayed correctly, and whether the remote GitHub image assets loaded without broken textures.
+
+Do not mix Solo Circuit win rates or balance observations directly into normal 2–5 player balance data. Treat solo results as their own experimental dataset.
 
 ## Full Stage Rules feedback
 
