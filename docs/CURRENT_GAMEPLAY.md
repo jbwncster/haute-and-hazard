@@ -54,7 +54,7 @@ Each physical card can generate its printed Tips **once when played that turn**.
 
 ### Playing Actions
 
-Play an Action from your hand, gain its printed Tips, resolve its Play/Vogue/other legal effect, then leave it in your played area until Cleanup. Archive it during Cleanup unless an effect moved it elsewhere.
+Play an Action from your hand, gain its printed Tips, resolve its Play/Vogue/other legal effect completely, then leave it face-up in your played area until Cleanup. Unless an effect moves it elsewhere, put it into your Backstage Archive during Cleanup.
 
 ### Playing Fashion
 
@@ -65,15 +65,21 @@ When you play Fashion from your hand, gain its printed Tips, then choose one leg
 
 This keeps Fashion useful as deck-building currency even when its slot is already occupied.
 
+If you equip a new Master into an occupied slot, archive the old Master unless a card effect says otherwise.
+
 ## v7.9 turn order
+
+Haute & Hazard uses a DC-style shared-market deck-building cadence with its fashion/performance systems layered on top.
 
 Every turn follows five phases:
 
-1. **Transformation** — play cards from hand, generate printed Tips, equip Fashion, resolve Actions, and use eligible Queen abilities.
+1. **Transformation** — play cards from your hand **one at a time, in any order**. When a card is played, generate its printed Tips, then resolve its text. Equip Fashion, resolve Actions, and use eligible Queen abilities.
 2. **The Reveal** — total printed Appeal and other Reveal-specific values, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier.
-3. **Shopping** — spend the Tips generated this turn on the Wardrobe Rack and eligible Thrift Store cards.
+3. **Shopping** — spend the Tips generated this turn. You may buy multiple legal cards as long as you can pay their total costs.
 4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
-5. **Cleanup** — archive played non-Master cards and remaining hand as required, draw a new hand, and reset Tips and Appeal.
+5. **Cleanup** — archive/discard every played non-Master card and every card still in hand, refill empty Wardrobe Rack spaces, draw a fresh hand of **5 cards**, then reset Tips and Appeal.
+
+If you need to draw and your personal Deck does not contain enough cards, shuffle your Backstage Archive to make a new Deck, then continue drawing.
 
 ## Look states
 
@@ -85,9 +91,14 @@ Matching and Fusion may coexist when Deep Storage introduces the second Tenet.
 
 ## Shopping
 
-Tips are the Shopping currency. During Shopping, a player may buy any number of affordable cards from the five-card Wardrobe Rack and any eligible Thrift Store cards.
+Tips are the Shopping currency, functioning like Power in a shared-market deck-builder.
 
-Purchased cards go to the player's **Backstage Archive / personal discard pile**. They do not enter the current hand and cannot be immediately played or equipped.
+- The **Wardrobe Rack contains five face-up cards**.
+- During Shopping, you may buy **any number** of legal cards you can afford.
+- Put each purchased card into your **Backstage Archive / personal discard pile**.
+- A purchased card does not enter your hand and cannot be played that turn unless an explicit effect says otherwise.
+- **Do not refill an emptied Wardrobe Rack space immediately.** Refill empty spaces from the Wardrobe deck during Cleanup, after the active player has finished buying.
+- Eligible Thrift Store cards remain available according to their own printed rules.
 
 Unspent Tips remain available until Cleanup for effects that care about Tips, then reset to 0.
 
