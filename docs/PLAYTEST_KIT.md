@@ -17,10 +17,11 @@ Choose one:
 Before starting, make sure every player knows:
 
 1. every Poker card has a printed Tip value;
-2. every turn begins with **Tip Count** before Transformation;
-3. count each card's printed Tips once;
-4. the same card may still be played/equipped afterward;
-5. purchased cards go to Backstage Archive and are drawn later.
+2. Tips work like deck-building **Power**;
+3. a card generates its printed Tips when it is **played from hand during Transformation**;
+4. unplayed cards generate nothing, and already-equipped Masters do not pay again;
+5. Fashion may be played for Tips without being equipped;
+6. purchased cards go to Backstage Archive and are drawn later.
 
 ## Recommended tester packet
 
@@ -56,7 +57,7 @@ Record:
 - Queens
 - winner and final score
 - Stages Slayed
-- Tip Count mistakes/double-counting
+- Tip-generation mistakes, including counting unplayed cards or already-equipped Masters
 - Shopping purchases
 - Dragdagulan† attempts
 - most confusing moment
