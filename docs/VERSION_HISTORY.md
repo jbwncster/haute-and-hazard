@@ -1,77 +1,96 @@
 # Haute & Hazard — Version History
 
-This repository intentionally keeps older playtest builds for comparison. **Do not mix versioned components unless you are deliberately testing compatibility.**
+This repository intentionally retains older builds for comparison. **Do not mix versions unless the session is explicitly labeled as a compatibility test.**
 
-> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It is subject to legal/IP, trademark, and publisher review before commercial release and may be renamed. See [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md). Any future element identified for legal/IP review should receive the same † marker until cleared or replaced.
+> **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
 
-## v7.9 — Active Wardrobe / Tip Economy Development Candidate
+## v7.9 — Current base-game target
 
-v7.9 is the **next-build development candidate**, not yet a synchronized physical/TTS release.
+v7.9 is the current **rules, card, physical-production, and TTS production target**.
 
-Key candidate changes:
+Major changes:
 
-- 130 unique Fashion cards instead of repeated copies of the same garment;
+- 130 unique Fashion cards;
 - 14 unique Wardrobe Actions;
-- 144 distinct Wardrobe ability texts;
-- multiple different Faces, Wigs, Bodies, Shoes, and Accessories within each Brand;
-- every Poker card receives an explicit printed Tip value, including 0;
-- new **Tip Count** step before Transformation: printed Tips are banked from the cards in hand before those cards can be played/equipped;
-- purchased cards go to the Backstage Archive/personal discard pile and must be drawn in a later deck cycle before use.
+- 144 unique Wardrobe cards total;
+- explicit printed Tip value on every Poker card;
+- **Tip Count before Transformation**;
+- printed Tips counted once from cards in hand;
+- purchased cards enter the Backstage Archive and are drawn later;
+- Basic Beat / Chapstick starter wording corrected to avoid double-paying printed Tips;
+- base Poker Deck remains 240 cards;
+- Stage and Queen rosters remain 12 each;
+- Player Aids and teaching documents now use v7.9 timing.
 
-See [`V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md`](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
+See:
 
-The already-generated v7.8 Game Crafter, Print & Play, and TTS packages remain the last synchronized playable binaries until v7.9 assets are regenerated together.
+- [Current Gameplay](CURRENT_GAMEPLAY.md)
+- [v7.9 Wardrobe + Tip Economy](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
+- [v7.9 release folder](../releases/v7.9/)
 
-## v7.8 — Current Physical + Digital Playtest Edition
+### Binary status
 
-v7.8 is the current rules/component target for both the Game Crafter physical prototype and the Tabletop Simulator playtest build.
+v7.9 source/rules can be current even when a large generated ZIP still requires attachment/distribution.
 
-Key points:
+Expected package names:
 
-- 240-card Poker Deck
-- 12 venue-style Holographic Foil Euro Stage cards
-- 12 Jumbo Queen cards with Signature Ability + once-per-game Special Appeal
-- 5 double-sided Postcard Mat Player Aids
-- Medium Folio rules
-- Medium Prototype Box
-- Tenet/Brand color system retained
-- Tips/Shopping economy retained
-- Appeal / Matching / Perfect Illusion / Fusion retained
-- Dragdagulan† LS retained
-- dedicated v7.8 TTS standard and two-player teaching setups
+- `Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`
+- `Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
+- `Haute_Hazard_v7.9_TTS_Playtest.zip`
 
-See [`../releases/v7.8/`](../releases/v7.8/) and [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md).
+Do not relabel a v7.8 binary as v7.9.
 
-## Tabletop Simulator status
+## Solo Circuit v0.2 — Current experimental solo target
 
-The current digital target is **v7.8**, matching the current physical prototype's card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, Beginner Mode, and core rules.
+Solo v0.2 is a separate module for the v7.9 base game.
 
-The v7.8 package is named `Haute_Hazard_v7.8_TTS_Playtest.zip`. TTS source/status files are maintained under [`../releases/v7.8/TTS/`](../releases/v7.8/TTS/).
+Changes from v0.1:
 
-The older [`../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip`](../releases/v7.7/Haute_Hazard_v7.7_TTS_Playtest.zip) remains in the repository as a **legacy comparison build only**.
+- four-round Stage timer;
+- House Base Appeal = `max(0, Stage Slay Target - 6)`;
+- explicit House Stage scoring;
+- v7.9 Tip Count compatibility;
+- 18 Automa + 12 Personality cards remain separate from the base 240-card Poker Deck.
 
-## v7.7.1 — Archived Game Crafter Prototype
+See [Solo Circuit v0.2](../releases/solo-circuit-v0.2/README.md).
 
-**Legacy reference only. Superseded by v7.8 for current Game Crafter production.**
+## v7.8 — Archived synchronized comparison build
 
-Retained to compare older production-safe proofs, component assumptions, and upload specifications. Do not use it as the current print source.
+v7.8 is retained as the previous synchronized physical/digital design snapshot.
 
-See [`../releases/v7.7.1/`](../releases/v7.7.1/).
+Its major characteristics included:
 
-## v7.7 — Archived Core / TTS / Promotional Packages
+- 240-card Poker Deck;
+- 12 venue Stages;
+- 12 Queens;
+- five Player Aids;
+- pre-v7.9 Tips timing;
+- repeated Wardrobe garment copies in the older card pool;
+- v7.8 TTS standard/teaching targets.
 
-Retained for historical comparison and older-playtest reference.
+Use v7.8 only for deliberate historical comparison.
 
-Available packages include:
+## Solo Circuit v0.1 — Archived solo prototype
 
-- Core Playtest Set
-- legacy Tabletop Simulator Playtest
-- Promotional Kit
+The first committed Solo Circuit packages remain in `releases/solo-circuit-v0.1/`.
 
-The v7.7 TTS package is no longer the current digital balance-test build once v7.8 is available.
+v0.1 used:
 
-See [`../releases/v7.7/`](../releases/v7.7/).
+- 18 Automa cards;
+- 12 Personality cards;
+- a three-round Stage timeout;
+- v7.8 base-game timing.
 
-## Older development materials
+It is superseded by the v0.2 rules target.
 
-Older rulebooks, proofs, and numbered test builds are historical development references. If an older rule conflicts with the current v7.8 physical/digital edition, use the current v7.8 card text, current production documentation, and current gameplay reference. Older files may predate the current † legal/IP-review labeling convention; their historical wording does not imply that a marked term has been cleared for commercial use.
+## v7.7.1 — Legacy Game Crafter reference
+
+Retained for historical physical-production comparison only.
+
+## v7.7 — Legacy Core / TTS / promotional reference
+
+Retained for historical comparison only.
+
+## Older archived material
+
+Older rules, proofs, and development files may predate the current terminology, balance assumptions, legal/IP markers, or component structure. If an older file conflicts with current rules, use **v7.9** unless deliberately testing the historical build.
