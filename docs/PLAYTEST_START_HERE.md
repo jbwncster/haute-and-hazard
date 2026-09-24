@@ -52,7 +52,7 @@ Read:
 
 ### The v7.9 rule you must not miss
 
-Every turn starts with **Tip Count**:
+During **Transformation**, Tips work like deck-building Power:
 
 > Before Transformation, add the printed Tip values of every card currently in your hand.
 
