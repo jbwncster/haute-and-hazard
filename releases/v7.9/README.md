@@ -32,6 +32,15 @@ The optional **Solo Circuit v0.2** module is separate and adds 30 solo cards.
 - starter wording is corrected so Basic Beat and Chapstick do not double-pay their printed Tips;
 - Solo Circuit v0.2 uses a four-round Stage timer and explicit House Appeal/scoring rules.
 
+## Canonical card source
+
+The current **240-row Poker-card database is committed** at:
+
+- [`../../data/v7_9_card_database.csv`](../../data/v7_9_card_database.csv)
+- [database QA / usage notes](../../data/V7_9_CARD_DATABASE.md)
+
+All new Poker-card renders should come from that data rather than the archived v7.8 repeated-card image set.
+
 ## Current expected package names
 
 - `Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`
@@ -47,6 +56,7 @@ Binary ZIP availability is separate from rules status. If a ZIP is not visibly c
 - [Beginner Mode](../../docs/BEGINNER_MODE.md)
 - [Starting Decks](../../docs/STARTING_DECKS.md)
 - [Card Pool](../../docs/CARD_POOL.md)
+- [Canonical v7.9 Card Database](../../data/v7_9_card_database.csv)
 - [v7.9 Wardrobe + Tip Economy](../../docs/V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
 - [Upload Guide](UPLOAD_GUIDE.md)
 - [Release Status](RELEASE_STATUS.md)
