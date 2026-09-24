@@ -70,11 +70,20 @@ If you do not need it as your Face Master, you may play it for its printed Tip w
 
 ## Deck growth
 
-Purchased Wardrobe and Thrift cards go to the player's **Backstage Archive**. When the personal Deck runs out, shuffle the Archive to make a new Deck.
+Purchased Wardrobe and Thrift cards go to the player's **Backstage Archive**.
+
+At Cleanup:
+
+1. archive played non-Master cards;
+2. archive every unplayed card still in hand;
+3. refill the Wardrobe Rack;
+4. draw **5 cards**.
+
+If you need to draw and your Deck does not contain enough cards, shuffle the Backstage Archive to make a new Deck, then continue drawing.
 
 The v7.9 growth loop is:
 
-**draw hand → play cards / generate Tips → Reveal → Shop → purchases enter Archive → reshuffle later → draw upgraded cards**
+**draw 5 → play cards / generate Tips → Reveal → Shop → purchases enter Archive → Cleanup → draw 5 → reshuffle Archive when needed**
 
 ## Coordinate growth
 
