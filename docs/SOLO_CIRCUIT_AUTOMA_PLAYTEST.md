@@ -16,13 +16,13 @@ This lets one person test Stage pacing, Shopping pressure, Queen performance, Dr
 
 ## Prototype components
 
-Create these separately from the current 240-card Poker Deck:
+The first playable v0.1 versions now exist. Keep them separate from the current 240-card Poker Deck:
 
-- **18 House Queen Automa cards**
-- **12 optional House Queen Personality cards** — one for each Queen
-- **1 Solo Circuit reference/player aid**
-- **1 difficulty reference card**
-- **1 Solo Circuit playtest log**
+- **18 House Queen Automa cards** — see [SOLO_CIRCUIT_AUTOMA_DECK.md](SOLO_CIRCUIT_AUTOMA_DECK.md)
+- **12 optional House Queen Personality cards** — see [SOLO_CIRCUIT_PERSONALITIES.md](SOLO_CIRCUIT_PERSONALITIES.md)
+- **1 Solo Circuit reference/player aid** — see [SOLO_CIRCUIT_QUICK_REFERENCE.md](SOLO_CIRCUIT_QUICK_REFERENCE.md)
+- **1 difficulty reference** — included on the quick reference
+- **1 Solo Circuit playtest log** — see [`../data/solo_circuit_playtest_log_template.csv`](../data/solo_circuit_playtest_log_template.csv)
 
 Do **not** add these cards to the synchronized v7.8 Game Crafter or TTS component counts yet. Test them first as a separate Print & Play / development module.
 
