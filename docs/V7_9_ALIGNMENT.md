@@ -13,10 +13,10 @@ A build is synchronized only when the same rule/card target is represented acros
 | Starter cards | 60 total / five 12-card decks | Same | `STARTING_DECKS.md` |
 | Starter mix | 7 Basic Beat / 3 Messy Lip Sync / 2 Chapstick | Same | `STARTING_DECKS.md` |
 | Starter Tips | 1 / 0 / 1 | Same | `STARTING_DECKS.md` |
-| Poker Deck | 240 | 240 | `CARD_POOL.md` |
-| Wardrobe | 144 unique cards | Same | v7.9 Wardrobe doc |
-| Fashion | 130 unique | Same | v7.9 Wardrobe doc |
-| Wardrobe Actions | 14 unique | Same | v7.9 Wardrobe doc |
+| Poker Deck | 240 | 240 | `data/v7_9_card_database.csv` + `CARD_POOL.md` |
+| Wardrobe | 144 unique cards | Same | `data/v7_9_card_database.csv` |
+| Fashion | 130 unique | Same | `data/v7_9_card_database.csv` |
+| Wardrobe Actions | 14 unique | Same | `data/v7_9_card_database.csv` |
 | Thrift | 16 | Same | `CARD_POOL.md` |
 | Penalties | 20 | Same | `CARD_POOL.md` |
 | Stages | 12 venues | Same | `releases/v7.9/STAGE_VENUE_LIST.md` |
@@ -26,6 +26,10 @@ A build is synchronized only when the same rule/card target is represented acros
 | Matching / Perfect Illusion / Fusion | Current v7.9 rules | Same | `CURRENT_GAMEPLAY.md` |
 | Dragdagulan† | 3 battle-drawn cards + legal modifiers | Same | `CURRENT_GAMEPLAY.md` |
 | Beginner Mode | Current five-field teaching layer | Same | `BEGINNER_MODE.md` |
+
+## Canonical card-data gate
+
+The committed [v7.9 card database](../data/v7_9_card_database.csv) is the per-card source of truth. A render is not synchronized if card text, Cost, printed Tips, Appeal, LS, slot, Tenet, or Brand differs from that CSV revision.
 
 ## Non-negotiable Tip Count checks
 
