@@ -23,3 +23,18 @@ Save JSON, IDs, counts, image grids and remote asset paths were generated/schema
 
 ## Legal/IP
 Dragdagulan† is working prototype terminology credited to Drag Den Philippines and remains subject to legal/IP, trademark, and publisher review before commercial release.
+
+
+## GitHub upload verification
+
+Verified on the current `main` branch:
+
+- add-on save: `TTS/Haute_Hazard_Solo_Circuit_v0_1_TTS_AddOn.json`;
+- 18-card Automa sheet: `TTS/Assets/solo_automa_18.png`;
+- shared card back: `TTS/Assets/solo_back.png`;
+- 12-card Personality sheet: `TTS/Assets/solo_personalities_12.png`;
+- packaged download: `../Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`.
+
+The committed add-on JSON references those same public raw GitHub assets. The repository upload is therefore complete at the file/schema level.
+
+**Remaining QA:** Tabletop Simulator itself was not available in the build environment, so a real in-app load plus Additive Load over the v7.8 Standard Setup is still required before marking the build runtime-verified.
