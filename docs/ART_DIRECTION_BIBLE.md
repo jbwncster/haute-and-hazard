@@ -89,7 +89,7 @@ Examples:
 - leather bar
 - arcade
 
-Stage layouts should remain visually distinct from Fashion cards and preserve every current v7.8 Stage field.
+Stage layouts should remain visually distinct from Fashion cards and preserve every current v7.9 Stage field.
 
 ## Iconography
 
