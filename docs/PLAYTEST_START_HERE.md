@@ -32,6 +32,19 @@ Use the current package:
 
 For Windows, the package includes `INSTALL_WINDOWS.ps1`. It also includes a standard 2–5 player setup and a two-player teaching setup.
 
+## I want to play solo
+
+➡️ **Go to: [SOLO CIRCUIT — Automa Rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)**
+
+Solo Circuit v0.1 is an **experimental one-player module**. You still play a normal Queen and build your normal deck/Coordinate; a streamlined **House Queen** contests the Market and Stages through an 18-card Automa deck.
+
+Choose your format:
+
+- **Physical:** [Solo Circuit Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md) using `Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`.
+- **Tabletop Simulator:** download [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip), load the normal v7.8 Standard Setup, then **Additive Load** the Solo Circuit save.
+
+For the first Solo Circuit game, use **Working Queen** difficulty and **Beginner Mode**.
+
 ## I have never played before
 
 Start with **Beginner Mode**.
@@ -74,7 +87,7 @@ The [Alternate Two-Placement Stage Rules](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md
 
 ## Version check
 
-**Use v7.8.**
+**Use v7.8 for the synchronized multiplayer base game.** If testing one player, use **Solo Circuit v0.1** as an explicitly labeled experimental add-on to that base.
 
 v7.7 and v7.7.1 are legacy/archive material and should not be mixed into a normal current playtest.
 
