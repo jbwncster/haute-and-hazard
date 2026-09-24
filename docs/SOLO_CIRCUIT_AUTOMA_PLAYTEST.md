@@ -28,9 +28,9 @@ Do **not** shuffle the 30 solo cards into the 240-card base-game Poker Deck.
 
 Solo Circuit v0.2 assumes **v7.9** timing:
 
-**0. Tip Count → 1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
+**1. Transformation → 2. Reveal → 3. Shopping → 4. Slay / Dragdagulan† / Pass → 5. Cleanup**
 
-The human player follows normal v7.9 rules, including printed Tips and the Archive delay for purchased cards.
+The human player follows normal v7.9 rules, including generating printed Tips by playing cards during Transformation and the Archive delay for purchased cards.
 
 ## Setup
 
@@ -92,7 +92,7 @@ Keep the Automa card face-up for its Appeal, LS, and round effect.
 
 ### 2. Take the human player's normal v7.9 turn
 
-Start with **Tip Count**, then play the normal turn.
+Take the normal v7.9 turn, generating printed Tips as cards are played during Transformation.
 
 ### 3. Check for a player Slay
 
