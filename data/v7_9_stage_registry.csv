@@ -1,0 +1,13 @@
+stage_id,stage_name,favored_tenet,featured_brand,exact_text_status,source_doc
+STG-01,Grand Ballroom,Purple,Gilded Cage,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-02,Neon Nightclub,Pink,Hyper-Glitch,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-03,Haunted Hotel,Blue,Necropolis,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-04,Botanical Conservatory,Yellow,Swamp Witch,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-05,Thrift Superstore,Yellow,Trash Can,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-06,Gothic Cathedral,Blue,Void,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-07,Opera House,Purple,Velvet Trap,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-08,Underground Leather Bar,Blue,Slasher,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-09,Candy Kingdom Pavilion,Pink,Sugar Rush,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-10,Seaside Boardwalk Stage,Yellow,Big Top,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-11,Couture House Runway,Purple,Gilded Cage,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
+STG-12,Blacklight Arcade,Pink,Hyper-Glitch,needs_verified_full_text_migration,releases/v7.9/STAGE_VENUE_LIST.md
