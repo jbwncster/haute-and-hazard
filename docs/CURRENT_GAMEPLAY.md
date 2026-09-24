@@ -44,6 +44,8 @@ Every turn begins with a resource step, followed by five phases:
 
 A card counted during Tip Count can still be played or equipped later that turn. Its printed Tip value is **not counted a second time** when it leaves the hand.
 
+Cards that enter your hand **after Tip Count**—by drawing, returning from the Archive/Trash, or another effect—do **not** add their printed Tips retroactively. Their printed Tips can be counted on a later turn if they are in hand at that turn's Tip Count. Tip Count is a rules step, not a card effect, unless a rule explicitly says otherwise.
+
 ## Look states
 
 - **Matching Look** — Complete Coordinate; all four visible Masters share the same non-Neutral Tenet. Appeal ×2.
@@ -120,7 +122,7 @@ The base game contains **12 Queens**, each with:
 - Signature Ability
 - **Special Appeal — Once Per Game**
 
-See [QUEEN_ROSTER.md](QUEEN_ROSTER.md).
+See [QUEEN_ROSTER.md](QUEEN_ROSTER.md). Opulencia's v7.9 wording explicitly gives her +1 Tip after a nonzero Tip Count, then preserves her +1 bonus on later Tip-gain effects.
 
 ## Starter deck
 
