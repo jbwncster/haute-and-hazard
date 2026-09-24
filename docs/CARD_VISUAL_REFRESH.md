@@ -1,6 +1,6 @@
 # Haute & Hazard — Card Visual Refresh
 
-**Status:** visual-system update for the current v7.8 playtest card pool.  
+**Status:** historical v7.8 visual-refresh work retained as a design reference. Apply these visual principles to v7.9 only through a new synchronized render of the v7.9 card pool.  
 **Gameplay impact:** none. Existing card names, rules text, costs, Tips, Appeal, LS, SP, Tenets, Brands, quantities, and component assignments remain unchanged unless separately changed by balance testing.
 
 ## Design goal
