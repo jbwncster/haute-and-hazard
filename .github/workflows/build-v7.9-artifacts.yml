@@ -10,7 +10,7 @@ on:
       - data/v7_9_stage_database.csv
       - scripts/validate_v7_9.py
       - scripts/builders/build_v7_9_assets.py.gz.b64
-      - scripts/builders/build_solo_v0_2_assets.py.gz.b64
+      - scripts/builders/solo_parts/**
       - .github/workflows/build-v7.9-artifacts.yml
 
 permissions:
@@ -51,7 +51,7 @@ jobs:
         run: |
           rm -rf /tmp/solo-build
           mkdir -p /tmp/solo-build
-          base64 -d scripts/builders/build_solo_v0_2_assets.py.gz.b64 | gzip -d > /tmp/solo-build/build_solo_v0_2_assets.py
+          cat scripts/builders/solo_parts/part{1,2,3,4}.b64 | tr -d '\n\r' | base64 -d | gzip -d > /tmp/solo-build/build_solo_v0_2_assets.py
           python /tmp/solo-build/build_solo_v0_2_assets.py
           cp -a /tmp/solo-build/out/releases/solo-circuit-v0.2/. releases/solo-circuit-v0.2/
 
