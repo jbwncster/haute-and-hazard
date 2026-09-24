@@ -36,7 +36,7 @@ Every Poker card must visibly show its **printed Tip value**, including 0.
 
 The Player Aid/rules must show:
 
-**Tip Count → Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup**
+**Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup**
 
 Legacy starter text that duplicates printed Tips is not valid v7.9 wording.
 
@@ -60,7 +60,7 @@ Legacy starter text that duplicates printed Tips is not valid v7.9 wording.
 
 Use [Beginner Mode](BEGINNER_MODE.md).
 
-The first thing every player does on a turn is **Tip Count** before Transformation.
+During **Transformation**, players generate Tips by playing cards from hand. Do not award printed Tips for cards that were never played or for Masters carried over from an earlier turn.
 
 ## Manufactured prototype
 
