@@ -19,7 +19,7 @@ Every turn follows this order:
 
 0. **Tip Count** — before playing anything, add the printed Tip values of every card currently in your hand.
 1. **Transform** — equip Fashion, play Actions, and use eligible Queen abilities.
-2. **Reveal** — total resources and determine your Look.
+2. **Reveal** — total Appeal, resolve Reveal effects, and determine your Look. Printed Tips are **not** counted again here.
 3. **Shop** — spend Tips to buy cards from the Wardrobe Rack or Thrift Store.
 4. **Slay / Dragdagulan† / Pass** — take the Stage, battle a rival, or pass.
 5. **Cleanup** — archive as required, draw a new hand, and reset temporary Tips/Appeal.
