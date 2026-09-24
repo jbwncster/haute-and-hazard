@@ -13,8 +13,15 @@ PASS - Every Poker row has an explicit printed Tip value.
 PASS - Wardrobe accounting = 130 unique Fashion + 14 unique Actions = 144.
 PASS - Starter deck = 7 Basic Beat + 3 Messy Lip Sync + 2 Chapstick = 12/player.
 PASS - Starter printed Tips = Basic Beat 1 / Messy Lip Sync 0 / Chapstick 1.
-PASS - Current turn order begins with Tip Count.
-PASS - Core rules specify printed Tips are counted once per turn from cards in hand.
+PASS - Current turn order begins with Transformation.
+PASS - Players draw a normal 5-card hand.
+PASS - Cards are played one at a time to generate printed Tips.
+PASS - Unplayed cards generate no printed Tips.
+PASS - Wardrobe Rack is five face-up cards.
+PASS - Purchased Rack cards are not refilled until Cleanup.
+PASS - Purchased cards go to Backstage Archive.
+PASS - Played non-Masters and unused hand cards archive during Cleanup.
+PASS - Archive is reshuffled into a new Deck when the Deck runs out.
 PASS - Purchased cards go to Backstage Archive.
 PASS - Stage count = 12.
 PASS - Queen count = 12.
