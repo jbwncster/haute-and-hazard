@@ -137,8 +137,8 @@ def validate_cards(errors: list[str]) -> None:
     basic = [r for r in rows if r["card_name"] == "Basic Beat"]
     if any(r["tips"] != "1" for r in basic):
         fail(errors, "Every Basic Beat must have printed Tips 1")
-    if any("Gain 1 Tip" in r["rules_text"] for r in basic):
-        fail(errors, "Basic Beat must not also gain 1 Tip as a play effect")
+    if any(r["rules_text"].strip() != "No additional effect." for r in basic):
+        fail(errors, "Basic Beat must use the clean no-additional-effect starter wording")
 
     messy = [r for r in rows if r["card_name"] == "Messy Lip Sync"]
     if any(r["tips"] != "0" for r in messy):
@@ -148,7 +148,22 @@ def validate_cards(errors: list[str]) -> None:
     if any(r["tips"] != "1" for r in chapstick):
         fail(errors, "Every Chapstick must have printed Tips 1")
     if any("Gain 1 Tip" in r["rules_text"] for r in chapstick):
-        fail(errors, "Chapstick must not also gain 1 Tip when equipped")
+        fail(errors, "Chapstick must not duplicate its printed Tip in its Equip effect")
+
+    stale_tip_count = [
+        r["card_id"] for r in rows
+        if "Tip Count" in (r["rules_text"] + " " + r["notes"])
+    ]
+    if stale_tip_count:
+        fail(errors, "Stale Tip Count wording remains in card data: " + ", ".join(stale_tip_count))
+
+    cherry = next((r for r in rows if r["card_id"] == "HH-075"), None)
+    if cherry and "played a card with printed Tips 0" not in cherry["rules_text"]:
+        fail(errors, "Cherry Gloss must check a played 0-Tip card, not old Tip Count timing")
+
+    foil = next((r for r in rows if r["card_id"] == "HH-166"), None)
+    if foil and "played at least two cards with printed Tips 0" not in foil["rules_text"]:
+        fail(errors, "Foil-Lid Shadow must check played 0-Tip cards, not old Tip Count timing")
 
     if any("Automa" in r["component"] or "Personality" in r["component"] for r in rows):
         fail(errors, "Solo Circuit cards must not be part of the 240-card base CSV")
@@ -186,8 +201,10 @@ def validate_queens(errors: list[str]) -> None:
         fail(errors, "Opulencia missing from Queen database")
     else:
         text = opulencia["signature_ability_text"]
-        if "After Tip Count" not in text or "additional Tip" not in text:
-            fail(errors, "Opulencia must use explicit v7.9 Tip Count wording")
+        if "card you play" not in text or "printed Tips" not in text or "additional Tip" not in text:
+            fail(errors, "Opulencia must use play-generated printed-Tip wording")
+        if "Tip Count" in (opulencia["signature_ability_text"] + " " + opulencia["special_appeal_text"]):
+            fail(errors, "Opulencia still contains stale Tip Count wording")
 
     gore = next((row for row in rows if row["name"] == "Gore-Jess"), None)
     siren = next((row for row in rows if row["name"] == "Siren Diesel"), None)
@@ -246,9 +263,11 @@ def main() -> int:
     print("Wardrobe: 130 unique Fashion + 14 unique Actions")
     print("Wardrobe rules: 144 unique")
     print("Printed Tips: present on all 240 cards")
-    print("Starter anti-double-pay checks: passed")
+    print("Play-generated Tip checks: passed")
+    print("Starter wording: passed")
+    print("Stale Tip Count card wording: 0")
     print("Queens: 12 machine-readable rows")
-    print("Opulencia v7.9 Tip Count wording: passed")
+    print("Opulencia play-generated Tip wording: passed")
     print("Stages: 12 verified roster rows, 3 per Tenet")
     print("Stage full-text migration: intentionally still pending")
     print("Solo cards in base CSV: 0")
