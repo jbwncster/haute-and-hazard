@@ -1,2 +1,2 @@
 card_id,version_added,current_status,card_name,component,card_type,slot,tenet,brand,cost,tips,appeal,ls,sp,quantity,rules_text,notes,ip_marker,source_doc
-HH-001,v7.8,active,Basic Beat,Starter,,,,,,,,,,7 per starter deck,,,,
+HH-XXX,v7.9,active,Example Card,Wardrobe,Fashion,Face,Pink,Sugar Rush,3,1,1,1,0,1,Example current rules text.,Use 0 explicitly for any numeric printed field with no value.,,data/v7_9_card_database.csv
