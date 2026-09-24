@@ -10,7 +10,7 @@ House Base Appeal: max(0, Stage Slay Target - 6)
 Loading target: Additive Load over v7.9 Standard Setup
 
 RULE QA
-PASS - Solo rules use v7.9 Tip Count timing.
+PASS - Solo rules use v7.9 DC-style play-generated Tip timing.
 PASS - Automa card text references Round 4 where required.
 PASS - Quick Reference uses four-round timeout.
 PASS - House Stage scoring is explicitly documented.
