@@ -1,0 +1,36 @@
+name: Recover v7.7 Stage Source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/recover_v7_7_stage_source.py
+      - .github/workflows/recover-stage-source.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recover embedded text sources
+        run: python scripts/recover_v7_7_stage_source.py
+      - name: Commit recovered provenance files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive/v7.7-extracted
+          if git diff --cached --quiet; then
+            echo "No recovered-source changes."
+          else
+            git commit -m "Recover v7.7 stage provenance source [skip ci]"
+            git push
+          fi
