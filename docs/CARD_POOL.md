@@ -1,31 +1,44 @@
 # Haute & Hazard — Current Physical Card Pool
 
-This page clarifies the **v7.8 Game Crafter Print Edition** card accounting.
+This page clarifies the **v7.9 base-game component accounting**.
 
 ## 240-card Poker Deck
 
-The standard **Haute & Hazard** Poker Deck contains exactly **240 cards**:
+The standard Poker Deck contains exactly **240 cards**:
 
 - **60** Dressing Room Floor starter cards — five identical 12-card starter decks
 - **144** Wardrobe Rack cards
+  - **130 unique Fashion**
+  - **14 unique Actions**
 - **16** Thrift Store Throwbacks
 - **20** Penalty cards
 
 **Total: 240**
 
-These are the cards that belong in the Game Crafter component named **Haute & Hazard — Poker Deck**.
+Every v7.9 Poker card has an explicit printed Tip value, including **0**.
 
-## Separate physical components
+## Separate base-game components
 
-The following are **not** counted inside the 240-card Poker Deck:
+Not counted inside the 240-card Poker Deck:
 
 - **12 Stage cards** — separate Holographic Foil Euro Poker Deck
 - **12 Queen cards** — separate Jumbo Deck
 - **5 Player Aids** — Postcard Mat Set
+- Medium Folio rules
+- Medium Prototype Box
 
-## Penalties and hazards
+## Solo Circuit is separate
 
-The current physical Game Crafter manifest does **not** define a separate Hazard Deck component. Hazardous/disruptive play is represented through card effects and the **20-card Penalty supply** inside the 240-card Poker Deck/component accounting.
+**Solo Circuit v0.2** adds **30 optional solo cards**:
+
+- 18 Automa cards
+- 12 House Queen Personality cards
+
+These are not shuffled into the 240-card base-game Poker Deck and are not part of normal 2–5 player component counts.
+
+## Penalties
+
+The base game uses a **20-card Penalty supply**, not a separate Hazard Deck component.
 
 Current named Penalties include:
 
@@ -33,16 +46,18 @@ Current named Penalties include:
 - The Chop — −1 SP at Final Judging
 - Extermination — −2 SP at Final Judging
 
-Penalty cards normally have no Tips, Appeal, or LS, cannot be played as Fashion or Actions, and remain part of the player's deck cycle unless an effect explicitly removes them.
+Penalty cards normally have printed Tip **0** and no Appeal/LS unless a card explicitly says otherwise.
 
 ## Stage deck
 
-The current v7.8 Stage deck contains 12 **venues**, with 3 Stages per non-Neutral Tenet. See [`../releases/v7.8/STAGE_VENUE_LIST.md`](../releases/v7.8/STAGE_VENUE_LIST.md).
+The current v7.9 Stage deck contains 12 venue Stages, balanced at 3 per non-Neutral Tenet. See [v7.9 Stage Venue List](../releases/v7.9/STAGE_VENUE_LIST.md).
 
 ## Queen deck
 
-The current v7.8 Jumbo Queen deck contains 12 Queens. See [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
+The current Jumbo Queen deck contains 12 Queens. See [QUEEN_ROSTER.md](QUEEN_ROSTER.md).
 
 ## Production rule
 
-When preparing a Game Crafter build, do not combine the Poker, Stage, or Queen files into one deck component. Their sizes, backs, and component types are intentionally separate.
+Keep Poker, Stage, Queen, Player Aid, rules, and box files as separate Game Crafter components. Their sizes, backs, and component types are intentionally different.
+
+Do not add Solo Circuit cards to the base Poker Deck count.
