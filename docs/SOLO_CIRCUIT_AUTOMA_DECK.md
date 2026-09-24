@@ -24,7 +24,7 @@ Average printed Appeal: **3.0**. Average printed LS: **2.5**.
 | 06 | Standing Ovation | Spotlight Hog | 4 | 2 | Remove the highest-Appeal Fashion. | If the House already owns a Stage trophy, +1 House Appeal. |
 | 07 | Camera Loves Her | Spotlight Hog | 4 | 1 | Remove the rightmost Fashion. | If this is Round 2, 3, or 4 on the current Stage, +1 House Appeal. |
 | 08 | Main Character Energy | Spotlight Hog | 5 | 1 | Remove the Fashion with the highest printed Appeal; ties leftmost. | The player cannot reduce House Appeal this round. |
-| 09 | Cover Charge | Tip Snatcher | 2 | 2 | Remove the highest printed-Tip Fashion. | After the player's Tip Count and other Tip generation, player loses 1 Tip, minimum 0. |
+| 09 | Cover Charge | Tip Snatcher | 2 | 2 | Remove the highest printed-Tip Fashion. | After the player finishes generating Tips during Transformation, the player loses 1 Tip, minimum 0. |
 | 10 | Sold Out | Tip Snatcher | 2 | 2 | Remove the cheapest Market card. | The player's first purchase this turn costs +1 Tip. |
 | 11 | VIP Rope | Tip Snatcher | 3 | 2 | Remove the rightmost card costing 4+; otherwise rightmost Fashion. | Player may buy at most 1 card this Shopping phase. |
 | 12 | Lip Sync Assassin | Lip Sync Assassin | 2 | 5 | Remove the leftmost Fashion. | If Dragdagulan† occurs this round, +1 House LS to the final House Battle Score. |
