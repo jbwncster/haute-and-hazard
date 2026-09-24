@@ -54,9 +54,9 @@ Read:
 
 During **Transformation**, Tips work like deck-building Power:
 
-> Before Transformation, add the printed Tip values of every card currently in your hand.
+> **Play a card from your hand to generate its printed Tips.**
 
-Count each card once. You can still play/equip it afterward. Do not count its printed Tips again.
+Cards left unplayed generate 0 Tips. Each physical card generates its printed Tips once when played that turn. Fashion may be played for Tips even if you choose not to equip it, and a Master already equipped from an earlier turn does not automatically pay again.
 
 ## Beginner Mode Stage fields
 
