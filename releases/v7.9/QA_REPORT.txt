@@ -1,0 +1,30 @@
+HAUTE & HAZARD v7.9 - SOURCE / RELEASE QA
+
+STATUS
+Current rules/card/production target.
+
+SOURCE CHECKS
+PASS - Base Poker Deck accounting = 240.
+PASS - Wardrobe accounting = 130 unique Fashion + 14 unique Actions = 144.
+PASS - Starter deck = 7 Basic Beat + 3 Messy Lip Sync + 2 Chapstick = 12/player.
+PASS - Starter printed Tips = Basic Beat 1 / Messy Lip Sync 0 / Chapstick 1.
+PASS - Current turn order begins with Tip Count.
+PASS - Core rules specify printed Tips are counted once per turn from cards in hand.
+PASS - Purchased cards go to Backstage Archive.
+PASS - Stage count = 12.
+PASS - Queen count = 12.
+PASS - Player Aid target quantity = 5.
+PASS - Solo v0.2 count = 18 Automa + 12 Personalities = 30 separate cards.
+PASS - Solo v0.2 timer = four rounds.
+PASS - Solo House Base Appeal formula documented.
+PASS - Game Crafter box artboard target = 5850x5400 px.
+
+OUTSTANDING BINARY QA
+PENDING - Verify current v7.9 Game Crafter ZIP is visibly attached/distributed.
+PENDING - Verify current v7.9 Print & Play ZIP is visibly attached/distributed.
+PENDING - Verify current v7.9 TTS ZIP is visibly attached/distributed.
+PENDING - Open v7.9 TTS saves in Tabletop Simulator and check runtime behavior.
+PENDING - Regenerate/attach Solo Circuit v0.2 PnP and TTS binaries.
+PENDING - Visually inspect final production card fronts, Player Aids, Folio, and box after binary regeneration.
+
+Do not treat source/schema checks as proof of in-app TTS runtime or printed-component visual QA.
