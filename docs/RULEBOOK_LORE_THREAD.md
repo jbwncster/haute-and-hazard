@@ -170,7 +170,7 @@ Keep the **† legal/IP marker** wherever the current working term appears.
 
 The rulebook story should make the game loop feel inevitable:
 
-**Arrive unfinished → choose a point of view → build a Look → reveal it → earn Tips → shop → adapt to the next venue → Slay or confront a rival → carry the consequences → move on → face Final Judging.**
+**Arrive unfinished → count the night's spending power → build a Look → reveal its performance → shop → adapt to the venue → Slay or confront a rival → carry the consequences → move on → face Final Judging.**
 
 That same sequence explains why the major systems belong together rather than feeling like unrelated mechanics.
 
