@@ -1,4 +1,4 @@
-# Haute & Hazard v7.8 — Cross-Build Alignment
+> **ARCHIVED DEVELOPMENT SNAPSHOT:** v7.8 is superseded by **v7.9** as the current base-game rules/card/production target. This file is retained for historical comparison and package provenance.\n\n# Haute & Hazard v7.8 — Cross-Build Alignment
 
 **ARCHIVED ALIGNMENT RECORD. v7.8 is no longer the current target; use [V7_9_ALIGNMENT.md](V7_9_ALIGNMENT.md) for current development.**
 
