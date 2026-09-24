@@ -1,0 +1,63 @@
+HAUTE & HAZARD v7.7 CORE PLAYTEST SET
+
+This unified package combines the complete compatible card pool with the v7.7
+rulebook, replacement Judge Stage cards, and glossary Player Aid. The v7.7 aid is the fastest reference
+for turn order, Shopping, Look states, Dragdagulan, Curtain Call, and Final Judging.
+
+GAMEPLAY DNA
+
+Haute & Hazard combines the shared-row deck building of DC Deck-Building Game
+with the escalating shared challenges of Marvel Legendary. Its fashion fantasy
+and performance presentation are inspired by transformation/idol card games,
+but its tabletop engine is a competitive deck builder:
+- build a personal deck from a shared Market Row;
+- improve deck efficiency through purchases, archiving, and trashing;
+- confront a shared sequence of Stage challenges;
+- compete for Gross SP and use Dragdagulan as direct player interaction.
+
+PRINT AT 100% / ACTUAL SIZE. Do not use Fit to Page.
+
+Print files:
+1. Haute_Hazard_v7.2_Oversized_Queens_FRONTS_Letter_4up.pdf
+2. Haute_Hazard_v7.2_Oversized_Queens_BACKS_Letter_4up.pdf
+3. Haute_Hazard_v7.2_Standard_Cards_FRONTS_Letter_9up.pdf
+4. Haute_Hazard_v7.2_Standard_Cards_BACKS_Letter_9up.pdf
+5. Haute_Hazard_v7.7_Stage_Cards_DUPLEX_READY_Letter.pdf
+6. Haute_Hazard_v7.7_Player_Aid_Glossary_DUPLEX_READY_Letter.pdf
+7. Haute_Hazard_Core_Rulebook_v7.7_PLAYTEST.pdf
+
+The files retain multiple numbered versions for testing and comparison. Use the
+v7.7 Rulebook, Player Aid, and replacement Stage cards together. Do not mix
+older Stage or rules versions into a v7.7 game.
+
+IMPORTANT: the v7.2 standard card sheets remain in this package because their
+240 non-Stage cards are still current. The 12 Stage cards on pages 27–28 are
+superseded. Do not use those old Stage cards; print and use the separate v7.7
+replacement Stage Cards instead.
+
+Convenience duplex files are also included, but fronts + backs separate are safest for home printing.
+
+Contents:
+- 12 oversized Queen cards, Monopoly deed size: 3.625 x 5.25 in.
+- 252 standard gameplay cards, poker size: 2.5 x 3.5 in.
+- 6 standard legacy quick reference cards.
+- 12 replacement Stage cards with Judges, Spotlight Requirements, Featured
+  Brands, Judge's Favors, and Brand Ovations.
+- 2 half-letter v7.7 glossary Player Aids per letter sheet.
+- v7.7 Rulebook PDF/Markdown with a scripted first game.
+- Editable v7.7 card list and Stage Judge CSV files.
+
+CORE COMPATIBILITY
+
+This core set uses the locked Tenets and Brands:
+- Pink: Sugar Rush, Hyper-Glitch
+- Blue: Necropolis, Slasher, Void
+- Purple: Velvet Trap, Gilded Cage
+- Yellow: Trash Can, Big Top, Swamp Witch
+- Neutral: colorless
+
+Do not mix in the separate v7.3 Stage Deck or v7.4 Fashion Deck drafts for the
+first playtest. Those drafts use Haute/Hazard/Camp/Nerve as card stats and do not
+include all required core fields (Cost, Tips, Appeal, LS, Tenet, Brand, slot).
+
+Use opaque sleeves if your printer does not align duplex pages perfectly.

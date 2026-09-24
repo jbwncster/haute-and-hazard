@@ -1,0 +1,34 @@
+HAUTE & HAZARD v7.7 - FIRST PLAYTEST CHECKLIST
+
+BEFORE PLAY
+[ ] Print and sleeve one 12-card starter deck per player.
+[ ] Build the Wardrobe Rack, Thrift Store, Penalty Stack, and 12-card Stage Deck.
+[ ] For the teaching game, give Player 1 Siren Diesel and Player 2 Opal Dynasty.
+[ ] Give each player a glossary Player Aid and a Player Mat or four labeled slots.
+[ ] Prepare counters for Tips, Appeal, and Gross SP.
+[ ] Set the Market Row to five cards.
+
+RECORD AFTER EACH GAME
+- Player count and total play time
+- Winning Queen and Final Score
+- Number of Stages Slayed
+- Number of Dragdagulan attempts and wins
+- Cards or effects that caused a rules question
+- Turns with no useful play
+- Whether 30 Gross SP felt too fast, too slow, or right
+- Whether the Market Row changed often enough to keep Shopping interesting
+- Whether the Stage sequence created escalating pressure
+- Whether players felt rewarded for improving their personal decks
+- How often players fulfilled a Judge's Spotlight Requirement
+- How often players completed the exact Featured Brand
+- Whether +2 SP felt appropriate for Brand Ovation
+
+RULES PRIORITY
+Explicit card override > v7.7 Player Aid > v7.7 Core Rulebook > older printed text.
+
+CORE LOCKS FOR THIS TEST
+- Shopping uses Tips and the Market Row / Thrift Store.
+- Dragdagulan draws three cards from each player's personal Deck.
+- Battle Score is printed LS on those three cards plus explicit modifiers.
+- Equipped cards do not add printed LS unless an effect explicitly says so.
+- Tenet means Pink, Blue, Purple, or Yellow. Neutral is colorless.
