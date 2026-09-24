@@ -1,4 +1,4 @@
-# v7.8 Release Status
+> **ARCHIVED DEVELOPMENT SNAPSHOT:** v7.8 is superseded by **v7.9** as the current base-game rules/card/production target. This file is retained for historical comparison and package provenance.\n\n# v7.8 Release Status
 
 **Status:** Current physical + Tabletop Simulator playtest target / unpublished prototype.
 
