@@ -4,6 +4,13 @@ This page separates the **current v7.9 source/production target** from older gen
 
 > A filename listed here is not necessarily downloadable from GitHub. Treat a binary as attached only when the file is visibly committed or attached to a GitHub Release.
 
+## Current canonical source
+
+- `data/v7_9_card_database.csv` — committed 240-row Poker-card source for v7.9.
+- `data/V7_9_CARD_DATABASE.md` — count/validation notes and production rule.
+
+New Poker-card renders should be generated from this source. The archived v7.8 image deck is no longer a card-data source.
+
 ## Current v7.9 targets
 
 | Artifact | Purpose | Status |
