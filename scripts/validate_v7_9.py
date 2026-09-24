@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Haute & Hazard v7.9 canonical card data.
+"""Validate Haute & Hazard v7.9 canonical source data.
 
 Standard-library only so it can run locally or in GitHub Actions.
 """
@@ -12,7 +12,9 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CSV_PATH = ROOT / "data" / "v7_9_card_database.csv"
+CARD_CSV = ROOT / "data" / "v7_9_card_database.csv"
+QUEEN_CSV = ROOT / "data" / "v7_9_queen_database.csv"
+STAGE_CSV = ROOT / "data" / "v7_9_stage_registry.csv"
 
 EXPECTED_COMPONENTS = {
     "Starter": 60,
@@ -37,17 +39,39 @@ EXPECTED_STARTERS = {
     "Messy Lip Sync": 15,
     "Chapstick": 10,
 }
+EXPECTED_STAGE_TENETS = {
+    "Pink": 3,
+    "Blue": 3,
+    "Purple": 3,
+    "Yellow": 3,
+}
+EXPECTED_STAGE_NAMES = {
+    "Grand Ballroom",
+    "Neon Nightclub",
+    "Haunted Hotel",
+    "Botanical Conservatory",
+    "Thrift Superstore",
+    "Gothic Cathedral",
+    "Opera House",
+    "Underground Leather Bar",
+    "Candy Kingdom Pavilion",
+    "Seaside Boardwalk Stage",
+    "Couture House Runway",
+    "Blacklight Arcade",
+}
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8-sig") as fh:
+        return list(csv.DictReader(fh))
 
 
 def fail(errors: list[str], message: str) -> None:
     errors.append(message)
 
 
-def main() -> int:
-    errors: list[str] = []
-
-    with CSV_PATH.open(newline="", encoding="utf-8-sig") as fh:
-        rows = list(csv.DictReader(fh))
+def validate_cards(errors: list[str]) -> None:
+    rows = read_csv(CARD_CSV)
 
     if len(rows) != 240:
         fail(errors, f"Expected 240 Poker cards, found {len(rows)}")
@@ -66,7 +90,6 @@ def main() -> int:
     if ids != expected_ids:
         fail(errors, "Card IDs must be sequential HH-001 through HH-240")
 
-    # Every Poker card must explicitly carry a printed Tip value.
     for row in rows:
         raw = row["tips"].strip()
         if raw == "":
@@ -111,7 +134,6 @@ def main() -> int:
     if dict(starter_counts) != EXPECTED_STARTERS:
         fail(errors, f"Starter counts wrong: {dict(starter_counts)}")
 
-    # v7.9 anti-double-pay starter checks.
     basic = [r for r in rows if r["card_name"] == "Basic Beat"]
     if any(r["tips"] != "1" for r in basic):
         fail(errors, "Every Basic Beat must have printed Tips 1")
@@ -128,9 +150,89 @@ def main() -> int:
     if any("Gain 1 Tip" in r["rules_text"] for r in chapstick):
         fail(errors, "Chapstick must not also gain 1 Tip when equipped")
 
-    # Solo cards are separate; they must never be smuggled into the base CSV.
     if any("Automa" in r["component"] or "Personality" in r["component"] for r in rows):
         fail(errors, "Solo Circuit cards must not be part of the 240-card base CSV")
+
+
+def validate_queens(errors: list[str]) -> None:
+    rows = read_csv(QUEEN_CSV)
+
+    if len(rows) != 12:
+        fail(errors, f"Expected 12 Queens, found {len(rows)}")
+
+    ids = [row["queen_id"] for row in rows]
+    if ids != [f"Q-{i:02d}" for i in range(1, 13)]:
+        fail(errors, "Queen IDs must be sequential Q-01 through Q-12")
+
+    names = [row["name"] for row in rows]
+    if len(set(names)) != 12:
+        fail(errors, "Queen names must be unique")
+
+    required = [
+        "signature_tenet",
+        "favorite_brand",
+        "signature_ability_name",
+        "signature_ability_text",
+        "special_appeal_name",
+        "special_appeal_text",
+    ]
+    for row in rows:
+        for field in required:
+            if not row[field].strip():
+                fail(errors, f"{row['queen_id']} {row['name']}: missing {field}")
+
+    opulencia = next((row for row in rows if row["name"] == "Opulencia"), None)
+    if not opulencia:
+        fail(errors, "Opulencia missing from Queen database")
+    else:
+        text = opulencia["signature_ability_text"]
+        if "After Tip Count" not in text or "additional Tip" not in text:
+            fail(errors, "Opulencia must use explicit v7.9 Tip Count wording")
+
+    gore = next((row for row in rows if row["name"] == "Gore-Jess"), None)
+    siren = next((row for row in rows if row["name"] == "Siren Diesel"), None)
+    if gore and gore["ip_marker"] != "†":
+        fail(errors, "Gore-Jess row must retain † marker for Dragdagulan wording")
+    if siren and siren["ip_marker"] != "†":
+        fail(errors, "Siren Diesel row must retain † marker for Dragdagulan wording")
+
+
+def validate_stage_registry(errors: list[str]) -> None:
+    rows = read_csv(STAGE_CSV)
+
+    if len(rows) != 12:
+        fail(errors, f"Expected 12 Stage registry rows, found {len(rows)}")
+
+    ids = [row["stage_id"] for row in rows]
+    if ids != [f"STG-{i:02d}" for i in range(1, 13)]:
+        fail(errors, "Stage IDs must be sequential STG-01 through STG-12")
+
+    names = {row["stage_name"] for row in rows}
+    if names != EXPECTED_STAGE_NAMES:
+        missing = sorted(EXPECTED_STAGE_NAMES - names)
+        extra = sorted(names - EXPECTED_STAGE_NAMES)
+        fail(errors, f"Stage roster mismatch; missing={missing}, extra={extra}")
+
+    tenets = Counter(row["favored_tenet"] for row in rows)
+    if dict(tenets) != EXPECTED_STAGE_TENETS:
+        fail(errors, f"Stage Tenet distribution wrong: {dict(tenets)}")
+
+    brands = {row["featured_brand"] for row in rows}
+    missing_brands = set(EXPECTED_BRANDS) - brands
+    if missing_brands:
+        fail(errors, "Stage roster does not cover Brands: " + ", ".join(sorted(missing_brands)))
+
+    for row in rows:
+        if row["exact_text_status"] != "needs_verified_full_text_migration":
+            fail(errors, f"{row['stage_id']} unexpected exact_text_status {row['exact_text_status']!r}")
+
+
+def main() -> int:
+    errors: list[str] = []
+
+    validate_cards(errors)
+    validate_queens(errors)
+    validate_stage_registry(errors)
 
     if errors:
         print("v7.9 QA FAILED")
@@ -145,6 +247,10 @@ def main() -> int:
     print("Wardrobe rules: 144 unique")
     print("Printed Tips: present on all 240 cards")
     print("Starter anti-double-pay checks: passed")
+    print("Queens: 12 machine-readable rows")
+    print("Opulencia v7.9 Tip Count wording: passed")
+    print("Stages: 12 verified roster rows, 3 per Tenet")
+    print("Stage full-text migration: intentionally still pending")
     print("Solo cards in base CSV: 0")
     return 0
 
