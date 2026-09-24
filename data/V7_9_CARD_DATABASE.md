@@ -23,7 +23,7 @@ The current CSV was validated so that:
 - all 144 Wardrobe rules-text entries are unique;
 - the Brand counts match the current v7.9 distribution;
 - Cost and printed Tips remain separate fields;
-- Basic Beat, Messy Lip Sync, and Chapstick use the current Tip Count model;
+- Basic Beat, Messy Lip Sync, and Chapstick use the current play-to-generate-Tips model;
 - the physical card IDs remain `HH-001` through `HH-240`.
 
 ## Production rule
@@ -32,6 +32,6 @@ The current CSV was validated so that:
 
 Do not rebuild a v7.9 package from the archived v7.8 repeated-garment Poker fronts.
 
-The current data remains playtest material. Balance changes should be logged and synchronized across every medium before a build is called release-ready.
+The current data remains playtest material. Printed Tips are generated when a card is played from hand during Transformation; they are not counted merely for being held. Balance changes should be logged and synchronized across every medium before a build is called release-ready.
 
 > **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
