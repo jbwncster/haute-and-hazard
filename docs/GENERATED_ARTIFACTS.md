@@ -14,7 +14,9 @@ This document records the newest generated working files for the **v7.8 prototyp
 | `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` | Publisher-facing one-page overview | Current generated PDF | `698852909d694ed77c030b0e551a2276e49e7c3ffdce8c30b7081cfa55785687` |
 | `Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip` | Current v7.8 physical-production package | Current physical playtest build | `b067089ebd85ccf8d657272e44f8a1ee1d85f9ba5e0add5bd185a78557ef96dc` |
 | `Haute_Hazard_v7_8_Print_and_Play_Physical_Kit.zip` | Noob-friendly home-print physical playtest kit with 240-card deck, Stages, Queens, Player Aids, rules, optional backs, and Start Here sheet | Current PnP handoff | `cf98822211032e2b76d11fb4b7f081cabc8459648f6ca92e877fd3d670e6dabb` |
-| `Haute_Hazard_v7.8_TTS_Playtest.zip` | Current v7.8 Tabletop Simulator package | Current digital playtest build; in-app runtime verification still required | `eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8` |
+| `Haute_Hazard_v7.8_TTS_Playtest.zip` | Current v7.8 Tabletop Simulator multiplayer package | Current synchronized digital playtest build; in-app runtime verification still required | `eb9c49515939d5c6b589a3baa16006fb490d23596de198cae39ee9b524ed5fc8` |
+| `Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip` | Experimental one-player physical Automa kit | **Committed to GitHub** under `releases/solo-circuit-v0.1/`; physical v0.1 playtest candidate | — |
+| `Haute_Hazard_Solo_Circuit_v0_1_TTS.zip` | Experimental one-player Tabletop Simulator Automa add-on | **Committed to GitHub**; additive-load candidate over v7.8; in-app runtime verification still required | — |
 | `Haute_Hazard_v7.8_Fashion_Card_Visual_Refresh.zip` | Working Game Crafter package with all 240 Poker-card fronts moved into the new copyright-safe fashion-card frame | **Review candidate; not yet canonical v7.8 print build** | `34456a92080078c3258a8876ec55e0867f240a1eb8abad6aff9767016650fe5d` |
 
 ## Fashion-card visual refresh status
@@ -68,6 +70,17 @@ The bundle is a convenience handoff, not a replacement for the repository's cano
 
 ## Canonical version rule
 
-**v7.8 remains the current physical and digital playtest target.** The original `Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip` remains canonical while the fashion-card refresh is under review. Rules, card pools, Queens, Stages, Beginner Mode, and legal/IP marker conventions should stay aligned across the physical and TTS builds.
+**v7.8 remains the current synchronized multiplayer physical and digital playtest target.** **Solo Circuit v0.1** is tracked separately as an experimental one-player module with both physical and TTS builds. The original `Haute_Hazard_v7.8_Game_Crafter_Print_Edition.zip` remains canonical while the fashion-card refresh is under review. Rules, card pools, Queens, Stages, Beginner Mode, and legal/IP marker conventions should stay aligned across the physical and TTS builds.
 
 Anything marked **†** remains subject to legal/IP, trademark, rights, and publisher review before commercial release. See [IP_REVIEW_REGISTER.md](IP_REVIEW_REGISTER.md) and [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
+
+## Solo Circuit v0.1 artifact status
+
+The Solo Circuit development module is now available in both formats:
+
+- **Physical:** [`Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_Print_and_Play.zip)
+- **Tabletop Simulator:** [`Haute_Hazard_Solo_Circuit_v0_1_TTS.zip`](../releases/solo-circuit-v0.1/Haute_Hazard_Solo_Circuit_v0_1_TTS.zip)
+- **TTS source/status folder:** [`../releases/solo-circuit-v0.1/TTS/`](../releases/solo-circuit-v0.1/TTS/)
+
+The TTS package contains a saved add-on JSON, 18-card Automa image sheet, 12-card Personality image sheet, shared card back, manifest, and QA report. It is intended for **Additive Load** over the v7.8 Standard Setup. Its JSON structure, card IDs, counts, image-grid dimensions, and public GitHub asset paths were checked, but an actual in-app Tabletop Simulator load remains outstanding.
