@@ -22,13 +22,13 @@ For a tester-facing ZIP or folder, include:
 3. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
 4. [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
 5. [`ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md`](ALTERNATE_TWO_PLACEMENT_STAGE_RULES.md) when deliberately testing the experimental two-placement Stage module.
-6. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
-7. [`STARTING_DECKS.md`](STARTING_DECKS.md).
-8. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
-9. [`FEEDBACK.md`](FEEDBACK.md).
-10. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
-11. The current player aid files/images.
-12. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
+6. [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) when testing the experimental one-player House Queen automa.\n7. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
+8. [`STARTING_DECKS.md`](STARTING_DECKS.md).
+9. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
+10. [`FEEDBACK.md`](FEEDBACK.md).
+11. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
+12. The current player aid files/images.
+13. A direct feedback link: `https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml`.
 
 ## Which build to use
 
@@ -125,3 +125,12 @@ A new Wardrobe/Tip economy candidate is under active development. It is **not ye
 The candidate uses 144 unique Wardrobe cards and a pre-Transformation **Tip Count** from the printed Tip values in hand. See [`V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md`](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
 
 Only use it when the playtest organizer specifically asks for a v7.9 card-economy test. Otherwise use the synchronized v7.8 physical/TTS materials.
+
+
+## Experimental Solo Circuit automa
+
+For one-player development testing, use [`SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md).
+
+The human player uses normal Haute & Hazard rules while a streamlined **House Queen** is driven by a proposed 18-card Automa deck. The module tests Market pressure, Stage pacing, solo Dragdagulan†, difficulty modifiers, and optional Queen Personality behaviors without requiring the tester to run a second full deck/tableau.
+
+Record these sessions as **Solo Circuit — Experimental Playtest Module**. The proposed Automa cards, House Base Appeal values, and Personality rules are development material and are not yet part of the synchronized v7.8 Game Crafter/TTS component set.
