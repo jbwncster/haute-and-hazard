@@ -1,8 +1,8 @@
 # Haute & Hazard v7.9 — Release Index
 
-**Status:** current base-game rules/card target for playtesting.
+**Status:** current base-game rules/card target with committed physical-print and Tabletop Simulator playtest packages.
 
-v7.9 promotes the Wardrobe/Tip redesign from candidate status into the current source-of-truth rules.
+v7.9 promotes the Wardrobe/Tip redesign into the current source-of-truth rules and production build.
 
 ## Base-game components
 
@@ -28,26 +28,34 @@ The optional **Solo Circuit v0.2** module is separate and adds 30 solo cards.
 - unplayed cards generate no Tips and old Masters do not regenerate them;
 - Fashion may be played for Tips without being equipped;
 - purchases go to the Backstage Archive and enter play only after a later draw;
+- the five-card Wardrobe Rack refills during Cleanup;
+- Cleanup draws a fresh five-card hand;
 - the 144-card Wardrobe is fully unique: 130 Fashion + 14 Actions;
 - starter wording is corrected so Basic Beat and Chapstick do not double-pay their printed Tips;
 - Solo Circuit v0.2 uses a four-round Stage timer and explicit House Appeal/scoring rules.
 
-## Canonical card source
+## Canonical data
 
-The current **240-row Poker-card database is committed** at:
+- [240-card Poker database](../../data/v7_9_card_database.csv)
+- [12-Queen database](../../data/v7_9_queen_database.csv)
+- [12-Stage database](../../data/v7_9_stage_database.csv)
 
-- [`../../data/v7_9_card_database.csv`](../../data/v7_9_card_database.csv)
-- [database QA / usage notes](../../data/V7_9_CARD_DATABASE.md)
+All new production renders should be generated from those v7.9 sources rather than archived v7.8 card images.
 
-All new Poker-card renders should come from that data rather than the archived v7.8 repeated-card image set.
+## Downloadable packages in this folder
 
-## Current expected package names
+- [Game Crafter Print Edition](Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip)
+- [Print & Play Physical Kit](Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip)
+- [Tabletop Simulator Playtest](Haute_Hazard_v7.9_TTS_Playtest.zip)
 
-- `Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`
-- `Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
-- `Haute_Hazard_v7.9_TTS_Playtest.zip`
+Supporting QA:
 
-Binary ZIP availability is separate from rules status. If a ZIP is not visibly committed or attached to a GitHub Release, do not substitute a v7.8 binary and relabel it v7.9.
+- [Physical preflight report](PRINT_PREFLIGHT_REPORT.txt)
+- [Build manifest and SHA-256 hashes](BUILD_MANIFEST.json)
+- [TTS save and assets](TTS/)
+- [Release status](RELEASE_STATUS.md)
+
+The TTS files have passed source/schema/path QA. Opening the save inside Tabletop Simulator remains the final runtime smoke-test step.
 
 ## Start here
 
@@ -56,15 +64,13 @@ Binary ZIP availability is separate from rules status. If a ZIP is not visibly c
 - [Beginner Mode](../../docs/BEGINNER_MODE.md)
 - [Starting Decks](../../docs/STARTING_DECKS.md)
 - [Card Pool](../../docs/CARD_POOL.md)
-- [Canonical v7.9 Card Database](../../data/v7_9_card_database.csv)
 - [v7.9 Wardrobe + Tip Economy](../../docs/V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
-- [Upload Guide](UPLOAD_GUIDE.md)
-- [Release Status](RELEASE_STATUS.md)
-- [TTS Status](TTS/README.md)
+- [Game Crafter Upload Guide](UPLOAD_GUIDE.md)
+- [TTS](TTS/README.md)
 - [Stage Venue List](STAGE_VENUE_LIST.md)
 
 ## Solo
 
-Use [Solo Circuit v0.2](../solo-circuit-v0.2/README.md) for one-player testing.
+Use [Solo Circuit v0.2](../solo-circuit-v0.2/README.md) for one-player testing. Its physical and TTS packages are committed separately.
 
 > **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
