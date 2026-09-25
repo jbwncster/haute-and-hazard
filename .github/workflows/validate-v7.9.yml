@@ -3,18 +3,44 @@ name: Validate v7.9 source data
 on:
   push:
     paths:
+      - "README.md"
       - "data/v7_9_card_database.csv"
       - "data/v7_9_queen_database.csv"
       - "data/v7_9_stage_registry.csv"
       - "data/v7_9_stage_database.csv"
+      - "data/V7_9_STAGE_REGISTRY.md"
+      - "docs/V7_9_ALIGNMENT.md"
+      - "docs/CARD_DATABASE_SCHEMA.md"
+      - "docs/GENERATED_ARTIFACTS.md"
+      - "docs/PRINT_AND_PLAY.md"
+      - "docs/TABLETOP_SIMULATOR.md"
+      - "docs/PLAYTEST_START_HERE.md"
+      - "docs/SOLO_CIRCUIT_PRINT_AND_PLAY.md"
+      - "releases/v7.9/README.md"
+      - "releases/v7.9/RELEASE_STATUS.md"
+      - "releases/v7.9/QA_REPORT.txt"
+      - "releases/solo-circuit-v0.2/README.md"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   pull_request:
     paths:
+      - "README.md"
       - "data/v7_9_card_database.csv"
       - "data/v7_9_queen_database.csv"
       - "data/v7_9_stage_registry.csv"
       - "data/v7_9_stage_database.csv"
+      - "data/V7_9_STAGE_REGISTRY.md"
+      - "docs/V7_9_ALIGNMENT.md"
+      - "docs/CARD_DATABASE_SCHEMA.md"
+      - "docs/GENERATED_ARTIFACTS.md"
+      - "docs/PRINT_AND_PLAY.md"
+      - "docs/TABLETOP_SIMULATOR.md"
+      - "docs/PLAYTEST_START_HERE.md"
+      - "docs/SOLO_CIRCUIT_PRINT_AND_PLAY.md"
+      - "releases/v7.9/README.md"
+      - "releases/v7.9/RELEASE_STATUS.md"
+      - "releases/v7.9/QA_REPORT.txt"
+      - "releases/solo-circuit-v0.2/README.md"
       - "scripts/validate_v7_9.py"
       - ".github/workflows/validate-v7.9.yml"
   workflow_dispatch:
@@ -32,5 +58,5 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate canonical v7.9 source data
+      - name: Validate canonical v7.9 source and release state
         run: python scripts/validate_v7_9.py
