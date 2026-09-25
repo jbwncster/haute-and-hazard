@@ -6,27 +6,36 @@ Use this checklist to create a clean one-click folder for publishers.
 
 `Haute_Hazard_v7.9_Publisher_Submission_Jake_Weiner`
 
-## Current generated publisher files
+## Current status
 
-- `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` — current generated sell sheet.
-- `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx` — current 10-slide deck; overlap/layout correction pass completed.
-- `Haute_Hazard_v7_8_Project_Tracker.xlsx` — internal evidence/tracking workbook; include only if requested or useful to demonstrate playtest methodology.
-- `Haute_Hazard_v7_8_Project_Bundle.zip` — consolidated project handoff; do not send automatically unless a publisher asks for a full package.
+The **v7.9 rules, physical packages, TTS package, card data, Queen data, and Stage data are current**.
 
-See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for current hashes and binary-attachment status.
+Some older publisher-office artifacts still carry **v7.8** filenames. Treat those as legacy working files until they are explicitly regenerated as v7.9; do not silently relabel them.
+
+Current publisher-facing sources:
+
+- [Publisher Sell Sheet](PUBLISHER_SELL_SHEET.md)
+- [Pitch Deck Script](PITCH_DECK.md)
+- [Current Gameplay](CURRENT_GAMEPLAY.md)
+- [Learn to Play](LEARN_TO_PLAY_5_MIN.md)
+- [v7.9 Release](../releases/v7.9/README.md)
+- [TTS Instructions](TABLETOP_SIMULATOR.md)
+- [Generated Artifact Status](GENERATED_ARTIFACTS.md)
+
+Legacy generated office artifacts such as `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx` and `Haute_Hazard_v7_8_Project_Tracker.xlsx` should be regenerated/re-labeled before being presented as current v7.9 deliverables.
 
 ## Include
 
-1. `00_START_HERE.md` — one paragraph, status, contact info, links.
-2. `Haute_Hazard_Publisher_Sell_Sheet_Jake_Weiner.pdf` or [`PUBLISHER_SELL_SHEET.md`](PUBLISHER_SELL_SHEET.md).
-3. `Haute_Hazard_v7_8_Publisher_Pitch_Deck.pptx`, using [`PITCH_DECK.md`](PITCH_DECK.md) as the canonical slide script.
-4. Current rulebook / Medium Folio PDF when available.
-5. [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md) — transparent design-history and inspiration context for publisher review.
+1. `00_START_HERE.md` — one paragraph, prototype status, contact info, and links.
+2. Current sell sheet PDF, or [`PUBLISHER_SELL_SHEET.md`](PUBLISHER_SELL_SHEET.md) if the PDF has not yet been regenerated.
+3. A **v7.9-labeled pitch deck** generated from [`PITCH_DECK.md`](PITCH_DECK.md). Do not send the v7.8 deck as if it were current.
+4. Current rulebook / Medium Folio from the v7.9 physical package.
+5. [`DESIGN_ORIGIN_AND_INSPIRATION.md`](DESIGN_ORIGIN_AND_INSPIRATION.md).
 6. [`LEARN_TO_PLAY_5_MIN.md`](LEARN_TO_PLAY_5_MIN.md).
 7. [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md).
 8. [`QUEEN_ROSTER.md`](QUEEN_ROSTER.md).
 9. [`TABLETOP_SIMULATOR.md`](TABLETOP_SIMULATOR.md).
-10. TTS package or download instructions.
+10. Current v7.9 TTS package or repository download link.
 11. Prototype photos or image folder.
 12. [`STATE_OF_PROTOTYPE_TEMPLATE.md`](STATE_OF_PROTOTYPE_TEMPLATE.md) filled in once enough playtest data exists.
 13. [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) and [`IP_REVIEW_REGISTER.md`](IP_REVIEW_REGISTER.md).
@@ -34,7 +43,7 @@ See [`GENERATED_ARTIFACTS.md`](GENERATED_ARTIFACTS.md) for current hashes and bi
 ## Do not include by default
 
 - every legacy ZIP;
-- old v7.7 material unless requested;
+- v7.8/v7.7 materials unless specifically requested for history/comparison;
 - raw art/source files;
 - speculative expansions;
 - unrelated design notes;
