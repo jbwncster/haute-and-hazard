@@ -92,7 +92,7 @@ Start with [Solo Circuit v0.2 Rules](docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) or th
 
 ## Main references
 
-- [v7.9 Wardrobe + Tip Economy](docs/V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
+- [v7.9 Wardrobe + Tip Economy](docs/V7_9_WARDROBE_TIP_ECONOMY.md)
 - [Starting Decks](docs/STARTING_DECKS.md)
 - [Card Pool](docs/CARD_POOL.md)
 - [Queen Roster](docs/QUEEN_ROSTER.md)
