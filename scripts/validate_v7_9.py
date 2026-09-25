@@ -58,11 +58,18 @@ ACTIVE_STATUS_DOCS = [
     ROOT / "docs" / "TABLETOP_SIMULATOR.md",
     ROOT / "docs" / "PLAYTEST_START_HERE.md",
     ROOT / "docs" / "SOLO_CIRCUIT_PRINT_AND_PLAY.md",
+    ROOT / "docs" / "PUBLISHER_SELL_SHEET.md",
+    ROOT / "docs" / "STREAMER_MEDIA_KIT.md",
+    ROOT / "docs" / "GAMEPLAY_VIDEO_SCRIPT.md",
+    ROOT / "docs" / "PROJECT_KIT_INDEX.md",
+    ROOT / "docs" / "V7_9_WARDROBE_TIP_ECONOMY.md",
     ROOT / "data" / "V7_9_STAGE_REGISTRY.md",
     ROOT / "releases" / "v7.9" / "README.md",
     ROOT / "releases" / "v7.9" / "RELEASE_STATUS.md",
     ROOT / "releases" / "v7.9" / "QA_REPORT.txt",
     ROOT / "releases" / "solo-circuit-v0.2" / "README.md",
+    ROOT / "releases" / "v7.9" / "TTS" / "README.md",
+    ROOT / "releases" / "solo-circuit-v0.2" / "TTS" / "README.md",
 ]
 
 STALE_ACTIVE_DOC_PHRASES = [
@@ -73,6 +80,8 @@ STALE_ACTIVE_DOC_PHRASES = [
     "binary attachment/distribution must be verified separately",
     "If the v7.9 binary is not visibly committed",
     "If the v0.2 ZIP is not visibly committed",
+    "physical and Tabletop Simulator production targets",
+    "V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md",
 ]
 
 
