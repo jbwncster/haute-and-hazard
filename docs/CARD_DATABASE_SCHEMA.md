@@ -75,7 +75,7 @@ For the current v7.9 Wardrobe redesign:
 - no Brand/slot combination is represented only by repeated copies of one garment;
 - Brand defines a strategic family, while each garment must create its own purchase reason.
 
-See [V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md).
+See [V7_9_WARDROBE_TIP_ECONOMY.md](V7_9_WARDROBE_TIP_ECONOMY.md).
 
 ## Rules
 
