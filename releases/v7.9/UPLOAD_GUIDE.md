@@ -2,6 +2,10 @@
 
 Use only synchronized v7.9 files for this build.
 
+Current package:
+
+[`Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`](Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip)
+
 ## Upload order
 
 1. **Rules — Medium Folio Set**
@@ -17,7 +21,7 @@ Use only synchronized v7.9 files for this build.
      - 144 Wardrobe = 130 unique Fashion + 14 unique Actions
      - 16 Thrift
      - 20 Penalty
-   - Every v7.9 Poker front must visibly show a printed Tip value, including 0.
+   - Every v7.9 Poker front visibly shows a printed Tip value, including 0.
 
 3. **Stages — Holographic Foil Euro Poker Deck**
    - Folder target: `03_STAGES_FOIL_EURO_12`
@@ -42,10 +46,12 @@ Use only synchronized v7.9 files for this build.
 
 ## v7.9 rules that must appear consistently
 
-- Cards generate their printed Tips when played from hand during Transformation.
-- Unplayed cards generate no Tips; already-equipped Masters do not automatically generate Tips again.
-- Printed Tips do not fire again when those cards are played/equipped.
+- A card generates its printed Tips when it is played during Transformation.
+- Unplayed cards generate no printed Tips.
+- A Master already equipped from an earlier turn does not generate its printed Tips again merely for remaining equipped.
+- Fashion played for Tips without being equipped archives at Cleanup.
 - Purchased cards go to Backstage Archive.
+- Wardrobe Rack refills during Cleanup.
 - Starter printed Tips:
   - Basic Beat 1
   - Messy Lip Sync 0
@@ -61,7 +67,9 @@ Solo Circuit is a separate optional module with 18 Automa + 12 Personality cards
 
 ## Safe-zone note
 
-Keep essential text inside the current Game Crafter safe-content area. Do not upload proof-only or contact-sheet files as production card faces.
+Keep essential text inside the current Game Crafter safe-content area. The generated v7.9 fronts use a 75 px safe-content inset from the full-bleed edge at 300 DPI.
+
+Do not upload proof-only or contact-sheet files as production card faces.
 
 ## Final pre-upload check
 
@@ -77,3 +85,5 @@ Verify:
 - Box art **5850 × 5400**
 - no v7.8 version labels on v7.9 production files
 - no legacy hand-counting / Tip Count wording
+
+See [PRINT_PREFLIGHT_REPORT.txt](PRINT_PREFLIGHT_REPORT.txt) for the generated QA record.
