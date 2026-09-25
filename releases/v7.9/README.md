@@ -64,7 +64,7 @@ The TTS files have passed source/schema/path QA. Opening the save inside Tableto
 - [Beginner Mode](../../docs/BEGINNER_MODE.md)
 - [Starting Decks](../../docs/STARTING_DECKS.md)
 - [Card Pool](../../docs/CARD_POOL.md)
-- [v7.9 Wardrobe + Tip Economy](../../docs/V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
+- [v7.9 Wardrobe + Tip Economy](../../docs/V7_9_WARDROBE_TIP_ECONOMY.md)
 - [Game Crafter Upload Guide](UPLOAD_GUIDE.md)
 - [TTS](TTS/README.md)
 - [Stage Venue List](STAGE_VENUE_LIST.md)
