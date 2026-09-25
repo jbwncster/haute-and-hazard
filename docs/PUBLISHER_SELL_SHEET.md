@@ -44,7 +44,7 @@ The current **v7.9 playtest target** includes:
 - 12 venue-style Stage cards
 - player aids, Beginner Mode, and structured playtest feedback tools
 
-The **v7.9 physical and Tabletop Simulator production targets** use the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, play-generated Tip economy, and core rules. Current rules documentation, production information, TTS source/status files, playtest materials, and legacy builds are maintained through the project repository.
+The **v7.9 physical and Tabletop Simulator playtest packages are generated and committed** and use the same card pool, venue Stages, Queen roster, Special Appeals, Player Aid wording, play-generated Tip economy, and core rules. The physical files have passed production preflight; the TTS save/assets have passed source/schema/path QA, with an in-app runtime smoke test still required.
 
 v7.8 and the older v7.7/v7.7.1 packages remain archived for comparison only; current multiplayer balance testing should use synchronized v7.9 materials.
 
@@ -66,7 +66,7 @@ The Queens, Brands, Tenets, card systems, scoring, and game-world material are i
 
 A publisher interested in a visually distinctive, interactive hobby game and willing to evaluate a prototype while it is still being refined. Publisher development, editing, art direction, production changes, legal/IP review, and further balance work are welcome.
 
-**Available for review / development:** v7.9 rules and production target · print-and-play/Game Crafter specifications · Tabletop Simulator source/status materials · experimental Solo Circuit v0.2 · component manifest · prototype photos · playtest documentation
+**Available for review / development:** v7.9 rules · committed Print & Play package · committed Game Crafter package · committed Tabletop Simulator playtest package · experimental Solo Circuit v0.2 physical/TTS packages · component manifest · prototype photos · playtest documentation
 
 ---
 
