@@ -1,10 +1,12 @@
 HAUTE & HAZARD v7.9 - SOURCE / RELEASE QA
 
 STATUS
-Current rules/card/production target.
+Current synchronized rules/card/physical/TTS-source target.
 
 SOURCE CHECKS
 PASS - Canonical per-card source committed at data/v7_9_card_database.csv.
+PASS - Canonical Queen source committed at data/v7_9_queen_database.csv.
+PASS - Canonical full Stage source committed at data/v7_9_stage_database.csv.
 PASS - Canonical database rows = 240.
 PASS - Base Poker Deck accounting = 240.
 PASS - Wardrobe Fashion names are unique = 130/130.
@@ -22,21 +24,37 @@ PASS - Purchased Rack cards are not refilled until Cleanup.
 PASS - Purchased cards go to Backstage Archive.
 PASS - Played non-Masters and unused hand cards archive during Cleanup.
 PASS - Archive is reshuffled into a new Deck when the Deck runs out.
-PASS - Purchased cards go to Backstage Archive.
-PASS - Stage count = 12.
+PASS - Stage count = 12 with complete verified production fields.
 PASS - Queen count = 12.
 PASS - Player Aid target quantity = 5.
 PASS - Solo v0.2 count = 18 Automa + 12 Personalities = 30 separate cards.
 PASS - Solo v0.2 timer = four rounds.
 PASS - Solo House Base Appeal formula documented.
-PASS - Game Crafter box artboard target = 5850x5400 px.
+PASS - Game Crafter box artboard = 5850x5400 px.
 
-OUTSTANDING BINARY QA
-PENDING - Verify current v7.9 Game Crafter ZIP is visibly attached/distributed.
-PENDING - Verify current v7.9 Print & Play ZIP is visibly attached/distributed.
-PENDING - Verify current v7.9 TTS ZIP is visibly attached/distributed.
-PENDING - Open v7.9 TTS saves in Tabletop Simulator and check runtime behavior.
-PENDING - Regenerate/attach Solo Circuit v0.2 PnP and TTS binaries.
-PENDING - Visually inspect final production card fronts, Player Aids, Folio, and box after binary regeneration.
+PHYSICAL BUILD QA
+PASS - v7.9 Game Crafter ZIP is committed.
+PASS - v7.9 Print & Play ZIP is committed.
+PASS - Solo Circuit v0.2 Print & Play ZIP is committed.
+PASS - Poker, Stage, Queen, Player Aid, Folio, and box outputs were generated and visually sampled.
+PASS - Production dimensions/counts are recorded in PRINT_PREFLIGHT_REPORT.txt.
+PASS - No legacy Tip Count wording in current generated production/TTS files.
 
-Do not treat source/schema checks as proof of in-app TTS runtime or printed-component visual QA.
+TTS SOURCE QA
+PASS - v7.9 TTS ZIP is committed.
+PASS - v7.9 TTS save JSON is committed.
+PASS - all referenced v7.9 texture sheets are committed.
+PASS - 240 Poker cards mapped across 8 texture sheets.
+PASS - 12 Stages / 12 Queens / 5 Player Aids mapped.
+PASS - five exact 12-card starter decks represented.
+PASS - all GUIDs unique.
+PASS - all required CardID/DeckID CustomDeck mappings present.
+PASS - all generated TTS textures <= 4096 px.
+PASS - Solo Circuit v0.2 TTS ZIP/save/assets are committed.
+
+REMAINING MANUAL QA
+PENDING - Open v7.9 base save in Tabletop Simulator and verify runtime behavior.
+PENDING - Additive Load Solo Circuit v0.2 and verify runtime behavior.
+PENDING - Verify remote clients resolve all GitHub-hosted textures.
+
+Do not treat source/schema/path checks as proof of in-app TTS runtime.
