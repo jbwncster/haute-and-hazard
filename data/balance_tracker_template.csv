@@ -1,2 +1,2 @@
 balance_id,date_opened,item_type,item_name,version,status,observed_pattern,games_observed,impact,proposed_change,decision,date_changed,needs_retest,ip_marker,notes
-BAL-001,,Queen,,v7.8,untested,,,,,,,,,
+BAL-001,,Queen,,v7.9,untested,,,,,,,,,
