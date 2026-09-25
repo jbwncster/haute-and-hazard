@@ -2,17 +2,17 @@
 
 This is the home-print route for playing the current v7.9 base game.
 
-## Package target
+## Download
 
-`Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
+The current package is committed at:
 
-Do not substitute the older v7.8 ZIP and call it v7.9.
+[`Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`](../releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip)
 
-If the v7.9 binary is not visibly committed or attached to a GitHub Release, use this documentation as the current source/rules record and distribute the matching v7.9 package separately.
+Do not substitute the archived v7.8 ZIP.
 
 ## v7.9 contents
 
-The complete home-print package should include:
+The package includes:
 
 - Start Here sheet
 - Medium Folio rules
@@ -20,7 +20,7 @@ The complete home-print package should include:
 - **12 Stages**
 - **12 Queens**
 - **5 Player Aids**
-- optional backs
+- matching backs
 - readme/checksums
 
 The 240-card deck is:
@@ -30,22 +30,26 @@ The 240-card deck is:
 - 16 Thrift
 - 20 Penalty
 
-## Critical print check
+## Print QA
 
-Every Poker card must visibly show its **printed Tip value**, including 0.
+The generated physical preflight verifies the component counts, production dimensions, trim layouts, safe-content placement, and current v7.9 rules wording.
 
-The Player Aid/rules must show:
+See [the physical preflight report](../releases/v7.9/PRINT_PREFLIGHT_REPORT.txt).
+
+Every Poker card visibly shows its **printed Tip value**, including 0.
+
+The Player Aid/rules use:
 
 **Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup**
 
-Legacy starter text that duplicates printed Tips is not valid v7.9 wording.
+Cards generate their printed Tips when played during Transformation. Legacy Tip Count wording is not part of v7.9.
 
 ## Printing
 
-1. Print card fronts single-sided.
-2. Use **Actual Size / 100%**.
-3. Cut along card edges/crop marks.
-4. Put fronts into opaque sleeves with spare cards/cardstock behind them.
+1. Print at **Actual Size / 100%**.
+2. For easiest home assembly, print fronts single-sided and use opaque sleeves with spare cards/cardstock behind them.
+3. If duplex printing, test one sheet first to confirm your printer's flip-edge/alignment behavior.
+4. Cut along the card edges/crop marks.
 5. Print one Player Aid per player.
 6. Keep the Medium Folio available digitally or print it on 11×17.
 
@@ -56,19 +60,29 @@ Legacy starter text that duplicates printed Tips is not valid v7.9 wording.
 | Poker / Stages / Queens / Player Aids | US Letter |
 | Medium Folio Rules | 11×17 Tabloid, landscape |
 
+The generated layouts use these finished trim sizes:
+
+- Poker / Stage: **2.5 × 3.5 in**
+- Queen: **3.5 × 5.5 in**
+- Player Aid: **6 × 4 in**
+
 ## First game
 
 Use [Beginner Mode](BEGINNER_MODE.md).
 
-During **Transformation**, players generate Tips by playing cards from hand. Do not award printed Tips for cards that were never played or for Masters carried over from an earlier turn.
+During **Transformation**, play cards one at a time. Each played card generates its printed Tips before its legal card text resolves. Unplayed cards and Masters carried over from an earlier turn do not generate printed Tips.
 
 ## Manufactured prototype
+
+For the upload-ready component files, use:
+
+[`Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`](../releases/v7.9/Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip)
 
 See [v7.9 Game Crafter Upload Guide](../releases/v7.9/UPLOAD_GUIDE.md).
 
 ## Solo
 
-Solo Circuit v0.2 is separate. See [Solo Circuit Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md).
+Solo Circuit v0.2 is separate. See [Solo Circuit Print & Play](SOLO_CIRCUIT_PRINT_AND_PLAY.md) and the committed [Solo v0.2 Print & Play package](../releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip).
 
 ## Feedback
 
