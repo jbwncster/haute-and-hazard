@@ -31,7 +31,7 @@ Show:
 
 Voiceover:
 
-> The core game is built around a 240-card deck structure, 12 Queens, 12 venue Stages, and a shared Wardrobe Rack.
+> The core game is built around a 240-card deck structure, 12 Queens, 12 venue Stages, and a shared five-card Wardrobe Rack.
 
 ## 1:00–1:45 — Build a Coordinate
 
@@ -55,7 +55,7 @@ Show reaching a Slay Target and claiming the Stage.
 
 Voiceover:
 
-> If your current Appeal meets the venue's Slay Target, you may Slay the Stage, gain its reward, and claim the trophy.
+> If your current Appeal meets the venue's Slay Target and you meet its required conditions, you may Slay the Stage, gain its reward, and claim the trophy. In Beginner Mode, use the Stage's Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect and ignore the advanced Judge layer.
 
 ## 3:10–4:00 — Dragdagulan†
 
@@ -75,7 +75,11 @@ Voiceover:
 
 ## 4:30–5:00 — Call to action
 
-> The current v7.9 rules/card target is available for structured playtesting, with physical and Tabletop Simulator production targets intended to remain synchronized. Feedback should focus on clarity, pacing, balance, Queen identity, and whether players want to play again.
+> The current v7.9 physical and Tabletop Simulator playtest packages are available for structured testing. Feedback should focus on clarity, pacing, balance, Queen identity, Stage pressure, and whether players want to play again.
+
+On-screen note:
+
+> TTS save/assets have passed source QA; in-app runtime testing is still part of the playtest process.
 
 ## Caption/legal note
 
