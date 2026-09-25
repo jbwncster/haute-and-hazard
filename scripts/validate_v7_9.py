@@ -39,6 +39,43 @@ STAGE_REQUIRED_FIELDS = [
 ]
 
 
+REQUIRED_RELEASE_PATHS = [
+    ROOT / "releases" / "v7.9" / "Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip",
+    ROOT / "releases" / "v7.9" / "Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip",
+    ROOT / "releases" / "v7.9" / "Haute_Hazard_v7.9_TTS_Playtest.zip",
+    ROOT / "releases" / "v7.9" / "TTS" / "Haute_Hazard_v7_9_TTS_Playtest.json",
+    ROOT / "releases" / "solo-circuit-v0.2" / "Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip",
+    ROOT / "releases" / "solo-circuit-v0.2" / "Haute_Hazard_Solo_Circuit_v0_2_TTS.zip",
+    ROOT / "releases" / "solo-circuit-v0.2" / "TTS" / "Haute_Hazard_Solo_Circuit_v0_2_TTS_AddOn.json",
+]
+
+ACTIVE_STATUS_DOCS = [
+    ROOT / "README.md",
+    ROOT / "docs" / "V7_9_ALIGNMENT.md",
+    ROOT / "docs" / "CARD_DATABASE_SCHEMA.md",
+    ROOT / "docs" / "GENERATED_ARTIFACTS.md",
+    ROOT / "docs" / "PRINT_AND_PLAY.md",
+    ROOT / "docs" / "TABLETOP_SIMULATOR.md",
+    ROOT / "docs" / "PLAYTEST_START_HERE.md",
+    ROOT / "docs" / "SOLO_CIRCUIT_PRINT_AND_PLAY.md",
+    ROOT / "data" / "V7_9_STAGE_REGISTRY.md",
+    ROOT / "releases" / "v7.9" / "README.md",
+    ROOT / "releases" / "v7.9" / "RELEASE_STATUS.md",
+    ROOT / "releases" / "v7.9" / "QA_REPORT.txt",
+    ROOT / "releases" / "solo-circuit-v0.2" / "README.md",
+]
+
+STALE_ACTIVE_DOC_PHRASES = [
+    "needs_verified_full_text_migration",
+    "full Stage text migration is still pending",
+    "current Stage-data blocker",
+    "synchronization in progress",
+    "binary attachment/distribution must be verified separately",
+    "If the v7.9 binary is not visibly committed",
+    "If the v0.2 ZIP is not visibly committed",
+]
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as fh:
         return list(csv.DictReader(fh))
@@ -238,11 +275,27 @@ def validate_stages(errors: list[str]) -> None:
             fail(errors, f"{sid}: registry must point to data/v7_9_stage_database.csv")
 
 
+def validate_release_state(errors: list[str]) -> None:
+    for path in REQUIRED_RELEASE_PATHS:
+        if not path.is_file() or path.stat().st_size <= 0:
+            fail(errors, f"Missing committed release artifact: {path.relative_to(ROOT)}")
+
+    for path in ACTIVE_STATUS_DOCS:
+        if not path.is_file():
+            fail(errors, f"Missing active status document: {path.relative_to(ROOT)}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        for phrase in STALE_ACTIVE_DOC_PHRASES:
+            if phrase in text:
+                fail(errors, f"{path.relative_to(ROOT)} contains stale active-status phrase: {phrase!r}")
+
+
 def main() -> int:
     errors: list[str] = []
     validate_cards(errors)
     validate_queens(errors)
     validate_stages(errors)
+    validate_release_state(errors)
 
     if errors:
         print("v7.9 QA FAILED")
@@ -261,6 +314,8 @@ def main() -> int:
     print("Queens: 12 machine-readable rows")
     print("Stages: 12 full verified rows, 3 per Tenet, all base Brands covered")
     print("Stage full-text migration: complete")
+    print("Committed base/Solo release artifacts: present")
+    print("Active status docs: no known stale blocker language")
     print("Solo cards in base CSV: 0")
     return 0
 
