@@ -16,7 +16,7 @@ This index points to the current **v7.9** development and playtest materials.
 
 ## Core data / rules
 
-- [v7.9 Wardrobe + Tip Economy](V7_9_WARDROBE_TIP_ECONOMY_CANDIDATE.md)
+- [v7.9 Wardrobe + Tip Economy](V7_9_WARDROBE_TIP_ECONOMY.md)
 - [Starting Decks](STARTING_DECKS.md)
 - [Card Pool](CARD_POOL.md)
 - [Queen Roster](QUEEN_ROSTER.md)
