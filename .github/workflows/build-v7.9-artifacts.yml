@@ -13,23 +13,30 @@ on:
       - scripts/build_v7_9_assets.py
       - scripts/builders/solo_parts/**
       - .github/workflows/build-v7.9-artifacts.yml
+  pull_request:
+    paths:
+      - data/v7_9_card_database.csv
+      - data/v7_9_queen_database.csv
+      - data/v7_9_stage_database.csv
+      - data/v7_9_stage_registry.csv
+      - scripts/validate_v7_9.py
+      - scripts/build_v7_9_assets.py
+      - scripts/builders/solo_parts/**
+      - .github/workflows/build-v7.9-artifacts.yml
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: build-v7-9-artifacts
+  group: build-v7-9-artifacts-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,7 +46,7 @@ jobs:
       - name: Install build dependencies
         run: python -m pip install --disable-pip-version-check pillow reportlab
 
-      - name: Validate canonical v7.9 data
+      - name: Validate canonical v7.9 data and release state
         run: python scripts/validate_v7_9.py
 
       - name: Build base physical and TTS packages
@@ -74,7 +81,7 @@ jobs:
           test "$(find releases/solo-circuit-v0.2/Production/Personalities -maxdepth 1 -name '*.png' | wc -l)" -eq 12
           ! grep -R -n -E 'Tip Count|count printed Tips from.*hand' releases/v7.9/TTS releases/solo-circuit-v0.2/TTS
 
-      - name: Upload workflow artifact copy
+      - name: Upload rebuilt artifact copy
         uses: actions/upload-artifact@v4
         with:
           name: haute-hazard-v7.9-physical-and-tts
@@ -85,18 +92,3 @@ jobs:
             releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip
             releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip
           if-no-files-found: error
-
-      - name: Commit generated release files
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add releases/v7.9 releases/solo-circuit-v0.2
-          if git diff --cached --quiet; then
-            echo "Generated artifacts already match the repository."
-            exit 0
-          fi
-          git commit -m "Build v7.9 physical and TTS artifacts [skip ci]"
-          git pull --rebase origin main
-          git push origin HEAD:main
