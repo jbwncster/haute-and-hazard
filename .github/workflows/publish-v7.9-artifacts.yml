@@ -1,0 +1,71 @@
+name: Publish v7.9 generated artifacts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-v7-9-artifacts
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: python -m pip install --disable-pip-version-check pillow reportlab
+
+      - name: Validate canonical source
+        run: python scripts/validate_v7_9.py
+
+      - name: Build base physical and TTS packages
+        run: python scripts/build_v7_9_assets.py "$GITHUB_WORKSPACE"
+
+      - name: Build Solo Circuit v0.2 packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/solo-build
+          mkdir -p /tmp/solo-build
+          cat scripts/builders/solo_parts/part{1,2,3,4}.b64 | tr -d '\n\r' | base64 -d | gzip -d > /tmp/solo-build/build_solo_v0_2_assets.py
+          python /tmp/solo-build/build_solo_v0_2_assets.py
+          cp -a /tmp/solo-build/out/releases/solo-circuit-v0.2/. releases/solo-circuit-v0.2/
+
+      - name: Assert release outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s releases/v7.9/Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip
+          test -s releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip
+          test -s releases/v7.9/Haute_Hazard_v7.9_TTS_Playtest.zip
+          test -s releases/v7.9/TTS/Haute_Hazard_v7_9_TTS_Playtest.json
+          test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip
+          test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip
+          test -s releases/solo-circuit-v0.2/TTS/Haute_Hazard_Solo_Circuit_v0_2_TTS_AddOn.json
+
+      - name: Commit generated release files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add releases/v7.9 releases/solo-circuit-v0.2
+          if git diff --cached --quiet; then
+            echo "Generated artifacts already match main."
+            exit 0
+          fi
+          git commit -m "Publish rebuilt v7.9 physical and TTS artifacts [skip ci]"
+          git push origin HEAD:main
