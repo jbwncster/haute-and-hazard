@@ -16,7 +16,7 @@ Choose a Queen, build a wardrobe from a shared Market, assemble a Coordinate, ea
 
 ## Current development target: v7.9
 
-**v7.9 is the current base-game rules/card target.**
+**v7.9 is the current base-game rules/card/production target.**
 
 The central v7.9 changes are:
 
@@ -43,19 +43,23 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 - **New playtester:** [PLAYTESTERS START HERE](docs/PLAYTEST_START_HERE.md)
 - **Learn quickly:** [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md)
 - **Current gameplay:** [Current Gameplay Reference](docs/CURRENT_GAMEPLAY.md)
-- **Physical:** [Print & Play](docs/PRINT_AND_PLAY.md)
-- **Digital:** [Tabletop Simulator](docs/TABLETOP_SIMULATOR.md)
+- **Physical instructions:** [Print & Play](docs/PRINT_AND_PLAY.md)
+- **Digital instructions:** [Tabletop Simulator](docs/TABLETOP_SIMULATOR.md)
 - **Game Crafter:** [v7.9 Upload Guide](releases/v7.9/UPLOAD_GUIDE.md)
 - **v7.9 release status:** [Release Status](releases/v7.9/RELEASE_STATUS.md)
 - **Canonical v7.9 card data:** [240-card CSV](data/v7_9_card_database.csv) · [database notes](data/V7_9_CARD_DATABASE.md)
 
-### Expected v7.9 package names
+## Current v7.9 downloads
 
-- `Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip`
-- `Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip`
-- `Haute_Hazard_v7.9_TTS_Playtest.zip`
+The current physical and digital playtest packages are committed directly in the repository:
 
-Large binary availability is tracked separately from source/rules status. Do not relabel an older v7.8 archive as v7.9 if the matching v7.9 package is not visibly attached.
+- **Game Crafter:** [Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip](releases/v7.9/Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip)
+- **Print & Play:** [Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip](releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip)
+- **Tabletop Simulator:** [Haute_Hazard_v7.9_TTS_Playtest.zip](releases/v7.9/Haute_Hazard_v7.9_TTS_Playtest.zip)
+- **Solo Print & Play:** [Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip](releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip)
+- **Solo TTS Add-On:** [Haute_Hazard_Solo_Circuit_v0_2_TTS.zip](releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip)
+
+The physical files have passed generated preflight and visual PDF sampling. The TTS saves/assets have passed source/schema/path QA; an in-app Tabletop Simulator smoke test remains the final runtime verification step.
 
 ## Deck-building engine
 
