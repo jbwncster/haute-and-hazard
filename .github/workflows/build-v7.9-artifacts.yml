@@ -8,9 +8,10 @@ on:
       - data/v7_9_card_database.csv
       - data/v7_9_queen_database.csv
       - data/v7_9_stage_database.csv
+      - data/v7_9_stage_registry.csv
       - scripts/validate_v7_9.py
-      - scripts/builders/build_v7_9_assets.py.gz.b64
-      - scripts/builders/solo_parts/**
+      - scripts/build_v7_9_assets.py
+      - scripts/builders/build_solo_v0_2_assets.py.gz.b64
       - .github/workflows/build-v7.9-artifacts.yml
 
 permissions:
@@ -22,6 +23,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -40,18 +42,16 @@ jobs:
       - name: Validate canonical v7.9 data
         run: python scripts/validate_v7_9.py
 
-      - name: Decode and run base physical/TTS builder
-        shell: bash
-        run: |
-          base64 -d scripts/builders/build_v7_9_assets.py.gz.b64 | gzip -d > /tmp/build_v7_9_assets.py
-          python /tmp/build_v7_9_assets.py "$GITHUB_WORKSPACE"
+      - name: Build base physical and TTS packages
+        run: python scripts/build_v7_9_assets.py "$GITHUB_WORKSPACE"
 
-      - name: Decode and run Solo Circuit v0.2 builder
+      - name: Build Solo Circuit v0.2 physical and TTS packages
         shell: bash
         run: |
+          set -euo pipefail
           rm -rf /tmp/solo-build
           mkdir -p /tmp/solo-build
-          cat scripts/builders/solo_parts/part{1,2,3,4}.b64 | tr -d '\n\r' | base64 -d | gzip -d > /tmp/solo-build/build_solo_v0_2_assets.py
+          base64 -d scripts/builders/build_solo_v0_2_assets.py.gz.b64 | gzip -d > /tmp/solo-build/build_solo_v0_2_assets.py
           python /tmp/solo-build/build_solo_v0_2_assets.py
           cp -a /tmp/solo-build/out/releases/solo-circuit-v0.2/. releases/solo-circuit-v0.2/
 
