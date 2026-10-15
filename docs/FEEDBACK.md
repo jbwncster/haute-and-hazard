@@ -85,7 +85,24 @@ Treat these sessions as experimental A/B tests, not as evidence about the canoni
 
 ## Solo Circuit feedback
 
-If you tested **Solo Circuit v0.2**, clearly label the session **Physical** or **Tabletop Simulator** and record:
+Solo-only testers are welcome; prior multiplayer experience is **not required**.
+
+If you only have a minute after the game, the minimum useful Solo report is:
+
+- build: Physical or Tabletop Simulator;
+- difficulty;
+- player Queen;
+- House Queen + Personality, if any;
+- winner and final score;
+- Stages claimed by each side;
+- game length;
+- one confusing thing;
+- one fun thing;
+- would you play Solo Circuit again?
+
+For repeat testers, the structured three-session sequence is in [SOLO_PLAYTEST_PLAN.md](SOLO_PLAYTEST_PLAN.md).
+
+If you tested **Solo Circuit v0.2** in more detail, clearly label the session **Physical** or **Tabletop Simulator** and record:
 
 - player Queen;
 - House Queen and whether a Personality was used;
