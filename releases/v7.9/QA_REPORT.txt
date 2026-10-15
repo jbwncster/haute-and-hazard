@@ -42,6 +42,7 @@ PASS - Stage cards use Game Crafter tarot size: 900x1500 px full bleed / 825x142
 PASS - Stage body text targets a fixed 58 px minimum (~14 pt at 300 dpi).
 PASS - Stage Print & Play includes separate fronts, separate backs, combined duplex, and low-ink duplex files.
 PASS - Full-color card fronts use one uniform black bleed/trim-edge color; Tenet colors remain inset.
+PASS - Core game cards, Queens, Stages, Automa, and House Queen Personalities reserve generic future-art silhouette space.
 PASS - No legacy Tip Count wording in current generated production/TTS files.
 
 TTS SOURCE QA
