@@ -15,7 +15,7 @@ import zipfile
 from pathlib import Path
 from typing import Iterable
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageFilter
 from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
@@ -475,7 +475,7 @@ def low_ink_image(im: Image.Image) -> Image.Image:
             return 105
         return 0
 
-    return inv.point(reduce_ink).convert("RGB")
+    return inv.point(reduce_ink).filter(ImageFilter.MinFilter(3)).convert("RGB")
 
 
 def folio_pdf(front:Image.Image, back:Image.Image, path:Path):
