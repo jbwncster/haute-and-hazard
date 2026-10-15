@@ -14,12 +14,14 @@ PASS: 5 Player Aid fronts + 5 backs at 1875x1275
 PASS: Medium Folio front/back at 4875x2475
 PASS: Medium Prototype Box artboard at 5850x5400
 PASS: PnP core game-card trim 2.5x3.5 in; Stage trim 2.75x4.75 in landscape, matching Game Crafter tarot size; Queen trim 3.5x5.5 in; Player Aid 6x4 in
-PASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated at tarot landscape size
+PASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated right-side-up at tarot landscape size
+PASS: Stage PnP uses 4-up Letter landscape for safer home-printer margins
 PASS: combined duplex PDFs generated for core game cards, Stages, Queens, and Player Aids
 PASS: low-ink duplex option generated with mostly white backgrounds and strong dark text
 PASS: one uniform black bleed/trim-edge color is used across all full-color card fronts
 PASS: Tenet colors are inset and do not reach the physical trim edge
+PASS: strict text-fit assertions passed for all 240 core game cards and all 12 Queens
 PASS: all 240 core game cards display printed Tips, including 0
 PASS: v7.9 five-phase play-generated-Tips Player Aid wording
 PASS: Game Crafter and PnP ZIPs generated with SHA-256 checksums
-NOTE: visual prototype art is functional and safe-text-oriented; commercial art review is separate from print preflight.
+NOTE: visual prototype art is functional and safe-text-oriented; Stage essentials remain inside the 75 px safe-content inset; commercial art review is separate from print preflight.
