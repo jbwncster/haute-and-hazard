@@ -23,12 +23,15 @@ Current package:
      - 20 Penalty
    - Every v7.9 core game-card front visibly shows a printed Tip value, including 0.
 
-3. **Stages — 2.5 × 3.5 in Card Deck**
-   - Folder target: `03_STAGES_FOIL_EURO_12`
+3. **Stages — Tarot-Size Card Deck**
+   - Folder target: `03_STAGES_TAROT_12`
    - **12** Stage fronts + one shared back
-   - **825 × 1125 px** full-bleed upload canvas
-   - **2.5 × 3.5 in finished card size**, exactly matching the Print & Play Stage cards
-   - Designed for landscape reading; turn sideways at the table.
+   - **900 × 1500 px** full-bleed upload canvas (**3.0 × 5.0 in at 300 dpi**)
+   - **825 × 1425 px** trim area
+   - **2.75 × 4.75 in finished tarot card size**, exactly matching the Print & Play Stage cards
+   - Artwork/text are designed for **landscape reading**; the production upload remains on the portrait tarot canvas and the finished card is turned sideways at the table.
+   - Stage body text target: **58 px minimum (~14 pt at 300 dpi)**.
+   - A generic silhouette placeholder reserves space for future Stage art.
 
 4. **The Queens — Jumbo Deck**
    - Folder target: `04_QUEENS_JUMBO_12`
@@ -77,7 +80,7 @@ Do not upload proof-only or contact-sheet files as production card faces.
 Verify:
 
 - 240 core game-card fronts
-- 12 Stage fronts
+- 12 Stage fronts at 900 × 1500 px tarot full bleed
 - 12 Queen fronts
 - 5 Player Aid fronts
 - 5 Player Aid backs
