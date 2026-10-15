@@ -59,7 +59,7 @@ The current physical and digital playtest packages are committed directly in the
 - **Solo Print & Play:** [Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip](releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip)
 - **Solo TTS Add-On:** [Haute_Hazard_Solo_Circuit_v0_2_TTS.zip](releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip)
 
-The physical files have passed generated preflight and visual PDF sampling. The Print & Play build includes full-color single-sided sheets, combined duplex files, and a low-ink duplex option; Stage cards use the same 2.5 × 3.5 in finished size as the Game Crafter Stage cards. The TTS saves/assets have passed source/schema/path QA; an in-app Tabletop Simulator smoke test remains the final runtime verification step.
+The physical files have passed generated preflight and visual PDF sampling. The Print & Play build includes full-color single-sided sheets, combined duplex files, and a low-ink duplex option. Stage cards use the same **2.75 × 4.75 in tarot size** as the Game Crafter build and are read landscape, with a 14 pt-equivalent minimum body-text target. The TTS saves/assets have passed source/schema/path QA; an in-app Tabletop Simulator smoke test remains the final runtime verification step.
 
 ## Deck-building engine
 
