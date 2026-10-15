@@ -1,5 +1,7 @@
 # Haute & Hazard — Solo Circuit v0.2 Quick Reference
 
+**First solo test:** Working Queen + Beginner Mode + no Personality. You do not need prior multiplayer experience.
+
 ## Setup
 
 1. Set up one human player using v7.9.
@@ -54,8 +56,12 @@ Solo v0.2 = **30 separate cards**
 - 18 Automa
 - 12 Personalities
 
-Do not add them to the 240-card base-game Poker Deck.
+Do not add them to the 240-card base-game core game-card pool.
 
 > **SOLO CIRCUIT v0.2 — EXPERIMENTAL PLAYTEST MODULE**
 
 † Dragdagulan is working prototype terminology subject to legal/IP and publisher review.
+
+## After the game
+
+At minimum, record: winner/final score, player Queen, House Queen/Personality, difficulty, Stages claimed by each side, game length, one confusing thing, one fun thing, and whether you would play Solo Circuit again. For repeated testing, use [SOLO_PLAYTEST_PLAN.md](SOLO_PLAYTEST_PLAN.md).
