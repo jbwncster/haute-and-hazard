@@ -15,7 +15,7 @@ import zipfile
 from pathlib import Path
 from typing import Iterable
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 from reportlab.lib.pagesizes import letter, landscape
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
@@ -170,7 +170,7 @@ def poker_front(row: dict[str,str]) -> Image.Image:
         d.text((x+16,y+14),lab,font=font(20,True),fill=MUTED)
         d.text((x+16,y+46),str(val),font=font(42,True),fill=CREAM)
         x+=215
-    d.text((95,1017),f"{row.get('component','')} • Haute & Hazard v{VERSION}",font=font(15,True),fill=BLACK)
+    draw_centered(d,(95,1004,730,1048),f"HAUTE & HAZARD • {row.get('component','').upper()} • v{VERSION}",font(15,True),BLACK)
     if row.get("ip_marker"):
         d.text((90,1050),"† Working prototype terminology; legal/IP review.",font=font(14),fill=MUTED)
     return im
@@ -205,7 +205,7 @@ def queen_front(row: dict[str,str]) -> Image.Image:
     draw_wrapped(d,(120,1015,1000,1115),row.get("special_appeal_name",""),40,27,CREAM,True,max_lines=2)
     draw_wrapped(d,(120,1140,1000,1435),row.get("special_appeal_text",""),28,20,WHITE,False,spacing=1.24)
     d.text((85,1540),"Use a marker after the Special Appeal is spent.",font=font(22),fill=MUTED)
-    d.text((85,1600),f"Haute & Hazard v{VERSION}",font=font(20,True),fill=MUTED)
+    draw_centered(d,(85,1585,1040,1630),f"HAUTE & HAZARD • v{VERSION}",font(20,True),MUTED)
     if row.get("ip_marker"):
         d.text((85,1632),"† Working prototype terminology; legal/IP review.",font=font(17),fill=MUTED)
     return im
@@ -244,7 +244,7 @@ def player_aid_front() -> Image.Image:
     im=Image.new("RGB",(1875,1275),BLACK)
     d=ImageDraw.Draw(im)
     d.rounded_rectangle((25,25,1850,1250),radius=34,outline=GOLD,width=8)
-    d.text((75,65),f"HAUTE & HAZARD v{VERSION} — PLAYER AID",font=font(52,True,True),fill=CREAM)
+    draw_centered(d,(75,50,1800,135),f"HAUTE & HAZARD v{VERSION} — PLAYER AID",font(52,True,True),CREAM)
     d.text((75,140),"Tips work like deck-building Power: only played cards generate their printed Tips.",font=font(29,True),fill=TENET_ACCENT["Pink"])
     phases=[
         ("1  TRANSFORMATION","Play cards one at a time, any order. Each played card: gain printed Tips, then resolve text. Fashion may equip or be played for Tips only."),
@@ -420,6 +420,64 @@ def repeated_back_pdf(back: Image.Image, count:int, path:Path, card_inches, per_
     pnp_pdf([back for _ in range(count)],path,card_inches,per_page,page_size)
 
 
+def duplex_pdf(fronts: list[Image.Image], backs: list[Image.Image], path:Path, card_inches:tuple[float,float], per_page:tuple[int,int], page_size=letter):
+    """Write alternating front/back sheets for long-edge duplex printing.
+
+    Back-side columns are mirrored so fronts and backs align when the sheet is
+    flipped on the long edge. Print at Actual Size / 100%; test one sheet first
+    because printer feed registration varies.
+    """
+    if len(fronts) != len(backs):
+        raise ValueError("duplex_pdf requires one back image per front image")
+    path.parent.mkdir(parents=True,exist_ok=True)
+    c=canvas.Canvas(str(path),pagesize=page_size,pageCompression=1)
+    pw,ph=page_size
+    cols,rows=per_page
+    cw,ch=card_inches[0]*72,card_inches[1]*72
+    left=(pw-cols*cw)/2
+    bottom=(ph-rows*ch)/2
+    per_sheet=cols*rows
+
+    def draw_batch(batch, mirror_columns=False):
+        for i,im in enumerate(batch):
+            col=i%cols
+            row=i//cols
+            if mirror_columns:
+                col=cols-1-col
+            x=left+col*cw
+            y=ph-bottom-(row+1)*ch
+            c.drawImage(ImageReader(im),x,y,width=cw,height=ch,preserveAspectRatio=True,anchor='c')
+            c.setLineWidth(0.35)
+            c.rect(x,y,cw,ch,stroke=1,fill=0)
+
+    for page_start in range(0,len(fronts),per_sheet):
+        front_batch=fronts[page_start:page_start+per_sheet]
+        back_batch=backs[page_start:page_start+per_sheet]
+        draw_batch(front_batch,False)
+        c.showPage()
+        draw_batch(back_batch,True)
+        c.showPage()
+    c.save()
+
+
+def low_ink_image(im: Image.Image) -> Image.Image:
+    """Create a mostly-white home-print proof with strong dark text."""
+    gray=ImageOps.grayscale(im)
+    inv=ImageOps.invert(gray)
+    inv=ImageOps.autocontrast(inv,cutoff=1)
+
+    def reduce_ink(px:int)->int:
+        if px >= 205:
+            return 255
+        if px >= 145:
+            return 238
+        if px >= 80:
+            return 105
+        return 0
+
+    return inv.point(reduce_ink).convert("RGB")
+
+
 def folio_pdf(front:Image.Image, back:Image.Image, path:Path):
     c=canvas.Canvas(str(path),pagesize=landscape(TABLOID),pageCompression=1)
     pw,ph=landscape(TABLOID)
@@ -440,7 +498,7 @@ def start_here_pdf(path:Path):
     c.setFont("Helvetica",11)
     lines=[
         "Print at Actual Size / 100%. Do not use Fit to Page.",
-        "Poker and Stage cards are 2.5 x 3.5 inches after trim. Sleeve with opaque backs or print the matching back sheets.",
+        "Core cards and Stage cards are 2.5 x 3.5 inches after trim, matching their Game Crafter card size. Sleeve with opaque backs, use the matching back sheets, or use the combined DUPLEX PDFs.",
         "Each player starts with 12 cards (7 Basic Beat, 3 Messy Lip Sync, 2 Chapstick), shuffles, and draws 5.",
         "Turn: Transformation -> The Reveal -> Shopping -> Slay / Dragdagulan / Pass -> Cleanup.",
         "During Transformation, a played card generates its printed Tips, then resolves its text. Unplayed cards and old Masters do not generate printed Tips.",
@@ -550,12 +608,12 @@ def build(root:Path):
 
     # Generate front images in memory and to GC temp.
     poker_trim=[]
-    poker_gc_dir=gc/"02_POKER_DECK_240/FRONTS"
+    poker_gc_dir=gc/"02_CORE_CARD_DECK_240/FRONTS"
     for r in cards:
         im=poker_front(r); poker_trim.append(crop_trim(im,"poker"))
         save_jpg(im,poker_gc_dir/f"{r['card_id'].replace('-','_')}_{safe_slug(r['card_name'])}.jpg")
-    poker_back=card_back(label="POKER DECK")
-    save_jpg(poker_back,gc/"02_POKER_DECK_240/BACK/Haute_Hazard_v7.9_Poker_Back.jpg")
+    poker_back=card_back(label="CORE CARD DECK")
+    save_jpg(poker_back,gc/"02_CORE_CARD_DECK_240/BACK/Haute_Hazard_v7.9_Core_Card_Back.jpg")
 
     stage_trim=[]
     for r in stages:
@@ -583,14 +641,14 @@ def build(root:Path):
     gc_readme=(
         f"Haute & Hazard v{VERSION} — Game Crafter Print Edition\n\n"
         "Upload-ready functional prototype generated from the canonical v7.9 CSV data.\n"
-        "Counts: 240 Poker fronts, 12 Stages, 12 Queens, 5 Player Aid fronts + 5 backs.\n"
-        "Poker/Stage: 825x1125 px. Queens: 1125x1725 px. Player Aids: 1875x1275 px.\n"
+        "Counts: 240 core-card fronts, 12 Stages, 12 Queens, 5 Player Aid fronts + 5 backs.\n"
+        "Core cards/Stages: 825x1125 px. Queens: 1125x1725 px. Player Aids: 1875x1275 px.\n"
         "Rules folio: 4875x2475 px. Box artboard: 5850x5400 px.\n\n"
-        "All essential Poker text is generated from data/v7_9_card_database.csv.\n"
+        "All essential core-card text is generated from data/v7_9_card_database.csv.\n"
         "Stage text is generated from data/v7_9_stage_database.csv, verified from the v7.8 venue print assets and migrated to the v7.9 build.\n"
         "Queen text is generated from data/v7_9_queen_database.csv.\n"
         "Prototype graphics are intentionally utilitarian; replace art without changing dimensions or safe-text placement.\n"
-        "All essential card text is kept at least 75 px from full-bleed card edges, matching the TGC 1/8-in bleed + 1/8-in safe-zone guidance at 300 DPI.\n"
+        "All essential card text is kept at least 75 px from full-bleed card edges, matching the TGC 1/8-in bleed + 1/8-in safe-zone guidance at 300 DPI. The 825x1125 core and Stage components finish at 2.5 x 3.5 in.\n"
     )
     (gc/"README.txt").write_text(gc_readme,encoding="utf-8")
     write_checksums(gc,gc/"CHECKSUMS.sha256")
@@ -598,19 +656,62 @@ def build(root:Path):
     # Print-and-play PDFs.
     pnp.mkdir(parents=True,exist_ok=True)
     start_here_pdf(pnp/"00_START_HERE.pdf")
-    pnp_pdf(poker_trim,pnp/"01_POKER_FRONTS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
-    repeated_back_pdf(crop_trim(poker_back,"poker"),len(cards),pnp/"02_POKER_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+
+    poker_back_trim=crop_trim(poker_back,"poker")
+    stage_back_trim=crop_trim(stage_back,"poker")
+    queen_back_trim=crop_trim(queen_back,"queen")
+    aid_trim=crop_trim(aid_front,"aid")
+    aid_back_trim=crop_trim(aid_back,"aid")
+
+    # Core and Stage cards use the same finished 2.5 x 3.5 in size as the
+    # corresponding Game Crafter card components.
+    pnp_pdf(poker_trim,pnp/"01_CORE_CARD_FRONTS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    repeated_back_pdf(poker_back_trim,len(cards),pnp/"02_CORE_CARD_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
     pnp_pdf(stage_trim,pnp/"03_STAGE_FRONTS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
-    repeated_back_pdf(crop_trim(stage_back,"poker"),len(stages),pnp/"04_STAGE_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    repeated_back_pdf(stage_back_trim,len(stages),pnp/"04_STAGE_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
     pnp_pdf(queen_trim,pnp/"05_QUEEN_FRONTS_2UP_LETTER.pdf",(3.5,5.5),(2,1))
-    repeated_back_pdf(crop_trim(queen_back,"queen"),len(queens),pnp/"06_QUEEN_BACKS_2UP_LETTER.pdf",(3.5,5.5),(2,1))
-    aid_trim=crop_trim(aid_front,"aid"); aid_back_trim=crop_trim(aid_back,"aid")
+    repeated_back_pdf(queen_back_trim,len(queens),pnp/"06_QUEEN_BACKS_2UP_LETTER.pdf",(3.5,5.5),(2,1))
     pnp_pdf([aid_trim]*5,pnp/"07_PLAYER_AIDS_FRONTS_2UP_LETTER.pdf",(6,4),(1,2))
     pnp_pdf([aid_back_trim]*5,pnp/"08_PLAYER_AIDS_BACKS_2UP_LETTER.pdf",(6,4),(1,2))
     folio_pdf(ffront,fback,pnp/"09_RULES_MEDIUM_FOLIO_11x17.pdf")
+
+    # Duplex-ready combined files: fronts and mirrored backs alternate by sheet.
+    duplex_pdf(poker_trim,[poker_back_trim]*len(cards),pnp/"10_CORE_CARDS_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    duplex_pdf(stage_trim,[stage_back_trim]*len(stages),pnp/"11_STAGES_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    duplex_pdf(queen_trim,[queen_back_trim]*len(queens),pnp/"12_QUEENS_DUPLEX_2UP_LETTER.pdf",(3.5,5.5),(2,1))
+    duplex_pdf([aid_trim]*5,[aid_back_trim]*5,pnp/"13_PLAYER_AIDS_DUPLEX_2UP_LETTER.pdf",(6,4),(1,2))
+
+    # Optional low-ink home-print set: same layout, mostly white, strong dark text.
+    low=pnp/"LOW_INK"
+    low.mkdir(parents=True,exist_ok=True)
+    low_poker=[low_ink_image(im) for im in poker_trim]
+    low_stage=[low_ink_image(im) for im in stage_trim]
+    low_queen=[low_ink_image(im) for im in queen_trim]
+    low_aid_front=low_ink_image(aid_trim)
+    low_poker_back=low_ink_image(poker_back_trim)
+    low_stage_back=low_ink_image(stage_back_trim)
+    low_queen_back=low_ink_image(queen_back_trim)
+    low_aid_back=low_ink_image(aid_back_trim)
+
+    duplex_pdf(low_poker,[low_poker_back]*len(cards),low/"01_CORE_CARDS_LOW_INK_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    duplex_pdf(low_stage,[low_stage_back]*len(stages),low/"02_STAGES_LOW_INK_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
+    duplex_pdf(low_queen,[low_queen_back]*len(queens),low/"03_QUEENS_LOW_INK_DUPLEX_2UP_LETTER.pdf",(3.5,5.5),(2,1))
+    duplex_pdf([low_aid_front]*5,[low_aid_back]*5,low/"04_PLAYER_AIDS_LOW_INK_DUPLEX_2UP_LETTER.pdf",(6,4),(1,2))
+    (low/"README.txt").write_text(
+        "Haute & Hazard v7.9 — Low-Ink Print & Play\n\n"
+        "This optional home-print variant keeps the current layout but converts large dark fills to mostly white and renders light-on-dark text as strong dark text.\n"
+        "It is intended to reduce ink use, reduce dark-edge chipping, and improve inkjet text legibility.\n"
+        "Stage cards remain the same finished 2.5 x 3.5 in size as the Game Crafter Stage cards.\n"
+        "Files alternate front/back pages for long-edge duplex printing. Print at Actual Size / 100% and test one sheet before printing the full set.\n",
+        encoding="utf-8")
+
     (pnp/"README.txt").write_text(
-        "Haute & Hazard v7.9 Print & Play\n\nPrint at Actual Size / 100%. Cut on the visible card borders. Opaque sleeves are recommended.\n"
-        "Front/back PDFs use repeated shared backs and are intended for manual duplex alignment or sleeving.\n"
+        "Haute & Hazard v7.9 Print & Play\n\n"
+        "Print at Actual Size / 100%. Cut on the visible card borders. Opaque sleeves are recommended.\n"
+        "Core cards and Stage cards finish at 2.5 x 3.5 inches, matching their Game Crafter card size.\n"
+        "The numbered front-only/back-only PDFs support single-sided printing and sleeving.\n"
+        "The 10–13 DUPLEX PDFs combine each front sheet with its mirrored back sheet for long-edge duplex printing. Test one sheet first because printer registration varies.\n"
+        "LOW_INK contains duplex-ready versions with mostly white backgrounds and strong dark text for cheaper, more legible inkjet printing.\n"
         "Use 00_START_HERE.pdf before play.\n",encoding="utf-8")
     write_checksums(pnp,pnp/"CHECKSUMS.sha256")
 
@@ -772,11 +873,11 @@ def build(root:Path):
     (rel/"BUILD_MANIFEST.json").write_text(json.dumps(build_manifest,indent=2)+"\n",encoding="utf-8")
     (rel/"PRINT_PREFLIGHT_REPORT.txt").write_text(
         f"Haute & Hazard v{VERSION} generated physical preflight\n"
-        "PASS: 240 Poker fronts at 825x1125\nPASS: essential card text is inside the 75 px TGC safe-content inset\nPASS: 1 Poker shared back at 825x1125\n"
+        "PASS: 240 core-card fronts at 825x1125\nPASS: essential card text is inside the 75 px TGC safe-content inset\nPASS: 1 shared Core Card Deck back at 825x1125\n"
         "PASS: 12 Stage fronts at 825x1125\nPASS: Stage text source verified from v7.8 venue print assets\n"
         "PASS: 12 Queen fronts at 1125x1725\nPASS: 5 Player Aid fronts + 5 backs at 1875x1275\n"
         "PASS: Medium Folio front/back at 4875x2475\nPASS: Medium Prototype Box artboard at 5850x5400\n"
-        "PASS: PnP Poker/Stage trim size 2.5x3.5 in; Queen trim 3.5x5.5 in; Player Aid 6x4 in\n"
+        "PASS: PnP core-card/Stage trim size 2.5x3.5 in, matching the Game Crafter finished size; Queen trim 3.5x5.5 in; Player Aid 6x4 in\nPASS: combined long-edge duplex PDFs generated for core cards, Stages, Queens, and Player Aids\nPASS: low-ink duplex option generated with mostly white backgrounds and strong dark text\n"
         "PASS: all 240 Poker cards display printed Tips, including 0\nPASS: v7.9 five-phase play-generated-Tips Player Aid wording\n"
         "PASS: Game Crafter and PnP ZIPs generated with SHA-256 checksums\n"
         "NOTE: visual prototype art is functional and safe-text-oriented; commercial art review is separate from print preflight.\n",encoding="utf-8")
