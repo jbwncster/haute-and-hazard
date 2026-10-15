@@ -32,6 +32,7 @@ Current package:
    - Artwork/text are designed for **landscape reading**; the production upload remains on the portrait tarot canvas and the finished card is turned sideways at the table.
    - Stage body text target: **58 px minimum (~14 pt at 300 dpi)**.
    - A generic silhouette placeholder reserves space for future Stage art.
+   - Essential Stage text remains inside the **75 px safe-content inset**; the 14 pt-equivalent body minimum is not reduced to force text to fit.
 
 4. **The Queens — Jumbo Deck**
    - Folder target: `04_QUEENS_JUMBO_12`
