@@ -9,7 +9,7 @@
 - 18 Automa cards
 - 12 House Queen Personality cards
 
-The Solo cards remain separate from the 240-card v7.9 base Poker Deck.
+The Solo cards remain separate from the 240-card v7.9 core game-card pool.
 
 ## Rules changes from v0.1
 
@@ -29,6 +29,8 @@ The Solo cards remain separate from the 240-card v7.9 base Poker Deck.
 - [Checksums](CHECKSUMS.sha256)
 
 The production folder contains all **18 Automa** and **12 Personality** card fronts plus the shared back.
+
+All 30 Solo card fronts reserve a generic silhouette/art area so prototype testing accounts for the space future illustration will require.
 
 The TTS folder contains:
 
