@@ -97,6 +97,14 @@ Icons should support rules clarity. Do not create symbols so ornate that players
 
 All icons must be original to Haute & Hazard. Do not trace, redraw, recolor, or closely imitate Aikatsu!, DC Deck-Building Game, or other third-party iconography.
 
+## Edge-color rule
+
+All full-color cards must use the **same black/dark trim-edge color**. Tenet, Brand, rarity, card type, and other identifying colors must begin inside the trim and must not reach the physical edge.
+
+This is both a production and hidden-information rule: cards sitting face down in a deck or held in hand must not reveal information from the visible side of the stack. Future redesigns should preserve the single edge color even if the interior frame changes.
+
+The optional low-ink home-print set may use a uniform light edge instead, but every card within that printed set must still share one edge color.
+
 ## Accessibility rules
 
 - Do not rely on color alone for Tenet recognition.
