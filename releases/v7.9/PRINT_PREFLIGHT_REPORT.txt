@@ -6,6 +6,8 @@ PASS: 12 Stage fronts at 900x1500 full bleed / 825x1425 trim (Game Crafter tarot
 PASS: Stage read orientation is landscape
 PASS: Stage body text minimum is 58 px (~14 pt at 300 dpi)
 PASS: Stage placeholder silhouette reserves future art space
+PASS: all 240 core game cards reserve a generic future-art silhouette area
+PASS: all 12 Queens reserve a generic portrait-art silhouette area
 PASS: Stage text source verified from v7.8 venue print assets
 PASS: 12 Queen fronts at 1125x1725
 PASS: 5 Player Aid fronts + 5 backs at 1875x1275
