@@ -54,7 +54,7 @@ The kit supports three home-print approaches:
 
 For every option, print at **Actual Size / 100%**. Test one duplex sheet before printing the whole set because feed alignment varies by printer. Cut along the card edges/crop marks, print one Player Aid per player, and keep the Medium Folio available digitally or print it on 11×17.
 
-The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative. Stage cards also reserve a generic silhouette area for future art so illustration space can be judged during playtesting.
+The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative. **Every card front now reserves a generic silhouette/art area** so playtesting reflects the space that final illustration will consume instead of allowing temporary text to expand into that area.
 
 ### Card-edge consistency
 
