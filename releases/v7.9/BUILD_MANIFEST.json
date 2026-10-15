@@ -12,8 +12,8 @@
     "tts_save": "TTS/Haute_Hazard_v7_9_TTS_Playtest.json"
   },
   "sha256": {
-    "game_crafter_zip": "bcbdc2f616338a9c09afccedaab64a5ba8a6cdb0cee42811e9ba8e329493540b",
-    "print_and_play_zip": "c13f523e02cada5a9eb29df062a836cacd5c3049175feba8694111bb2ff59989",
-    "tts_zip": "f4ec6277ff476f0f4bc087e474911c3a80e46e22a02d3f2a63d2ba048f8ac032"
+    "game_crafter_zip": "26885d83fa467f3deedb1bdb26cf3941d2f36bec88cbf82490c07dfb8e09682c",
+    "print_and_play_zip": "a96c9ef29b65707ec50ab68dfc03f8f6fe9e01106a26efe5d0a0e54d8cd59973",
+    "tts_zip": "6caadbbed9049b00a36597e12c7964d1cb601181c205c7ce8eb93bdb66762a46"
   }
 }
