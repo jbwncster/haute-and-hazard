@@ -158,6 +158,39 @@ def draw_centered(draw, xy, text, f, fill):
     draw.text((x0 + (x1-x0-tw)/2, y0 + (y1-y0-th)/2 - 2), text, font=f, fill=fill)
 
 
+def draw_generic_art_placeholder(
+    draw: ImageDraw.ImageDraw,
+    box: tuple[int,int,int,int],
+    accent,
+    label: str = "FUTURE ART"
+) -> None:
+    """Reserve actual layout space for future illustration during playtesting."""
+    x0,y0,x1,y1=box
+    w=x1-x0
+    h=y1-y0
+    draw.rounded_rectangle(box,radius=max(12,min(w,h)//12),fill=(27,27,31),outline=accent,width=3)
+    cx=(x0+x1)//2
+    head_r=max(14,min(w,h)//10)
+    head_y=y0+max(28,h//4)
+    draw.ellipse(
+        (cx-head_r,head_y-head_r,cx+head_r,head_y+head_r),
+        fill=(104,104,112),outline=GOLD,width=2
+    )
+    shoulder_y=head_y+head_r+max(10,h//18)
+    half=max(24,w//4)
+    draw.polygon([
+        (cx-half,y1-max(28,h//7)),
+        (cx-int(half*0.72),shoulder_y),
+        (cx-int(half*0.35),shoulder_y-max(8,h//30)),
+        (cx,shoulder_y+max(6,h//45)),
+        (cx+int(half*0.35),shoulder_y-max(8,h//30)),
+        (cx+int(half*0.72),shoulder_y),
+        (cx+half,y1-max(28,h//7)),
+    ],fill=(75,75,83),outline=GOLD)
+    label_size=max(14,min(22,h//10))
+    draw_centered(draw,(x0+8,y1-max(30,h//8),x1-8,y1-6),label,font(label_size,True),MUTED)
+
+
 def base_card(size: tuple[int,int], tenet: str, accent_bar=True) -> tuple[Image.Image, ImageDraw.ImageDraw]:
     w,h=size
     bg = TENET_BG.get(tenet, TENET_BG["Neutral"])
@@ -194,12 +227,17 @@ def poker_front(row: dict[str,str]) -> Image.Image:
     if row.get("brand"):
         meta.append(row["brand"])
     meta.append(row.get("tenet") or "Neutral")
-    d.text((90,240)," • ".join(meta),font=font(22,True),fill=accent)
-    # Tip focus band
-    d.rounded_rectangle((90,290,735,410), radius=18, fill=DARK, outline=accent, width=3)
+    draw_wrapped(d,(90,235,500,282)," • ".join(meta),22,18,accent,True,max_lines=2)
+
+    # Reserve a real future-art footprint instead of letting prototype text use
+    # space that final illustration will eventually need.
+    draw_generic_art_placeholder(d,(520,220,735,410),accent,"ART")
+
+    # Tip focus band stays clear of the art reservation.
+    d.rounded_rectangle((90,290,500,410), radius=18, fill=DARK, outline=accent, width=3)
     d.text((115,310),"TIPS",font=font(24,True),fill=MUTED)
     d.text((115,338),str(row.get("tips","0")),font=font(56,True),fill=CREAM)
-    draw_wrapped(d,(250,312,710,392),"PLAY THIS CARD → generate its printed Tips, then resolve its legal effect.",22,18,WHITE,False,spacing=1.12,max_lines=3)
+    draw_wrapped(d,(215,315,480,395),"PLAY → gain printed Tips → resolve text.",20,16,WHITE,False,spacing=1.08,max_lines=3)
     # rules
     d.text((90,445),"CARD TEXT",font=font(22,True),fill=GOLD)
     rules=row.get("rules_text") or "No additional effect."
@@ -240,9 +278,13 @@ def queen_front(row: dict[str,str]) -> Image.Image:
     draw_wrapped(d,(85,130,1020,290),row["name"],72,44,CREAM,True,max_lines=2)
     d.text((85,310),f"Signature Tenet: {tenet}   •   Favorite Brand: {row.get('favorite_brand','')}",font=font(26,True),fill=accent)
     d.rounded_rectangle((85,380,1040,880),radius=24,fill=DARK,outline=accent,width=4)
-    d.text((120,415),"SIGNATURE ABILITY",font=font(26,True),fill=GOLD)
-    draw_wrapped(d,(120,465,1000,560),row.get("signature_ability_name",""),42,28,CREAM,True,max_lines=2)
-    draw_wrapped(d,(120,585,1000,835),row.get("signature_ability_text",""),30,21,WHITE,False,spacing=1.25)
+
+    # Reserve portrait space now so final Queen art cannot consume ability text.
+    draw_generic_art_placeholder(d,(120,420,455,835),accent,"QUEEN ART")
+
+    d.text((500,415),"SIGNATURE ABILITY",font=font(26,True),fill=GOLD)
+    draw_wrapped(d,(500,465,1000,575),row.get("signature_ability_name",""),38,26,CREAM,True,max_lines=2)
+    draw_wrapped(d,(500,590,1000,835),row.get("signature_ability_text",""),28,20,WHITE,False,spacing=1.22)
     d.rounded_rectangle((85,930,1040,1475),radius=24,fill=DARK,outline=GOLD,width=4)
     d.text((120,965),"SPECIAL APPEAL — ONCE PER GAME",font=font(25,True),fill=GOLD)
     draw_wrapped(d,(120,1015,1000,1115),row.get("special_appeal_name",""),40,27,CREAM,True,max_lines=2)
@@ -255,19 +297,8 @@ def queen_front(row: dict[str,str]) -> Image.Image:
 
 
 def draw_stage_art_placeholder(draw: ImageDraw.ImageDraw, box: tuple[int,int,int,int], accent) -> None:
-    """Simple generic performer silhouette reserving future Stage-art space."""
-    x0,y0,x1,y1=box
-    draw.rounded_rectangle(box,radius=22,fill=(28,28,32),outline=accent,width=4)
-    cx=(x0+x1)//2
-    head_r=24
-    head_y=y0+48
-    draw.ellipse((cx-head_r,head_y-head_r,cx+head_r,head_y+head_r),fill=(100,100,108),outline=GOLD,width=3)
-    shoulder_y=head_y+40
-    draw.polygon([
-        (cx-72,y1-18),(cx-56,shoulder_y),(cx-26,shoulder_y-12),
-        (cx,shoulder_y+8),(cx+26,shoulder_y-12),(cx+56,shoulder_y),
-        (cx+72,y1-18)
-    ],fill=(76,76,84),outline=GOLD)
+    """Reserve future venue/judge art using the shared silhouette treatment."""
+    draw_generic_art_placeholder(draw,box,accent,"STAGE ART")
 
 
 def stage_front(row: dict[str,str]) -> Image.Image:
@@ -740,6 +771,7 @@ def build(root:Path):
         "Queen text is generated from data/v7_9_queen_database.csv.\n"
         "Prototype graphics are intentionally utilitarian; replace art without changing dimensions or safe-text placement.\n"
         "EDGE COLOR RULE: use one black bleed/trim-edge color across every full-color card; keep Tenet colors inside the card so face-down decks and hands do not reveal card information from the side.\n"
+        "ART-SPACE RULE: every core game card, Queen, and Stage front reserves a generic silhouette area so final illustration space is tested before commissioning art.\n"
         "Core game-card essential text remains inside the existing safe-content inset. Stage cards use the 900x1500 Game Crafter tarot template, finish at 2.75 x 4.75 in, and are designed to be read landscape. Stage body text uses a 58 px minimum, approximately 14 pt at 300 dpi.\n"
     )
     (gc/"README.txt").write_text(gc_readme,encoding="utf-8")
@@ -968,7 +1000,7 @@ def build(root:Path):
     (rel/"PRINT_PREFLIGHT_REPORT.txt").write_text(
         f"Haute & Hazard v{VERSION} generated physical preflight\n"
         "PASS: 240 core game-card fronts at 825x1125\nPASS: essential card text is inside the 75 px TGC safe-content inset\nPASS: 1 shared Core Game Card back at 825x1125\n"
-        "PASS: 12 Stage fronts at 900x1500 full bleed / 825x1425 trim (Game Crafter tarot size)\nPASS: Stage read orientation is landscape\nPASS: Stage body text minimum is 58 px (~14 pt at 300 dpi)\nPASS: Stage placeholder silhouette reserves future art space\nPASS: Stage text source verified from v7.8 venue print assets\n"
+        "PASS: 12 Stage fronts at 900x1500 full bleed / 825x1425 trim (Game Crafter tarot size)\nPASS: Stage read orientation is landscape\nPASS: Stage body text minimum is 58 px (~14 pt at 300 dpi)\nPASS: Stage placeholder silhouette reserves future art space\nPASS: all 240 core game cards reserve a generic future-art silhouette area\nPASS: all 12 Queens reserve a generic portrait-art silhouette area\nPASS: Stage text source verified from v7.8 venue print assets\n"
         "PASS: 12 Queen fronts at 1125x1725\nPASS: 5 Player Aid fronts + 5 backs at 1875x1275\n"
         "PASS: Medium Folio front/back at 4875x2475\nPASS: Medium Prototype Box artboard at 5850x5400\n"
         "PASS: PnP core game-card trim 2.5x3.5 in; Stage trim 2.75x4.75 in landscape, matching Game Crafter tarot size; Queen trim 3.5x5.5 in; Player Aid 6x4 in\nPASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated at tarot landscape size\nPASS: combined duplex PDFs generated for core game cards, Stages, Queens, and Player Aids\nPASS: low-ink duplex option generated with mostly white backgrounds and strong dark text\nPASS: one uniform black bleed/trim-edge color is used across all full-color card fronts\nPASS: Tenet colors are inset and do not reach the physical trim edge\n"
