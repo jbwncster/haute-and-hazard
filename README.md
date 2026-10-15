@@ -6,7 +6,7 @@
   <img src="docs/images/Logo.png" width="220" alt="Jake Weiner Board Game Designer logo">
 </p>
 
-**Haute & Hazard** is a competitive drag fashion deck-building game for **2–5 players**, with an experimental **Solo Circuit v0.2** one-player mode in development.
+**Haute & Hazard** is a competitive drag fashion deck-building game for **2–5 players**, with an experimental **Solo Circuit v0.2** one-player mode that is now a primary playtest route.
 
 Choose a Queen, build a wardrobe from a shared Market, assemble a Coordinate, earn Tips, build Appeal, Slay venue Stages, and challenge rivals in **Dragdagulan†** Lip Sync battles.
 
@@ -40,6 +40,7 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 
 ## Start here
 
+- **Playing alone / easiest way to test:** [Solo Circuit v0.2](docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) · [Solo Playtest Plan](docs/SOLO_PLAYTEST_PLAN.md)
 - **New playtester:** [PLAYTESTERS START HERE](docs/PLAYTEST_START_HERE.md)
 - **Learn quickly:** [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md)
 - **Current gameplay:** [Current Gameplay Reference](docs/CURRENT_GAMEPLAY.md)
@@ -88,7 +89,7 @@ v0.2 adds:
 - explicit House Stage Appeal and scoring;
 - v7.9 play-generated Tip compatibility.
 
-Start with [Solo Circuit v0.2 Rules](docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md) or the [Solo v0.2 Release Index](releases/solo-circuit-v0.2/README.md).
+Start with [Solo Circuit v0.2 Rules](docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md), then use the [Solo Playtest Plan](docs/SOLO_PLAYTEST_PLAN.md). Solo testing is explicitly encouraged even if the tester has never played the multiplayer mode.
 
 ## Main references
 
