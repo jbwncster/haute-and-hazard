@@ -32,7 +32,7 @@ The 240-card deck is:
 
 ## Print QA
 
-The generated physical preflight verifies the component counts, production dimensions, trim layouts, safe-content placement, and current v7.9 rules wording.
+The generated physical preflight verifies the component counts, production dimensions, trim layouts, safe-content placement, text-fit assertions, ZIP integrity, and current v7.9 rules wording.
 
 See [the physical preflight report](../releases/v7.9/PRINT_PREFLIGHT_REPORT.txt).
 
@@ -73,7 +73,7 @@ The low-ink set likewise keeps its outer edge treatment uniform across that set.
 The generated layouts use these finished trim sizes:
 
 - Core game cards: **2.5 × 3.5 in**
-- Stage cards: **2.75 × 4.75 in tarot size**, printed/read **landscape** — exactly the same finished size as the Game Crafter Stage cards
+- Stage cards: **2.75 × 4.75 in tarot size**, printed/read **landscape** — exactly the same finished size as the Game Crafter Stage cards; Stage sheets use **4-up Letter landscape** for safer home-printer margins
 - Queen: **3.5 × 5.5 in**
 - Player Aid: **6 × 4 in**
 
@@ -104,3 +104,7 @@ After playing, use [FEEDBACK.md](FEEDBACK.md).
 ## Stage readability target
 
 Stage body copy is generated at a minimum of approximately **14 pt at 300 dpi** (58 px), with heavier text to improve inkjet legibility and distance reading. If future Stage wording cannot fit at that minimum, the layout or wording should be revised rather than shrinking the body copy below the target.
+
+## QA status
+
+The current build hard-fails if core game-card or Queen text does not fit its designated box. Stage text uses a fixed 14 pt-equivalent minimum and is kept inside the Game Crafter safe-content area. Stage Print & Play fronts are rendered right-side-up in landscape orientation.
