@@ -123,6 +123,14 @@ A solo playtest is still useful if the tester only reports:
 
 More detailed data is welcome, but a short report is better than losing a tester to paperwork.
 
+## Submit the session
+
+Use the **Solo Circuit v0.2 dropdown feedback form**:
+
+https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-solo-v0-2.yml
+
+The form includes dropdowns for format, test type, difficulty, Stage rules, player Queen, House Queen, Personality, game length, winner, House pressure, Automa upkeep, Wardrobe pressure, timeout frequency, Personality performance, Dragdagulan†, and replay intent.
+
 ## Current status
 
 Solo Circuit v0.2 remains an **experimental playtest module**. The goal of this plan is to gather enough independent solo data to decide what belongs in a later v0.3 rather than assuming the current Automa is finished.
