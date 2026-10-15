@@ -8,10 +8,10 @@ PASS - Canonical per-card source committed at data/v7_9_card_database.csv.
 PASS - Canonical Queen source committed at data/v7_9_queen_database.csv.
 PASS - Canonical full Stage source committed at data/v7_9_stage_database.csv.
 PASS - Canonical database rows = 240.
-PASS - Base Poker Deck accounting = 240.
+PASS - Base core game-card pool accounting = 240.
 PASS - Wardrobe Fashion names are unique = 130/130.
 PASS - Wardrobe rules-text entries are unique = 144/144.
-PASS - Every Poker row has an explicit printed Tip value.
+PASS - Every core game-card row has an explicit printed Tip value.
 PASS - Wardrobe accounting = 130 unique Fashion + 14 unique Actions = 144.
 PASS - Starter deck = 7 Basic Beat + 3 Messy Lip Sync + 2 Chapstick = 12/player.
 PASS - Starter printed Tips = Basic Beat 1 / Messy Lip Sync 0 / Chapstick 1.
@@ -36,15 +36,19 @@ PHYSICAL BUILD QA
 PASS - v7.9 Game Crafter ZIP is committed.
 PASS - v7.9 Print & Play ZIP is committed.
 PASS - Solo Circuit v0.2 Print & Play ZIP is committed.
-PASS - Poker, Stage, Queen, Player Aid, Folio, and box outputs were generated and visually sampled.
+PASS - Core game-card, Stage, Queen, Player Aid, Folio, and box outputs were generated and visually sampled.
 PASS - Production dimensions/counts are recorded in PRINT_PREFLIGHT_REPORT.txt.
+PASS - Stage cards use Game Crafter tarot size: 900x1500 px full bleed / 825x1425 px trim / 2.75x4.75 in finished, read landscape.
+PASS - Stage body text targets a fixed 58 px minimum (~14 pt at 300 dpi).
+PASS - Stage Print & Play includes separate fronts, separate backs, combined duplex, and low-ink duplex files.
+PASS - Full-color card fronts use one uniform black bleed/trim-edge color; Tenet colors remain inset.
 PASS - No legacy Tip Count wording in current generated production/TTS files.
 
 TTS SOURCE QA
 PASS - v7.9 TTS ZIP is committed.
 PASS - v7.9 TTS save JSON is committed.
 PASS - all referenced v7.9 texture sheets are committed.
-PASS - 240 Poker cards mapped across 8 texture sheets.
+PASS - 240 core game cards mapped across 8 texture sheets.
 PASS - 12 Stages / 12 Queens / 5 Player Aids mapped.
 PASS - five exact 12-card starter decks represented.
 PASS - all GUIDs unique.
