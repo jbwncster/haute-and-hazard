@@ -97,7 +97,7 @@ def fail(errors: list[str], message: str) -> None:
 def validate_cards(errors: list[str]) -> None:
     rows = read_csv(CARD_CSV)
     if len(rows) != 240:
-        fail(errors, f"Expected 240 Poker cards, found {len(rows)}")
+        fail(errors, f"Expected 240 core game cards, found {len(rows)}")
 
     components = Counter(row["component"] for row in rows)
     for component, expected in EXPECTED_COMPONENTS.items():
@@ -313,7 +313,7 @@ def main() -> int:
         return 1
 
     print("v7.9 QA PASSED")
-    print("Poker cards: 240")
+    print("Core game cards: 240")
     print("Starter / Wardrobe / Thrift / Penalty: 60 / 144 / 16 / 20")
     print("Wardrobe: 130 unique Fashion + 14 unique Actions")
     print("Wardrobe rules: 144 unique")
