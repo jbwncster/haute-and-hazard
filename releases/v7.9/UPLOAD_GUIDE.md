@@ -69,9 +69,11 @@ Do **not** add Solo Circuit v0.2 cards to the 240 core game cards.
 
 Solo Circuit is a separate optional module with 18 Automa + 12 Personality cards.
 
-## Safe-zone note
+## Safe-zone and edge-color note
 
 Keep essential text inside the current Game Crafter safe-content area. The generated v7.9 fronts use a 75 px safe-content inset from the full-bleed edge at 300 DPI.
+
+Keep the **physical bleed/trim edge black on every full-color card front**. Tenet and other identifying colors must remain inset from the cut edge so cards cannot be identified from the side of a face-down stack or from a player's hand.
 
 Do not upload proof-only or contact-sheet files as production card faces.
 
@@ -89,5 +91,6 @@ Verify:
 - Box art **5850 × 5400**
 - no v7.8 version labels on v7.9 production files
 - no legacy hand-counting / Tip Count wording
+- one uniform black edge color across all full-color card fronts
 
 See [PRINT_PREFLIGHT_REPORT.txt](PRINT_PREFLIGHT_REPORT.txt) for the generated QA record.
