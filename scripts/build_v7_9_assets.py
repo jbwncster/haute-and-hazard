@@ -133,7 +133,7 @@ def fit_lines(draw: ImageDraw.ImageDraw, text: str, width: int, max_size: int, m
     return f, textwrap.wrap(text, width=max(8, width // max(1, min_size // 2)))
 
 
-def draw_wrapped(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], text: str, max_size: int, min_size=18, fill=WHITE, bold=False, spacing=1.16, max_lines=None):
+def draw_wrapped(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], text: str, max_size: int, min_size=18, fill=WHITE, bold=False, spacing=1.16, max_lines=None, strict=False, context=""):
     x0, y0, x1, y1 = box
     w = x1 - x0
     h = y1 - y0
@@ -142,6 +142,14 @@ def draw_wrapped(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], text
     while line_h * len(lines) > h and f.size > min_size:
         f, lines = fit_lines(draw, text, w, f.size - 1, min_size, bold, max_lines)
         line_h = int(f.size * spacing)
+    overflow = line_h * len(lines) > h
+    line_overflow = max_lines is not None and len(lines) > max_lines
+    if strict and (overflow or line_overflow):
+        label = context or text[:60]
+        raise ValueError(
+            f"Text does not fit {label}: font={f.size}px lines={len(lines)} "
+            f"needed={line_h*len(lines)}px available={h}px"
+        )
     y = y0
     for line in lines:
         if y + line_h > y1:
@@ -215,7 +223,7 @@ def poker_front(row: dict[str,str]) -> Image.Image:
     accent=TENET_ACCENT.get(row.get("tenet") or "Neutral", TENET_ACCENT["Neutral"])
     # title
     d.text((90,92), row["card_id"], font=font(24,bold=True), fill=MUTED)
-    draw_wrapped(d,(90,128,630,220),row["card_name"],48,30,CREAM,True,max_lines=2)
+    draw_wrapped(d,(90,128,630,220),row["card_name"],48,30,CREAM,True,max_lines=2,strict=True,context=f"{row['card_id']} title")
     # cost badge
     d.ellipse((650,92,735,177),fill=accent,outline=GOLD,width=4)
     draw_centered(d,(650,92,735,177),row.get("cost") or "-",font(38,True),BLACK)
@@ -227,7 +235,7 @@ def poker_front(row: dict[str,str]) -> Image.Image:
     if row.get("brand"):
         meta.append(row["brand"])
     meta.append(row.get("tenet") or "Neutral")
-    draw_wrapped(d,(90,235,500,282)," • ".join(meta),22,18,accent,True,max_lines=2)
+    draw_wrapped(d,(90,235,500,282)," • ".join(meta),22,18,accent,True,max_lines=2,strict=True,context=f"{row['card_id']} metadata")
 
     # Reserve a real future-art footprint instead of letting prototype text use
     # space that final illustration will eventually need.
@@ -237,11 +245,11 @@ def poker_front(row: dict[str,str]) -> Image.Image:
     d.rounded_rectangle((90,290,500,410), radius=18, fill=DARK, outline=accent, width=3)
     d.text((115,310),"TIPS",font=font(24,True),fill=MUTED)
     d.text((115,338),str(row.get("tips","0")),font=font(56,True),fill=CREAM)
-    draw_wrapped(d,(215,315,480,395),"PLAY → gain printed Tips → resolve text.",20,16,WHITE,False,spacing=1.08,max_lines=3)
+    draw_wrapped(d,(215,315,480,395),"PLAY → gain printed Tips → resolve text.",20,16,WHITE,False,spacing=1.08,max_lines=3,strict=True,context=f"{row['card_id']} Tips reminder")
     # rules
     d.text((90,445),"CARD TEXT",font=font(22,True),fill=GOLD)
     rules=row.get("rules_text") or "No additional effect."
-    draw_wrapped(d,(90,485,735,835),rules,30,20,WHITE,False,spacing=1.25)
+    draw_wrapped(d,(90,485,735,835),rules,30,20,WHITE,False,spacing=1.25,strict=True,context=f"{row['card_id']} card text")
     # stats
     y=865
     labels=[("APPEAL",row.get("appeal","0")),("LS",row.get("ls","0")),("SP",row.get("sp","0"))]
@@ -270,12 +278,26 @@ def card_back(size=(825,1125), label="CORE GAME CARDS", accent=(171,106,230)):
     return im
 
 
+def stage_back_landscape() -> Image.Image:
+    """Landscape PnP Stage back with all identity inside the safe zone."""
+    w,h=1500,900
+    im=Image.new("RGB",(w,h),BLACK)
+    d=ImageDraw.Draw(im)
+    accent=TENET_ACCENT["Yellow"]
+    d.rounded_rectangle((48,48,w-48,h-48),radius=30,fill=(18,18,22))
+    d.rounded_rectangle((78,78,w-78,h-78),radius=22,outline=accent,width=4)
+    draw_centered(d,(120,205,w-120,405),"HAUTE & HAZARD",font(96,True,True),CREAM)
+    draw_centered(d,(120,455,w-120,555),"STAGE",font(52,True),accent)
+    draw_centered(d,(120,590,w-120,655),f"v{VERSION}",font(30,True),MUTED)
+    return im
+
+
 def queen_front(row: dict[str,str]) -> Image.Image:
     tenet=row.get("signature_tenet") or "None"
     im,d=base_card((1125,1725),tenet)
     accent=TENET_ACCENT.get(tenet,TENET_ACCENT["Neutral"])
     d.text((85,82),row["queen_id"],font=font(28,True),fill=MUTED)
-    draw_wrapped(d,(85,130,1020,290),row["name"],72,44,CREAM,True,max_lines=2)
+    draw_wrapped(d,(85,130,1020,290),row["name"],72,44,CREAM,True,max_lines=2,strict=True,context=f"{row['queen_id']} name")
     d.text((85,310),f"Signature Tenet: {tenet}   •   Favorite Brand: {row.get('favorite_brand','')}",font=font(26,True),fill=accent)
     d.rounded_rectangle((85,380,1040,880),radius=24,fill=DARK,outline=accent,width=4)
 
@@ -283,12 +305,12 @@ def queen_front(row: dict[str,str]) -> Image.Image:
     draw_generic_art_placeholder(d,(120,420,455,835),accent,"QUEEN ART")
 
     d.text((500,415),"SIGNATURE ABILITY",font=font(26,True),fill=GOLD)
-    draw_wrapped(d,(500,465,1000,575),row.get("signature_ability_name",""),38,26,CREAM,True,max_lines=2)
-    draw_wrapped(d,(500,590,1000,835),row.get("signature_ability_text",""),28,20,WHITE,False,spacing=1.22)
+    draw_wrapped(d,(500,465,1000,575),row.get("signature_ability_name",""),38,26,CREAM,True,max_lines=2,strict=True,context=f"{row['queen_id']} signature name")
+    draw_wrapped(d,(500,590,1000,835),row.get("signature_ability_text",""),28,20,WHITE,False,spacing=1.22,strict=True,context=f"{row['queen_id']} signature text")
     d.rounded_rectangle((85,930,1040,1475),radius=24,fill=DARK,outline=GOLD,width=4)
     d.text((120,965),"SPECIAL APPEAL — ONCE PER GAME",font=font(25,True),fill=GOLD)
-    draw_wrapped(d,(120,1015,1000,1115),row.get("special_appeal_name",""),40,27,CREAM,True,max_lines=2)
-    draw_wrapped(d,(120,1140,1000,1435),row.get("special_appeal_text",""),28,20,WHITE,False,spacing=1.24)
+    draw_wrapped(d,(120,1015,1000,1115),row.get("special_appeal_name",""),40,27,CREAM,True,max_lines=2,strict=True,context=f"{row['queen_id']} special name")
+    draw_wrapped(d,(120,1140,1000,1435),row.get("special_appeal_text",""),28,20,WHITE,False,spacing=1.24,strict=True,context=f"{row['queen_id']} special text")
     d.text((85,1540),"Use a marker after the Special Appeal is spent.",font=font(22),fill=MUTED)
     draw_centered(d,(85,1585,1040,1630),f"HAUTE & HAZARD • v{VERSION}",font(20,True),MUTED)
     if row.get("ip_marker"):
@@ -319,14 +341,14 @@ def stage_front(row: dict[str,str]) -> Image.Image:
     d.rounded_rectangle((66,66,w-66,h-66),radius=24,fill=BLACK)
     d.rounded_rectangle((78,78,w-78,h-78),radius=20,outline=GOLD,width=4)
 
-    # Intentional centered identity treatment.
-    draw_centered(d,(90,52,w-90,112),f"HAUTE & HAZARD • STAGE • {row['stage_id']}",font(58,True,True),CREAM)
+    # Keep all essential text inside the 75 px Game Crafter safe-content inset.
+    draw_centered(d,(90,80,w-90,122),f"HAUTE & HAZARD • STAGE • {row['stage_id']}",font(42,True,True),CREAM)
 
     # Art placeholder at the left; title/subtitle use the remaining upper area.
-    art_box=(90,122,340,282)
+    art_box=(90,135,340,270)
     draw_stage_art_placeholder(d,art_box,accent)
-    draw_wrapped(d,(380,120,1410,210),row["stage_name"],82,STAGE_BODY_MIN_PX,CREAM,True,max_lines=1)
-    draw_fixed_wrapped(d,(380,210,1410,275),row["subtitle"],sf,accent,1)
+    draw_wrapped(d,(380,130,1410,210),row["stage_name"],82,STAGE_BODY_MIN_PX,CREAM,True,max_lines=1,strict=True,context=f"{row['stage_id']} title")
+    draw_fixed_wrapped(d,(380,215,1410,272),row["subtitle"],sf,accent,1)
 
     # Compact metadata bar. Judge's Favor is included here so all advanced Stage
     # information remains visible without reducing body copy below 14 pt.
@@ -335,18 +357,18 @@ def stage_front(row: dict[str,str]) -> Image.Image:
         f"TARGET • {row['slay_target']}  REWARD • {row['reward_gross_sp']} SP  "
         f"JUDGE • {row['judge']}  FAVOR • {row['judge_favor']}"
     )
-    draw_fixed_wrapped(d,(90,295,1410,465),meta,sf,GOLD,3)
+    draw_fixed_wrapped(d,(90,280,1410,448),meta,sf,GOLD,3)
 
     draw_fixed_wrapped(
-        d,(90,470,1410,585),
+        d,(90,454,1410,566),
         f"VENUE • {row['venue_effect']}",sf,WHITE,2
     )
     draw_fixed_wrapped(
-        d,(90,590,1410,705),
+        d,(90,572,1410,684),
         f"SPOTLIGHT • {row['spotlight_requirement']}",sf,WHITE,2
     )
     draw_fixed_wrapped(
-        d,(90,710,1410,825),
+        d,(90,690,1410,802),
         f"BRAND OVATION • {row['brand_ovation']}",sf,CREAM,2
     )
 
@@ -495,6 +517,9 @@ def crop_trim(im: Image.Image, kind="poker") -> Image.Image:
     if kind=="stage":
         # 900x1500 full bleed -> 825x1425 finished tarot card.
         return im.crop((37,37,862,1462)).resize(STAGE_TRIM_PX,Image.Resampling.LANCZOS)
+    if kind=="stage_landscape":
+        # 1500x900 full bleed -> 1425x825 finished tarot card, read landscape.
+        return im.crop((37,37,1462,862)).resize((1425,825),Image.Resampling.LANCZOS)
     if kind=="queen":
         return im.crop((37,37,1087,1687)).resize((1050,1650),Image.Resampling.LANCZOS)
     if kind=="aid":
@@ -783,8 +808,10 @@ def build(root:Path):
 
     poker_back_trim=crop_trim(poker_back,"poker")
     stage_back_trim=crop_trim(stage_back,"stage")
-    stage_pnp=[im.rotate(90,expand=True) for im in stage_trim]
-    stage_back_pnp=stage_back_trim.rotate(90,expand=True)
+    # Recover the original landscape reading orientation. The Game Crafter file
+    # is portrait because the tarot upload template is portrait.
+    stage_pnp=[im.rotate(-90,expand=True) for im in stage_trim]
+    stage_back_pnp=crop_trim(stage_back_landscape(),"stage_landscape")
     queen_back_trim=crop_trim(queen_back,"queen")
     aid_trim=crop_trim(aid_front,"aid")
     aid_back_trim=crop_trim(aid_back,"aid")
@@ -793,8 +820,8 @@ def build(root:Path):
     # tarot finished size, 2.75 x 4.75 in, placed landscape for Print & Play.
     pnp_pdf(poker_trim,pnp/"01_CORE_GAME_CARD_FRONTS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
     repeated_back_pdf(poker_back_trim,len(cards),pnp/"02_CORE_GAME_CARD_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
-    pnp_pdf(stage_pnp,pnp/"03_STAGE_FRONTS_TAROT_LANDSCAPE_6UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,3),landscape(letter))
-    repeated_back_pdf(stage_back_pnp,len(stages),pnp/"04_STAGE_BACKS_TAROT_LANDSCAPE_6UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,3),landscape(letter))
+    pnp_pdf(stage_pnp,pnp/"03_STAGE_FRONTS_TAROT_LANDSCAPE_4UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,2),landscape(letter))
+    repeated_back_pdf(stage_back_pnp,len(stages),pnp/"04_STAGE_BACKS_TAROT_LANDSCAPE_4UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,2),landscape(letter))
     pnp_pdf(queen_trim,pnp/"05_QUEEN_FRONTS_2UP_LETTER.pdf",(3.5,5.5),(2,1))
     repeated_back_pdf(queen_back_trim,len(queens),pnp/"06_QUEEN_BACKS_2UP_LETTER.pdf",(3.5,5.5),(2,1))
     pnp_pdf([aid_trim]*5,pnp/"07_PLAYER_AIDS_FRONTS_2UP_LETTER.pdf",(6,4),(1,2))
@@ -803,7 +830,7 @@ def build(root:Path):
 
     # Duplex-ready combined files: fronts and mirrored backs alternate by sheet.
     duplex_pdf(poker_trim,[poker_back_trim]*len(cards),pnp/"10_CORE_GAME_CARDS_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
-    duplex_pdf(stage_pnp,[stage_back_pnp]*len(stages),pnp/"11_STAGES_DUPLEX_TAROT_LANDSCAPE_6UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,3),landscape(letter),mirror_axis="rows")
+    duplex_pdf(stage_pnp,[stage_back_pnp]*len(stages),pnp/"11_STAGES_DUPLEX_TAROT_LANDSCAPE_4UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,2),landscape(letter),mirror_axis="rows")
     duplex_pdf(queen_trim,[queen_back_trim]*len(queens),pnp/"12_QUEENS_DUPLEX_2UP_LETTER.pdf",(3.5,5.5),(2,1))
     duplex_pdf([aid_trim]*5,[aid_back_trim]*5,pnp/"13_PLAYER_AIDS_DUPLEX_2UP_LETTER.pdf",(6,4),(1,2))
 
@@ -820,14 +847,14 @@ def build(root:Path):
     low_aid_back=low_ink_image(aid_back_trim)
 
     duplex_pdf(low_poker,[low_poker_back]*len(cards),low/"01_CORE_GAME_CARDS_LOW_INK_DUPLEX_9UP_LETTER.pdf",(2.5,3.5),(3,3))
-    duplex_pdf(low_stage,[low_stage_back]*len(stages),low/"02_STAGES_LOW_INK_DUPLEX_TAROT_LANDSCAPE_6UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,3),landscape(letter),mirror_axis="rows")
+    duplex_pdf(low_stage,[low_stage_back]*len(stages),low/"02_STAGES_LOW_INK_DUPLEX_TAROT_LANDSCAPE_4UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,2),landscape(letter),mirror_axis="rows")
     duplex_pdf(low_queen,[low_queen_back]*len(queens),low/"03_QUEENS_LOW_INK_DUPLEX_2UP_LETTER.pdf",(3.5,5.5),(2,1))
     duplex_pdf([low_aid_front]*5,[low_aid_back]*5,low/"04_PLAYER_AIDS_LOW_INK_DUPLEX_2UP_LETTER.pdf",(6,4),(1,2))
     (low/"README.txt").write_text(
         "Haute & Hazard v7.9 — Low-Ink Print & Play\n\n"
         "This optional home-print variant keeps the current layout but converts large dark fills to mostly white and renders light-on-dark text as strong dark text.\n"
         "It is intended to reduce ink use, reduce dark-edge chipping, and improve inkjet text legibility.\n"
-        "Stage cards are 2.75 x 4.75 in tarot size, matching the Game Crafter Stage cards, and are laid out landscape for play.\n"
+        "Stage cards are 2.75 x 4.75 in tarot size, matching the Game Crafter Stage cards, and are laid out right-side-up landscape for play. The home-print Stage sheets use a safer 4-up Letter landscape layout.\n"
         "Files alternate front/back pages for long-edge duplex printing. Print at Actual Size / 100% and test one sheet before printing the full set.\n",
         encoding="utf-8")
 
@@ -1004,9 +1031,9 @@ def build(root:Path):
         "PASS: 12 Queen fronts at 1125x1725\nPASS: 5 Player Aid fronts + 5 backs at 1875x1275\n"
         "PASS: Medium Folio front/back at 4875x2475\nPASS: Medium Prototype Box artboard at 5850x5400\n"
         "PASS: PnP core game-card trim 2.5x3.5 in; Stage trim 2.75x4.75 in landscape, matching Game Crafter tarot size; Queen trim 3.5x5.5 in; Player Aid 6x4 in\nPASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated at tarot landscape size\nPASS: combined duplex PDFs generated for core game cards, Stages, Queens, and Player Aids\nPASS: low-ink duplex option generated with mostly white backgrounds and strong dark text\nPASS: one uniform black bleed/trim-edge color is used across all full-color card fronts\nPASS: Tenet colors are inset and do not reach the physical trim edge\n"
-        "PASS: all 240 core game cards display printed Tips, including 0\nPASS: v7.9 five-phase play-generated-Tips Player Aid wording\n"
+        "PASS: strict text-fit assertions passed for all 240 core game cards and all 12 Queens\nPASS: all 240 core game cards display printed Tips, including 0\nPASS: v7.9 five-phase play-generated-Tips Player Aid wording\n"
         "PASS: Game Crafter and PnP ZIPs generated with SHA-256 checksums\n"
-        "NOTE: visual prototype art is functional and safe-text-oriented; commercial art review is separate from print preflight.\n",encoding="utf-8")
+        "NOTE: visual prototype art is functional and safe-text-oriented; Stage essentials remain inside the 75 px safe-content inset; commercial art review is separate from print preflight.\n",encoding="utf-8")
 
     print(json.dumps(build_manifest,indent=2))
     return build_manifest
