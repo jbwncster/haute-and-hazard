@@ -1,131 +1,119 @@
-name: Playtest report
-description: Report a Haute & Hazard playtest session, rules issue, or balance concern.
-title: "[Playtest] "
+name: "Playtest feedback — mixed / other build"
+description: "Use this only when the session does not fit the dedicated v7.9, Solo v0.2, v7.8, or v7.7 forms."
+title: "[Mixed Build Playtest] "
 labels: ["playtest"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing **Haute & Hazard**. The current base-game target is **v7.9** and the current experimental solo target is **Solo Circuit v0.2**.
+        Use this form for **mixed-version, home-modified, prototype, or otherwise unlisted builds**.
 
-        **v7.9 reminder:** Tips work like deck-building Power. A card generates its printed Tips only when you play it from hand during Transformation. Unplayed cards and already-equipped Masters generate no Tips.
-
-        **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
+        Current v7.9, Solo Circuit v0.2, v7.8, and v7.7-series sessions each have their own dedicated feedback form.
 
   - type: dropdown
-    id: version
+    id: build_type
     attributes:
-      label: Version tested
+      label: What kind of build was tested?
       options:
-        - v7.9 Physical — Game Crafter / Print & Play
-        - v7.9 Digital — Tabletop Simulator
-        - Solo Circuit v0.2 — Physical
-        - Solo Circuit v0.2 — Tabletop Simulator add-on
-        - v7.8 — archived comparison build
-        - v7.7 / v7.7.1 — legacy
-        - Other / mixed build
-    validations:
-      required: true
-
-  - type: dropdown
-    id: mode
-    attributes:
-      label: Rules mode
-      options:
-        - Beginner Mode
-        - Full Stage rules
-        - Alternate Two-Placement Stage Test
-        - Solo Circuit v0.2
-        - Mixed / modified teaching game
+        - Mixed-version build
+        - Home-modified / house-rule build
+        - Unreleased prototype
+        - Unknown version
+        - Other
     validations:
       required: true
 
   - type: input
+    id: versions
+    attributes:
+      label: Versions / files used
+      placeholder: "Example: v7.9 cards with v7.8 rules"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - Physical / Print & Play
+        - Game Crafter prototype
+        - Tabletop Simulator
+        - Other digital
+        - Mixed
+    validations:
+      required: true
+
+  - type: dropdown
     id: players
     attributes:
       label: Player count
-      placeholder: "Example: 2, or 1 for Solo Circuit"
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - Other
     validations:
       required: true
 
-  - type: input
-    id: queens
+  - type: dropdown
+    id: purpose
     attributes:
-      label: Queens used
-      placeholder: "Example: Siren Diesel vs. Opal Dynasty"
+      label: Purpose of the test
+      options:
+        - Rules experiment
+        - Balance experiment
+        - Component / print test
+        - Comparison between versions
+        - Teaching / demo
+        - Casual play
+        - Other
+    validations:
+      required: true
 
-  - type: input
-    id: duration
+  - type: textarea
+    id: changes
     attributes:
-      label: Game length
-      placeholder: "Example: 55 minutes"
+      label: What differed from an official version?
+      description: List house rules, swapped files, experimental rules, or other changes.
+    validations:
+      required: true
 
   - type: textarea
     id: result
     attributes:
-      label: Result
-      description: Include winner, Gross SP / Final Score, and Stage trophies if known.
+      label: Result / observations
+      description: Winner, scores, length, major interactions, or production observations.
+
+  - type: dropdown
+    id: usefulness
+    attributes:
+      label: How useful should this report be for current v7.9 development?
+      options:
+        - Directly relevant
+        - Useful comparison only
+        - Mostly production / usability feedback
+        - Historical interest
+        - Not sure
     validations:
       required: true
 
   - type: textarea
-    id: tip_generation
+    id: issues
     attributes:
-      label: Tip generation / Shopping notes
-      description: Was it clear that only played cards generate Tips? Did anyone gain Tips from unplayed cards or old Masters? Did playing Fashion for Tips work smoothly? Did Shopping feel useful?
-
-  - type: textarea
-    id: stages
-    attributes:
-      label: Stage results
-      description: Note venues, Slay Targets, winners, and relevant Judge/Brand Ovation results if using full rules.
-
-  - type: textarea
-    id: solo_circuit
-    attributes:
-      label: Solo Circuit v0.2 notes
-      description: For Solo, record House Queen/Personality, difficulty, Slay Target, House Base Appeal, Stage round, player/House Appeal, Market removal, Appeal vs. Round 4 timeout, and Dragdagulan scores.
-
-  - type: textarea
-    id: looks
-    attributes:
-      label: Coordinate / Look notes
-      description: Record Matching, Perfect Illusion, Fusion, or difficult Look-state rulings.
-
-  - type: textarea
-    id: dragdagulan
-    attributes:
-      label: Dragdagulan† notes
-      description: Record attempts, Battle Scores, winner, penalties/rewards, and unusual LS interactions.
-
-  - type: textarea
-    id: queen_abilities
-    attributes:
-      label: Queen abilities / Special Appeals
-      description: Note usage, timing questions, and unusually strong/weak interactions.
-
-  - type: textarea
-    id: unclear
-    attributes:
-      label: Confusing rule or card text
-      description: Quote exact wording when possible and explain what happened before the question.
-
-  - type: textarea
-    id: balance
-    attributes:
-      label: Balance observations
-      description: Separate what happened from the change you would propose.
+      label: Confusing rules, balance issues, or production problems
 
   - type: textarea
     id: fun
     attributes:
-      label: Most fun / replay?
-      description: What was the best moment, and would you play again?
+      label: Best moment / one change
 
   - type: checkboxes
     id: confirm
     attributes:
-      label: Version check
+      label: Mixed-build check
       options:
-        - label: I confirmed which version's files were used and noted above if this was a mixed-version test.
+        - label: I listed the version differences so this report is not mistaken for synchronized current-build data.
           required: true
