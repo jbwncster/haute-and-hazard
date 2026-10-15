@@ -49,24 +49,25 @@ Cards generate their printed Tips when played during Transformation. Legacy Tip 
 The kit supports three home-print approaches:
 
 1. **Single-sided / sleeved:** print the separate front sheets and use opaque sleeves with spare cards/cardstock.
-2. **Full-color duplex:** use the combined `DUPLEX` PDFs. Front and mirrored back sheets alternate in one file for long-edge duplex printing.
+2. **Full-color duplex:** use the combined `DUPLEX` PDFs. Front and back sheets alternate in one file. Stage backs are mirrored for **landscape long-edge duplex** printing.
 3. **Low-Ink duplex:** use the PDFs in the `LOW_INK` folder. They use mostly white backgrounds and stronger dark text to reduce ink use, dark-edge chipping, and inkjet legibility problems.
 
 For every option, print at **Actual Size / 100%**. Test one duplex sheet before printing the whole set because feed alignment varies by printer. Cut along the card edges/crop marks, print one Player Aid per player, and keep the Medium Folio available digitally or print it on 11×17.
 
-The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative.
+The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative. Stage cards also reserve a generic silhouette area for future art so illustration space can be judged during playtesting.
 
 ## Paper sizes
 
 | File | Paper |
 |---|---|
-| Core game cards / Stages / Queens / Player Aids | US Letter |
+| Core game cards / Queens / Player Aids | US Letter |
+| Stage cards | US Letter, landscape |
 | Medium Folio Rules | 11×17 Tabloid, landscape |
 
 The generated layouts use these finished trim sizes:
 
 - Core game cards: **2.5 × 3.5 in**
-- Stage cards: **2.5 × 3.5 in** — exactly the same finished size as the Game Crafter Stage cards
+- Stage cards: **2.75 × 4.75 in tarot size**, printed/read **landscape** — exactly the same finished size as the Game Crafter Stage cards
 - Queen: **3.5 × 5.5 in**
 - Player Aid: **6 × 4 in**
 
@@ -93,3 +94,7 @@ Solo Circuit v0.2 is separate. See [Solo Circuit Print & Play](SOLO_CIRCUIT_PRIN
 After playing, use [FEEDBACK.md](FEEDBACK.md).
 
 > **† Legal/IP review:** Dragdagulan is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
+
+## Stage readability target
+
+Stage body copy is generated at a minimum of approximately **14 pt at 300 dpi** (58 px), with heavier text to improve inkjet legibility and distance reading. If future Stage wording cannot fit at that minimum, the layout or wording should be revised rather than shrinking the body copy below the target.
