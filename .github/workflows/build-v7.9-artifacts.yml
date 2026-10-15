@@ -25,7 +25,7 @@ on:
       - .github/workflows/build-v7.9-artifacts.yml
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: build-v7-9-artifacts-${{ github.ref }}
@@ -37,6 +37,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -72,6 +74,49 @@ jobs:
           test -s releases/v7.9/TTS/Haute_Hazard_v7_9_TTS_Playtest.json
           test -s releases/v7.9/BUILD_MANIFEST.json
           test -s releases/v7.9/PRINT_PREFLIGHT_REPORT.txt
+          unzip -Z1 releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip | grep -F '03_STAGE_FRONTS_TAROT_LANDSCAPE_6UP_LETTER.pdf'
+          unzip -Z1 releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip | grep -F '04_STAGE_BACKS_TAROT_LANDSCAPE_6UP_LETTER.pdf'
+          unzip -Z1 releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip | grep -F '11_STAGES_DUPLEX_TAROT_LANDSCAPE_6UP_LETTER.pdf'
+          unzip -Z1 releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip | grep -F '02_STAGES_LOW_INK_DUPLEX_TAROT_LANDSCAPE_6UP_LETTER.pdf'
+          test "$(unzip -Z1 releases/v7.9/Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip | grep -E '/03_STAGES_TAROT_12/FRONTS/.*\.jpg          test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip
+          test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip
+          test -s releases/solo-circuit-v0.2/TTS/Haute_Hazard_Solo_Circuit_v0_2_TTS_AddOn.json
+          test -s releases/solo-circuit-v0.2/CHECKSUMS.sha256
+          test "$(find releases/v7.9/TTS/Assets -maxdepth 1 -name 'v7_9_poker_sheet_*.jpg' | wc -l)" -eq 8
+          test "$(find releases/solo-circuit-v0.2/Production/Automa -maxdepth 1 -name '*.png' | wc -l)" -eq 18
+          test "$(find releases/solo-circuit-v0.2/Production/Personalities -maxdepth 1 -name '*.png' | wc -l)" -eq 12
+          ! grep -R -n -E 'Tip Count|count printed Tips from.*hand' releases/v7.9/TTS releases/solo-circuit-v0.2/TTS
+
+      - name: Upload rebuilt artifact copy
+        uses: actions/upload-artifact@v4
+        with:
+          name: haute-hazard-v7.9-physical-and-tts
+          path: |
+            releases/v7.9/Haute_Hazard_v7.9_Game_Crafter_Print_Edition.zip
+            releases/v7.9/Haute_Hazard_v7_9_Print_and_Play_Physical_Kit.zip
+            releases/v7.9/Haute_Hazard_v7.9_TTS_Playtest.zip
+            releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip
+            releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip
+          if-no-files-found: error
+
+      - name: Commit synchronized generated release files
+        if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add releases/v7.9 releases/solo-circuit-v0.2
+          if git diff --cached --quiet; then
+            echo "Generated release files already match the repository."
+            exit 0
+          fi
+          git commit -m "Sync v7.9 tarot Stage print assets [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+ | wc -l)" -eq 12
+          grep -F 'Stage fronts at 900x1500 full bleed / 825x1425 trim' releases/v7.9/PRINT_PREFLIGHT_REPORT.txt
+          grep -F 'Stage body text minimum is 58 px (~14 pt at 300 dpi)' releases/v7.9/PRINT_PREFLIGHT_REPORT.txt
           test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip
           test -s releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip
           test -s releases/solo-circuit-v0.2/TTS/Haute_Hazard_Solo_Circuit_v0_2_TTS_AddOn.json
