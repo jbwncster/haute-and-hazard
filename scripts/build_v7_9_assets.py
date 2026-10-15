@@ -162,10 +162,14 @@ def base_card(size: tuple[int,int], tenet: str, accent_bar=True) -> tuple[Image.
     w,h=size
     bg = TENET_BG.get(tenet, TENET_BG["Neutral"])
     accent = TENET_ACCENT.get(tenet, TENET_ACCENT["Neutral"])
-    im=Image.new("RGB",size,bg)
+    # Production rule: every full-color card uses the same black bleed/trim edge.
+    # Tenet color begins inside the trim so a face-down deck or hand cannot leak
+    # card identity from the side.
+    im=Image.new("RGB",size,BLACK)
     d=ImageDraw.Draw(im)
-    d.rectangle((0,0,w,h), fill=bg)
-    d.rounded_rectangle((38,38,w-38,h-38), radius=26, fill=BLACK)
+    d.rectangle((0,0,w,h), fill=BLACK)
+    d.rounded_rectangle((48,48,w-48,h-48), radius=28, fill=bg)
+    d.rounded_rectangle((66,66,w-66,h-66), radius=22, fill=BLACK)
     # The Game Crafter card safe zone starts 75 px from the full-bleed edge.
     d.rounded_rectangle((78,78,w-78,h-78), radius=18, outline=GOLD, width=3)
     if accent_bar:
@@ -274,11 +278,14 @@ def stage_front(row: dict[str,str]) -> Image.Image:
     tenet=row["favored_tenet"]
     bg=TENET_BG.get(tenet,TENET_BG["Neutral"])
     accent=TENET_ACCENT.get(tenet,TENET_ACCENT["Neutral"])
-    im=Image.new("RGB",(w,h),bg)
+    # Match the rest of the full-color deck: black through the bleed/trim edge,
+    # with Tenet color reserved for an inset accent only.
+    im=Image.new("RGB",(w,h),BLACK)
     d=ImageDraw.Draw(im)
     sf=stage_font(STAGE_BODY_MIN_PX)
 
-    d.rounded_rectangle((38,38,w-38,h-38),radius=28,fill=BLACK)
+    d.rounded_rectangle((48,48,w-48,h-48),radius=30,fill=bg)
+    d.rounded_rectangle((66,66,w-66,h-66),radius=24,fill=BLACK)
     d.rounded_rectangle((78,78,w-78,h-78),radius=20,outline=GOLD,width=4)
 
     # Intentional centered identity treatment.
@@ -732,6 +739,7 @@ def build(root:Path):
         "Stage text is generated from data/v7_9_stage_database.csv, verified from the v7.8 venue print assets and migrated to the v7.9 build.\n"
         "Queen text is generated from data/v7_9_queen_database.csv.\n"
         "Prototype graphics are intentionally utilitarian; replace art without changing dimensions or safe-text placement.\n"
+        "EDGE COLOR RULE: use one black bleed/trim-edge color across every full-color card; keep Tenet colors inside the card so face-down decks and hands do not reveal card information from the side.\n"
         "Core game-card essential text remains inside the existing safe-content inset. Stage cards use the 900x1500 Game Crafter tarot template, finish at 2.75 x 4.75 in, and are designed to be read landscape. Stage body text uses a 58 px minimum, approximately 14 pt at 300 dpi.\n"
     )
     (gc/"README.txt").write_text(gc_readme,encoding="utf-8")
@@ -749,8 +757,8 @@ def build(root:Path):
     aid_trim=crop_trim(aid_front,"aid")
     aid_back_trim=crop_trim(aid_back,"aid")
 
-    # Core game cards and Stage cards use the same finished 2.5 x 3.5 in size as the
-    # corresponding Game Crafter card components.
+    # Core game cards use 2.5 x 3.5 in. Stage cards use the Game Crafter
+    # tarot finished size, 2.75 x 4.75 in, placed landscape for Print & Play.
     pnp_pdf(poker_trim,pnp/"01_CORE_GAME_CARD_FRONTS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
     repeated_back_pdf(poker_back_trim,len(cards),pnp/"02_CORE_GAME_CARD_BACKS_9UP_LETTER.pdf",(2.5,3.5),(3,3))
     pnp_pdf(stage_pnp,pnp/"03_STAGE_FRONTS_TAROT_LANDSCAPE_6UP_LETTER.pdf",STAGE_PNP_LANDSCAPE_IN,(2,3),landscape(letter))
@@ -963,7 +971,7 @@ def build(root:Path):
         "PASS: 12 Stage fronts at 900x1500 full bleed / 825x1425 trim (Game Crafter tarot size)\nPASS: Stage read orientation is landscape\nPASS: Stage body text minimum is 58 px (~14 pt at 300 dpi)\nPASS: Stage placeholder silhouette reserves future art space\nPASS: Stage text source verified from v7.8 venue print assets\n"
         "PASS: 12 Queen fronts at 1125x1725\nPASS: 5 Player Aid fronts + 5 backs at 1875x1275\n"
         "PASS: Medium Folio front/back at 4875x2475\nPASS: Medium Prototype Box artboard at 5850x5400\n"
-        "PASS: PnP core game-card trim 2.5x3.5 in; Stage trim 2.75x4.75 in landscape, matching Game Crafter tarot size; Queen trim 3.5x5.5 in; Player Aid 6x4 in\nPASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated at tarot landscape size\nPASS: combined duplex PDFs generated for core game cards, Stages, Queens, and Player Aids\nPASS: low-ink duplex option generated with mostly white backgrounds and strong dark text\n"
+        "PASS: PnP core game-card trim 2.5x3.5 in; Stage trim 2.75x4.75 in landscape, matching Game Crafter tarot size; Queen trim 3.5x5.5 in; Player Aid 6x4 in\nPASS: Stage front-only, back-only, and combined long-edge duplex PDFs generated at tarot landscape size\nPASS: combined duplex PDFs generated for core game cards, Stages, Queens, and Player Aids\nPASS: low-ink duplex option generated with mostly white backgrounds and strong dark text\nPASS: one uniform black bleed/trim-edge color is used across all full-color card fronts\nPASS: Tenet colors are inset and do not reach the physical trim edge\n"
         "PASS: all 240 core game cards display printed Tips, including 0\nPASS: v7.9 five-phase play-generated-Tips Player Aid wording\n"
         "PASS: Game Crafter and PnP ZIPs generated with SHA-256 checksums\n"
         "NOTE: visual prototype art is functional and safe-text-oriented; commercial art review is separate from print preflight.\n",encoding="utf-8")
