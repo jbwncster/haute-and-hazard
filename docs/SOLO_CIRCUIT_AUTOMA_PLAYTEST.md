@@ -1,8 +1,8 @@
 # Haute & Hazard — Solo Circuit Automa Playtest v0.2
 
-**Status: experimental one-player module for the v7.9 base game.**
+**Status: experimental one-player module for the v7.9 base game and a primary route for independent playtesting.**
 
-Solo Circuit is intentionally separate from the 240-card multiplayer Poker Deck. The human player uses normal v7.9 rules while an automated rival, the **House Queen**, uses a streamlined behavior deck instead of a second full hand, deck, and Coordinate.
+Solo Circuit is intentionally separate from the 240-card multiplayer core game-card pool. The human player uses normal v7.9 rules while an automated rival, the **House Queen**, uses a streamlined behavior deck instead of a second full hand, deck, and Coordinate.
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It remains subject to legal/IP, trademark, and publisher review.
 
@@ -22,7 +22,7 @@ Also use:
 - optional Bargain / Match / reminder counters
 - playtest log
 
-Do **not** shuffle the 30 solo cards into the 240-card base-game Poker Deck.
+Do **not** shuffle the 30 solo cards into the 240-card base-game core game-card pool.
 
 ## Base-game compatibility
 
@@ -44,6 +44,21 @@ The human player follows normal v7.9 rules, including generating printed Tips by
 8. Set up the normal Wardrobe Rack, Thrift Store, Penalties, and Stage deck.
 9. Choose a difficulty.
 10. For a first test, use **Working Queen + Beginner Mode**.
+
+## First solo test
+
+For the cleanest first data point, use:
+
+- **Working Queen** difficulty;
+- **Beginner Mode** Stage fields;
+- **no House Queen Personality**;
+- any player Queen you want to learn.
+
+After that baseline game, repeat on Working Queen with one Personality. This separates basic Automa balance from Personality variance and makes repeated solo testing easier to compare.
+
+A tester does **not** need to play multiplayer first. If the solo rules and v7.9 base turn reference are enough to complete the game without designer help, that is useful data by itself.
+
+See [Solo Playtest Plan](SOLO_PLAYTEST_PLAN.md) for the recommended three-session sequence and metrics.
 
 ## Difficulty
 
