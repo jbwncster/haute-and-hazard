@@ -48,6 +48,8 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 - **Digital instructions:** [Tabletop Simulator](docs/TABLETOP_SIMULATOR.md)
 - **Game Crafter:** [v7.9 Upload Guide](releases/v7.9/UPLOAD_GUIDE.md)
 - **v7.9 release status:** [Release Status](releases/v7.9/RELEASE_STATUS.md)
+- **Submit v7.9 feedback:** [v7.9 dropdown form](https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-v7-9.yml)
+- **Submit Solo feedback:** [Solo Circuit v0.2 dropdown form](https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-solo-v0-2.yml)
 - **Canonical v7.9 card data:** [240-card CSV](data/v7_9_card_database.csv) · [database notes](data/V7_9_CARD_DATABASE.md)
 
 ## Current v7.9 downloads
