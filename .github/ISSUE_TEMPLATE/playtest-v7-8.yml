@@ -1,0 +1,132 @@
+name: "Playtest feedback — v7.8 archived"
+description: "Submit comparison feedback for the archived Haute & Hazard v7.8 build."
+title: "[v7.8 Comparison] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **v7.8 is archived.** Use this form for intentional comparison sessions, not current v7.9 balance reports.
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Build / format tested
+      options:
+        - Print & Play
+        - Game Crafter prototype
+        - Tabletop Simulator
+        - Other v7.8 build
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Rules mode
+      options:
+        - Beginner / teaching mode
+        - Full rules
+        - Experimental variant
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: players
+    attributes:
+      label: Player count
+      options:
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: queens
+    attributes:
+      label: Queens used
+      multiple: true
+      options:
+        - Lady Lux
+        - Kawaii-Bot
+        - Mother Mortis
+        - Opulencia
+        - Velvet Venom
+        - Maldita Manila
+        - Hexa Laroux
+        - Bubblegum Banshee
+        - Siren Diesel
+        - Opal Dynasty
+        - Rapture Royale
+        - Gore-Jess
+
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Game length
+      options:
+        - Under 30 minutes
+        - 30–60 minutes
+        - 61–90 minutes
+        - 91–120 minutes
+        - Over 2 hours
+
+  - type: dropdown
+    id: comparison
+    attributes:
+      label: If you have played v7.9, which version did you prefer?
+      options:
+        - v7.8
+        - v7.9
+        - About the same
+        - I have not played v7.9
+    validations:
+      required: true
+
+  - type: dropdown
+    id: clarity
+    attributes:
+      label: Overall rules clarity
+      options:
+        - "1 — Very confusing"
+        - "2"
+        - "3 — Average"
+        - "4"
+        - "5 — Very clear"
+
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Would you play this version again?
+      options:
+        - Yes
+        - Maybe
+        - No
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Result / notable events
+      description: Winner, scores, Stages, Queens, and standout interactions.
+
+  - type: textarea
+    id: comparison_notes
+    attributes:
+      label: Comparison notes
+      description: What did v7.8 do better or worse than the current design?
+
+  - type: textarea
+    id: issues
+    attributes:
+      label: Rules, balance, or usability issues
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Archived-build check
+      options:
+        - label: I understand v7.8 is archived and this report is for comparison/history.
+          required: true
