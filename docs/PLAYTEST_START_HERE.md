@@ -69,7 +69,7 @@ Ignore:
 
 ## After the game
 
-Use [FEEDBACK.md](FEEDBACK.md) or the repository **Playtest report** issue form.
+Use [FEEDBACK.md](FEEDBACK.md) and choose the version-specific dropdown form: **v7.9**, **Solo Circuit v0.2**, **v7.8**, **v7.7/v7.7.1**, or **Mixed / Other**.
 
 Always record the exact build:
 
