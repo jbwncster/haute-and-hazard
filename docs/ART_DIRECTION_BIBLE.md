@@ -55,6 +55,20 @@ The visual redesign must preserve **all current card information**. If informati
 
 Rules text must remain readable in print and TTS.
 
+## Prototype art-space rule
+
+Every card front should reserve a visible **generic silhouette/art placeholder** during prototype development. The placeholder is not decorative filler: it represents space that final illustration is expected to occupy, so playtests expose whether the remaining title, rules, stat, and metadata areas are actually sufficient.
+
+This applies to:
+
+- all 240 core game cards;
+- all 12 Queens;
+- all 12 Stages;
+- all 18 Solo Circuit Automa cards;
+- all 12 Solo Circuit House Queen Personality cards.
+
+Do not remove or shrink the reserved art footprint merely to make temporary prototype text fit. If a card becomes crowded, revise the information hierarchy or wording before commissioning final art.
+
 ## Fashion card composition
 
 Fashion cards should prioritize the garment, wig, makeup concept, shoe, or accessory as the hero object.
