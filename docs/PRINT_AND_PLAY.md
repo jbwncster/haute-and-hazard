@@ -56,6 +56,12 @@ For every option, print at **Actual Size / 100%**. Test one duplex sheet before 
 
 The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative. Stage cards also reserve a generic silhouette area for future art so illustration space can be judged during playtesting.
 
+### Card-edge consistency
+
+The standard full-color set uses **one black edge color across all card fronts**. Tenet colors stay inside the frame so the side of a face-down deck or a card held in hand does not reveal card information. Do not recolor the outer trim/bleed by Tenet or card type.
+
+The low-ink set likewise keeps its outer edge treatment uniform across that set.
+
 ## Paper sizes
 
 | File | Paper |
