@@ -6,7 +6,7 @@ v7.9 promotes the Wardrobe/Tip redesign into the current source-of-truth rules a
 
 ## Base-game components
 
-- **240 Poker cards**
+- **240 core game cards**
   - 60 starter cards
   - 144 Wardrobe cards
     - 130 unique Fashion
@@ -23,7 +23,7 @@ The optional **Solo Circuit v0.2** module is separate and adds 30 solo cards.
 
 ## Major v7.9 changes
 
-- every Poker card has an explicit printed Tip value, including 0;
+- every core game card has an explicit printed Tip value, including 0;
 - playing cards during **Transformation** generates their printed Tips;
 - unplayed cards generate no Tips and old Masters do not regenerate them;
 - Fashion may be played for Tips without being equipped;
@@ -36,7 +36,7 @@ The optional **Solo Circuit v0.2** module is separate and adds 30 solo cards.
 
 ## Canonical data
 
-- [240-card Poker database](../../data/v7_9_card_database.csv)
+- [240-card core game-card database](../../data/v7_9_card_database.csv)
 - [12-Queen database](../../data/v7_9_queen_database.csv)
 - [12-Stage database](../../data/v7_9_stage_database.csv)
 
@@ -56,6 +56,8 @@ Supporting QA:
 - [Release status](RELEASE_STATUS.md)
 
 The TTS files have passed source/schema/path QA. Opening the save inside Tabletop Simulator remains the final runtime smoke-test step.
+
+The Print & Play builder now also produces combined long-edge duplex PDFs and a separate low-ink duplex set. Stage cards remain **2.5 × 3.5 in finished size**, matching the Game Crafter Stage cards.
 
 ## Start here
 
