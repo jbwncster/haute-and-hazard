@@ -1,0 +1,223 @@
+name: "Playtest feedback — v7.9"
+description: "Submit feedback for the current Haute & Hazard v7.9 multiplayer base game."
+title: "[v7.9 Playtest] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing **Haute & Hazard v7.9**. Please use this form only for the current 2–5 player base game.
+
+        **Important:** Cards generate printed Tips only when played during Transformation. Unplayed cards and already-equipped Masters do not generate Tips again.
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Build / format tested
+      options:
+        - Print & Play — full color
+        - Print & Play — low ink
+        - Game Crafter prototype
+        - Tabletop Simulator
+        - Other v7.9 physical build
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rules_mode
+    attributes:
+      label: Rules mode
+      options:
+        - Beginner Mode
+        - Full Stage Rules
+        - Alternate Two-Placement Stage Test
+        - Mixed / modified teaching game
+    validations:
+      required: true
+
+  - type: dropdown
+    id: player_count
+    attributes:
+      label: Player count
+      options:
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: queens
+    attributes:
+      label: Queens used
+      multiple: true
+      options:
+        - Lady Lux
+        - Kawaii-Bot
+        - Mother Mortis
+        - Opulencia
+        - Velvet Venom
+        - Maldita Manila
+        - Hexa Laroux
+        - Bubblegum Banshee
+        - Siren Diesel
+        - Opal Dynasty
+        - Rapture Royale
+        - Gore-Jess
+    validations:
+      required: true
+
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Game length
+      options:
+        - Under 30 minutes
+        - 30–45 minutes
+        - 46–60 minutes
+        - 61–90 minutes
+        - 91–120 minutes
+        - Over 2 hours
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: Winner, final Gross SP / Final Scores, Stage trophies, and anything notable about the ending.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tip_clarity
+    attributes:
+      label: How clear was printed-Tip generation?
+      options:
+        - Completely clear
+        - Mostly clear — one reminder needed
+        - Some confusion
+        - Major confusion
+        - We played it incorrectly
+    validations:
+      required: true
+
+  - type: dropdown
+    id: shopping
+    attributes:
+      label: How did Shopping feel?
+      options:
+        - Too restrictive / too expensive
+        - Slightly too restrictive
+        - About right
+        - Slightly too generous
+        - Too generous / too cheap
+        - Not enough data
+    validations:
+      required: true
+
+  - type: dropdown
+    id: coordinate
+    attributes:
+      label: How satisfying was Coordinate / Look building?
+      options:
+        - "1 — Frustrating"
+        - "2 — Weak"
+        - "3 — Fine"
+        - "4 — Satisfying"
+        - "5 — Excellent"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: How much did the active Stage affect decisions?
+      options:
+        - Barely at all
+        - A little
+        - A moderate amount
+        - Strongly
+        - It drove most decisions
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dragdagulan
+    attributes:
+      label: How did Dragdagulan† feel?
+      options:
+        - Did not occur
+        - Flat / not worth using
+        - Somewhat weak
+        - About right
+        - Tense and worthwhile
+        - Too punishing / too dominant
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rules_clarity
+    attributes:
+      label: Overall rules clarity
+      options:
+        - "1 — Very confusing"
+        - "2 — Frequent help needed"
+        - "3 — Some references needed"
+        - "4 — Mostly clear"
+        - "5 — Easy to follow"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pacing
+    attributes:
+      label: Game length / pacing
+      options:
+        - Much too short
+        - Slightly too short
+        - About right
+        - Slightly too long
+        - Much too long
+    validations:
+      required: true
+
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Would you play v7.9 again?
+      options:
+        - Yes — immediately
+        - Yes
+        - Maybe
+        - Probably not
+        - No
+    validations:
+      required: true
+
+  - type: textarea
+    id: rules_issues
+    attributes:
+      label: Confusing rules or card text
+      description: Quote exact wording when possible and explain what the table was trying to do.
+
+  - type: textarea
+    id: balance
+    attributes:
+      label: Balance observations
+      description: Note unusually strong/weak Queens, cards, Brands, Tenets, Stages, Shopping patterns, or Special Appeals.
+
+  - type: textarea
+    id: fun
+    attributes:
+      label: Best moment / biggest problem
+      description: What was the most fun moment, and what is the one thing you would most want changed?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Version check
+      options:
+        - label: I used a synchronized v7.9 rules/card build.
+          required: true
