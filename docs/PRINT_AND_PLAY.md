@@ -16,7 +16,7 @@ The package includes:
 
 - Start Here sheet
 - Medium Folio rules
-- **240-card Poker Deck**
+- **240 core game cards**
 - **12 Stages**
 - **12 Queens**
 - **5 Player Aids**
@@ -36,7 +36,7 @@ The generated physical preflight verifies the component counts, production dimen
 
 See [the physical preflight report](../releases/v7.9/PRINT_PREFLIGHT_REPORT.txt).
 
-Every Poker card visibly shows its **printed Tip value**, including 0.
+Every core game card visibly shows its **printed Tip value**, including 0.
 
 The Player Aid/rules use:
 
@@ -46,23 +46,27 @@ Cards generate their printed Tips when played during Transformation. Legacy Tip 
 
 ## Printing
 
-1. Print at **Actual Size / 100%**.
-2. For easiest home assembly, print fronts single-sided and use opaque sleeves with spare cards/cardstock behind them.
-3. If duplex printing, test one sheet first to confirm your printer's flip-edge/alignment behavior.
-4. Cut along the card edges/crop marks.
-5. Print one Player Aid per player.
-6. Keep the Medium Folio available digitally or print it on 11×17.
+The kit supports three home-print approaches:
+
+1. **Single-sided / sleeved:** print the separate front sheets and use opaque sleeves with spare cards/cardstock.
+2. **Full-color duplex:** use the combined `DUPLEX` PDFs. Front and mirrored back sheets alternate in one file for long-edge duplex printing.
+3. **Low-Ink duplex:** use the PDFs in the `LOW_INK` folder. They use mostly white backgrounds and stronger dark text to reduce ink use, dark-edge chipping, and inkjet legibility problems.
+
+For every option, print at **Actual Size / 100%**. Test one duplex sheet before printing the whole set because feed alignment varies by printer. Cut along the card edges/crop marks, print one Player Aid per player, and keep the Medium Folio available digitally or print it on 11×17.
+
+The full-color fronts remain the default visual version; the low-ink set is a cost- and printer-friendly alternative.
 
 ## Paper sizes
 
 | File | Paper |
 |---|---|
-| Poker / Stages / Queens / Player Aids | US Letter |
+| Core game cards / Stages / Queens / Player Aids | US Letter |
 | Medium Folio Rules | 11×17 Tabloid, landscape |
 
 The generated layouts use these finished trim sizes:
 
-- Poker / Stage: **2.5 × 3.5 in**
+- Core game cards: **2.5 × 3.5 in**
+- Stage cards: **2.5 × 3.5 in** — exactly the same finished size as the Game Crafter Stage cards
 - Queen: **3.5 × 5.5 in**
 - Player Aid: **6 × 4 in**
 
