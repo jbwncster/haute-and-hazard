@@ -1,6 +1,6 @@
 # Haute & Hazard — Solo Circuit v0.2
 
-**Experimental one-player module for the v7.9 base game.**
+**Experimental one-player module for the v7.9 base game and the recommended route for independent playtesting.**
 
 ## Components
 
@@ -20,6 +20,12 @@ The Solo cards remain separate from the 240-card v7.9 core game-card pool.
 - House Stage scoring is explicit;
 - House does not gain Judge's Favor or Brand Ovation by default;
 - Automa round references are aligned to the four-round timer.
+
+## Recommended first test
+
+Use **Working Queen + Beginner Mode + no Personality** for one baseline game. Then repeat with one House Queen Personality.
+
+A solo tester does not need to learn or schedule a multiplayer session first. See the [Solo Playtest Plan](../../docs/SOLO_PLAYTEST_PLAN.md) for a short three-session sequence.
 
 ## Committed packages
 
