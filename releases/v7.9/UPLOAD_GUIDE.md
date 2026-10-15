@@ -12,8 +12,8 @@ Current package:
    - Folder target: `01_RULES_MEDIUM_FOLIO_SET`
    - Front + back: **4875 × 2475 px**
 
-2. **Haute & Hazard — Poker Deck**
-   - Folder target: `02_POKER_DECK_240`
+2. **Haute & Hazard — Core Game Cards**
+   - Folder target: `02_CORE_GAME_CARDS_240`
    - **240** fronts + one shared back
    - **825 × 1125 px**
    - Pool:
@@ -21,12 +21,13 @@ Current package:
      - 144 Wardrobe = 130 unique Fashion + 14 unique Actions
      - 16 Thrift
      - 20 Penalty
-   - Every v7.9 Poker front visibly shows a printed Tip value, including 0.
+   - Every v7.9 core game-card front visibly shows a printed Tip value, including 0.
 
-3. **Stages — Holographic Foil Euro Poker Deck**
+3. **Stages — 2.5 × 3.5 in Card Deck**
    - Folder target: `03_STAGES_FOIL_EURO_12`
    - **12** Stage fronts + one shared back
-   - **825 × 1125 px**
+   - **825 × 1125 px** full-bleed upload canvas
+   - **2.5 × 3.5 in finished card size**, exactly matching the Print & Play Stage cards
    - Designed for landscape reading; turn sideways at the table.
 
 4. **The Queens — Jumbo Deck**
@@ -61,7 +62,7 @@ Current package:
 
 ## Component accounting
 
-Do **not** add Solo Circuit v0.2 cards to the 240-card Poker Deck.
+Do **not** add Solo Circuit v0.2 cards to the 240 core game cards.
 
 Solo Circuit is a separate optional module with 18 Automa + 12 Personality cards.
 
@@ -75,7 +76,7 @@ Do not upload proof-only or contact-sheet files as production card faces.
 
 Verify:
 
-- 240 Poker fronts
+- 240 core game-card fronts
 - 12 Stage fronts
 - 12 Queen fronts
 - 5 Player Aid fronts
