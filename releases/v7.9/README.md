@@ -57,7 +57,7 @@ Supporting QA:
 
 The TTS files have passed source/schema/path QA. Opening the save inside Tabletop Simulator remains the final runtime smoke-test step.
 
-The Print & Play builder now also produces combined long-edge duplex PDFs and a separate low-ink duplex set. Stage cards remain **2.5 × 3.5 in finished size**, matching the Game Crafter Stage cards.
+The Print & Play builder produces separate fronts/backs, combined duplex PDFs, and a low-ink duplex set. Stage cards are **2.75 × 4.75 in tarot size**, read **landscape**, matching the Game Crafter tarot template. Stage body copy targets a **14 pt minimum** and the prototype frame reserves a generic silhouette area for future art.
 
 ## Start here
 
