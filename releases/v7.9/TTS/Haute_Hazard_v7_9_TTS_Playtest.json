@@ -17835,8 +17835,8 @@
         221
       ],
       "CustomDeck": {
-        "1": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -17844,8 +17844,8 @@
           "UniqueBack": false,
           "Type": 0
         },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -17902,8 +17902,8 @@
           "CardID": 100,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -17911,8 +17911,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -17969,8 +17969,8 @@
           "CardID": 101,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -17978,8 +17978,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18036,8 +18036,8 @@
           "CardID": 102,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18045,8 +18045,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18103,8 +18103,8 @@
           "CardID": 103,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18112,8 +18112,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18170,8 +18170,8 @@
           "CardID": 104,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18179,8 +18179,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18237,8 +18237,8 @@
           "CardID": 105,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18246,8 +18246,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18304,8 +18304,8 @@
           "CardID": 106,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18313,8 +18313,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18371,8 +18371,8 @@
           "CardID": 205,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18380,8 +18380,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18438,8 +18438,8 @@
           "CardID": 206,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18447,8 +18447,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18505,8 +18505,8 @@
           "CardID": 207,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18514,8 +18514,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18572,8 +18572,8 @@
           "CardID": 220,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18581,8 +18581,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18639,8 +18639,8 @@
           "CardID": 221,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18648,8 +18648,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18778,8 +18778,8 @@
         223
       ],
       "CustomDeck": {
-        "1": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -18787,8 +18787,8 @@
           "UniqueBack": false,
           "Type": 0
         },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -18845,8 +18845,8 @@
           "CardID": 107,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18854,8 +18854,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18912,8 +18912,8 @@
           "CardID": 108,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18921,8 +18921,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18979,8 +18979,8 @@
           "CardID": 109,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -18988,8 +18988,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19046,8 +19046,8 @@
           "CardID": 110,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19055,8 +19055,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19113,8 +19113,8 @@
           "CardID": 111,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19122,8 +19122,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19180,8 +19180,8 @@
           "CardID": 112,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19189,8 +19189,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19247,8 +19247,8 @@
           "CardID": 113,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19256,8 +19256,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19314,8 +19314,8 @@
           "CardID": 208,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19323,8 +19323,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19381,8 +19381,8 @@
           "CardID": 209,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19390,8 +19390,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19448,8 +19448,8 @@
           "CardID": 210,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19457,8 +19457,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19515,8 +19515,8 @@
           "CardID": 222,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19524,8 +19524,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19582,8 +19582,8 @@
           "CardID": 223,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19591,8 +19591,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19721,8 +19721,8 @@
         225
       ],
       "CustomDeck": {
-        "1": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -19730,8 +19730,8 @@
           "UniqueBack": false,
           "Type": 0
         },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -19788,8 +19788,8 @@
           "CardID": 114,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19797,8 +19797,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19855,8 +19855,8 @@
           "CardID": 115,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19864,8 +19864,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19922,8 +19922,8 @@
           "CardID": 116,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19931,8 +19931,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19989,8 +19989,8 @@
           "CardID": 117,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -19998,8 +19998,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20056,8 +20056,8 @@
           "CardID": 118,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20065,8 +20065,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20123,8 +20123,8 @@
           "CardID": 119,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20132,8 +20132,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20190,8 +20190,8 @@
           "CardID": 120,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20199,8 +20199,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20257,8 +20257,8 @@
           "CardID": 211,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20266,8 +20266,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20324,8 +20324,8 @@
           "CardID": 212,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20333,8 +20333,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20391,8 +20391,8 @@
           "CardID": 213,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20400,8 +20400,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20458,8 +20458,8 @@
           "CardID": 224,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20467,8 +20467,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20525,8 +20525,8 @@
           "CardID": 225,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20534,8 +20534,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20664,8 +20664,8 @@
         227
       ],
       "CustomDeck": {
-        "1": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -20673,8 +20673,8 @@
           "UniqueBack": false,
           "Type": 0
         },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -20731,8 +20731,8 @@
           "CardID": 121,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20740,8 +20740,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20798,8 +20798,8 @@
           "CardID": 122,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20807,8 +20807,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20865,8 +20865,8 @@
           "CardID": 123,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20874,8 +20874,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20932,8 +20932,8 @@
           "CardID": 124,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20941,8 +20941,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -20999,8 +20999,8 @@
           "CardID": 125,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21008,8 +21008,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21066,8 +21066,8 @@
           "CardID": 126,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21075,8 +21075,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21133,8 +21133,8 @@
           "CardID": 127,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21142,8 +21142,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21200,8 +21200,8 @@
           "CardID": 214,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21209,8 +21209,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21267,8 +21267,8 @@
           "CardID": 215,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21276,8 +21276,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21334,8 +21334,8 @@
           "CardID": 216,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21343,8 +21343,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21401,8 +21401,8 @@
           "CardID": 226,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21410,8 +21410,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21468,8 +21468,8 @@
           "CardID": 227,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21477,8 +21477,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21607,8 +21607,8 @@
         229
       ],
       "CustomDeck": {
-        "1": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -21616,8 +21616,8 @@
           "UniqueBack": false,
           "Type": 0
         },
-        "2": {
-          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
           "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
           "NumWidth": 6,
           "NumHeight": 5,
@@ -21674,8 +21674,8 @@
           "CardID": 128,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21683,8 +21683,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21741,8 +21741,8 @@
           "CardID": 129,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21750,8 +21750,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21808,8 +21808,8 @@
           "CardID": 200,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21817,8 +21817,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21875,8 +21875,8 @@
           "CardID": 201,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21884,8 +21884,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21942,8 +21942,8 @@
           "CardID": 202,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -21951,8 +21951,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22009,8 +22009,8 @@
           "CardID": 203,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22018,8 +22018,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22076,8 +22076,8 @@
           "CardID": 204,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22085,8 +22085,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22143,8 +22143,8 @@
           "CardID": 217,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22152,8 +22152,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22210,8 +22210,8 @@
           "CardID": 218,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22219,8 +22219,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22277,8 +22277,8 @@
           "CardID": 219,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22286,8 +22286,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22344,8 +22344,8 @@
           "CardID": 228,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22353,8 +22353,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22411,8 +22411,8 @@
           "CardID": 229,
           "SidewaysCard": false,
           "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
@@ -22420,8 +22420,8 @@
               "UniqueBack": false,
               "Type": 0
             },
-            "2": {
-              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_2.jpg",
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_sheet_1.jpg",
               "BackURL": "https://raw.githubusercontent.com/jbwncster/haute-and-hazard/main/releases/v7.9/TTS/Assets/v7_9_poker_back.jpg",
               "NumWidth": 6,
               "NumHeight": 5,
