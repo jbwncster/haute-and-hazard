@@ -1,0 +1,103 @@
+name: "Playtest feedback — v7.7 / v7.7.1 legacy"
+description: "Submit historical feedback for a v7.7-series Haute & Hazard build."
+title: "[v7.7 Legacy Playtest] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The **v7.7 series is legacy material**. This form preserves useful historical observations without mixing them into current v7.9 balance data.
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Exact version
+      options:
+        - v7.7
+        - v7.7.1
+        - Unsure which v7.7-series build
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - Physical / Print & Play
+        - Tabletop Simulator
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: players
+    attributes:
+      label: Player count
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Why are you testing a legacy build?
+      options:
+        - Historical comparison
+        - Replaying an old prototype
+        - Testing a specific old mechanic
+        - This was the only build available
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: overall
+    attributes:
+      label: Overall experience
+      options:
+        - "1 — Poor"
+        - "2"
+        - "3 — Mixed"
+        - "4"
+        - "5 — Excellent"
+
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Would you play this exact legacy build again?
+      options:
+        - Yes
+        - Maybe
+        - No
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Session result
+      description: Winner, scores, Queens, length, and anything notable.
+
+  - type: textarea
+    id: useful
+    attributes:
+      label: What is still worth preserving from this version?
+      description: Mechanics, wording, pacing, theme, or usability ideas that the current game should keep or reconsider.
+
+  - type: textarea
+    id: problems
+    attributes:
+      label: What clearly needed improvement?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Legacy-build check
+      options:
+        - label: I understand this is legacy feedback and should not be merged directly with current v7.9 balance results.
+          required: true
