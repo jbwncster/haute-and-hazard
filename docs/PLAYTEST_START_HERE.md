@@ -2,6 +2,24 @@
 
 New to the project? Pick **one** way to play and ignore older release folders until after your first game.
 
+## Recommended if you are testing alone
+
+**Solo Circuit v0.2 is the lowest-friction way to run a full playtest without organizing a group.** You do not need prior multiplayer experience.
+
+➡️ [SOLO CIRCUIT v0.2 — Automa Rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)  
+➡️ [Solo Playtest Plan](SOLO_PLAYTEST_PLAN.md)  
+➡️ [Download Solo v0.2 Print & Play ZIP](../releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip)  
+➡️ [Download Solo v0.2 TTS ZIP](../releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip)
+
+For a first test, use **Working Queen + Beginner Mode + no Personality**. Add a Personality on the next game.
+
+Solo Circuit uses:
+
+- 18 Automa cards
+- 12 House Queen Personality cards
+- four-round Stage Timer
+- explicit House Base Appeal and Stage scoring
+
 ## Physical / home print
 
 ➡️ [PRINT & PLAY — Instructions](PRINT_AND_PLAY.md)  
@@ -15,21 +33,6 @@ Use only files labeled **v7.9** together.
 ➡️ [Download v7.9 TTS ZIP](../releases/v7.9/Haute_Hazard_v7.9_TTS_Playtest.zip)
 
 The save and its texture sheets are committed and have passed source/schema/path QA. An in-app TTS smoke test is still required before calling the package runtime-verified.
-
-## Solo
-
-➡️ [SOLO CIRCUIT v0.2 — Automa Rules](SOLO_CIRCUIT_AUTOMA_PLAYTEST.md)  
-➡️ [Download Solo v0.2 Print & Play ZIP](../releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_Print_and_Play.zip)  
-➡️ [Download Solo v0.2 TTS ZIP](../releases/solo-circuit-v0.2/Haute_Hazard_Solo_Circuit_v0_2_TTS.zip)
-
-Solo Circuit v0.2 is an experimental one-player module for the v7.9 base game.
-
-It uses:
-
-- 18 Automa cards
-- 12 House Queen Personality cards
-- four-round Stage Timer
-- explicit House Base Appeal and Stage scoring
 
 ## First game
 
