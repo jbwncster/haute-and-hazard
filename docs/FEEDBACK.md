@@ -305,9 +305,13 @@ Designer-led streams may be credited as **InAxolotlPain_Jakey — designer of Ha
 
 ## Submit feedback
 
-Use the repository's **Playtest report** issue form:
+Choose the form that matches the version you actually played. Each form uses dropdown menus for the version-specific questions so testers do not have to complete irrelevant sections.
 
-https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml
+- **v7.9 current multiplayer:** https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-v7-9.yml
+- **Solo Circuit v0.2:** https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-solo-v0-2.yml
+- **v7.8 archived comparison:** https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-v7-8.yml
+- **v7.7 / v7.7.1 legacy:** https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-v7-7.yml
+- **Mixed / other build:** https://github.com/jbwncster/haute-and-hazard/issues/new?template=playtest-report.yml
 
 For general playtest guidance, see [`../CONTRIBUTING.md`](../CONTRIBUTING.md). For the current rules summary, see [`CURRENT_GAMEPLAY.md`](CURRENT_GAMEPLAY.md). For first games, see [`BEGINNER_MODE.md`](BEGINNER_MODE.md).
 
