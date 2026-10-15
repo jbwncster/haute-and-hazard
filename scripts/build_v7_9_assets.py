@@ -56,14 +56,47 @@ MUTED = (185, 179, 165)
 
 FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+FONT_COND_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf"
 FONT_SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
-for fp in (FONT_REG, FONT_BOLD, FONT_SERIF_BOLD):
+for fp in (FONT_REG, FONT_BOLD, FONT_COND_BOLD, FONT_SERIF_BOLD):
     if not Path(fp).exists():
         raise SystemExit(f"Required font missing: {fp}")
 
 
 def font(size: int, bold: bool = False, serif: bool = False):
     return ImageFont.truetype(FONT_SERIF_BOLD if serif else (FONT_BOLD if bold else FONT_REG), size)
+
+
+def stage_font(size: int):
+    return ImageFont.truetype(FONT_COND_BOLD, size)
+
+
+def draw_fixed_wrapped(draw: ImageDraw.ImageDraw, box: tuple[int,int,int,int], text: str, f, fill, max_lines: int) -> int:
+    """Wrap at a fixed font size; never shrink below the requested Stage size."""
+    x0,y0,x1,y1=box
+    words=(text or "").split()
+    lines=[]
+    current=""
+    for word in words:
+        trial=word if not current else current+" "+word
+        if draw.textbbox((0,0),trial,font=f)[2] <= x1-x0:
+            current=trial
+        else:
+            if current:
+                lines.append(current)
+            current=word
+    if current:
+        lines.append(current)
+    if len(lines) > max_lines:
+        raise ValueError(f"Stage text requires {len(lines)} lines where {max_lines} are available: {text}")
+    line_h=max(56,int(f.size*0.97))
+    if y0+line_h*len(lines) > y1:
+        raise ValueError(f"Stage text exceeds fixed 14 pt box: {text}")
+    y=y0
+    for line in lines:
+        draw.text((x0,y),line,font=f,fill=fill)
+        y+=line_h
+    return y
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -218,74 +251,66 @@ def queen_front(row: dict[str,str]) -> Image.Image:
 
 
 def draw_stage_art_placeholder(draw: ImageDraw.ImageDraw, box: tuple[int,int,int,int], accent) -> None:
-    """Generic silhouette reserved for future venue/judge art."""
+    """Simple generic performer silhouette reserving future Stage-art space."""
     x0,y0,x1,y1=box
-    draw.rounded_rectangle(box,radius=28,fill=(28,28,32),outline=accent,width=4)
+    draw.rounded_rectangle(box,radius=22,fill=(28,28,32),outline=accent,width=4)
     cx=(x0+x1)//2
-    head_y=y0+145
-    draw.ellipse((cx-62,head_y-62,cx+62,head_y+62),fill=(92,92,100),outline=GOLD,width=4)
-    shoulder_y=head_y+100
+    head_r=24
+    head_y=y0+48
+    draw.ellipse((cx-head_r,head_y-head_r,cx+head_r,head_y+head_r),fill=(100,100,108),outline=GOLD,width=3)
+    shoulder_y=head_y+40
     draw.polygon([
-        (cx-150,y1-90),(cx-115,shoulder_y),(cx-58,shoulder_y-28),
-        (cx,shoulder_y+18),(cx+58,shoulder_y-28),(cx+115,shoulder_y),
-        (cx+150,y1-90)
-    ],fill=(72,72,80),outline=GOLD)
-    draw.line((x0+35,y1-112,x1-35,y1-112),fill=accent,width=5)
-    draw_centered(draw,(x0+20,y1-100,x1-20,y1-35),"ART PLACEHOLDER",font(28,True),MUTED)
+        (cx-72,y1-18),(cx-56,shoulder_y),(cx-26,shoulder_y-12),
+        (cx,shoulder_y+8),(cx+26,shoulder_y-12),(cx+56,shoulder_y),
+        (cx+72,y1-18)
+    ],fill=(76,76,84),outline=GOLD)
 
 
 def stage_front(row: dict[str,str]) -> Image.Image:
     # Game Crafter tarot template: 900x1500 px full bleed (3x5 in at 300 dpi),
-    # read landscape at the table. Build on a 1500x900 landscape canvas, then
-    # rotate to the portrait upload canvas.
+    # finished 2.75x4.75 in. Build landscape at 1500x900, then rotate into the
+    # portrait upload canvas. All Stage rules copy stays at 58 px (~14 pt).
     w,h=1500,900
     tenet=row["favored_tenet"]
     bg=TENET_BG.get(tenet,TENET_BG["Neutral"])
     accent=TENET_ACCENT.get(tenet,TENET_ACCENT["Neutral"])
     im=Image.new("RGB",(w,h),bg)
     d=ImageDraw.Draw(im)
+    sf=stage_font(STAGE_BODY_MIN_PX)
 
     d.rounded_rectangle((38,38,w-38,h-38),radius=28,fill=BLACK)
     d.rounded_rectangle((78,78,w-78,h-78),radius=20,outline=GOLD,width=4)
 
-    # Center the game identity so the alignment reads as intentional.
-    draw_centered(d,(90,72,w-90,138),f"HAUTE & HAZARD • STAGE • {row['stage_id']}",font(58,True,True),CREAM)
-    draw_wrapped(d,(90,145,w-90,245),row["stage_name"],82,STAGE_BODY_MIN_PX,CREAM,True,max_lines=1)
-    draw_centered(d,(90,225,w-90,285),row["subtitle"],font(STAGE_BODY_MIN_PX,True),accent)
+    # Intentional centered identity treatment.
+    draw_centered(d,(90,52,w-90,112),f"HAUTE & HAZARD • STAGE • {row['stage_id']}",font(58,True,True),CREAM)
 
-    # Reserve a visible art footprint now so later illustration cannot silently
-    # consume the rules space.
-    art_box=(90,305,445,820)
+    # Art placeholder at the left; title/subtitle use the remaining upper area.
+    art_box=(90,122,340,282)
     draw_stage_art_placeholder(d,art_box,accent)
+    draw_wrapped(d,(380,120,1410,210),row["stage_name"],82,STAGE_BODY_MIN_PX,CREAM,True,max_lines=1)
+    draw_fixed_wrapped(d,(380,210,1410,275),row["subtitle"],sf,accent,1)
 
-    x0=495
-    x1=1415
-    y=305
-    line_gap=9
+    # Compact metadata bar. Judge's Favor is included here so all advanced Stage
+    # information remains visible without reducing body copy below 14 pt.
+    meta=(
+        f"TENET • {row['favored_tenet']}  BRAND • {row['featured_brand']}  "
+        f"TARGET • {row['slay_target']}  REWARD • {row['reward_gross_sp']} SP  "
+        f"JUDGE • {row['judge']}  FAVOR • {row['judge_favor']}"
+    )
+    draw_fixed_wrapped(d,(90,295,1410,465),meta,sf,GOLD,3)
 
-    rows=[
-        f"TENET • {row['favored_tenet']}    BRAND • {row['featured_brand']}",
-        f"SLAY TARGET • {row['slay_target']} APPEAL    REWARD • {row['reward_gross_sp']} GROSS SP",
-        f"JUDGE • {row['judge']}",
-        f"VENUE • {row['venue_effect']}",
-        f"SPOTLIGHT • {row['spotlight_requirement']}",
-        f"JUDGE'S FAVOR • {row['judge_favor']}",
-        f"BRAND OVATION • {row['brand_ovation']}",
-    ]
-    max_heights=[68,68,68,130,130,68,130]
-    for idx,(txt,max_h) in enumerate(zip(rows,max_heights)):
-        fill=GOLD if idx in (0,1,2) else WHITE
-        y2=y+max_h
-        next_y=draw_wrapped(
-            d,(x0,y,x1,y2),txt,
-            64,STAGE_BODY_MIN_PX,fill,True,
-            spacing=1.04,max_lines=2 if max_h<=68 else 3
-        )
-        y=max(y2,next_y)+line_gap
-
-    # No Stage body copy should render below the requested 14 pt-equivalent minimum.
-    if y > 835:
-        raise ValueError(f"{row['stage_id']} Stage text exceeds the 14 pt landscape layout")
+    draw_fixed_wrapped(
+        d,(90,470,1410,585),
+        f"VENUE • {row['venue_effect']}",sf,WHITE,2
+    )
+    draw_fixed_wrapped(
+        d,(90,590,1410,705),
+        f"SPOTLIGHT • {row['spotlight_requirement']}",sf,WHITE,2
+    )
+    draw_fixed_wrapped(
+        d,(90,710,1410,825),
+        f"BRAND OVATION • {row['brand_ovation']}",sf,CREAM,2
+    )
 
     return im.rotate(90,expand=True)
 
