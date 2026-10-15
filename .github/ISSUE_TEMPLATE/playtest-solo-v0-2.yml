@@ -1,0 +1,283 @@
+name: "Playtest feedback — Solo Circuit v0.2"
+description: "Submit focused feedback for the Solo Circuit v0.2 Automa."
+title: "[Solo v0.2 Playtest] "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing **Solo Circuit v0.2**. Prior multiplayer experience is not required.
+
+        Recommended first test: **Working Queen + Beginner Mode + no Personality**.
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Build / format tested
+      options:
+        - Print & Play
+        - Tabletop Simulator add-on
+        - Other physical prototype
+    validations:
+      required: true
+
+  - type: dropdown
+    id: session_type
+    attributes:
+      label: Test type
+      options:
+        - Baseline — no Personality
+        - Personality test
+        - Difficulty / pressure test
+        - Repeat balance test
+        - Learning game
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Local Girl
+        - Working Queen
+        - Headliner
+        - Legend
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage_mode
+    attributes:
+      label: Stage rules
+      options:
+        - Beginner Mode
+        - Full Stage Rules
+    validations:
+      required: true
+
+  - type: dropdown
+    id: player_queen
+    attributes:
+      label: Player Queen
+      options:
+        - Lady Lux
+        - Kawaii-Bot
+        - Mother Mortis
+        - Opulencia
+        - Velvet Venom
+        - Maldita Manila
+        - Hexa Laroux
+        - Bubblegum Banshee
+        - Siren Diesel
+        - Opal Dynasty
+        - Rapture Royale
+        - Gore-Jess
+    validations:
+      required: true
+
+  - type: dropdown
+    id: house_queen
+    attributes:
+      label: House Queen
+      options:
+        - Generic House Queen
+        - Lady Lux
+        - Kawaii-Bot
+        - Mother Mortis
+        - Opulencia
+        - Velvet Venom
+        - Maldita Manila
+        - Hexa Laroux
+        - Bubblegum Banshee
+        - Siren Diesel
+        - Opal Dynasty
+        - Rapture Royale
+        - Gore-Jess
+    validations:
+      required: true
+
+  - type: dropdown
+    id: personality
+    attributes:
+      label: House Queen Personality
+      options:
+        - None
+        - Lady Lux — Treasure From Trash
+        - Kawaii-Bot — Idol Perfect
+        - Mother Mortis — From the Grave
+        - Opulencia — More Is More
+        - Velvet Venom — Toxic Entrance
+        - Maldita Manila — Duality
+        - Hexa Laroux — Perfect Geometry
+        - Bubblegum Banshee — Sugar High
+        - Siren Diesel — Built to Walk
+        - Opal Dynasty — Full Spectrum
+        - Rapture Royale — Sacrifice
+        - Gore-Jess — Final Girl
+    validations:
+      required: true
+
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Game length
+      options:
+        - Under 30 minutes
+        - 30–45 minutes
+        - 46–60 minutes
+        - 61–90 minutes
+        - Over 90 minutes
+    validations:
+      required: true
+
+  - type: dropdown
+    id: winner
+    attributes:
+      label: Winner
+      options:
+        - Player
+        - House Queen
+        - Tie
+        - Did not finish
+    validations:
+      required: true
+
+  - type: input
+    id: score
+    attributes:
+      label: Final score
+      placeholder: "Example: Player 31 — House 27"
+
+  - type: input
+    id: stages
+    attributes:
+      label: Stages claimed
+      placeholder: "Example: Player 3 — House 2"
+
+  - type: dropdown
+    id: house_pressure
+    attributes:
+      label: How competitive did the House Queen feel?
+      options:
+        - Far too weak
+        - Slightly too weak
+        - About right
+        - Slightly too strong
+        - Far too strong
+    validations:
+      required: true
+
+  - type: dropdown
+    id: upkeep
+    attributes:
+      label: How much bookkeeping did the Automa require?
+      options:
+        - Very low — effortless
+        - Low
+        - Moderate
+        - High
+        - Too high
+    validations:
+      required: true
+
+  - type: dropdown
+    id: wardrobe_pressure
+    attributes:
+      label: How did Automa Wardrobe removal feel?
+      options:
+        - Meaningful and strategic
+        - Usually meaningful
+        - Mixed
+        - Mostly arbitrary
+        - Frustrating / too punishing
+    validations:
+      required: true
+
+  - type: dropdown
+    id: timer
+    attributes:
+      label: How often did Round 4 timeout award a Stage to the House?
+      options:
+        - Never
+        - Once
+        - Twice
+        - Three or more times
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: personality_result
+    attributes:
+      label: If a Personality was used, how did it feel?
+      options:
+        - No Personality used
+        - Distinct and easy to remember
+        - Distinct but too much upkeep
+        - Easy to run but not very distinctive
+        - Rarely / never triggered
+        - Too strong
+        - Too weak
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dragdagulan
+    attributes:
+      label: Solo Dragdagulan†
+      options:
+        - Did not occur
+        - Clear and fun
+        - Clear but not very interesting
+        - Confusing
+        - Too favorable to player
+        - Too favorable to House
+    validations:
+      required: true
+
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Would you play Solo Circuit again?
+      options:
+        - Yes — immediately
+        - Yes
+        - Maybe
+        - Probably not
+        - No
+    validations:
+      required: true
+
+  - type: textarea
+    id: stage_data
+    attributes:
+      label: Stage / Appeal notes
+      description: If available, record player and House Appeal when Stages resolved, rounds per Stage, and notable timeouts.
+
+  - type: textarea
+    id: automa_behavior
+    attributes:
+      label: Automa behavior notes
+      description: Which cards/families felt clever, repetitive, arbitrary, too strong, or too weak?
+
+  - type: textarea
+    id: confusing
+    attributes:
+      label: Confusing rule or bookkeeping step
+      description: What required a rulebook lookup or designer interpretation?
+
+  - type: textarea
+    id: fun
+    attributes:
+      label: Best moment / one change
+      description: What was the best moment, and what is the one thing you would change about the Automa?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Version check
+      options:
+        - label: I tested Solo Circuit v0.2 with a v7.9 base-game build.
+          required: true
