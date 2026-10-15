@@ -4,7 +4,7 @@ This page tracks the current v7.9 production deliverables and archived generated
 
 ## Current canonical sources
 
-- `data/v7_9_card_database.csv` — committed 240-row Poker-card source.
+- `data/v7_9_card_database.csv` — committed 240-row core game-card source.
 - `data/v7_9_queen_database.csv` — committed 12-Queen source.
 - `data/v7_9_stage_database.csv` — committed 12-Stage venue source with verified production text.
 - `data/v7_9_stage_registry.csv` — Stage identity/status registry.
@@ -25,7 +25,7 @@ New v7.9 production renders should come from these sources. Archived v7.8 image 
 
 Base game:
 
-- 240 Poker fronts
+- 240 core game-card fronts
 - 12 Stage fronts
 - 12 Queen fronts
 - 5 Player Aid fronts/backs
@@ -38,7 +38,7 @@ Optional Solo v0.2:
 - 12 Personalities
 - **30 separate solo cards**
 
-The Solo cards do not change the 240-card base Poker Deck count.
+The Solo cards do not change the 240-card base core game-card count.
 
 ## TTS files
 
@@ -64,7 +64,7 @@ See:
 - [v7.9 build manifest / SHA-256 hashes](../releases/v7.9/BUILD_MANIFEST.json)
 - [Game Crafter upload guide](../releases/v7.9/UPLOAD_GUIDE.md)
 
-The generated prototype art is functional and print-safe. Commercial art direction and legal/IP clearance are separate from production-file preflight.
+The generated prototype art is functional and print-safe. Stage cards use the Game Crafter tarot format (2.75 × 4.75 in finished) in landscape reading orientation, include duplex and low-ink home-print files, and use a 14 pt-equivalent minimum body-text target. Full-color cards keep one uniform black edge color so hidden information is not visible from the side of a deck. Commercial art direction and legal/IP clearance are separate from production-file preflight.
 
 ## Automated builds
 
