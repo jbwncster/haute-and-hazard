@@ -4,6 +4,22 @@
 
 Solo Circuit is intentionally separate from the 240-card multiplayer core game-card pool. The human player uses normal v7.9 rules while an automated rival, the **House Queen**, uses a streamlined behavior deck instead of a second full hand, deck, and Coordinate.
 
+## Why Solo Circuit is a priority playtest mode
+
+Solo play is one of the easiest ways to get Haute & Hazard tested because a solo player can run a session without coordinating a group. Solo board gamers are also often actively looking for games they can play and test on their own schedule.
+
+For development, that means a **solid, low-upkeep Automa can help put Haute & Hazard in front of more playtesters** and generate more repeated sessions than relying only on 2–5 player groups.
+
+Solo Circuit should therefore be treated as a **first-class playtest route**, not merely a side variant. The goal is to make the House Queen:
+
+- quick to run;
+- competitive without feeling scripted;
+- distinct enough to feel like a rival Queen;
+- easy to reset and replay;
+- useful for repeated balance testing of Stages, Shopping pressure, Dragdagulan†, and overall pacing.
+
+A solo tester does **not** need prior multiplayer experience. If they can learn the base turn structure plus the Automa and complete a full session independently, that is valuable playtest data.
+
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines*. It remains subject to legal/IP, trademark, and publisher review.
 
 ## Components
