@@ -44,6 +44,7 @@ Stages, Queens, Player Aids, rules, and optional Solo cards are separate compone
 - **New playtester:** [PLAYTESTERS START HERE](docs/PLAYTEST_START_HERE.md)
 - **Learn quickly:** [Learn to Play in 5 Minutes](docs/LEARN_TO_PLAY_5_MIN.md)
 - **Current gameplay:** [Current Gameplay Reference](docs/CURRENT_GAMEPLAY.md)
+- **Complete web / Android app:** [Haute & Hazard Complete App](digital-complete/) — v7.9 hot-seat multiplayer and Solo Circuit v0.2; installable PWA for Android.
 - **Digital prototype:** [Haute & Hazard Digital Playtest](digital-playtest/README.md) — solo-first browser vertical slice using current v7.9 data
 - **Physical instructions:** [Print & Play](docs/PRINT_AND_PLAY.md)
 - **Digital instructions:** [Tabletop Simulator](docs/TABLETOP_SIMULATOR.md)
