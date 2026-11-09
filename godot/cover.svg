@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="500" viewBox="0 0 630 500">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#170d27"/><stop offset="1" stop-color="#422050"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe792"/><stop offset="1" stop-color="#e5a72f"/></linearGradient></defs>
+<rect width="630" height="500" rx="22" fill="url(#bg)"/>
+<circle cx="530" cy="70" r="88" fill="#ed68ad" opacity=".16"/><circle cx="108" cy="426" r="104" fill="#52c6d4" opacity=".14"/>
+<path d="M52 170h526M52 180h526" stroke="#f1c75b" stroke-width="3" opacity=".7"/>
+<path d="M100 355 155 222h35l37 86 38-86h35l55 133h-52l-25-70-27 70h-50l-29-71-25 71z" fill="url(#gold)"/>
+<path d="M374 353 426 221h34l36 85 39-85h34l51 132h-49l-24-69-28 69h-49l-28-70-25 70z" fill="#ee74b9"/>
+<path d="M102 214l-18-22 21-19 23 14 24-14 22 20-17 21" fill="none" stroke="#f1c75b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="315" y="91" text-anchor="middle" fill="#fff2c6" font-family="Georgia,serif" font-size="39" font-weight="bold" letter-spacing="3">HAUTE &amp; HAZARD</text>
+<text x="315" y="132" text-anchor="middle" fill="#ef8dc4" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">A DRAG FASHION DECK-BUILDER</text>
+<text x="315" y="435" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="19">SOLO VS THE HOUSE  •  2–5 PLAYER PASS-AND-PLAY</text>
+<text x="315" y="470" text-anchor="middle" fill="#c7b5d3" font-family="Arial,sans-serif" font-size="14">GODOT PLAYTEST EDITION</text>
+</svg>
