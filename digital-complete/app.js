@@ -180,8 +180,9 @@
     } else {
       p.played.push(card);
       log(`<b>${esc(p.name)}</b> plays ${esc(card.name)} for ${printed} printed Tips.`, "good");
-      const handled = applySimpleText(p, card, "Play");
-      if (!handled && card.text && !/\bno additional effect\b/i.test(card.text) && !/^Play:\s*You may equip/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
+      const hasPlayEffect = /^(?:Play:|Vogue\s+—\s+)/i.test(card.text || "");
+      const handled = hasPlayEffect && applySimpleText(p, card, "Play");
+      if (hasPlayEffect && !handled && card.text && !/\bno additional effect\b/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
     }
     save(); render();
   }
