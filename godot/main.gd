@@ -407,7 +407,7 @@ func _buy(index: int, thrift: bool) -> void:
 	if index < 0 or index >= source.size() or source[index] == null: return
 	var card: Dictionary = source[index]
 	var cost := int(card.cost)
-	if game.mode == "solo" and game.stage_round == 1 and game.house_current.name == "Sold Out" and int(game.purchases) == 0: cost += 1
+	if game.mode == "solo" and game.house_current.name == "Sold Out" and int(game.purchases) == 0: cost += 1
 	if game.mode == "solo" and game.house_current.name == "VIP Rope" and int(game.purchases) >= 1: return
 	if int(player.tips) < cost: return
 	player.tips -= cost
