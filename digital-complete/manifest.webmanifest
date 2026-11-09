@@ -1,0 +1,14 @@
+{
+  "name": "Haute & Hazard — Complete Rules",
+  "short_name": "Haute & Hazard",
+  "description": "The full v7.9 multiplayer game and Solo Circuit.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d0911",
+  "theme_color": "#0d0911",
+  "orientation": "any",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
