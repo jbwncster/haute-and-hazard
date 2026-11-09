@@ -1,0 +1,80 @@
+name: Validate digital playtest app
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - digital-playtest/**
+      - .github/workflows/validate-digital-playtest.yml
+  pull_request:
+    paths:
+      - digital-playtest/**
+      - .github/workflows/validate-digital-playtest.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: JavaScript syntax
+        run: |
+          node --check digital-playtest/data.js
+          node --check digital-playtest/app.js
+
+      - name: Validate generated game data
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const vm = require('vm');
+          const context = { window: {} };
+          vm.createContext(context);
+          vm.runInContext(fs.readFileSync('digital-playtest/data.js','utf8'), context);
+          const d = context.window.HH_DATA;
+          if (!d) throw new Error('HH_DATA missing');
+          const checks = [
+            ['cards', d.cards.length, 240],
+            ['queens', d.queens.length, 12],
+            ['stages', d.stages.length, 12],
+            ['automa', d.automa.length, 18],
+          ];
+          for (const [name, actual, expected] of checks) {
+            if (actual !== expected) throw new Error(name + ': expected ' + expected + ', got ' + actual);
+          }
+          for (const starter of ['Basic Beat','Messy Lip Sync','Chapstick']) {
+            if (!d.cards.some(c => c.name === starter)) throw new Error('Missing starter: ' + starter);
+          }
+          if (d.cards.some(c => typeof c.cost !== 'number' || typeof c.tips !== 'number')) {
+            throw new Error('Card numeric fields were not normalized');
+          }
+          console.log('Digital data QA passed');
+          NODE
+
+      - name: Static-server smoke test
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m http.server 8765 --directory . >/tmp/hh-digital-http.log 2>&1 &
+          pid=$!
+          trap 'kill $pid || true' EXIT
+          sleep 1
+          curl --fail --silent --show-error http://127.0.0.1:8765/digital-playtest/ > /tmp/index.html
+          curl --fail --silent --show-error http://127.0.0.1:8765/digital-playtest/styles.css > /tmp/styles.css
+          curl --fail --silent --show-error http://127.0.0.1:8765/digital-playtest/data.js > /tmp/data.js
+          curl --fail --silent --show-error http://127.0.0.1:8765/digital-playtest/app.js > /tmp/app.js
+          grep -F 'Haute & Hazard — Digital Playtest' /tmp/index.html
+          grep -F 'window.HH_DATA' /tmp/data.js
+          grep -F 'startRun' /tmp/app.js
+          test -s /tmp/styles.css
+          echo 'Static app smoke test passed'
