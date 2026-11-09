@@ -12,8 +12,8 @@ class Element {
   addEventListener(name, callback) { this.listeners[name] = callback; }
   setAttribute() {}
   replaceChildren() {}
-  showModal() {}
-  close() {}
+  showModal() { this.open = true; }
+  close() { this.open = false; }
   querySelector() { return null; }
   querySelectorAll() { return []; }
 }
@@ -59,6 +59,7 @@ assert.equal(game.rack.filter(Boolean).length, 5);
 const playedCard = game.players[0].hand.find((card) => card.name === "Basic Beat");
 app.playFromHand(playedCard.instanceId, false);
 assert.equal(game.players[0].tips, 1);
+assert.equal(elements.manualDialog.open, undefined, "No additional effect does not open manual resolution");
 game.players[0].grossSP = 29;
 app.claimStage(0);
 assert.equal(game.phase, "finished", "30 Gross SP ends the game at Curtain Call");
