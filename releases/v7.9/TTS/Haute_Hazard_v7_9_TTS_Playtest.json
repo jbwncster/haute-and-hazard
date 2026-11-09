@@ -37,7 +37,7 @@
         "scaleZ": 1
       },
       "Nickname": "HAUTE & HAZARD v7.9 — START HERE",
-      "Description": "SETUP: Choose Queens. Each player shuffles a 12-card starter Deck and draws 5. Shuffle Wardrobe and deal 5 face-up to form the Rack. Reveal one Stage.\n\nTURN: Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup.\n\nPLAY-GENERATED TIPS: play a card → gain its printed Tips → resolve text. Unplayed cards and old Masters do not generate printed Tips.\n\nShopping purchases go to Backstage Archive. Refill Rack during Cleanup, then draw 5.",
+      "Description": "SETUP: Choose Queens. Each player shuffles a 12-card starter Deck and draws 5. Shuffle Wardrobe and deal 5 face-up to form the Rack. Reveal one Stage. Randomly choose First Player.\n\nTURN: Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup.\n\nPLAY-GENERATED TIPS: play a card → gain its printed Tips → resolve text. Unplayed cards and old Masters do not generate printed Tips.\n\nCLEANUP: archive Accessory, played non-Masters, and unplayed hand; refill Rack; draw 5 if possible. Core Masters/Deep Storage persist.\n\nCURTAIN CALL: after a Slay, all players clear core Masters/Deep Storage/Accessory; active player finishes Cleanup; then end game or reveal next Stage.",
       "GMNotes": "",
       "AltLookAngle": {
         "x": 0,
