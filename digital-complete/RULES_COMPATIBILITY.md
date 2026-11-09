@@ -1,50 +1,32 @@
-# Haute & Hazard — Complete Digital Rules Compatibility Notes
+# Digital rules coverage and playtest notes
 
-The Complete Rules app is grounded first in the current v7.9 sources:
+The complete web app uses the v7.9 card and Stage records in `digital-playtest/data.js` and the current turn sequence:
 
-- `docs/CURRENT_GAMEPLAY.md`
-- `docs/QUEEN_ROSTER.md`
-- `docs/BEGINNER_MODE.md`
-- `docs/STARTING_DECKS.md`
-- `docs/V7_9_WARDROBE_TIP_ECONOMY.md`
-- `data/v7_9_card_database.csv`
-- `data/v7_9_stage_database.csv`
-- `docs/SOLO_CIRCUIT_AUTOMA_PLAYTEST.md`
-- `docs/SOLO_CIRCUIT_AUTOMA_DECK.md`
-- `docs/SOLO_CIRCUIT_PERSONALITIES.md`
+**Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup**
 
-## Explicit compatibility assumptions
+It supports 2–5 local hot-seat players and Solo Circuit v0.2. Solo setup includes all four difficulties, a House Queen, one Personality, and Beginner or Full Stage Rules. Android users can install the responsive PWA from a supported browser; it is not a native Play Store build.
 
-The current v7.9 quick-reference set mentions the systems below but does not fully restate every procedural detail. The digital implementation therefore exposes these assumptions instead of silently presenting them as newly verified v7.9 text.
+## Automated in the app
 
-### Curtain Call cleanup
+- The 12-card starter decks, 5-card opening hands, shared 5-card Rack, Thrift supply, and Stage deck.
+- Tips from cards played from hand, card purchases to the Archive, Rack refill, and turn cleanup.
+- Coordinate slots, Appeal, matching Tenets, Perfect Illusion, listed Stage bonuses, and Stage scoring.
+- Curtain Call, the 30 Gross SP / empty Stage Deck end trigger, final Penalty values, and listed tiebreak order.
+- Solo House Stage checks, four-round timer, the House Automa's printed Rack removal rules, difficulty modifiers, Personality choices, and supported Automa effects.
+- Dragdagulan† card draws, printed Lip Sync values, and the Stage 8 / Stage 12 modifiers.
 
-Current v7.9 says a successful Slay triggers Curtain Call, but the current quick reference does not spell out what happens to all equipped Coordinates at that moment.
+## Guided manual resolution
 
-The Complete Rules app defaults to the most recent explicit supporting rule found in the v7.7 playtest rulebook:
+Card text is shown on every card. The app automatically handles common printed gains and draws. When an effect needs a player choice, an opponent choice, or a card movement the digital rules cannot infer, it opens a guided resolution prompt. Record net Tips, Appeal, and Gross SP there, and make any card movement in the visible zones when applicable. This keeps the paper card text authoritative during playtests.
 
-> A successful Stage Slay ends the Round with a Curtain Call, clearing every player's equipped Coordinate before the next Stage begins.
+The digital implementation is a playtest host, not a complete automated adjudicator. In particular, complicated multi-step card effects, penalties that require a physical card choice, and rare House tie situations should be checked against the current rulebook. A House tied with a player after every published tiebreak remains unresolved in Solo Circuit v0.2 and is flagged on the final screen.
 
-The app labels this behavior **carry-forward Curtain Call cleanup**.
+## Verification
 
-### Thrift Store availability
+Run the source-level smoke checks from the repository root:
 
-Current v7.9 says to set out the Thrift Store and that eligible Throwbacks remain available according to their own rules, but it does not fully restate the marketplace procedure.
+```bash
+node digital-complete/smoke-test.cjs
+```
 
-The Complete Rules app uses the supporting v7.7/v6.7 procedure:
-
-- Throwbacks are a separate, finite permanent marketplace option;
-- during Shopping, a player may buy any available Throwback they can afford;
-- purchased Throwbacks go to the player's Backstage Archive.
-
-The v7.9 card database remains authoritative for each Throwback's current Cost, Tips, Appeal, LS, slot, and Reveal text.
-
-### Advanced Stage rewards
-
-The v7.9 Stage database provides Spotlight Requirement, Judge's Favor, and Brand Ovation as separate fields. The app resolves Judge's Favor and Brand Ovation when the player successfully Slays the Stage and satisfies their printed condition. This is the direct mechanical reading of those production fields, but the timing is labeled in the rules inspector so it is easy to revise if the printed rulebook later gives a more specific sequence.
-
-## Digital rule
-
-When a source-supported card instruction requires a physical choice that cannot be inferred, the app asks the player. It does not silently choose a target, Tenet, card order, archive target, or optional cost on the player's behalf.
-
-Where an interaction is recognized but not safely automatable from the current source text, the app opens a **Guided Manual Resolution** prompt containing the exact card text and then allows the player to continue after making the physical-equivalent choice.
+These checks exercise canonical data counts, a two-player Curtain Call and end trigger, solo timer and House Always Wins scoring, and Perfect Illusion. They do not replace a real browser / Android install test or a Tabletop Simulator in-app test.
