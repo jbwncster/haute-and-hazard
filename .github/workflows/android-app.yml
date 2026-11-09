@@ -1,0 +1,46 @@
+name: Build Android app
+
+on:
+  push:
+    branches:
+      - android-app-v0.1
+    paths:
+      - 'android-app/**'
+      - 'digital-playtest/**'
+      - '.github/workflows/android-app.yml'
+  pull_request:
+    paths:
+      - 'android-app/**'
+      - 'digital-playtest/**'
+      - '.github/workflows/android-app.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 8.13
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+
+      - name: Build debug APK and AAB
+        run: gradle -p android-app :app:assembleDebug :app:bundleDebug --stacktrace
+
+      - name: Upload Android artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: haute-hazard-android-v0.1
+          path: |
+            android-app/app/build/outputs/apk/debug/app-debug.apk
+            android-app/app/build/outputs/bundle/debug/app-debug.aab
+          if-no-files-found: error
