@@ -10,6 +10,18 @@ Haute & Hazard is a competitive drag fashion deck-building game for **2–5 play
 
 The standard end trigger is **30 Gross Style Points (SP)** at the end of Phase 4 / Curtain Call, or an empty Stage Deck after a Stage is Slayed. Final Score is Gross SP plus explicit end-game bonuses minus Penalty values.
 
+## Setup and round structure
+
+1. Shuffle the 12-card Stage Deck and reveal the top card as the **Active Stage**.
+2. Shuffle the 144-card Wardrobe deck and reveal **5 cards** as the Wardrobe Rack.
+3. Set out the 16-card Thrift Store and the Penalty supply.
+4. Each player chooses or randomly receives a Queen.
+5. Each player takes a 12-card starter deck: **7 Basic Beat, 3 Messy Lip Sync, 2 Chapstick**.
+6. Each player shuffles their starter deck, draws **5 cards**, and begins at **0 Gross SP, 0 Tips, and 0 Appeal**.
+7. Randomly choose the **First Player**.
+
+Players take turns clockwise. The Active Stage remains in play until somebody Slays it. A successful Slay ends the current Stage round immediately with **Curtain Call**; the next Stage round begins with the player clockwise from the Stage claimant.
+
 ## Coordinate
 
 The four core Fashion slots are:
@@ -96,9 +108,9 @@ Every turn follows five phases:
 2. **The Reveal** — total printed Appeal and other Reveal-specific values, assign Wild Tenets, determine Look states, resolve relevant abilities, then apply the Appeal multiplier.
 3. **Shopping** — spend the Tips generated this turn. You may buy multiple legal cards as long as you can pay their total costs.
 4. **Slay / Dragdagulan† / Pass** — choose exactly one unless an effect says otherwise.
-5. **Cleanup** — archive/discard every played non-Master card and every card still in hand, refill empty Wardrobe Rack spaces, draw a fresh hand of **5 cards**, then reset Tips and Appeal.
+5. **Cleanup** — archive/discard your current Accessory, every played non-Master card, and every card still in hand; refill empty Wardrobe Rack spaces; draw a fresh hand of **5 cards**; then reset Tips and Appeal. Core-slot Masters and legal Deep Storage remain equipped unless Curtain Call occurs.
 
-If you need to draw and your personal Deck does not contain enough cards, shuffle your Backstage Archive to make a new Deck, then continue drawing.
+If you need to draw and your personal Deck does not contain enough cards, shuffle your Backstage Archive to make a new Deck, then continue drawing. If your Deck and Archive together still contain fewer than 5 cards, draw as many as possible.
 
 ## Look states
 
@@ -162,6 +174,18 @@ Ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation for the en
 
 A player may Slay the active Stage in Phase 4 if their current Appeal meets or exceeds the Stage's target and all prerequisites/costs are satisfied. A successful Slay claims the Stage trophy, grants its printed reward once, resolves Slay effects, and triggers Curtain Call.
 
+## Curtain Call
+
+A successful Stage Slay ends the current Stage round immediately.
+
+1. The claimant takes the Stage trophy, gains its printed Gross SP once, and resolves legal Slay rewards/effects.
+2. **Every player** archives all four core Masters, all Deep Storage cards, and any Accessory. Clear Untouchable and effects that last “until Curtain Call.”
+3. The active player finishes turn cleanup: archive played non-Masters and remaining hand, draw back to 5 if possible, and reset temporary Tips/Appeal. Do not perform a second Cleanup afterward.
+4. Check the end trigger. If any player has **30+ Gross SP**, or there is no next Stage to reveal, proceed to Final Judging.
+5. Otherwise reveal the next Stage and give the First Player marker to the player clockwise from the Stage claimant.
+
+A Stage trophy is not scored a second time during Final Judging.
+
 ## Dragdagulan†
 
 1. Choose an opponent who is not Untouchable.
@@ -194,6 +218,25 @@ Each player starts with:
 - 2 × Chapstick — printed Tip 1
 
 Basic Beat and Chapstick generate their printed Tips only when they are actually played from hand. See [STARTING_DECKS.md](STARTING_DECKS.md).
+
+## Final Judging and ties
+
+When an end trigger occurs, calculate:
+
+> **Final Score = Gross SP + explicit end-game bonuses − Penalty values**
+
+Penalty values are counted wherever the Penalty card is in that player's personal zones:
+
+- Wardrobe Malfunction: −1 SP
+- The Chop: −1 SP
+- Extermination: −2 SP
+
+Highest Final Score wins. If tied:
+
+1. most Stage trophies;
+2. fewest total Penalty cards owned;
+3. highest combined printed Tip cost of all owned non-Penalty cards;
+4. shared victory.
 
 ## Solo Circuit
 
