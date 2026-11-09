@@ -451,7 +451,7 @@ def folio_front() -> Image.Image:
         ("THE REVEAL","Total Master Appeal, assign Wild Tenets, resolve Reveal/Matching/Fusion effects, then apply the Look multiplier. Matching ×2; Perfect Illusion ×3."),
         ("SHOPPING","Spend Tips on any number of legal affordable Wardrobe/Thrift cards. Purchases go to Backstage Archive. Rack spaces stay empty until Cleanup."),
         ("PHASE 4","Slay if current Appeal meets the Stage target and requirements; or choose Dragdagulan†; or Pass. A successful Slay awards its printed reward and closes the Stage."),
-        ("CLEANUP","Archive played non-Masters and unplayed hand cards. Keep legal Masters. Refill Wardrobe Rack to five. Draw 5. Shuffle Archive into Deck when needed. Reset Tips/Appeal."),
+        ("CLEANUP","Archive your Accessory, played non-Masters, and unplayed hand cards. Keep legal core Masters and Deep Storage. Refill Wardrobe Rack to five. Draw 5 if possible. Shuffle Archive into Deck when needed. Reset Tips/Appeal."),
     ]
     x=145;y=530
     cw=900; gap=45
@@ -473,12 +473,12 @@ def folio_back() -> Image.Image:
     d.rectangle((30,30,4845,2445),outline=GOLD,width=12)
     d.text((140,120),"SETUP • STAGES • BATTLE",font=font(90,True,True),fill=CREAM)
     sections=[
-        ("SETUP","Each player: Queen + 12-card starter Deck; shuffle and draw 5. Shared: Wardrobe deck + 5-card Rack, Thrift supply, Penalty supply, shuffled 12-card Stage deck with one active Stage. Start at 0 Gross SP / 0 Tips / 0 Appeal."),
+        ("SETUP","Each player: Queen + 12-card starter Deck; shuffle and draw 5. Shared: Wardrobe deck + 5-card Rack, Thrift supply, Penalty supply, shuffled 12-card Stage deck with one active Stage. Start at 0 Gross SP / 0 Tips / 0 Appeal. Randomly choose First Player."),
         ("STAGE CARD","Beginner Mode uses Favored Tenet, Featured Brand, Slay Target, Reward, and Venue Effect. Full rules also use Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation. Judge's Favor on the current venue set is +1 Gross SP; Brand Ovation is +2 Gross SP with a 4-piece Featured Brand Coordinate."),
         ("DRAGDAGULAN†","Choose an eligible opponent. Challenger and defender each draw 3 battle cards from their personal Deck. Battle Score = printed LS on those 3 cards + explicit active battle modifiers. Equipped Masters and Deep Storage do not automatically add LS. Higher score wins. Tie: both take The Chop if available; no winner reward."),
         ("STARTER DECK","7 Basic Beat (Tip 1); 3 Messy Lip Sync (Tip 0, Play: +1 Appeal); 2 Chapstick (Tip 1, Face Fashion, Equip filtering). Printed Tips generate only when the physical card is played that turn."),
         ("DECK-BUILDING CADENCE","Bought cards go to Backstage Archive. At Cleanup archive your played non-Masters and unplayed hand, refill the Rack, draw 5, and reshuffle Archive only when your Deck runs out. This is the game's shared-market deck-building backbone."),
-        ("END GAME","Trigger Final Judging at 30+ Gross SP at the end of Phase 4 / Curtain Call, or when the Stage Deck is empty after a Stage is Slayed. Final Score = Gross SP + explicit end-game bonuses − Penalty values."),
+        ("CURTAIN CALL / END","After a Slay: claimant scores once; every player archives core Masters, Deep Storage, and Accessory; active player finishes Cleanup. If 30+ Gross SP or no next Stage, Final Judging. Otherwise reveal next Stage; player clockwise from claimant starts. Final Score = Gross SP + bonuses − Penalties."),
     ]
     x_positions=[140,1665,3190]
     y_positions=[380,1330]
@@ -646,7 +646,8 @@ def start_here_pdf(path:Path):
         "Each player starts with 12 cards (7 Basic Beat, 3 Messy Lip Sync, 2 Chapstick), shuffles, and draws 5.",
         "Turn: Transformation -> The Reveal -> Shopping -> Slay / Dragdagulan / Pass -> Cleanup.",
         "During Transformation, a played card generates its printed Tips, then resolves its text. Unplayed cards and old Masters do not generate printed Tips.",
-        "The Wardrobe Rack has 5 face-up cards. Purchases enter Backstage Archive. Refill the Rack during Cleanup, then draw 5.",
+        "The Wardrobe Rack has 5 face-up cards. Purchases enter Backstage Archive. At Cleanup archive your Accessory, played non-Masters, and unplayed hand; refill the Rack, then draw 5 if possible.",
+        "A successful Slay causes Curtain Call: every player clears core Masters, Deep Storage, and Accessory; the active player finishes Cleanup; then reveal the next Stage unless the game ends.",
         "Use Beginner Mode for the first game: ignore Judge, Spotlight Requirement, Judge's Favor, and Brand Ovation.",
         "The 12 Stage cards in this kit use the verified v7.8 venue text migrated to the v7.9 rules build.",
         "Dragdagulan is working prototype terminology subject to legal/IP and publisher review.",
@@ -918,7 +919,7 @@ def build(root:Path):
     # Save setup.
     objects=[]
     note=common_obj("790001","Notecard",f"HAUTE & HAZARD v{VERSION} — START HERE",
-        "SETUP: Choose Queens. Each player shuffles a 12-card starter Deck and draws 5. Shuffle Wardrobe and deal 5 face-up to form the Rack. Reveal one Stage.\n\nTURN: Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup.\n\nPLAY-GENERATED TIPS: play a card → gain its printed Tips → resolve text. Unplayed cards and old Masters do not generate printed Tips.\n\nShopping purchases go to Backstage Archive. Refill Rack during Cleanup, then draw 5.",(-11,1,-7),rot=(0,0,0))
+        "SETUP: Choose Queens. Each player shuffles a 12-card starter Deck and draws 5. Shuffle Wardrobe and deal 5 face-up to form the Rack. Reveal one Stage. Randomly choose First Player.\n\nTURN: Transformation → Reveal → Shopping → Slay / Dragdagulan† / Pass → Cleanup.\n\nPLAY-GENERATED TIPS: play a card → gain its printed Tips → resolve text. Unplayed cards and old Masters do not generate printed Tips.\n\nCLEANUP: archive Accessory, played non-Masters, and unplayed hand; refill Rack; draw 5 if possible. Core Masters/Deep Storage persist.\n\nCURTAIN CALL: after a Slay, all players clear core Masters/Deep Storage/Accessory; active player finishes Cleanup; then end game or reveal next Stage.",(-11,1,-7),rot=(0,0,0))
     objects.append(note)
 
     wardrobe_ids=[card_id_map[r['card_id']] for r in cards if r['component']=="Wardrobe"]
