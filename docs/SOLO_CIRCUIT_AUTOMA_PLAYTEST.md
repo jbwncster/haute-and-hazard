@@ -260,9 +260,9 @@ If tied:
 
 1. most claimed Stages;
 2. fewest total Penalty values;
-3. if still tied, the player wins the playtest tiebreak on **Audience Edge** (the human completed the full Coordinate/deck-building challenge while the House used a streamlined Automa).
+3. shared victory.
 
-Record that Audience Edge was used so the tiebreak can be evaluated during testing.
+Record a shared victory in the playtest log rather than inventing a House-only card-value tiebreak.
 
 ## What v0.2 is testing
 
