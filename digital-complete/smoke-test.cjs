@@ -60,6 +60,10 @@ const playedCard = game.players[0].hand.find((card) => card.name === "Basic Beat
 app.playFromHand(playedCard.instanceId, false);
 assert.equal(game.players[0].tips, 1);
 assert.equal(elements.manualDialog.open, undefined, "No additional effect does not open manual resolution");
+game.players[0].hand.push({ instanceId: "fashion-test", name: "Chapstick", type: "Fashion", slot: "Face", tips: 1, text: "Equip: You may archive 1 card from hand to draw 1 card." });
+app.playFromHand("fashion-test", false);
+assert.equal(game.players[0].tips, 2);
+assert.equal(elements.manualDialog.open, undefined, "Playing Fashion for Tips does not resolve its Equip effect");
 game.players[0].grossSP = 29;
 app.claimStage(0);
 assert.equal(game.phase, "finished", "30 Gross SP ends the game at Curtain Call");
