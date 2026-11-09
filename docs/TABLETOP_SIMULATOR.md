@@ -4,6 +4,10 @@ The current digital playtest target is **v7.9**, aligned to the current base-gam
 
 > **† Legal/IP review:** `Dragdagulan` is working prototype terminology credited to *Drag Den Philippines* and remains subject to legal/IP, trademark, and publisher review.
 
+## Full web / Android playtest
+
+The companion app now supports **2–5-player hot-seat play** and **Solo Circuit v0.2**, using the same v7.9 card / Stage data and turn sequence. Open [`digital-complete/`](../digital-complete/) for setup, Android PWA installation, test coverage, and the app's guided manual-resolution notes. TTS remains the tabletop implementation; the solo TTS add-on below remains the tabletop solo module.
+
 ## Download
 
 The current TTS package is committed at:
