@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#110b18" />
+  <title>Haute & Hazard — Digital Playtest</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-kicker">DIGITAL PLAYTEST • v0.1</span>
+      <strong>HAUTE &amp; HAZARD</strong>
+    </div>
+    <div class="top-actions">
+      <button id="soundBtn" class="ghost-btn" type="button" aria-pressed="true">♪ Sound</button>
+      <button id="newRunBtn" class="ghost-btn" type="button">New Run</button>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+
+  <template id="setupTemplate">
+    <section class="setup-screen">
+      <div class="hero-copy">
+        <p class="eyebrow">SOLO CIRCUIT • DIGITAL VERTICAL SLICE</p>
+        <h1>Build the look.<br><em>Break the house.</em></h1>
+        <p>
+          A run-based digital prototype using the current Haute &amp; Hazard v7.9 card,
+          Queen, Stage, and Solo Circuit data. Pick a Queen, build a persistent Coordinate,
+          shop the Wardrobe Rack, and race the House Queen across a five-Stage night.
+        </p>
+        <div class="influence-note">
+          <strong>Original digital direction:</strong> tactile card-table drama, escalating
+          combo scoring, and a persistent tableau engine—without copying another game's
+          artwork, interface, or assets.
+        </div>
+        <div class="setup-controls">
+          <label>
+            House difficulty
+            <select id="difficultySelect">
+              <option value="local">Local Girl</option>
+              <option value="working" selected>Working Queen</option>
+              <option value="headliner">Headliner</option>
+              <option value="legend">Legend</option>
+            </select>
+          </label>
+          <label>
+            Run length
+            <select id="runLengthSelect">
+              <option value="3">3 Stages — quick test</option>
+              <option value="5" selected>5 Stages — standard digital run</option>
+              <option value="12">12 Stages — full circuit</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="queen-picker-wrap">
+        <div class="section-heading">
+          <span>01</span>
+          <div>
+            <p>CHOOSE YOUR QUEEN</p>
+            <h2>Who owns the night?</h2>
+          </div>
+        </div>
+        <div id="queenPicker" class="queen-picker"></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="gameTemplate">
+    <section class="game-grid">
+      <aside class="run-rail panel">
+        <div id="queenIdentity"></div>
+        <div class="score-stack">
+          <div class="score-tile player-score"><span>YOUR GROSS SP</span><strong id="playerSP">0</strong></div>
+          <div class="score-tile house-score"><span>HOUSE GROSS SP</span><strong id="houseSP">0</strong></div>
+        </div>
+        <div class="resource-row">
+          <div><span>TIPS</span><strong id="tips">0</strong></div>
+          <div><span>APPEAL</span><strong id="appeal">0</strong></div>
+          <div><span>ROUND</span><strong id="round">1/4</strong></div>
+        </div>
+        <div id="phaseTrack" class="phase-track"></div>
+        <div class="run-progress">
+          <span>HAUTE CIRCUIT</span>
+          <div id="stagePips" class="stage-pips"></div>
+        </div>
+        <div class="rail-note">
+          <strong>Digital prototype rule:</strong>
+          core Tips, Shopping, persistent Masters, Matching/Perfect Illusion,
+          Stage race, and Solo Automa are automated. Complex individual card text
+          remains visible but some effects are not automated yet.
+        </div>
+      </aside>
+
+      <section class="table-zone">
+        <div class="spotlight" aria-hidden="true"></div>
+
+        <div class="opponent-row">
+          <div id="stageCard" class="stage-card-shell"></div>
+          <div id="automaCard" class="automa-shell"></div>
+        </div>
+
+        <div class="score-theater">
+          <div id="scoreFormula" class="score-formula">
+            <span class="formula-label">REVEAL</span>
+            <strong id="baseAppeal">—</strong>
+            <span>×</span>
+            <strong id="multiplier">—</strong>
+            <span>=</span>
+            <strong id="finalAppeal">—</strong>
+          </div>
+          <div id="announce" class="announce" aria-hidden="true"></div>
+        </div>
+
+        <section class="table-section look-section">
+          <div class="section-heading compact">
+            <span>LOOK</span>
+            <div>
+              <p>PERSISTENT ENGINE</p>
+              <h2>Your Coordinate</h2>
+            </div>
+          </div>
+          <div id="masterSlots" class="master-slots"></div>
+        </section>
+
+        <section class="table-section rack-section">
+          <div class="section-heading compact">
+            <span>SHOP</span>
+            <div>
+              <p>SHARED MARKET</p>
+              <h2>Wardrobe Rack</h2>
+            </div>
+          </div>
+          <div id="rack" class="card-row rack"></div>
+        </section>
+
+        <section class="table-section hand-section">
+          <div class="section-heading compact">
+            <span>HAND</span>
+            <div>
+              <p>TRANSFORMATION</p>
+              <h2>Play for Tips. Equip for power.</h2>
+            </div>
+          </div>
+          <div id="hand" class="card-row hand"></div>
+        </section>
+
+        <div id="phaseControls" class="phase-controls"></div>
+      </section>
+
+      <aside class="log-rail panel">
+        <div class="section-heading compact">
+          <span>LOG</span>
+          <div>
+            <p>BACKSTAGE FEED</p>
+            <h2>Tonight's receipts</h2>
+          </div>
+        </div>
+        <div id="gameLog" class="game-log"></div>
+        <button id="saveBtn" class="ghost-btn wide" type="button">Save Run</button>
+        <button id="resetSaveBtn" class="text-btn" type="button">Clear saved run</button>
+      </aside>
+    </section>
+  </template>
+
+  <div id="endModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="endTitle">
+    <div class="modal-card">
+      <p class="eyebrow">CURTAIN CALL</p>
+      <h2 id="endTitle">The night is over.</h2>
+      <div id="endSummary"></div>
+      <button id="playAgainBtn" class="primary-btn" type="button">Start another run</button>
+    </div>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
