@@ -252,9 +252,17 @@
       addLog(`House Appeal: ${hs} vs target ${stage.target}.`,"bad");
       if(hs>=stage.target || state.stageRound>=4){
         state.houseSP+=stage.reward; state.stageWinner="house";
+        if(hs<stage.target && state.currentAutoma?.name==="House Always Wins"){
+          state.houseSP++;
+          addLog("House Always Wins adds +1 House Gross SP on the Stage timeout.","bad");
+        }
         addLog(`The House claims <strong>${esc(stage.name)}</strong> for +${stage.reward} Gross SP.`,"bad");
         announce("HOUSE SLAYS","var(--gold)"); tone(180,.2,"sawtooth"); advanceStage();
       }else{
+        if(state.currentAutoma?.name==="House Always Wins"){
+          state.houseSP++;
+          addLog("House Always Wins adds +1 House Gross SP because neither side Slays.","bad");
+        }
         state.stageRound++;
         addLog(`Nobody Slays. Stage timer advances to Round ${state.stageRound}.`);
         state.phase="cleanup";
@@ -322,11 +330,16 @@
   }
 
   function finishRun(){
+    state.phase="finished";
+    renderEndModal();
+    saveState();
+  }
+
+  function renderEndModal(){
     const won=state.grossSP>state.houseSP, tied=state.grossSP===state.houseSP;
     $("#endModal").classList.remove("hidden");
     $("#endTitle").textContent=tied?"Double crowning?":won?"You own the night.":"The House takes the crown.";
     $("#endSummary").innerHTML=`<div class="end-score"><div><span>Your SP</span><strong style="color:var(--pink)">${state.grossSP}</strong></div><div><span>House SP</span><strong style="color:var(--gold)">${state.houseSP}</strong></div></div><p>${state.stages.length} Stages completed with ${esc(state.queen.name)} against ${esc(state.houseQueen.name)}.</p>`;
-    localStorage.removeItem("hhDigitalSave");
   }
 
   function cardHTML(card,context){
@@ -376,6 +389,7 @@
   function render(){
     if(!state){ renderSetup(); return; }
     renderGameShell();
+    if(state.phase==="finished") { renderEndModal(); return; }
     const q=state.queen, stage=currentStage(), auto=state.currentAutoma;
     if(!stage){ return; }
     $("#queenIdentity").innerHTML=`<div class="queen-id-card" style="--queen-accent:${accent(q.tenet)}"><small>${esc(q.tenet)} • ${esc(q.brand)}</small><strong>${esc(q.name)}</strong><p><b>${esc(q.abilityName)}</b><br>${esc(q.ability)}</p></div>`;
@@ -430,7 +444,9 @@
   function loadState(){
     try{
       const raw=localStorage.getItem("hhDigitalSave"); if(!raw) return false;
-      state=JSON.parse(raw); return !!state?.queen;
+      state=JSON.parse(raw);
+      if(state?.queen && state.stageIndex>=state.stages.length) state.phase="finished";
+      return !!state?.queen;
     }catch{return false;}
   }
   function newRun(){
