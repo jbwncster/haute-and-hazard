@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0d0911">
+  <title>Haute & Hazard — Complete Rules</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <span class="kicker">COMPLETE RULES • DIGITAL v0.1</span>
+      <h1>HAUTE &amp; HAZARD</h1>
+    </div>
+    <nav>
+      <a href="../digital-playtest/">Arcade Slice</a>
+      <a href="./RULES_COMPATIBILITY.md">Rules Notes</a>
+      <button id="newGameBtn" type="button">New Game</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <dialog id="choiceDialog">
+    <form method="dialog" class="dialog-card">
+      <p id="choiceKicker" class="kicker">CHOICE</p>
+      <h2 id="choiceTitle">Choose</h2>
+      <p id="choiceText"></p>
+      <div id="choiceOptions" class="choice-options"></div>
+      <button id="choiceCancel" value="cancel" class="subtle hidden">Cancel</button>
+    </form>
+  </dialog>
+
+  <dialog id="passDialog">
+    <form method="dialog" class="dialog-card privacy-card">
+      <p class="kicker">HOT-SEAT PRIVACY</p>
+      <h2 id="passTitle">Pass the device</h2>
+      <p id="passText"></p>
+      <button value="ready" class="primary">I'm ready</button>
+    </form>
+  </dialog>
+
+  <dialog id="manualDialog">
+    <form method="dialog" class="dialog-card">
+      <p class="kicker">GUIDED MANUAL RESOLUTION</p>
+      <h2 id="manualTitle">Resolve this effect</h2>
+      <blockquote id="manualRule"></blockquote>
+      <p id="manualHelp"></p>
+      <div class="manual-adjust">
+        <label>Tips <input id="manualTips" type="number" value="0"></label>
+        <label>Appeal <input id="manualAppeal" type="number" value="0"></label>
+        <label>Gross SP <input id="manualSP" type="number" value="0"></label>
+      </div>
+      <button id="manualDone" value="done" class="primary">Resolved</button>
+    </form>
+  </dialog>
+
+  <script src="../digital-playtest/data.js"></script>
+  <script src="./rules.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
