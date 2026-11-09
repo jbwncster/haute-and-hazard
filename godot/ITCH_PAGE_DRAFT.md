@@ -10,7 +10,7 @@ Use this as the project-page text after creating and uploading Windows and/or Li
 | Classification | Games — a piece of software you can play |
 | Kind of project | Downloadable |
 | Release status | Released (playtest edition; updates may follow) |
-| Pricing | $0 or donate / no payments; suggested donation $0 |
+| Pricing | Free / no payments (minimum price $0) |
 | Genre | Strategy |
 | Tags | deck-building, card game, tabletop, turn-based, solo, local multiplayer, fashion, drag |
 | AI generation disclosure | **Yes.** Generative AI assisted with GDScript implementation and documentation. Original game design and canonical card data are by Jake W. |
