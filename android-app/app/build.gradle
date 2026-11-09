@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.jbwncster.hauteandhazard'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.jbwncster.hauteandhazard"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "0.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            // Reuse the canonical v7.9 browser playtest directly from the repository.
+            assets.srcDirs = ['src/main/assets', '../../digital-playtest']
+        }
+    }
+}
