@@ -1,10 +1,10 @@
-const CACHE = "hh-complete-v7-9-v2";
+const CACHE = "hh-complete-v7-9-v3";
 const ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=2",
-  "./rules.js?v=2",
-  "./app.js?v=2",
+  "./styles.css?v=3",
+  "./rules.js?v=3",
+  "./app.js?v=3",
   "./manifest.webmanifest",
   "./icon.svg",
   "../digital-playtest/data.js",
