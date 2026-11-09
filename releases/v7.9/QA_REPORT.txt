@@ -24,12 +24,18 @@ PASS - Purchased Rack cards are not refilled until Cleanup.
 PASS - Purchased cards go to Backstage Archive.
 PASS - Played non-Masters and unused hand cards archive during Cleanup.
 PASS - Archive is reshuffled into a new Deck when the Deck runs out.
+PASS - If Deck + Archive cannot supply 5 cards, player draws as many as possible.
+PASS - Setup now explicitly defines the First Player and clockwise turn order.
+PASS - Cleanup explicitly archives Accessory while core Masters/Deep Storage persist.
+PASS - Curtain Call explicitly clears all Coordinates, completes active-player Cleanup, checks end triggers, reveals the next Stage, and hands off First Player.
+PASS - Final Judging includes deterministic multiplayer tiebreakers.
 PASS - Stage count = 12 with complete verified production fields.
 PASS - Queen count = 12.
 PASS - Player Aid target quantity = 5.
 PASS - Solo v0.2 count = 18 Automa + 12 Personalities = 30 separate cards.
 PASS - Solo v0.2 timer = four rounds.
 PASS - Solo House Base Appeal formula documented.
+PASS - Solo sequence explicitly defines human Cleanup timing, Automa discard timing, Stage Timer reset, Curtain Call after House claims/timeouts, and shared-victory tie fallback.
 PASS - Game Crafter box artboard = 5850x5400 px.
 
 PHYSICAL BUILD QA
@@ -56,6 +62,11 @@ PASS - all GUIDs unique.
 PASS - all required CardID/DeckID CustomDeck mappings present.
 PASS - all generated TTS textures <= 4096 px.
 PASS - Solo Circuit v0.2 TTS ZIP/save/assets are committed.
+
+RULES PLAYABILITY STATUS
+PASS - The written v7.9 multiplayer rules now contain a complete setup -> turn -> Stage resolution -> Curtain Call -> next Stage -> Final Judging loop without relying on archived rules.
+PASS - Solo Circuit v0.2 now contains a complete round/Stage reset loop without designer-only interpretation.
+NOTE - These are rules/source playability checks, not evidence of physical balance or Tabletop Simulator runtime behavior.
 
 REMAINING MANUAL QA
 PENDING - Open v7.9 base save in Tabletop Simulator and verify runtime behavior.
