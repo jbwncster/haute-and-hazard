@@ -165,7 +165,7 @@
       p.masters[card.slot] = card; p.newestMasterSlot = card.slot;
       log(`<b>${esc(p.name)}</b> equips ${esc(card.name)} as ${esc(card.slot)} Master; +${printed} Tips.`, "good");
       const handled = p.queen.id === "Q-05" && card.brand === "Necropolis" && card.slot === "Body" ? true : applySimpleText(p, card, "Equip");
-      if (!handled && card.text && !/^Equip:\s*(?:You may archive|No additional effect)/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
+      if (!handled && card.text && !/\bno additional effect\b/i.test(card.text) && !/^Equip:\s*You may archive/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
       if (p.queen.id === "Q-08" && card.brand === "Sugar Rush" && card.slot === "Shoes") R.draw(p, 1);
       if (p.queen.id === "Q-09" && card.slot === "Shoes") p.tips++;
       if (p.queen.id === "Q-05" && card.brand === "Necropolis" && card.slot === "Body" && game.players.length > 1) {
@@ -181,7 +181,7 @@
       p.played.push(card);
       log(`<b>${esc(p.name)}</b> plays ${esc(card.name)} for ${printed} printed Tips.`, "good");
       const handled = applySimpleText(p, card, "Play");
-      if (!handled && card.text && !/^Play:\s*(?:No additional effect|You may equip)/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
+      if (!handled && card.text && !/\bno additional effect\b/i.test(card.text) && !/^Play:\s*You may equip/i.test(card.text)) pushManual(card.name, card.text, { playerIndex: game.currentPlayer, label: card.name });
     }
     save(); render();
   }
