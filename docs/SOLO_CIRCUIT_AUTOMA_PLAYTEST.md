@@ -125,29 +125,48 @@ Keep the Automa card face-up for its Appeal, LS, and round effect.
 
 Take the normal v7.9 turn, generating printed Tips as cards are played during Transformation.
 
-### 3. Check for a player Slay
+- If the player Slays during Phase 4, stop the normal turn at that point and resolve the player Slay below; Curtain Call includes the active player's cleanup.
+- If the player chooses Dragdagulan† or Pass, complete normal Phase 5 Cleanup before resolving House Appeal.
+
+### 3. Resolve a player Slay
 
 If the player legally Slays the Stage during Phase 4:
 
 - the player claims the Stage trophy;
 - the player gains the normal printed reward;
 - resolve player-facing Slay effects normally;
-- proceed to Curtain Call;
-- the House Queen does not score that Stage.
+- perform normal v7.9 Curtain Call;
+- the House Queen does not score that Stage;
+- discard the face-up round Automa card;
+- if the game continues, reset the Stage Timer to **Round 1** and begin the next Stage.
 
 ### 4. Resolve House Appeal
 
 If the player did not Slay, calculate House Stage Appeal using the v0.2 formula.
 
-If House Appeal meets or exceeds the Slay Target, the House Queen claims the Stage.
+If House Appeal meets or exceeds the Slay Target:
+
+- the House Queen claims the Stage;
+- award the House the Stage's printed Gross SP reward;
+- perform Curtain Call, including clearing the human player's Coordinate;
+- discard the face-up round Automa card;
+- if the game continues, reset the Stage Timer to **Round 1** and begin the next Stage.
 
 ### 5. Advance the Stage Timer
 
-If neither side claims the Stage, advance the timer by one round.
+If neither side claims the Stage, discard the face-up round Automa card and advance the timer by one round.
 
 The Stage can remain active for **four solo rounds**.
 
-At the end of **Round 4**, if neither side has Slayed it, the House Queen claims the Stage by timeout and Curtain Call begins.
+At the end of **Round 4**, if neither side has Slayed it:
+
+- the House Queen claims the Stage by timeout;
+- award the House the Stage's printed Gross SP reward;
+- perform Curtain Call;
+- discard the face-up round Automa card;
+- if the game continues, reset the Stage Timer to **Round 1** and begin the next Stage.
+
+A new solo round always starts by revealing a new Automa card.
 
 ## Solo Stage scoring table
 
@@ -235,7 +254,15 @@ House Final Score is:
 
 A Stage's printed Gross SP is scored when the House claims it and is **not scored again** just because the Stage is in the House trophy area.
 
-Highest Final Score wins. Record any normal tiebreak that cannot be cleanly resolved for the House.
+Highest Final Score wins.
+
+If tied:
+
+1. most claimed Stages;
+2. fewest total Penalty values;
+3. if still tied, the player wins the playtest tiebreak on **Audience Edge** (the human completed the full Coordinate/deck-building challenge while the House used a streamlined Automa).
+
+Record that Audience Edge was used so the tiebreak can be evaluated during testing.
 
 ## What v0.2 is testing
 
