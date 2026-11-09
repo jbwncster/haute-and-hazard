@@ -1,6 +1,13 @@
 name: Build Android app
 
 on:
+  push:
+    branches:
+      - android-app-v0.1
+    paths:
+      - 'android-app/**'
+      - 'digital-playtest/**'
+      - '.github/workflows/android-app.yml'
   pull_request:
     paths:
       - 'android-app/**'
